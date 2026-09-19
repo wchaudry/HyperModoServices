@@ -1,4 +1,4 @@
 ---
 title: "People"
-description: "Who works here."
+description: "Who does the work."
 ---

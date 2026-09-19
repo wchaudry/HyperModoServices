@@ -1,38 +1,36 @@
 baseURL = "https://hypermodo.com/"
+title = "HyperModo"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 0
 buildDrafts = false
 buildFuture = false
-enableEmoji = false
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "HyperModo helps companies reach broader markets by building enterprise data systems — and building the internal workforce that runs them, so the expertise stays when the consultants leave."
+  email = "wiqar@hypermodo.com"
+  linkedin = "https://linkedin.com/in/wiqar"
+  location = "New York / Philadelphia"
+  entity = "a practice of Xymbia Inc."
+  booking = ""
 
 [pagination]
   pagerSize = 20
 
-[imaging]
-  anchor = "Center"
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  author = "authors"
-  series = "series"
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.parser.attribute]
+    block = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
 
 [sitemap]
   changefreq = "weekly"
-  filename = "sitemap.xml"
   priority = 0.5
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS"]
-
-[related]
-  threshold = 0
-  toLower = false
-  [[related.indices]]
-    name = "tags"
-    weight = 100
-  [[related.indices]]
-    name = "series"
-    weight = 50

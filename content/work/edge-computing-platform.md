@@ -3,6 +3,11 @@ title: "Co-founding and commercialising an edge-computing platform"
 summary: "Raised $2.5M, closed a $15M five-year contract with DARPA and the Air Force Research Laboratory, and led the security certification it required."
 date: 2017-08-01
 lastmod: 2020-12-01
+client: "Nalej"
+period: "2017–2020"
+numbers: "$15M contract · $2.5M raised"
+featured: true
+eyebrow: "Case study"
 weight: 30
 tags: ["founder", "edge computing", "government"]
 ---

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="list">
+  <div class="wrap">
+    <div class="head"><h1>{{ .Title }}</h1>{{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}</div>
+    {{ with .Content }}<div class="body prose">{{ . }}</div>{{ end }}
+    {{ $pages := .RegularPages }}
+    {{ if eq .Section "work" }}{{ $pages = .RegularPages.ByWeight }}{{ end }}
+    {{ if $pages }}
+    <div class="cards">
+      {{ range $pages }}
+        {{ if eq .Section "people" }}
+        <a class="person" href="{{ .RelPermalink }}"><span class="ava" aria-hidden="true"></span><div><h3>{{ .Title }}</h3><p>{{ .Summary | plainify }}</p></div></a>
+        {{ else }}{{ partial "card.html" . }}{{ end }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="empty">{{ .Params.empty | default "Nothing here yet." }}</div>
+    {{ end }}
+  </div>
+</section>
+{{ partial "cta.html" . }}
+{{ end }}

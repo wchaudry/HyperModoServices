@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $title := .Title }}{{ if .IsHome }}{{ $title = .Site.Title }}{{ else }}{{ $title = printf "%s · %s" .Title .Site.Title }}{{ end }}
+<title>{{ $title }}</title>
+{{ $desc := .Description | default .Summary | default .Site.Params.description }}
+<meta name="description" content="{{ $desc | plainify }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc | plainify }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">{{ end }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+{{ $css := resources.Get "css/site.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<script>
+  (function(){var t=null;try{t=localStorage.getItem('hm-theme')}catch(e){}if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t)}})();
+</script>
+</head>
+<body>
+{{ partial "header.html" . }}
+<main>
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+<script>
+  (function(){
+    var root=document.documentElement, btn=document.getElementById('theme');
+    if(!btn) return;
+    btn.addEventListener('click',function(){
+      var cur=root.getAttribute('data-theme');
+      var sysDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var next=cur?(cur==='dark'?'light':'dark'):(sysDark?'light':'dark');
+      root.setAttribute('data-theme',next);
+      try{localStorage.setItem('hm-theme',next)}catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<div class="stat"><b>{{ .Get "value" }}</b><span class="l">{{ .Get "label" }}</span>{{ with .Inner }}<p>{{ . | markdownify | plainify }}</p>{{ end }}</div>

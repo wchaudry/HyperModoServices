@@ -3,6 +3,11 @@ title: "Production data forensics at scale"
 summary: "Pipelines moving tens of millions of rows were reporting success while silently dropping records. A systematic diagnosis practice found and closed the failure classes."
 date: 2026-03-01
 lastmod: 2026-09-01
+client: "Zones LLC"
+period: "2026"
+numbers: "384 root-cause findings"
+featured: true
+eyebrow: "Case study"
 weight: 40
 tags: ["data engineering", "diagnosis", "postgresql"]
 ---

@@ -1,14 +1,11 @@
 ---
 title: "About"
 description: "What HyperModo is for, and why it is not a consultancy in the usual sense."
-showDate: false
-showAuthor: false
-showReadingTime: false
 ---
 
 HyperModo exists to help companies reach broader markets — new segments, new channels, hybrid offers — by building the enterprise data systems that make it possible, and by building the internal workforce that runs them.
 
-The second half is the point. Consulting engagements end one of two ways: the client depends on the firm indefinitely, or the firm leaves and takes the expertise with it, hollowing out the very organisation it was hired to help. I have watched both happen, and I have built the alternative: at Zones LLC the platform was delivered by a seventy-person internal organisation recruited and trained for it, most of them through a graduate programme designed so the company would own its own capability. That is the model — a large integrator's arc, strategy through go-live, on Azure and Dynamics 365, with a deliverable at every step and your people on the other side of each one.
+The second half is the point. Consulting engagements end one of two ways: the client depends on the firm indefinitely, or the firm leaves and takes the expertise with it, hollowing out the very organization it was hired to help. I have watched both happen, and I have built the alternative: at Zones LLC the platform was delivered by a seventy-person internal organization recruited and trained for it, most of them through a graduate program designed so the company would own its own capability. That is the model — a large integrator's arc, strategy through go-live, on Azure and Dynamics 365, with a deliverable at every step and your people on the other side of each one.
 
 I run it. I have built software platforms and the teams that run them for twenty years, always close to data — databases, pipelines, integrations. I am still in the code every day.
 

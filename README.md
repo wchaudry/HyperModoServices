@@ -8,12 +8,21 @@ Not in this repo: HyperModo the product (`../hypermodo`), Xymbia's products, any
 
 ## Running it
 
-Hugo (extended) is the only tool. Blowfish is pulled as a Hugo module on first build.
+Hugo (extended) is the only tool; there is no theme and no dependency to fetch.
 
     hugo server        # local preview at http://localhost:1313/
     hugo --gc --minify # production build into public/
 
-Content lives in `content/` as Markdown: `work/` (case studies), `writing/` (essays), `people/`,
-`about/`. `podcast/` and `videos/` exist as drafts and build the day they have a first item.
+## Where things live
+
+- `content/` — every page, as Markdown: `services/`, `work/` (case studies), `approach/`, `about/`,
+  `people/`, `writing/` (essays). `podcast/` and `videos/` are drafts until they have a first item.
+- `data/` — what the homepage renders from, editable without touching templates: `ledger.yaml`
+  (the program ledger), `clients.yaml`, `stack.yaml`, `services.yaml` (the eight cards),
+  `proof.yaml`, `quotes.yaml` (placeholders until real quotes exist), `approach.yaml`.
+- `layouts/` — the site's own templates; `assets/css/site.css` — the one stylesheet.
+- `design/mockups/` — the standalone design mockups the layouts were built from.
+- `config/_default/hugo.toml` — site params: email, LinkedIn, location, entity, booking link.
+
 Public contact is wiqar@hypermodo.com and LinkedIn only; no phone number or resume file is
 published.

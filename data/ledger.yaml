@@ -1,0 +1,19 @@
+client: Zones LLC
+tabs: [Platform, People, Go-live]
+lines:
+  - when: "2021"
+    text: "Strategy written for the CDO: market case, business model, five-year objectives"
+  - when: "2022-03"
+    text: "<em class=\"ok\">approved</em> by the executive team · $4M / 36 months · Program Owner"
+  - when: "2022-09"
+    text: "<em class=\"ppl\">first graduate cohort</em> · campus recruiting, coding assessments written in-house"
+  - when: "2023"
+    text: "Access Studio live · Oracle sign-in retired"
+  - when: "2024"
+    text: "EDI 832/846 ingestion live · BizTalk processing retired"
+  - when: "2025"
+    text: "Master data, rules engine, merchandising · 20 years of ERP rules recovered and coded"
+  - when: "2026"
+    text: "<em class=\"ok\">6 products in production</em> · <em class=\"ppl\">70 engineers, 50+ retained</em> · D365 F&amp;O integration in test"
+foot_left: every line has a document behind it
+foot_right: delivered, not advised

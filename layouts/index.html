@@ -1,0 +1,60 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="inner">
+    {{ with .Params.eyebrow }}<div class="reveal"><span class="eyebrow">{{ . }}</span></div>{{ end }}
+    <h1 class="reveal" style="margin-top:18px">{{ .Title }}</h1>
+    {{ with .Params.lead }}<p class="lead reveal">{{ . | markdownify }}</p>{{ end }}
+    {{ with .Params.chips }}<div class="chips reveal">{{ range . }}<span><b>{{ .value }}</b> {{ .label }}</span>{{ end }}</div>{{ end }}
+    <div class="ctas reveal">{{ range .Params.buttons }}<a class="btn {{ .style | default "primary" }}" href="{{ .url }}">{{ .label }}</a>{{ end }}</div>
+  </div>
+  <div class="wrap">{{ partial "ledger.html" . }}</div>
+</section>
+
+<section class="after-hero center">
+  <div class="wrap">{{ partial "strip.html" hugo.Data.clients }}</div>
+</section>
+
+<section id="services" style="padding-top:20px">
+  <div class="wrap">
+    <div class="center"><span class="eyebrow">Services</span><h2 style="margin-top:16px">Everything ends in a deliverable — and in your people owning it.</h2><p class="sub">Enterprise data systems are the specialization. The other seven exist to get them live and to leave them in your hands.</p></div>
+    <div class="grid">
+      {{ range hugo.Data.services }}
+      <a class="card{{ if .spec }} spec{{ end }}" href="{{ "/services/" | relURL }}#{{ .anchor }}">{{ with .tag }}<span class="tag">{{ . }}</span>{{ end }}<h3>{{ .title }}</h3><p>{{ .blurb }}</p><span class="go">What you get →</span></a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="approach">
+  <div class="wrap">
+    <div class="center"><span class="eyebrow">How it works</span><h2 style="margin-top:16px">Why this isn't a consultancy in the usual sense</h2></div>
+    <div class="three">
+      {{ range hugo.Data.approach }}<div><span class="k">{{ .key }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
+    </div>
+    <div class="center" style="margin-top:44px">{{ partial "strip.html" (merge hugo.Data.stack (dict "stack" true)) }}</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center"><span class="eyebrow">Proof</span><h2 style="margin-top:16px">Numbers with documents behind them</h2></div>
+    <div class="proof">{{ range hugo.Data.proof }}<div><b>{{ .value }}</b><span>{{ .label }}</span></div>{{ end }}</div>
+    <div class="quotes">
+      {{ range hugo.Data.quotes }}
+      <div class="q{{ if .placeholder }} placeholder{{ end }}">{{ if .placeholder }}<span class="ph">placeholder — needs a real quote</span>{{ end }}<p{{ if .placeholder }} style="margin-top:10px"{{ end }}>“{{ .text }}”</p><div class="who"><i></i><div><b>{{ .name }}</b>{{ .title }}</div></div></div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section id="work" style="padding-top:0">
+  <div class="wrap">
+    <div class="center"><span class="eyebrow">Work</span><h2 style="margin-top:16px">Selected engagements</h2></div>
+    <div class="cases">
+      {{ range first 3 (where (where .Site.RegularPages "Section" "work") "Params.featured" true) }}{{ partial "card.html" . }}{{ end }}
+    </div>
+  </div>
+</section>
+
+{{ partial "cta.html" . }}
+{{ end }}

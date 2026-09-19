@@ -1,0 +1,26 @@
+- title: Enterprise data systems
+  anchor: enterprise-data-systems
+  spec: true
+  tag: The specialization
+  blurb: Master data, EDI and catalog ingestion, a business-owned rules engine, D365 integration, Azure as code — to production, then handed over.
+- title: Product marketing
+  anchor: product-marketing
+  blurb: "Positioning, launch, technical content, sales enablement. NuoDB to the Gartner MQ; Expressor to 30k downloads a month."
+- title: Product management
+  anchor: product-management
+  blurb: Use cases, requirements before build, roadmaps, reporting that names root causes.
+- title: UX design
+  anchor: ux-design
+  blurb: Journey maps, flows and Figma mockups validated before they're built. Mobile included.
+- title: Design systems
+  anchor: design-systems
+  blurb: Tokens and components as versioned npm packages — 73 releases, 26 component families.
+- title: Product delivery
+  anchor: product-delivery
+  blurb: "Business case to go-live with one owner: program, organization, cutover, handover."
+- title: Technical training programs
+  anchor: technical-training-programs
+  blurb: Engineers trained by shipping production work across disciplines. Not a bootcamp.
+- title: AI-based agentic development
+  anchor: ai-based-agentic-development
+  blurb: Agents writing production code under a framework installed in your repos.

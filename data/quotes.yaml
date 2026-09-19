@@ -1,0 +1,8 @@
+- placeholder: true
+  text: Two sentences from someone at Zones about the platform, the team, or the way the work was run.
+  name: Name
+  title: Title, Zones LLC
+- placeholder: true
+  text: Two sentences from Wasmer or Bugcrowd about the plan and what it led to.
+  name: Name
+  title: Title, Company
