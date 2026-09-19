@@ -6,6 +6,7 @@ summaryLength = 0
 buildDrafts = false
 buildFuture = false
 disableKinds = ["taxonomy", "term"]
+relativeURLs = true
 
 [params]
   description = "HyperModo helps companies reach broader markets by building enterprise data systems — and building the internal workforce that runs them, so the expertise stays when the consultants leave."
