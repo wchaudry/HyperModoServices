@@ -1,13 +1,14 @@
 {{ define "main" }}
 <section class="hero">
-  <div class="inner">
-    {{ with .Params.eyebrow }}<div class="reveal"><span class="eyebrow">{{ . }}</span></div>{{ end }}
-    <h1 class="reveal" style="margin-top:18px">{{ .Title }}</h1>
-    {{ with .Params.lead }}<p class="lead reveal">{{ . | markdownify }}</p>{{ end }}
-    {{ with .Params.chips }}<div class="chips reveal">{{ range . }}<span><b>{{ .value }}</b> {{ .label }}</span>{{ end }}</div>{{ end }}
-    <div class="ctas reveal">{{ range .Params.buttons }}<a class="btn {{ .style | default "primary" }}" href="{{ .url }}">{{ .label }}</a>{{ end }}</div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      {{ with .Params.eyebrow }}<div class="reveal"><span class="eyebrow">{{ . }}</span></div>{{ end }}
+      <h1 class="reveal">{{ .Title }}</h1>
+      {{ with .Params.lead }}<p class="lead reveal">{{ . | markdownify }}</p>{{ end }}
+      <div class="ctas reveal">{{ range .Params.buttons }}<a class="btn {{ .style | default "primary" }}" href="{{ .url }}">{{ .label }}</a>{{ end }}</div>
+    </div>
+    <div class="hero-object reveal">{{ partial "ledger.html" . }}</div>
   </div>
-  <div class="wrap">{{ partial "ledger.html" . }}</div>
 </section>
 
 <section class="after-hero center">
