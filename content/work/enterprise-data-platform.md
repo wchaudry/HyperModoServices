@@ -1,6 +1,6 @@
 ---
 title: "An enterprise data platform, from strategy to production"
-summary: "Wrote the transformation strategy for a $3B IT solutions provider, sold it, won a $4M programme, and delivered six products into daily use."
+summary: "Wrote the transformation strategy for Zones LLC, a $3B IT solutions provider, sold it, won a $4M programme, and delivered six products into daily use."
 date: 2022-07-01
 lastmod: 2026-09-01
 weight: 10
@@ -15,7 +15,7 @@ tags: ["strategy", "data platform", "delivery"]
 
 ## The situation
 
-A $3B IT solutions provider had product data split across three departments, catalogue rules buried in twenty years of ERP customisation, and no way to sell hardware, services and subscriptions as a single offer. Merchandising was manual, competitive pricing reached a small fraction of the catalogue, and every catalogue change was an IT request.
+Zones LLC, a $3B IT solutions provider, had product data split across three departments, catalogue rules buried in twenty years of ERP customisation, and no way to sell hardware, services and subscriptions as a single offer. Merchandising was manual, competitive pricing reached a small fraction of the catalogue, and every catalogue change was an IT request.
 
 ## What I did
 

@@ -9,13 +9,13 @@ title = "HyperModo"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  description = "HyperModo is Wiqar Chaudry's practice: platform strategy that gets sold, built, and run — by someone who has done all three."
+  description = "HyperModo is a boutique systems integrator specialising in enterprise data systems — master data, ingestion, integration, Azure and D365 — with the marketing, product, design, delivery, training and agentic engineering to get them live."
   copyright = "© 2026 HyperModo"
 
 [params.author]
   name = "Wiqar Chaudry"
   email = "wiqar@hypermodo.com"
-  headline = "Platform strategy, sold, built, and run."
+  headline = "Enterprise data systems, taken to production."
   bio = "Twenty years building data platforms and the engineering teams that run them."
   links = [
     { email = "mailto:wiqar@hypermodo.com" },
