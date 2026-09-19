@@ -1,8 +1,8 @@
 ---
-title: "Enterprise data systems, taken to production."
-description: "HyperModo is a boutique systems integrator specialising in enterprise data systems — master data, ingestion, integration, Azure and D365 — with the marketing, product, design, delivery, training and agentic engineering to get them live."
+title: "Transformation your own people can run."
+description: "HyperModo helps companies reach broader markets by building enterprise data systems — and building the internal workforce that runs them, so the expertise stays when the consultants leave."
 heroCaption: "HyperModo · Wiqar Chaudry"
-heroLead: "A boutique systems integrator with one specialization: enterprise data systems — master data, ingestion, integration, Azure and Dynamics 365 — and the full arc a large integrator sells to get them live: the business case, product and UX design, the engineering team, the go-live. Delivered, not advised. And for the past year, most of the code written by AI agents under a framework that makes it safe."
+heroLead: "Most consultancies leave one of two ways: you depend on them forever, or they walk out with the expertise. I do the opposite. I build the enterprise data systems that open new markets — master data, ingestion, integration, Azure and Dynamics 365 — and I build your own people into the team that owns them. The deliverable is a platform in production and a workforce that can run it without me."
 heroButtons:
   - label: "What I deliver"
     url: "/services/"
@@ -19,7 +19,7 @@ heroButtons:
 
 ## What I deliver
 
-The specialization first; the seven practice areas that get it delivered after. Everything ends in a deliverable.
+Enterprise data systems are the specialization. The other seven exist to get them live and to leave your people able to run them.
 
 {{< feature-grid >}}
 {{< feature icon="fork" title="Enterprise data systems" url="/services/#enterprise-data-systems" label="What you get" >}}

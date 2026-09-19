@@ -9,13 +9,13 @@ title = "HyperModo"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  description = "HyperModo is a boutique systems integrator specialising in enterprise data systems — master data, ingestion, integration, Azure and D365 — with the marketing, product, design, delivery, training and agentic engineering to get them live."
+  description = "HyperModo helps companies reach broader markets by building enterprise data systems — and building the internal workforce that runs them, so the expertise stays when the consultants leave."
   copyright = "© 2026 HyperModo"
 
 [params.author]
   name = "Wiqar Chaudry"
   email = "wiqar@hypermodo.com"
-  headline = "Enterprise data systems, taken to production."
+  headline = "Transformation your own people can run."
   bio = "Twenty years building data platforms and the engineering teams that run them."
   links = [
     { email = "mailto:wiqar@hypermodo.com" },

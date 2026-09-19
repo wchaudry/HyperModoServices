@@ -1,16 +1,16 @@
 ---
 title: "About"
-description: "HyperModo is a boutique systems integrator. What that means, and how to engage."
+description: "What HyperModo is for, and why it is not a consultancy in the usual sense."
 showDate: false
 showAuthor: false
 showReadingTime: false
 ---
 
-HyperModo is a boutique systems integrator. The shape of the work is what a large integrator sells — transformation strategy, product and UX design, enterprise data platforms on Azure and Dynamics 365, the engineering organisation, the go-live — done by a small team that has done it before, with a deliverable at the end of every step. I run it. I have built software platforms and the teams that run them for twenty years, always close to data — databases, pipelines, integrations.
+HyperModo exists to help companies reach broader markets — new segments, new channels, hybrid offers — by building the enterprise data systems that make it possible, and by building the internal workforce that runs them.
 
-I wrote the strategy for the digital platform at Zones LLC, a $3B IT solutions provider, sold it to their executives, won a $4M programme, then hired and led the seventy people who built it. Before that I co-founded a company, raised $2.5M, and closed a $15M contract with the US Air Force research lab. Earlier: distributed SQL at NuoDB, data integration at Expressor (acquired by Qlik), bank fraud detection at Memento (acquired by FIS), marketing databases for Pfizer, Capital One and Bank of America at Epsilon, and four years at Rackspace running data-services strategy.
+The second half is the point. Consulting engagements end one of two ways: the client depends on the firm indefinitely, or the firm leaves and takes the expertise with it, hollowing out the very organisation it was hired to help. I have watched both happen, and I have built the alternative: at Zones LLC the platform was delivered by a seventy-person internal organisation recruited and trained for it, most of them through a graduate programme designed so the company would own its own capability. That is the model — a large integrator's arc, strategy through go-live, on Azure and Dynamics 365, with a deliverable at every step and your people on the other side of each one.
 
-I am still in the code every day.
+I run it. I have built software platforms and the teams that run them for twenty years, always close to data — databases, pipelines, integrations. I am still in the code every day.
 
 ## What I offer
 

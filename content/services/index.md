@@ -1,13 +1,15 @@
 ---
 title: "Services"
-description: "Enterprise data systems are the specialization; seven more practice areas exist to deliver them. What you get from each, and where I have done it before."
+description: "Enterprise data systems are the specialization; seven more practice areas exist to deliver them and to leave your own people running them."
 showDate: false
 showAuthor: false
 showReadingTime: false
 showTableOfContents: true
 ---
 
-Enterprise data systems are the specialization — master data, ingestion, integration, and the infrastructure under them, taken to production. That is the strength, and everything else here exists to deliver it: the marketing that sells it, the product management that scopes it, the design that makes it usable, the programme that ships it, the training that staffs it, the agents that build it. Each ends in a deliverable. If an engagement would end in a recommendation and nothing else, I'll say so before we start.
+The goal of every engagement is broader market penetration for the client — new segments, new channels, products and services sold as one offer. The means is an enterprise data system in production, and an internal workforce that runs it. That second half is what makes this different from a consultancy: if your own people are not upskilled by the time I leave, you either depend on the consultants forever or the expertise walks out with them. So every practice area below has two deliverables — the thing itself, and the people on your side who own it afterwards.
+
+Enterprise data systems are the specialization. Everything else here exists to deliver them and to leave them in your hands: the marketing that sells the product, the product management that scopes it, the design that makes it usable, the programme that ships it, the training that staffs it, the agents that build it.
 
 ## Enterprise data systems
 
