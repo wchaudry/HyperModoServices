@@ -1,0 +1,34 @@
+[[main]]
+  name = "Work"
+  pageRef = "work"
+  weight = 10
+
+[[main]]
+  name = "Writing"
+  pageRef = "writing"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[footer]]
+  name = "Work"
+  pageRef = "work"
+  weight = 10
+
+[[footer]]
+  name = "Writing"
+  pageRef = "writing"
+  weight = 20
+
+[[footer]]
+  name = "People"
+  pageRef = "people"
+  weight = 30
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
