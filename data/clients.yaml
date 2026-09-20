@@ -2,7 +2,7 @@ logos:
   - { name: Zones, file: logos/zones.png, h: 22 }
   - { name: Wasmer, file: logos/wasmer.png, h: 36 }
   - { name: Bugcrowd, file: logos/bugcrowd.svg, h: 26 }
-  - { name: Teleport, file: "" }
+  - { name: Teleport, file: logos/teleport.svg, h: 24 }
   - { name: "DARPA · AFRL", file: logos/afrl.svg, h: 40, with_name: true }
   - { name: Airbus, file: logos/airbus.svg, h: 22 }
   - { name: Toshiba, file: logos/toshiba.svg, h: 19 }
