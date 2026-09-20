@@ -5,11 +5,17 @@ left: The usual program
 right: This model
 points:
   - label: People
+    photo: graduates.jpg
+    alt: "Graduates at a ceremony"
     fail: "<b>The people never arrive.</b> Hiring lags, the plan slips, and the slip becomes the program."
     answer: "<b>People come first.</b> We identify who's needed and build the capacity — in your company, locally, or in a low-cost geography that's yours."
   - label: Process
+    photo: stickies.jpg
+    alt: "Two people planning at a wall of notes"
     fail: "<b>The process stays the same.</b> New systems land on old ways of working, and the old ways win."
     answer: "<b>We measure and fix the process before we build.</b> Training and delivery are one workstream, so the new way is learned by doing it."
   - label: Technology
+    photo: engineers-pair.jpg
+    alt: "Two engineers working side by side"
     fail: "<b>The technology is built and never used.</b> Two years, one cutover, and nothing anyone can touch until then."
     answer: "<b>Something real is delivered every quarter.</b> Only what gives you an advantage, at a pace AI makes possible — and the capability stays with your team."

@@ -262,12 +262,13 @@
 
   /* why it works: rows, left to right */
   .whyrows{margin-top:0;border:1px solid var(--rule);border-radius:16px;overflow:hidden;background:var(--card)}
-  .whyhead{display:grid;grid-template-columns:9rem 1fr 1fr;border-bottom:1px solid var(--rule);font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
+  .whyhead{display:grid;grid-template-columns:10rem 1fr 1fr;border-bottom:1px solid var(--rule);font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
   .whyhead span{padding:14px 1.4rem}
   .whyhead .usual{color:var(--faint)}
   .whyhead .ours{color:var(--mint);background:var(--mint-soft);border-left:1px solid var(--rule)}
-  .whyrow{display:grid;grid-template-columns:9rem 1fr 1fr;border-top:1px solid var(--rule);align-items:stretch}
-  .whylabel{padding:1.4rem;font-family:"JetBrains Mono",monospace;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--violet)}
+  .whyrow{display:grid;grid-template-columns:10rem 1fr 1fr;border-top:1px solid var(--rule);align-items:stretch}
+  .whylabel{padding:1.4rem;display:flex;flex-direction:column;gap:10px;font-family:"JetBrains Mono",monospace;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--violet)}
+  .whylabel .photo.sq{width:100%;aspect-ratio:1;border-radius:10px;margin:0}
   .whyrow:first-of-type{border-top:none}
   .whyrow .photo.thumb{border-radius:0;aspect-ratio:auto;min-height:0;margin:0}
   .whyrow .usual,.whyrow .ours{display:flex;align-items:flex-start;padding:1.4rem}

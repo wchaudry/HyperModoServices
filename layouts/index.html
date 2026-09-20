@@ -42,7 +42,7 @@
       <div class="whyhead"><span></span><span class="usual">{{ $w.left }}</span><span class="ours">{{ $w.right }}</span></div>
       {{ range $w.points }}
       <div class="whyrow">
-        <div class="whylabel">{{ .label }}</div>
+        <div class="whylabel">{{ with .photo }}<div class="photo sq"><img src="{{ printf "photos/%s" . | relURL }}" alt="{{ $.alt }}" loading="lazy"></div>{{ end }}<span>{{ .label }}</span></div>
         <div class="usual"><p>{{ .fail | safeHTML }}</p></div>
         <div class="ours"><p>{{ .answer | safeHTML }}</p></div>
       </div>
