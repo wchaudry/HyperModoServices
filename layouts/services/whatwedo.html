@@ -1,12 +1,9 @@
 {{ define "main" }}
 <section class="page wwd">
   <div class="wrap wide">
-    <div class="wwd-grid">
-      <div class="head" style="text-align:left;max-width:52rem;margin:0">
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
-      </div>
-      {{ partial "viz-engine.html" . }}
+    <div class="head" style="text-align:left;max-width:52rem;margin:0 0 48px">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
     </div>
     <div class="stepgrid-head"><span>Step</span><span>What happens</span><span>You get</span><span>What it asks of you</span></div>
     {{ range hugo.Data.steps }}
