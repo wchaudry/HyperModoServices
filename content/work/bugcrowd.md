@@ -6,6 +6,8 @@ lastmod: 2026-09-20
 client: "Bugcrowd"
 period: "two 90-day engagements, 2019–2020"
 eyebrow: "Case study"
+logo: "logos/bugcrowd.svg"
+logo_h: 26
 featured: true
 weight: 2
 metrics:

@@ -1,4 +1,4 @@
 <a class="acard" href="{{ .RelPermalink }}">
-  <div class="top"><span>{{ with .Params.client }}{{ . }}{{ end }}{{ with .Params.period }} · {{ . }}{{ end }}{{ if and (not .Params.client) (not .Params.period) .Date }}{{ .Date.Format "2 January 2006" }}{{ end }}</span></div>
+  <div class="top">{{ with .Params.logo }}<img class="card-logo" src="{{ . | relURL }}" alt="" style="height:{{ $.Params.logo_h | default 24 }}px">{{ end }}<span>{{ with .Params.client }}{{ . }}{{ end }}{{ with .Params.period }} · {{ . }}{{ end }}{{ if and (not .Params.client) (not .Params.period) .Date }}{{ .Date.Format "2 January 2006" }}{{ end }}</span></div>
   <div class="body"><h3>{{ .Title }}</h3><p>{{ .Summary | plainify }}</p>{{ with .Params.numbers }}<span class="num">{{ . }}</span>{{ end }}</div>
 </a>

@@ -2,7 +2,7 @@
 <article class="case-page">
   <header class="case-hero">
     <div class="wrap wide">
-      <span class="eyebrow">{{ .Params.eyebrow | default "Case study" }} · {{ .Params.client }}{{ with .Params.period }} · {{ . }}{{ end }}</span>
+      <div class="case-top">{{ with .Params.logo }}<img class="case-logo" src="{{ . | relURL }}" alt="{{ $.Params.client }}" style="height:{{ $.Params.logo_h | default 24 }}px">{{ end }}<span class="eyebrow">{{ .Params.eyebrow | default "Case study" }}{{ with .Params.period }} · {{ . }}{{ end }}</span></div>
       <h1>{{ .Title }}</h1>
       {{ with .Params.summary }}<p class="lead">{{ . }}</p>{{ end }}
       {{ with .Params.metrics }}

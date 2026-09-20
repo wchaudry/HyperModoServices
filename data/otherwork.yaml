@@ -1,0 +1,34 @@
+- client: Wasmer
+  logo: logos/wasmer.png
+  h: 30
+  period: 2020–2022
+  role: Head of Product Management
+  text: Framed the enterprise offer and its go-to-market for a WebAssembly platform, ran the first enterprise customer engagements, and set up the sponsorship model that funds the open-source runtime. The company is executing that plan today.
+- client: Zones
+  logo: logos/zones.png
+  h: 18
+  period: 2018–2019, 2021
+  role: Digital innovation, before the program
+  text: Two earlier engagements with the same client — a cloud application marketplace for its services teams, then the business-model and platform work with the Chief Digital Officer that became the transformation.
+  link: /work/zones/
+- client: DARPA / AFRL · Airbus · Toshiba Memory
+  logo: logos/afrl.svg
+  h: 34
+  period: 2017–2020
+  role: at Nalej, as co-founder
+  text: An edge-computing platform for running applications across distributed sites — a working system for Airbus in Madrid in ninety days, $3M of services with Toshiba Memory America, and a five-year DARPA / AFRL contract with the CMMC and ATO certification it required.
+  extra: [logos/airbus.svg, logos/toshiba.svg]
+- client: BizAnalytica
+  period: 2018–2019
+  role: Go-to-market
+  text: Go-to-market strategy for big-data professional services — competitive research, positioning, website, sales enablement and customer presentations.
+- client: Teleport (then Gravitational)
+  logo: logos/teleport.svg
+  h: 22
+  period: 2016–2017
+  role: Business development
+  text: Acted as a channel for an early Kubernetes platform while the product was new — brought in some of its first customers and the partner and reseller leads that followed.
+- client: Epsilon
+  period: 2012
+  role: Data strategy
+  text: Data-management strategy and roadmap for the next-generation email marketing platform — ingestion, management, analytics, reporting and workflow — delivered in ninety days.

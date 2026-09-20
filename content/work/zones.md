@@ -6,6 +6,8 @@ lastmod: 2026-09-20
 client: "Zones LLC"
 period: "2022 – today"
 eyebrow: "Case study"
+logo: "logos/zones.png"
+logo_h: 22
 featured: true
 weight: 1
 metrics:
