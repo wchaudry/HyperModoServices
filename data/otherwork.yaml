@@ -11,13 +11,6 @@
   role: Digital innovation
   text: Two engagements that preceded the transformation — a cloud application marketplace for its services teams, then the business-model and platform work with the Chief Digital Officer that became the program.
   link: /work/zones/
-- client: DARPA / AFRL · Airbus · Toshiba Memory
-  logo: logos/darpa.png
-  h: 16
-  period: 2017–2020
-  role: Edge computing, at Nalej
-  text: An edge-computing platform for running applications across distributed sites — a working system for Airbus in Madrid in ninety days, services for Toshiba Memory America, and a five-year DARPA / AFRL contract with the CMMC and ATO certification it required.
-  extra: [logos/airbus.svg, logos/toshiba.svg]
 - client: BizAnalytica
   period: 2018–2019
   role: Go-to-market
