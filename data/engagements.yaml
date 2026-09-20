@@ -7,8 +7,8 @@ items:
     anchor: wasmer
   - client: Bugcrowd
     period: 2019–2020
-    title: A data business inside a security platform
-    text: Strategy for monetizing Crowd Control's data — the roadmap, the implementation plan, and the prototype wireframes engineering built from.
+    title: A data strategy for a company that was two businesses at once
+    text: The diagnosis leadership acted on, a data services framework and roadmap, a crowd management system from first principles, and the prototypes engineering built from.
     anchor: bugcrowd
   - client: Teleport (then Gravitational)
     period: 2016–2017
