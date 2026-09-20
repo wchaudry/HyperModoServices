@@ -1,9 +1,12 @@
 {{ define "main" }}
 <section class="page wwd">
   <div class="wrap wide">
-    <div class="head" style="text-align:left;max-width:52rem;margin:0 0 48px">
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+    <div class="wwd-grid">
+      <div class="head" style="text-align:left;max-width:52rem;margin:0">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+      </div>
+      {{ partial "photo.html" (dict "src" "exec-meeting.jpg" "alt" "An executive team in a working session" "class" "hero" "caption" "01 · frame it with your executives") }}
     </div>
     <div class="stepgrid-head"><span>Step</span><span>What happens</span><span>You get</span><span>What it asks of you</span></div>
     {{ range hugo.Data.steps }}

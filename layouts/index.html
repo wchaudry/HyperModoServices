@@ -18,7 +18,8 @@
 <section id="services" style="padding-top:20px">
   <div class="wrap">
     {{ $j := hugo.Data.journey }}
-    <div class="center"><span class="eyebrow">What we do</span><h2 style="margin-top:16px">{{ $j.heading }}</h2><p class="sub">{{ $j.sub }}</p></div>
+    <div class="center" style="margin-bottom:36px"><span class="eyebrow">What we do</span><h2 style="margin-top:16px">{{ $j.heading }}</h2><p class="sub">{{ $j.sub }}</p></div>
+    {{ partial "photo.html" (dict "src" "team-design.jpg" "alt" "A team working through designs together at one table" "class" "band" "caption" "people · process · technology") }}
     <div class="steps">
       {{ range $j.steps }}
       <div class="step"><span class="n">{{ .n }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></div>

@@ -46,6 +46,7 @@ With the CDO and the executive team: the barriers to scale, the competition, and
 Zones' own — entity, office, leadership, staffing plan. Cost and risk down; a venture the company owns, not a vendor it renews.
 {{< /tl >}}
 {{< tl when="2022 →" title="The talent engine" >}}
+{{< photo src="graduates.jpg" alt="Graduates at the end of a ceremony" class="inline" caption="a 12-month program, from graduation" >}}
 Top universities as funnel and farm system. Campus recruiting and assessments, run by us. Senior hires to seed and mentor. A 12-month fresh-graduate program on real deliverables — the training program *is* the delivery program.
 {{< /tl >}}
 {{< tl when="2023–2025" title="Shipping every quarter" >}}
@@ -60,6 +61,8 @@ Global e-commerce, built by the Islamabad team without us. Our handover is being
 {{< /timeline >}}
 
 ## What's in daily use
+
+{{< photo src="team-design.jpg" alt="A team at work" class="inline" caption="finished work, every quarter" >}}
 
 {{< cards cols="2" >}}
 {{< card tag="pricing" title="Competitive price analysis" >}}Pricing coverage across the catalog instead of a small subset of SKUs.{{< /card >}}

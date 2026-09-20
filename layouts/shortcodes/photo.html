@@ -1,0 +1,1 @@
+<figure class="photo{{ with .Get "class" }} {{ . }}{{ end }}"><img src="{{ printf "photos/%s" (.Get "src") | relURL }}" alt="{{ .Get "alt" }}" loading="lazy">{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
