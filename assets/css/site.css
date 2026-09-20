@@ -359,7 +359,7 @@
   .list .head{max-width:760px;margin:0 auto 36px;text-align:center}
   .list .head h1{font-size:clamp(34px,5vw,52px)}
   .list .head .lead{font-size:19px;color:var(--muted);margin-top:16px}
-  .list .body{max-width:720px;margin:0 auto 40px;font-size:17px;line-height:1.7;color:var(--muted)}
+  .list .intro{max-width:45rem;margin:0 auto 40px;font-size:1.06rem;line-height:1.7;color:var(--muted)}
   .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
   .list .cards{grid-template-columns:repeat(2,1fr);gap:1.25rem}
   .list .acard .top{height:7rem}

@@ -2,7 +2,7 @@
 <section class="list">
   <div class="wrap">
     <div class="head"><h1>{{ .Title }}</h1>{{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}</div>
-    {{ if ne .Section "work" }}{{ with .Content }}<div class="body prose">{{ . }}</div>{{ end }}{{ end }}
+    {{ if ne .Section "work" }}{{ with .Content }}<div class="intro prose">{{ . }}</div>{{ end }}{{ end }}
     {{ $pages := .RegularPages }}
     {{ if eq .Section "work" }}{{ $pages = .RegularPages.ByWeight }}{{ end }}
     {{ if $pages }}
