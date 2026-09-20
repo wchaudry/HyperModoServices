@@ -6,7 +6,7 @@ lines:
   - when: "2022"
     text: "<em class=\"ppl\">New digital center stood up in Pakistan</em> · first cohort hired and in rotation"
   - when: "2023"
-    text: "Finished work in use every quarter · first legacy systems retired"
+    text: "Finished work in use every quarter · the business starts working in the new platform"
   - when: "2024–25"
     text: "The platform in production across the business · the team running it"
   - when: "2026"
