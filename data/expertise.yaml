@@ -1,7 +1,7 @@
 - category: Transformation strategy
   key: transformation
-  image: sketch-whiteboard.jpg
-  alt: "Sketching a plan on a whiteboard"
+  image: chess.jpg
+  alt: "A blue chess piece on a board"
   stats: [{v: "$1.5M / yr", l: "the Zones program, owned since 2022"}, {v: "Every quarter", l: "finished work in the business's hands"}]
   line: "Transformation fails when it's framed by IT or by a vendor. We frame it with the people who own the outcome — the barriers to scale, the competition, the change in the business's own terms — then own the program from the business case to go-live, governed so value lands every quarter rather than at the end."
   items:
@@ -27,8 +27,9 @@
       proof: "Zones: four systems delivered into daily use across 2023–2025; a 1,700-case test plan and a readiness assessment for the core platform going live in 2027."
 - category: People strategy
   key: people
-  image: islamabad-mosque.jpg
-  alt: "Islamabad"
+  image: library2.jpg
+  dark: true
+  alt: "Tall library shelves with a rolling ladder"
   stats: [{v: "Jul 2022", l: "Islamabad center kicked off"}, {v: "70+", l: "people, recruited and trained in-house"}, {v: "12 months", l: "the graduate program"}]
   line: "Transformation is capacity the company doesn't have. We build it as the company's own: a center in a low-cost geography, a pipeline from top universities, senior mentors, a 12-month program for every graduate — and a handover planned from the first day, so the capability stays when we leave."
   items:
@@ -79,8 +80,8 @@
       proof: "A live production data platform: 59 engineering projects, 3,300+ recorded findings and decisions, every change reviewed to a written standard before commit."
 - category: Specialized capabilities
   key: capabilities
-  image: engineers-pair.jpg
-  alt: "Two engineers working side by side"
+  image: gauge.jpg
+  alt: "A precision measuring gauge, close up"
   line: "The disciplines we bring to a step when it needs them — product, marketing, design, training. Each is a practice in its own right, and each ends in a deliverable your people own."
   items:
     - title: Product management
