@@ -1,10 +1,10 @@
 client: Zones LLC
 tabs: [Platform, People, Go-live]
 lines:
-  - when: "2021"
-    text: "Strategy written for the CDO: market case, business model, five-year objectives"
+  - when: "2022-01"
+    text: "Strategy written with the CDO: barriers to scale, competitive analysis, business case"
   - when: "2022-03"
-    text: "<em class=\"ok\">approved</em> by the executive team · $4M / 36 months · Program Owner"
+    text: "<em class=\"ok\">approved</em> by the executive team · program begins · Program Owner"
   - when: "2022-09"
     text: "<em class=\"ppl\">first graduate cohort</em> · campus recruiting, coding assessments written in-house"
   - when: "2023"
