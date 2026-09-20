@@ -3,7 +3,7 @@ title: "Work"
 description: "Named engagements, with the numbers. Every client is named."
 ---
 
-Real companies, real numbers. The long-form case studies are the cards below; this list is every engagement, newest first.
+One case study in full — Zones — and every other engagement in brief, newest first.
 
 ## Consulting engagements
 

@@ -4,10 +4,10 @@ heading: "A $3B company, and the transformation engine we built inside it."
 lead: "Zones is a $3B IT solutions provider. Its product data was split across three departments, twenty years of business rules lived inside the ERP, and it could not sell hardware, services and subscriptions as one offer. Here is the model, as it ran."
 facts:
   - { k: "Framed with", v: "the CDO and executive team — strategy, competitive analysis, business case" }
-  - { k: "Venture", v: "a new digital center in Pakistan, staffed and run as Zones' own" }
+  - { k: "Venture", v: "a new center in Islamabad, opened July 2022, staffed and run as Zones' own" }
   - { k: "Talent engine", v: "campus recruiting at top universities, a 12-month fresh-graduate program, senior seed hires" }
-  - { k: "Cadence", v: "finished work in use every quarter, from the first year" }
-  - { k: "Systems", v: "one governed platform for product, service and subscription data, owned by the business" }
+  - { k: "In use", v: "competitive pricing, identity and SSO, catalog processing, order approvals" }
+  - { k: "Next", v: "the core data and merchandising platform, live early 2027; then global e-commerce, delivered by the team" }
   - { k: "Team", v: "70+ people today, recruited and trained in-house, running it" }
-link: /work/enterprise-data-platform/
+link: /work/zones/
 link_label: Read the case study

@@ -1,15 +1,15 @@
 client: Zones LLC
-period: 2022 – today
+period: 2022 – 2027
 lines:
-  - when: "2022"
+  - when: "2022-03"
     text: "Transformation framed with the executive team · <em class=\"ok\">program approved</em>"
-  - when: "2022"
-    text: "<em class=\"ppl\">New digital center stood up in Pakistan</em> · first cohort hired and in rotation"
-  - when: "2023"
-    text: "Finished work in use every quarter · the business starts working in the new platform"
-  - when: "2024–25"
-    text: "The platform in production across the business · the team running it"
+  - when: "2022-07"
+    text: "<em class=\"ppl\">Center opened in Islamabad</em> · first cohort hired and in rotation"
+  - when: "2023–25"
+    text: "In use: competitive pricing · identity and SSO · catalog processing · order approvals"
   - when: "2026"
-    text: "<em class=\"ppl\">70+ people</em> · the transformation is ongoing · <em class=\"ok\">our handover is being planned</em>"
-foot_left: one program, one owner, four years
+    text: "Core data and merchandising platform in final testing · <em class=\"ppl\">70+ people</em>"
+  - when: "2027"
+    text: "Platform live · <em class=\"ok\">the team delivers global e-commerce on its own</em>"
+foot_left: one program, one owner, five years
 foot_right: delivered, and being handed over
