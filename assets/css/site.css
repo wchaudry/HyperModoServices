@@ -411,6 +411,17 @@
   .fig .m{font-family:Manrope,sans-serif;font-size:9px;fill:var(--muted)}
   .fig .c{font-family:"JetBrains Mono",monospace;font-size:8px;fill:var(--faint);letter-spacing:.04em}
   .fig figcaption{font-size:.82rem;color:var(--muted);margin-top:8px;font-family:"JetBrains Mono",monospace}
+  .fig.wide{max-width:46rem}
+  .fig .tiles .wait{fill:none;stroke:var(--violet);stroke-opacity:.45;stroke-width:1.25}
+  .fig .tiles .prog{fill:var(--violet)}
+  .fig .k{font-family:"Plus Jakarta Sans",sans-serif;font-weight:700;font-size:13px;fill:var(--ink)}
+  .fig .k.w{fill:var(--violet)}
+  .fig .axis{stroke:var(--rule-strong);stroke-width:1}
+  .fig .bar{fill:var(--violet);opacity:.85}
+  .fig .bar.soft{opacity:.3}
+  .fig .h{font-size:13px}
+  .fig .m{font-size:10.5px}
+  .fig .c{font-size:9px}
   .fig.right{float:right;margin:4px 0 20px 32px;max-width:22rem}
   @media (max-width:820px){.fig.right{float:none;margin:8px 0 24px;max-width:26rem}}
 
