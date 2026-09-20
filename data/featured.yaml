@@ -3,11 +3,11 @@ client: Zones LLC
 heading: "A $3B company, and the transformation engine we built inside it."
 lead: "Zones is a $3B IT solutions provider that set out to triple its business in five years. Twenty years of legacy processes and systems stood in the way, and had to be transformed to support that pace of growth."
 facts:
-  - { k: "Framed with", v: "the CDO and executive team — strategy, competitive analysis, business case" }
-  - { k: "Venture", v: "a new center in Islamabad, opened July 2022, staffed and run as Zones' own" }
-  - { k: "Talent engine", v: "campus recruiting at top universities, a 12-month fresh-graduate program, senior seed hires" }
-  - { k: "In use", v: "competitive pricing, identity and SSO, catalog processing, order approvals" }
-  - { k: "Next", v: "the core platform, live early 2027; then global e-commerce, delivered by the team" }
-  - { k: "Team", v: "70+ people today, recruited and trained in-house, running it" }
+  - { k: "Business outcome", v: "Triple the business in five years, agreed with the CDO and the executive team." }
+  - { k: "People", v: "A center in Islamabad, opened in July 2022 as Zones' own — 70+ people today, recruited and trained in-house." }
+  - { k: "Process", v: "Twenty years of business rules moved out of the ERP and into the hands of the business, with a 12-month program to train the people who run them." }
+  - { k: "Build", v: "Competitive pricing, single sign-on, catalog processing and order approvals in daily use; the core platform goes live in early 2027." }
+  - { k: "Delivery", v: "Something has reached the business every quarter since the first year." }
+  - { k: "Adjust", v: "The plan has moved with the market and with leadership; the handover is being planned, and the team delivers global e-commerce on its own in 2027." }
 link: /work/zones/
 link_label: Read the case study
