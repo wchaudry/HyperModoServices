@@ -19,7 +19,7 @@ steps:
     anchor: systems
   - n: "05"
     title: Deliver every quarter
-    text: "The training program and the delivery program are the same program. Every quarter, finished work lands in the business's hands — while the larger changes take shape underneath."
+    text: "Training and delivery unify into a single workstream that produces business value. Every quarter, finished work lands while the larger changes take shape underneath."
     anchor: ship
   - n: "06"
     title: Adjust continuously, with leadership
