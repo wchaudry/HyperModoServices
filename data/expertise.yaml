@@ -75,7 +75,7 @@
       deliver: ["Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, A production-readiness assessment with named gaps and owners, "A support model — tiers, runbooks, cross-training"]
       proof: "Zones: a hub-and-spoke Azure estate, 99% Terraform-managed, WAF on production, alerts to Teams — and a December 2025 readiness assessment that separated what was built from what was proven."
     - title: Throughput that outlasts the team
-      blurb: Most of the code written by AI agents under a written operating model — so the pace of engineering doesn't depend on who is in the room. The model is taught to the whole team, not kept by us: see AI enablement under specialized capabilities.
+      blurb: "Most of the code written by AI agents under a written operating model — so the pace of engineering doesn't depend on who is in the room. The model is taught to the whole team, not kept by us — see AI enablement under specialized capabilities."
       deliver: [The agentic framework installed in the client's repositories, Review gates as code, Engineers trained to direct and review agent-written code]
       proof: "Zones: a live production platform where most new code is agent-written under the framework, and the team that runs it was trained on it in place."
 - category: Specialized capabilities
