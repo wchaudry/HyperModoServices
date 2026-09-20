@@ -1,6 +1,5 @@
 {{ $l := hugo.Data.ledger }}
 <div class="ledger" role="figure" aria-label="{{ $l.client }}: delivered and trained, by phase">
-  <div class="tabs"><span class="lbl">{{ $l.client }}</span><span class="on">{{ $l.period }}</span></div>
   <div class="lhead"><span></span>{{ range $l.cols }}<span>{{ . }}</span>{{ end }}</div>
   <ol>
     {{ range $l.lines }}<li><span class="t">{{ .when }}<small>{{ .year }}</small></span><span class="a">{{ .a | safeHTML }}</span><span class="b">{{ .b | safeHTML }}</span></li>{{ end }}

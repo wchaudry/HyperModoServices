@@ -1,5 +1,4 @@
 client: Zones LLC
-period: 2022 – 2027
 cols: [delivered, trained]
 lines:
   - when: Start
