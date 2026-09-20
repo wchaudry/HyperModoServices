@@ -17,8 +17,8 @@
       --ink:#f4f0fa; --muted:rgba(244,240,250,.62); --faint:rgba(244,240,250,.40);
       --rule:rgba(244,240,250,.10); --rule-strong:rgba(244,240,250,.18);
       --paper:#0f0518; --alt:#130821; --card:#170b24;
-      --violet:#a68cff; --violet-soft:#241640; --lavender:#1b0f2e;
-      --mint:#7ee2b8; --mint-soft:#132a22; --mint-line:#7ee2b8;
+      --violet:#a68cff; --violet-soft:#1f1633; --lavender:#1b0f2e;
+      --mint:#7ee2b8; --mint-soft:#15221d; --mint-line:#7ee2b8;
       --btn:#f4f0fa; --btn-ink:#0f0518;
       --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 40px -20px rgba(0,0,0,.9);
       --wash-a:#0f0518; --wash-b:#4a2fc9; --streak:rgba(166,140,255,.18);
@@ -31,8 +31,8 @@
     --ink:#f4f0fa; --muted:rgba(244,240,250,.62); --faint:rgba(244,240,250,.40);
     --rule:rgba(244,240,250,.10); --rule-strong:rgba(244,240,250,.18);
     --paper:#0f0518; --alt:#130821; --card:#170b24;
-    --violet:#a68cff; --violet-soft:#241640; --lavender:#1b0f2e;
-    --mint:#7ee2b8; --mint-soft:#132a22; --mint-line:#7ee2b8;
+    --violet:#a68cff; --violet-soft:#1f1633; --lavender:#1b0f2e;
+    --mint:#7ee2b8; --mint-soft:#15221d; --mint-line:#7ee2b8;
     --btn:#f4f0fa; --btn-ink:#0f0518;
     --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 40px -20px rgba(0,0,0,.9);
     --wash-a:#0f0518; --wash-b:#4a2fc9; --streak:rgba(166,140,255,.18);
@@ -405,7 +405,7 @@
   .steprow p{margin:0;font-size:.97rem;line-height:1.55;color:var(--muted)}
   .sr-get ul{margin:0;padding-left:1.1rem;font-size:.95rem;line-height:1.5}
   .sr-get li::marker{color:var(--mint)}
-  .sr-get{background:var(--mint-soft);border-radius:12px;padding:14px 16px 14px 8px}
+  .sr-get{border-left:2px solid var(--mint);padding:2px 0 2px 16px}
   .sr-get li{margin:4px 0}
   .sr-asks p{color:var(--ink)}
   @media (max-width:980px){.stepgrid-head{display:none}.steprow{grid-template-columns:1fr;gap:.9rem}.sr-happens::before{content:"What happens";}.sr-get::before{content:"You get";}.sr-asks::before{content:"What it asks of you";}.sr-happens::before,.sr-get::before,.sr-asks::before{display:block;font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}}
@@ -456,9 +456,9 @@
   .photo::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 65%,rgba(15,5,24,.42));pointer-events:none}
   .photo figcaption{position:absolute;left:16px;bottom:12px;z-index:2;font-family:"JetBrains Mono",monospace;font-size:11px;color:rgba(244,240,250,.85);letter-spacing:.04em}
   .photo.band{aspect-ratio:16/6;margin:0 0 40px}
-  .photo.hero{aspect-ratio:4/3}
+  .photo.feature{aspect-ratio:4/3}
   .photo.inline{aspect-ratio:3/2;margin:8px 0 28px;max-width:46rem}
-  .photo.hero{width:100%}
+  .photo.feature{width:100%}
   .photo.right{float:right;width:min(20rem,42%);aspect-ratio:4/3;margin:4px 0 20px 32px}
   .tl-body .photo.right{margin-top:0}
   .case-body .prose h2{clear:both}
