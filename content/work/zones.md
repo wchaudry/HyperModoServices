@@ -23,45 +23,51 @@ steps: ["Framed with the executive team", "Venture stood up", "Talent engine bui
 outcome: "A $3B company now has a transformation engine of its own: a center in Islamabad, 70+ people it recruited and trained, four systems in daily use and the core platform going live in 2027. The next system — global e-commerce — the team delivers without us."
 ---
 
-Zones is a $3B IT solutions provider. In 2022 it could not sell what its customers wanted to buy — hardware, services and subscriptions as one offer — because the data underneath wouldn't allow it. Product information was split across three departments. Twenty years of business rules lived inside the ERP, known to a handful of people. Merchandising was manual, competitive pricing reached a small fraction of the catalog, and every change to a product was an IT request. Competitors were transforming faster, and distributors were starting to sell around them.
+## The situation, 2022
 
-This is the model as it ran there — six steps, three and a half years, still going.
+{{< versus left="What Zones wanted to sell" right="What its data allowed" >}}
+{{< vs l="Hardware, services and subscriptions **as one offer**." r="Three departments, three versions of a product. No single record to build an offer on." >}}
+{{< vs l="Pricing that competes across the whole catalog." r="Competitive pricing on a **small fraction** of SKUs, by hand." >}}
+{{< vs l="Product changes made by the people who own the products." r="Every change an IT request; twenty years of rules inside the ERP, known to a few." >}}
+{{< vs l="To move faster than competitors and distributors." r="Competitors transforming faster; distributors starting to sell around them." >}}
+{{< /versus >}}
 
-## Framing it with the executive team {#frame}
+{{< pull >}}The fix wasn't a system. It was a capability the company didn't have — and couldn't hire at home.{{< /pull >}}
 
-The work started with the Chief Digital Officer and the executive team, not with a system. Together we named the barriers to scale, studied the competition — who was winning, at what margin, on what platform — and put the transformation in Zones' own terms: a company that sells integrated technology solutions needs one governed source of product, service and subscription data, owned by the business, and the people to keep it that way.
+## The model, as it ran
 
-That became the business case: the market, the model, the five-year objectives, a phased roadmap with a bounded first use case, and a presentation the executive team approved in March 2022. Every quarter since has been measured against it.
+{{< timeline >}}
+{{< tl when="Jan–Mar 2022" title="Framed with the executive team" >}}
+With the CDO and the executive team: the barriers to scale, the competition, and the transformation in Zones' own terms. Approved in March 2022 as the business case every quarter since has been measured against.
+{{< /tl >}}
+{{< tl when="Jul 2022" title="The venture: a center in Islamabad" >}}
+Zones' own — entity, office, leadership, staffing plan. Cost and risk down; a venture the company owns, not a vendor it renews.
+{{< /tl >}}
+{{< tl when="2022 →" title="The talent engine" >}}
+Top universities as funnel and farm system. Campus recruiting and assessments, run by us. Senior hires to seed and mentor. A 12-month fresh-graduate program on real deliverables — the training program *is* the delivery program.
+{{< /tl >}}
+{{< tl when="2023–2025" title="Shipping every quarter" >}}
+Year one split between the business and the technical foundation; something in the business's hands every quarter. Four systems now in daily use — below.
+{{< /tl >}}
+{{< tl when="2026" title="The core platform, in final testing" >}}
+Data management and merchandising: one governed source of product, service and subscription data, rules out of the ERP and into the business's hands. Live early 2027.
+{{< /tl >}}
+{{< tl when="2027" title="The team delivers the next one alone" >}}
+Global e-commerce, built by the Islamabad team without us. Our handover is being planned now.
+{{< /tl >}}
+{{< /timeline >}}
 
-## Standing up the venture {#venture}
+## What's in daily use
 
-Zones did not have the people, and could not hire them at home at the scale or cost the plan needed. So in July 2022 we kicked off a new center in Islamabad, Pakistan — Zones' own: its entity, its office, its leadership, its staffing plan. Cost and risk came down; more importantly, the company owned a venture rather than renewing a vendor.
+{{< cards cols="2" >}}
+{{< card tag="pricing" title="Competitive price analysis" >}}Pricing coverage across the catalog instead of a small subset of SKUs.{{< /card >}}
+{{< card tag="identity" title="One login for customers and partners" >}}SSO and OIDC across every Zones application.{{< /card >}}
+{{< card tag="catalog" title="Vendor feed processing" >}}Daily vendor feeds taken in, validated and processed automatically.{{< /card >}}
+{{< card tag="orders" title="Global order approvals" >}}One way, worldwide, for customers to handle purchase-order approvals.{{< /card >}}
+{{< /cards >}}
 
-## Building the talent engine {#talent}
+## The record
 
-A center is only as good as its pipeline. We built relationships with top universities as a funnel and a farm system, ran campus recruiting ourselves, and wrote the assessments. Senior hires were found to seed the team and mentor it. Every fresh graduate joined a 12-month program that starts after graduation and rotates them through disciplines on real deliverables — the training program and the delivery program are the same program.
+{{< ledger >}}
 
-Today the center is 70+ people, recruited and trained in-house, running the platform.
-
-## Shipping every quarter {#ship}
-
-Year one's deliverables were split between the business and the technical foundation, and something was in the business's hands each quarter. Over three and a half years the center has delivered, into daily use:
-
-- **A competitive price analysis tool** — pricing coverage across the catalog instead of a small subset of SKUs.
-- **Identity and access management** — one login for customers and partners across every Zones application, with SSO and OIDC integration.
-- **An e-commerce catalog processing system** — daily vendor feeds taken in, validated and processed automatically.
-- **An order approval system** — one way, globally, for customers to handle purchase-order approvals.
-
-## Building what the business needs {#systems}
-
-The core of the transformation — data management and merchandising, the single governed source of product, service and subscription data — is in testing now and goes live in early 2027. It replaces the content-management tool and the fragmented catalog processes, takes the business rules out of the ERP and into something the business configures itself, and puts product changes in the hands of the people who own the products.
-
-## Adjusting continuously, with leadership {#adjust}
-
-Nothing about this ran on rails. Markets moved, the organization changed, and the plan changed with them — in partnership with senior leadership, measured by what improved: process, talent, technology, and what Zones can now offer its customers that it couldn't before.
-
-## Where it stands {#today}
-
-The transformation is ongoing. The core platform is in its final testing. Our handover is being planned — and the measure of the model is what comes after it: in 2027 the Islamabad team delivers Zones' globally integrated e-commerce system on its own.
-
-That is the point of the whole thing. The consultants leave. The capability doesn't.
+Nothing about this ran on rails. Markets moved, the organization changed, and the plan changed with them — in partnership with senior leadership, measured by process, talent, technology, and what Zones can now offer its customers that it couldn't before.

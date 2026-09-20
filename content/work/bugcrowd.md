@@ -23,24 +23,46 @@ steps: ["Framed with leadership", "What the business needs, specified", "Handed 
 outcome: "Bugcrowd implemented both strategies — the data services framework and the crowd management system — entirely with its own people. No dependency on us, no second engagement to finish the first. That is the model working at its smallest: frame it, specify it, hand it over, and the capability stays."
 ---
 
-Bugcrowd runs a platform where companies pay to have security researchers find their vulnerabilities. In 2019 it was growing on two sides at once — customers buying programs, and a crowd of researchers doing the work — and its systems treated both as one thing. Data definitions were inconsistent. Insight stopped at a renewal report and a time-to-triage number. Data and application logic were tightly coupled, so every new question was an engineering request: thirty in the queue, three in progress, two to four weeks each, most of them for a simple aggregation or a profile lookup. And there was no structured way to recruit, pay or keep the researchers the whole business depended on.
+## The diagnosis leadership acted on
 
-## Framing it with leadership {#frame}
+{{< pull >}}Bugcrowd is two businesses: a cybersecurity company that helps customers remediate threats, and a talent agency for the people who do it. Its systems treated them as one.{{< /pull >}}
 
-The first deliverable was a diagnosis leadership could act on: **Bugcrowd is two businesses.** A cybersecurity company that helps customers remediate threats, and a talent agency for cybersecurity professionals. Each has its own lifecycle — customers *try, pay, and share*; the crowd *joins, gets paid, and shares* — and identical workflows across the two produce very different outcomes. The relationship between them was unbalanced, and that imbalance was capping how far either could scale.
+{{< versus left="Customer lifecycle" right="Crowd lifecycle" >}}
+{{< vs l="**Mindshare** — try the platform" r="**Mindshare** — join the platform" >}}
+{{< vs l="**Wallet share** — pay for a subscription" r="**Wallet share** — get paid for security work" >}}
+{{< vs l="**Experience share** — tell other customers" r="**Experience share** — tell other researchers" >}}
+{{< /versus >}}
 
-From there the transformation could be stated in the company's own terms: manage the two systems separately until they can converge, build the data foundation both need, and become the *gateway* — the best talent for every program, the best outcomes and return on time for every researcher.
+Identical workflows across the two produce very different outcomes, and the imbalance between them was capping how far either could scale. The transformation, in Bugcrowd's own terms: manage the two separately until they can converge, build the data foundation both need, and become the *gateway* — the best talent for every program, the best return on time for every researcher.
 
-## What we delivered {#delivered}
+## Where the data stood
 
-**A data strategy and roadmap.** An "open access" data services framework: an information architecture with a proper entity model and master data for platform and enterprise data; an ingestion and export layer to replace ad hoc extracts; programmatic data access so new products and self-service reporting stop being engineering tickets. Sequenced by quarter — infrastructure and single source of truth first, a machine-learning-ready data services MVP after — with the concrete first moves named: a normalized transactional model, a Postgres decision, an ETL spike, and an operational data store that new features and reporting could build on without touching the platform's database.
+{{< cards cols="3" >}}
+{{< card tag="queue" title="30 requests waiting, 3 in progress" >}}Two to four weeks each. Most were a simple aggregation or a profile lookup.{{< /card >}}
+{{< card tag="insight" title="A renewal report and time-to-triage" >}}That was the reporting. Definitions inconsistent from one team to the next.{{< /card >}}
+{{< card tag="coupling" title="Data tied to application logic" >}}Every new question meant touching the platform. No data-driven workflow anywhere.{{< /card >}}
+{{< /cards >}}
 
-**The features the data would unlock, specified.** A security knowledge base — an aggregated, access-controlled vulnerability repository with a recommendation engine. Crowd Match — profile-based matching of vulnerability types to researchers and teams, with the mockups, the information architecture, and the path from prototype to customer-ready. Auto-remediation, with the honest note that it needed a build-or-buy decision before anything else. Each with a goal, a target use case, and a five-step delivery path.
+## What we delivered
 
-**A crowd management system, from first principles.** The crowd is not a list of researchers; it is talent that can complete a unit of cybersecurity work, and it wants work matched to its skills that maximizes its return on time — and to be valued. So: a lifecycle — recruiting, onboarding, producing, nurturing — with the current state and desired state at each stage; payout models beyond fixed program rates (team, dynamic, promotional, task-, project- and residual-based); the social and financial incentives that turn researchers into evangelists; and stage-by-stage requirements across people, process and product. Then the workflows and the dashboards, drawn — earnings, teams, programs, hours — so engineering had something to build from rather than something to interpret.
+{{< timeline >}}
+{{< tl when="Strategy" title="An open-access data services framework" >}}
+An information architecture with a real entity model and master data; ingestion and export instead of ad hoc extracts; programmatic access so new products and self-service reporting stop being tickets. First moves named: a normalized transactional model, a Postgres decision, an ETL spike, an operational data store.
+{{< /tl >}}
+{{< tl when="Roadmap" title="Three quarters, sequenced" >}}
+Infrastructure and a single source of truth first; a machine-learning-ready data services MVP after. Each feature with a goal, a target use case and a five-step path.
+{{< /tl >}}
+{{< tl when="Features" title="What the data unlocks" >}}
+A security knowledge base with a recommendation engine. **Crowd Match** — profile-based matching of vulnerabilities to researchers and teams, with the mockups and information architecture. Auto-remediation, with the honest note that it needed a build-or-buy decision first.
+{{< /tl >}}
+{{< tl when="Crowd" title="Crowd management, from first principles" >}}
+The crowd is talent that completes units of security work and wants work matched to its skills — and to be valued. A lifecycle: recruit, onboard, produce, nurture. Payout models beyond fixed rates. Incentives that turn researchers into evangelists. Requirements by stage across people, process and product. The dashboards, drawn.
+{{< /tl >}}
+{{< tl when="Organization" title="An Enterprise Data Engineering group" >}}
+A lead, an architect, three engineers — the conduit between operations and the platform. The ask to leadership stated plainly: staff it, put data on the product board's agenda, decide whether to accelerate.
+{{< /tl >}}
+{{< /timeline >}}
 
-**An organizational recommendation.** A dedicated Enterprise Data Engineering group — a lead, an architect, three engineers — as the conduit between corporate operations and the platform, with the ask to leadership stated plainly: staff it, put data requirements on the product review board's agenda, and decide whether to accelerate with outside help.
+## What Bugcrowd did with it
 
-## What it asked of the model {#model}
-
-This was the front of the model without the venture: frame it with leadership, specify what the business needs, and hand the company a plan and prototypes it can act on. Bugcrowd then did exactly that — it implemented the data strategy and the crowd management system in full with its own internal resources. A company that had been answering data questions one ticket at a time now answers them structurally, with an organization of its own to keep doing so.
+Implemented both — the data services framework and the crowd management system — in full, with its own internal team. The front half of the model without the venture: frame it, specify it, hand it over, and the capability stays.
