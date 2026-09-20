@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="page wwd">
+  <div class="wrap wide">
+    <div class="head" style="text-align:left;max-width:52rem;margin:0 0 40px">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    <div class="stepgrid-head"><span>Step</span><span>What happens</span><span>You get</span><span>What it asks of you</span></div>
+    {{ range hugo.Data.steps }}
+    <div class="steprow" id="{{ .n }}">
+      <div class="sr-title"><span class="n">{{ .n }}</span><h2>{{ .title }}</h2>{{ with .zones }}<p class="sr-zones"><span>At Zones</span> {{ . }}</p>{{ end }}</div>
+      <div class="sr-happens"><p>{{ .happens }}</p></div>
+      <div class="sr-get"><ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul></div>
+      <div class="sr-asks"><p>{{ .asks }}</p></div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<section class="alt" id="how-an-engagement-runs">
+  <div class="wrap wide">
+    {{ $e := hugo.Data.engagement }}
+    <div class="center"><span class="eyebrow">How an engagement runs</span><h2 style="margin-top:16px">From a first conversation to a handover that's planned on day one.</h2></div>
+    <div class="runs">
+      {{ range $e.runs }}<div class="run"><span class="when">{{ .when }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
+    </div>
+    <div class="center" style="margin-top:56px"><span class="eyebrow">Ways to engage</span></div>
+    <div class="formats">
+      {{ range $e.formats }}<div class="format"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "cta.html" . }}
+{{ end }}
