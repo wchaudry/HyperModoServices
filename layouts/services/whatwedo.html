@@ -11,7 +11,7 @@
     <div class="stepgrid-head"><span>Step</span><span>What happens</span><span>You get</span><span>What it asks of you</span></div>
     {{ range hugo.Data.steps }}
     <div class="steprow" id="{{ .n }}">
-      <div class="sr-title"><span class="n">{{ .n }}</span><h2>{{ .title }}</h2>{{ with .zones }}<p class="sr-zones"><span>At Zones</span> {{ . }}</p>{{ end }}</div>
+      <div class="sr-title"><h2><span class="n">{{ .n }}</span>{{ .title }}</h2>{{ with .zones }}<p class="sr-zones"><span>At Zones</span>{{ . }}</p>{{ end }}</div>
       <div class="sr-happens"><p>{{ .happens }}</p></div>
       <div class="sr-get"><ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul></div>
       <div class="sr-asks"><p>{{ .asks }}</p></div>
