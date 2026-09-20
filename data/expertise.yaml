@@ -1,5 +1,8 @@
 - category: Transformation strategy
   key: transformation
+  image: sketch-whiteboard.jpg
+  alt: "Sketching a plan on a whiteboard"
+  stats: [{v: "March 2022", l: "Zones program approved"}, {v: "2 × 90 days", l: "Bugcrowd, strategy to plan"}]
   line: "The frame everything else hangs on: where the business is, where it wants to go, what has to change — and how the change is owned, governed and delivered."
   items:
     - title: Business case and competitive analysis
@@ -24,6 +27,9 @@
       proof: "Zones: four systems delivered into daily use across 2023–2025; a 1,700-case test plan and a readiness assessment for the core platform going live in 2027."
 - category: People strategy
   key: people
+  image: islamabad-mosque.jpg
+  alt: "Islamabad"
+  stats: [{v: "Jul 2022", l: "Islamabad center kicked off"}, {v: "70+", l: "people, trained in-house"}, {v: "12 months", l: "the graduate program"}]
   line: "The capability the company doesn't have and can't hire at home — built as its own venture, staffed, led, and handed over."
   items:
     - title: The venture and the center
@@ -40,6 +46,10 @@
       proof: "Zones: handover being planned now; in 2027 the Islamabad team delivers global e-commerce without us."
 - category: Technical strategy
   key: technical
+  artifact: artifacts/zones-platform-map.png
+  alt: "The Zones platform component map: Commerce, Content, Data and Access Studio, their capabilities, ecosystem and revenue streams"
+  caption: "Zones platform map, 2026"
+  stats: [{v: "4", l: "systems in daily use"}, {v: "2027", l: "core platform live"}]
   line: "Not a list of technologies. A set of positions on how a business comes to own its technology instead of renting it from its systems of record — the specialization is enterprise data systems, and this is how we approach them."
   items:
     - title: Decouple the business from its systems of record
@@ -69,6 +79,8 @@
       proof: "A live production data platform: 59 engineering projects, 3,300+ recorded findings and decisions, every change reviewed to a written standard before commit."
 - category: Specialized capabilities
   key: capabilities
+  image: engineers-pair.jpg
+  alt: "Two engineers working side by side"
   line: "The practice areas we bring to a step when it needs them — each a discipline in its own right, each ending in a deliverable."
   items:
     - title: Product management
