@@ -44,14 +44,18 @@
   </div>
 </section>
 
-<section>
-  <div class="wrap">
-    <div class="center"><span class="eyebrow">Proof</span><h2 style="margin-top:16px">Numbers with documents behind them</h2></div>
-    <div class="proof">{{ range hugo.Data.proof }}<div><b>{{ .value }}</b><span>{{ .label }}</span></div>{{ end }}</div>
-    <div class="quotes">
-      {{ range hugo.Data.quotes }}
-      <div class="q{{ if .placeholder }} placeholder{{ end }}">{{ if .placeholder }}<span class="ph">placeholder — needs a real quote</span>{{ end }}<p{{ if .placeholder }} style="margin-top:10px"{{ end }}>“{{ .text }}”</p><div class="who"><i></i><div><b>{{ .name }}</b>{{ .title }}</div></div></div>
-      {{ end }}
+<section id="proof">
+  <div class="wrap wide">
+    {{ $f := hugo.Data.featured }}
+    <div class="featured">
+      <div class="featured-copy">
+        <span class="eyebrow">{{ $f.eyebrow }} · {{ $f.client }}</span>
+        <h2 style="margin-top:16px">{{ $f.heading }}</h2>
+        <p class="lead">{{ $f.lead }}</p>
+        <dl class="facts">{{ range $f.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
+        <a class="btn primary" href="{{ $f.link | relURL }}">{{ $f.link_label }}</a>
+      </div>
+      <div class="featured-object">{{ partial "ledger.html" . }}</div>
     </div>
   </div>
 </section>

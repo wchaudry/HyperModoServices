@@ -1,0 +1,13 @@
+eyebrow: Proof
+client: Zones LLC
+heading: "A $3B company, and the transformation engine we built inside it."
+lead: "Zones is a $3B IT solutions provider. Its product data was split across three departments, twenty years of business rules lived inside the ERP, and it could not sell hardware, services and subscriptions as one offer. Here is the model, as it ran."
+facts:
+  - { k: "Framed with", v: "the CDO and executive team — strategy, competitive analysis, business case" }
+  - { k: "Venture", v: "a new digital center in Pakistan, staffed and run as Zones' own" }
+  - { k: "Talent engine", v: "campus recruiting at top universities, an internship, a nine-month rotation, senior seed hires" }
+  - { k: "Cadence", v: "finished work in use every quarter; six platform products by year four" }
+  - { k: "Systems", v: "master data, ingestion, rules, merchandising, identity, documentation — three legacy systems retired" }
+  - { k: "Team", v: "seventy people, recruited and trained; fifty-plus graduates kept on" }
+link: /work/enterprise-data-platform/
+link_label: Read the case study
