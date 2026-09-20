@@ -18,7 +18,7 @@ metrics:
 glance:
   - { k: "Client", v: "Zones LLC — IT solutions provider, $3B revenue" }
   - { k: "Engagement", v: "March 2022 – today" }
-  - { k: "Our role", v: "Program owner: strategy, the venture, the team, delivery — a $1.5M-a-year program" }
+  - { k: "Our role", v: "Program owner since 2022: strategy, the venture, the team, delivery — across five legal entities" }
   - { k: "The venture", v: "A new center in Islamabad, opened July 2022, Zones' own" }
   - { k: "Where it stands", v: "Core platform in final testing; handover being planned" }
 steps: ["Framed with the executive team", "Venture stood up", "Talent engine built", "Delivering every quarter", "Core platform in testing", "Adjusting with leadership"]
