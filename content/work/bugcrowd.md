@@ -45,7 +45,7 @@ Identical workflows across the two produce very different outcomes, and the imba
 {{< cards cols="3" >}}
 {{< card tag="queue" title="30 requests waiting, 3 in progress" >}}Two to four weeks each. Most were a simple aggregation or a profile lookup.{{< /card >}}
 {{< card tag="insight" title="A renewal report and time-to-triage" >}}That was the reporting. Definitions inconsistent from one team to the next.{{< /card >}}
-{{< card tag="coupling" title="Data tied to application logic" >}}Every new question meant touching the platform. No data-driven workflow anywhere.{{< /card >}}
+{{< card tag="coupling" title="Data tied to application logic" >}}Every new question meant touching the platform. No data-driven workflow to speak of.{{< /card >}}
 {{< /cards >}}
 
 ## What we delivered
@@ -61,7 +61,7 @@ Infrastructure and a single source of truth first; a machine-learning-ready data
 A security knowledge base with a recommendation engine. **Crowd Match** — profile-based matching of vulnerabilities to researchers and teams, with the mockups and information architecture. Auto-remediation, with the honest note that it needed a build-or-buy decision first.
 {{< /tl >}}
 {{< tl when="Crowd" title="Crowd management, from first principles" >}}
-The crowd is talent that completes units of security work and wants work matched to its skills — and to be valued. A lifecycle: recruit, onboard, produce, nurture. Payout models beyond fixed rates. Incentives that turn researchers into evangelists. Requirements by stage across people, process and product. The dashboards, drawn.
+The crowd is talent that completes units of security work and wants work matched to its skills — and to be valued. A lifecycle: recruit, onboard, produce, nurture. Payout models beyond fixed rates. Incentives that turn researchers into evangelists. Requirements by stage across people, process and product. We drew the dashboards.
 {{< /tl >}}
 {{< tl when="Organization" title="An Enterprise Data Engineering group" >}}
 A lead, an architect, three engineers — the conduit between operations and the platform. The ask to leadership stated plainly: staff it, put data on the product board's agenda, decide whether to accelerate.
@@ -70,4 +70,4 @@ A lead, an architect, three engineers — the conduit between operations and the
 
 ## What Bugcrowd did with it
 
-Implemented both — the data services framework and the crowd management system — in full, with its own internal team. The front half of the model without the venture: frame it, specify it, hand it over, and the capability stays.
+Implemented both — the data services framework and the crowd management system — in full, with its own internal team, and no follow-on engagement to finish the first.

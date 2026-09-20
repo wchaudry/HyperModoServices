@@ -11,7 +11,7 @@ points:
   - photo: stickies.jpg
     alt: "Two people planning a quarter on a wall of notes"
     fail: "<b>Everything lands at go-live — if go-live lands.</b> Two years, one cutover, and nothing a customer can touch until then."
-    answer: "<b>Something is delivered every quarter, from the first.</b> The training program is the delivery program: finished work, in use, is how the team learns and how leadership sees progress."
+    answer: "<b>Something is delivered every quarter, from the first.</b> Finished work, in use, is how the team learns and how leadership sees progress — no two-year wait for a cutover."
   - photo: engineers-pair.jpg
     alt: "Two engineers working side by side"
     fail: "<b>The consultants leave with the expertise.</b> What remains is a capability nobody inside owns and a contract to renew."

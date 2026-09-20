@@ -5,7 +5,7 @@ runs:
   - when: "Week 1–2"
     title: A scoped proposal
     text: The deliverables, who on your side owns each afterwards, the timeline, the price. Fixed fee or time and materials, corp-to-corp through Xymbia Inc.
-  - when: "Weeks 2–6"
+  - when: "Then"
     title: The work begins
     text: Two to six weeks from the proposal to a start. Weekly written status from the first week — root causes and slips as they happen, not after.
   - when: "From day one"
@@ -17,4 +17,4 @@ formats:
   - title: A single step
     text: The business case alone; the talent engine alone; a 90-day strategy your team then executes — as at Bugcrowd.
   - title: Fractional leadership
-    text: Head of platform or CTO for a company that has the need and not the headcount, with a handover plan from day one.
+    text: Head of platform or CTO for a company that has the need and not the headcount, with a handover plan and a named successor from day one.

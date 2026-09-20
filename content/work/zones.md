@@ -1,6 +1,6 @@
 ---
 title: "Zones: a transformation engine, built inside a $3B company"
-summary: "How a $3B IT solutions provider went from product data it couldn't govern to a center of its own — in Islamabad, 70+ people, four systems in use, the core platform going live in 2027 — and what it took."
+summary: "How a $3B IT solutions provider went from product data it couldn't govern to a center of its own that governs it — Islamabad, 70+ people, four systems in use, the core platform going live in 2027 — and what it took."
 date: 2022-03-01
 lastmod: 2026-09-20
 client: "Zones LLC"
@@ -21,7 +21,7 @@ glance:
   - { k: "Our role", v: "Program owner: strategy, the venture, the team, delivery — a $1.5M-a-year program" }
   - { k: "The venture", v: "A new center in Islamabad, opened July 2022, Zones' own" }
   - { k: "Where it stands", v: "Core platform in final testing; handover being planned" }
-steps: ["Framed with the executive team", "Venture stood up", "Talent engine built", "Shipping every quarter", "Core platform in testing", "Adjusting with leadership"]
+steps: ["Framed with the executive team", "Venture stood up", "Talent engine built", "Delivering every quarter", "Core platform in testing", "Adjusting with leadership"]
 outcome: "A $3B company now has a transformation engine of its own: a center in Islamabad, 70+ people it recruited and trained, four systems in daily use and the core platform going live in 2027. The next system — global e-commerce — the team delivers without us."
 ---
 
@@ -51,7 +51,7 @@ Zones' own — entity, office, leadership, staffing plan. Cost and risk down; a 
 Top universities as funnel and farm system. Campus recruiting and assessments, run by us. Senior hires to seed and mentor. A 12-month fresh-graduate program on real deliverables — the training program *is* the delivery program.
 {{< /tl >}}
 {{< tl when="2023–2025" title="Delivering every quarter" >}}
-Year one split between the business and the technical foundation; something in the business's hands every quarter. Four systems now in daily use — below.
+From the first year, every quarter delivered something the business could use — a pricing tool, a login — while the data foundation went in underneath. Four systems now in daily use — below.
 {{< /tl >}}
 {{< tl when="2026" title="The core platform, in final testing" >}}
 Data management and merchandising: one governed source of product, service and subscription data, rules out of the ERP and into the business's hands. Live early 2027.

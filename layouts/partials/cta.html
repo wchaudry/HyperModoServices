@@ -1,4 +1,5 @@
 {{ $c := hugo.Data.cta }}
+{{ if ne .Section "contact" }}
 <section id="talk" style="padding-top:0">
   <div class="wrap">
     <div class="cta">
@@ -10,3 +11,4 @@
     </div>
   </div>
 </section>
+{{ end }}

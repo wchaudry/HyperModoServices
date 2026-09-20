@@ -7,7 +7,7 @@ facts:
   - { k: "Venture", v: "a new center in Islamabad, opened July 2022, staffed and run as Zones' own" }
   - { k: "Talent engine", v: "campus recruiting at top universities, a 12-month fresh-graduate program, senior seed hires" }
   - { k: "In use", v: "competitive pricing, identity and SSO, catalog processing, order approvals" }
-  - { k: "Next", v: "the core data and merchandising platform, live early 2027; then global e-commerce, delivered by the team" }
+  - { k: "Next", v: "the core platform, live early 2027; then global e-commerce, delivered by the team" }
   - { k: "Team", v: "70+ people today, recruited and trained in-house, running it" }
 link: /work/zones/
 link_label: Read the case study

@@ -11,7 +11,7 @@ steps:
     anchor: venture
   - n: "03"
     title: Build the talent engine
-    text: "Top universities as the funnel and the farm system. Campus recruiting with assessments we write. Senior hires to seed the team and mentor it. A year-long rotation, so every new hire delivers across disciplines before they specialize."
+    text: "Top universities as the funnel and the farm system. Campus recruiting with assessments we write. Senior hires to seed the team and mentor it. A 12-month program for every graduate, delivering across disciplines before they specialize."
     anchor: talent
   - n: "04"
     title: Deliver every quarter
@@ -19,7 +19,7 @@ steps:
     anchor: ship
   - n: "05"
     title: Build what the business needs
-    text: "Processes, products, platforms — whatever the transformation calls for, designed, built and put into use. Where it's software, most of the code is written by AI agents under a framework your people learn to run, so the pace outlasts us."
+    text: "Processes, products, platforms — whatever the transformation calls for, designed, built and put into use. Where it's software, most of the code is written by AI agents under a framework your people learn to run, so the pace stays when we go."
     anchor: systems
   - n: "06"
     title: Adjust continuously, with leadership

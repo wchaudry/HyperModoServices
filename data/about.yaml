@@ -5,9 +5,9 @@ firm:
     - "We do it as a venture the company owns — a center, its own people, finished work in use every quarter — and we plan the handover from the first day. When the engagement ends, the capability stays. That is the difference from a consultancy, and it is the whole point."
   facts:
     - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc." }
-    - { k: "Based", v: "New York / Philadelphia; the Zones center in Islamabad" }
+    - { k: "Based", v: "New York / Philadelphia; work delivered in Islamabad since 2022" }
     - { k: "Specialization", v: "Enterprise data systems, and the people and process around them" }
-    - { k: "Working now", v: "Zones LLC, program owner since 2022 — handover being planned" }
+    - { k: "Working now", v: "Zones LLC, program owner since 2022" }
 principal:
   name: Wiqar Chaudry
   role: Principal
@@ -23,9 +23,9 @@ principal:
 engage:
   heading: "How to engage"
   formats:
-    - { title: "The full program", text: "Business case to go-live with one owner — the six steps as they ran at Zones. Multi-year; priced as an annual program." }
-    - { title: "A single step", text: "The business case alone, the talent engine alone, or a 90-day strategy your team then executes — as at Bugcrowd. Fixed fee." }
-    - { title: "Fractional leadership", text: "Head of platform or CTO, with a handover plan and a named successor from day one. Time and materials." }
+    - { title: "The full program", text: "Business case to go-live with one owner — the six steps as they ran at Zones. Multi-year." }
+    - { title: "A single step", text: "The business case alone, the talent engine alone, or a 90-day strategy your team then executes — as at Bugcrowd." }
+    - { title: "Fractional leadership", text: "Head of platform or CTO, with a handover plan and a named successor from day one." }
   terms:
     - "Corp-to-corp through Xymbia Inc."
     - "Two to six weeks from a proposal to a start"
