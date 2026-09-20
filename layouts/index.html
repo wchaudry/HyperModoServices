@@ -71,8 +71,11 @@
 <section id="work" style="padding-top:0">
   <div class="wrap">
     {{ $e := hugo.Data.engagements }}
-    <div class="center"><span class="eyebrow">Client highlights</span><h2 style="margin-top:16px">{{ $e.heading }}</h2></div>
-    <div class="cases">
+    <div class="sechead">
+      <div><span class="eyebrow">Client highlights</span><h2>{{ $e.heading }}</h2></div>
+      <p class="sechead-sub">{{ $e.sub }}</p>
+    </div>
+    <div class="cases two">
       {{ range $e.items }}
       <div class="acard static"><div class="top"><span>{{ .client }} · {{ .period }}</span></div><div class="body"><h3>{{ .title }}</h3><p>{{ .text }}</p></div></div>
       {{ end }}

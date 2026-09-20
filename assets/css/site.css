@@ -296,6 +296,7 @@
 
   /* cases */
   .cases{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
+  .cases.two{grid-template-columns:repeat(2,1fr);gap:24px;margin-top:0}
   @media (max-width:820px){.cases{grid-template-columns:1fr}}
   .case{border:1px solid var(--rule);border-radius:14px;overflow:hidden;background:var(--card);display:flex;flex-direction:column}
   .case .top{height:120px;background:linear-gradient(135deg,var(--violet-soft),transparent);border-bottom:1px solid var(--rule);padding:16px;display:flex;align-items:flex-end}
