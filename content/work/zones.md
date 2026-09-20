@@ -38,8 +38,6 @@ outcome: "A $3B company now has a transformation engine of its own: a center in 
 
 ## The model, as it ran
 
-{{< viz "center" >}}
-
 {{< timeline >}}
 {{< tl when="Jan–Mar 2022" title="Framed with the executive team" >}}
 With the CDO and the executive team: the barriers to scale, the competition, and the transformation in Zones' own terms. Approved in March 2022 as the business case every quarter since has been measured against.
