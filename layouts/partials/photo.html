@@ -1,1 +1,1 @@
-<figure class="photo{{ with .class }} {{ . }}{{ end }}"><img src="{{ printf "photos/%s" .src | relURL }}" alt="{{ .alt }}" loading="lazy">{{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
+<figure class="photo{{ with .class }} {{ . }}{{ end }}"><img src="{{ printf "photos/%s" .src | relURL }}" alt="{{ .alt }}"{{ if ne .class "inline" }}{{ else }} loading="lazy"{{ end }}>{{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
