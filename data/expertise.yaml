@@ -40,17 +40,33 @@
       proof: "Zones: handover being planned now; in 2027 the Islamabad team delivers global e-commerce without us."
 - category: Technical strategy
   key: technical
-  line: "The specialization is enterprise data systems; the strategy is the architecture, platform and infrastructure that let a business own its own technology."
+  line: "Not a list of technologies. A set of positions on how a business comes to own its technology instead of renting it from its systems of record — the specialization is enterprise data systems, and this is how we approach them."
   items:
-    - title: Enterprise data systems
+    - title: Decouple the business from its systems of record
       spec: true
-      blurb: Master data, ingestion, integration — taken to production, then handed over.
-      deliver: ["A master-data model with lineage — transaction, staging, master", "Ingestion from anything — EDI, distributor catalogs, SFTP/HTTP/API feeds, spreadsheets", "A rules engine the business configures — validation, correction, precedence, pricing", "Integration to D365 F&O and CE, e-commerce, CRM — with change data capture", Production data forensics when a pipeline reports success and drops rows]
-      proof: "Zones: one login across every application, daily vendor-feed catalog processing, global order approvals, and the core data and merchandising platform in final testing. Earlier: distributed SQL at NuoDB, ETL at Expressor, terabyte-scale marketing databases at Epsilon."
-    - title: Infrastructure and platform
-      blurb: The cloud underneath, as code, with the operational readiness to run it.
-      deliver: ["Infrastructure as code on Azure — network, AKS, managed PostgreSQL", "Security — WAF, private subnets, secrets rotation", "Monitoring, alerting, backups, DR planning", "Support model — L1/L2/L3, runbooks, cross-training"]
-      proof: "Zones: a hub-and-spoke Azure estate, 99% Terraform-managed, WAF on production, alerts to Teams — and a readiness assessment that said plainly what was and wasn't yet validated."
+      blurb: The ERP is where transactions live, not where the business's knowledge should. Product, service and subscription data moves into a governed platform the business owns; the ERP becomes a consumer of it, kept in sync — and legacy is retired only after the platform has proven it can carry the load.
+      deliver: [The target architecture and the seams between platform and ERP, Bi-directional synchronization so existing investment keeps working, A migration path with legacy retired on evidence, Business rules recovered from the ERP and made configurable]
+      proof: "Zones: twenty years of rules recovered from AX and coded into a rules engine the business configures; D365 F&O kept in bi-directional sync with the platform; the ERP no longer the place product knowledge lives."
+    - title: Data first, experiences on top
+      blurb: One governed source of truth before any experience is built on it — a three-tier model with lineage to the source, and rules for validation, correction and precedence the business configures itself. Merchandising, commerce and AI come after the foundation holds, not before.
+      deliver: ["A master-data model with lineage — transaction, staging, master", A rules engine the business owns, Ingestion from every feed the business depends on, "A phased sequence — foundation, then experience, then automation"]
+      proof: "Zones: Phase 1 is the data foundation — identity, ingestion, order approvals and pricing in use; the core data and merchandising platform in final testing — with experience management and AI as Phases 2 and 3, in that order."
+    - title: A platform, not a project
+      blurb: Every component built as a product that could stand alone — extensible by design, tenant-ready by default. Every connector on a plugin framework; every application registered against the identity layer; the deployment able to take a second customer without a rebuild.
+      deliver: [A plugin framework for connectors and transforms, An identity layer other applications register against, Multi-tenant deployment from day one, "Components with a commercial path — SaaS, integration services, data-as-a-service"]
+      proof: "Zones: every connector on the plugin framework; Simple Docs built and registered as a third-party app to prove the ecosystem model; Access Studio designed as standalone authentication; the cloud deployment sized for additional customers by default."
+    - title: Integrate early, find the unknowns
+      blurb: The value of a platform is only realized when it's connected, so integration starts before the platform is finished — small sprints against real systems to surface the unknown unknowns while they're cheap.
+      deliver: [Integration sprints against live systems from the first quarter, A test plan derived from the integration surface, Recurring data refreshes so comparison testing is honest, Fast fixes for the gaps integration exposes]
+      proof: "Zones: D365 integration built and tested alongside the platform; recurring F&O refreshes keep environments aligned for comparative testing; a 1,700-case plan across ingestion, rules and the F&O seam."
+    - title: Everything reproducible, everything observable
+      blurb: Infrastructure as code so the estate can be rebuilt, monitoring so it can be trusted, and a readiness assessment that says plainly what has and hasn't been validated.
+      deliver: ["Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, A production-readiness assessment with named gaps and owners, "A support model — tiers, runbooks, cross-training"]
+      proof: "Zones: a hub-and-spoke Azure estate, 99% Terraform-managed, WAF on production, alerts to Teams — and a December 2025 readiness assessment that separated what was built from what was proven."
+    - title: Throughput that outlasts the team
+      blurb: Most of the code written by AI agents under a written operating model — so the pace of engineering doesn't depend on who is in the room, and the client's own people can run it.
+      deliver: [The agentic framework installed in the client's repositories, Review gates as code, Engineers trained to direct and review agent-written code]
+      proof: "A live production data platform: 59 engineering projects, 3,300+ recorded findings and decisions, every change reviewed to a written standard before commit."
 - category: Specialized capabilities
   key: capabilities
   line: "The practice areas we bring to a step when it needs them — each a discipline in its own right, each ending in a deliverable."
@@ -71,7 +87,3 @@
       blurb: People trained by delivering real work across disciplines, on a rotation, with a mentor. Not a bootcamp.
       deliver: [A curriculum per discipline built from your stack and backlog, A 12-month rotation on real deliverables, A management track and a technical-expert track, Success measured by what was delivered and who stayed]
       proof: "The Zones Digital Leadership Program — 12 months for fresh graduates across DevOps, UI, backend, frontend, product and security, on production systems. At university: graduate instructor in systems design at Boston University's Metropolitan College; adjunct professor of web development at Mercer County Community College."
-    - title: AI-based agentic development
-      blurb: Most of the code on a live production system written by AI agents, under an operating model that makes it safe — installed in your repositories.
-      deliver: ["The framework — directives, session protocols, a persistent knowledge base", Review gates as code, Your engineers trained to direct and review agent-written code, "The work itself — agents doing production engineering under our review"]
-      proof: "A live production data platform: 59 engineering projects, 3,300+ recorded findings and decisions, every change reviewed to a written standard before commit. The same model runs Xymbia's own platform."
