@@ -13,37 +13,48 @@
   </div>
 </section>
 
-<section id="principal">
-  <div class="wrap wide">
-    <div class="about-person">
-      <div class="about-photo">{{ with $a.principal.photo }}<img src="{{ . | relURL }}" alt="{{ $a.principal.name }}">{{ else }}<div class="about-photo-empty"><span>{{ $a.principal.name }}</span><em>photograph to come</em></div>{{ end }}</div>
-      <div class="about-bio">
-        <span class="eyebrow">{{ $a.principal.role }}</span>
-        <h2 style="margin-top:14px">{{ $a.principal.name }}</h2>
-        {{ range $a.principal.paras }}<p>{{ . }}</p>{{ end }}
-        <dl class="facts about-facts">{{ range $a.principal.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="team">
+<section id="team" class="alt">
   <div class="wrap wide">
     <div class="center"><span class="eyebrow">{{ $a.team.heading }}</span><h2 style="margin-top:16px">{{ $a.team.line }}</h2></div>
     <div class="team">
       {{ range $a.team.people }}
       <div class="member">
-        <div class="member-photo">{{ with .photo }}<img src="{{ . | relURL }}" alt="{{ $.Params.name }}">{{ else }}<span>{{ .name }}</span>{{ end }}</div>
-        <h3>{{ .name }}</h3>
-        <div class="member-role">{{ .role }}</div>
-        <p>{{ .line }}</p>
+        <button class="member-open" type="button" data-dialog="p-{{ .slug }}" aria-haspopup="dialog">
+          <div class="member-photo">{{ with .photo }}<img src="{{ . | relURL }}" alt="">{{ else }}<span>{{ .name }}</span>{{ end }}</div>
+          <h3>{{ .name }}</h3>
+          <div class="member-role">{{ .role }}</div>
+          <p>{{ .line }}</p>
+          <span class="member-more">Profile →</span>
+        </button>
+        {{ with .linkedin }}<a class="member-li" href="{{ . }}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>{{ end }}
+        <dialog class="profile" id="p-{{ .slug }}">
+          <div class="profile-inner">
+            <button class="profile-close" type="button" aria-label="Close">✕</button>
+            <div class="profile-head">
+              <div class="member-photo small">{{ with .photo }}<img src="{{ . | relURL }}" alt="">{{ else }}<span>{{ .name }}</span>{{ end }}</div>
+              <div><span class="eyebrow">{{ .role }}</span><h2 style="margin-top:10px">{{ .name }}</h2></div>
+            </div>
+            {{ range .bio }}<p>{{ . }}</p>{{ end }}
+            {{ with .facts }}<dl class="facts about-facts">{{ range . }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>{{ end }}
+            {{ with .linkedin }}<a class="btn ghost" href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+          </div>
+        </dialog>
       </div>
       {{ end }}
     </div>
   </div>
 </section>
+<script>
+(function(){
+  document.querySelectorAll('.member-open').forEach(function(b){b.addEventListener('click',function(){var d=document.getElementById(b.dataset.dialog); if(d&&d.showModal) d.showModal();});});
+  document.querySelectorAll('dialog.profile').forEach(function(d){
+    d.querySelector('.profile-close').addEventListener('click',function(){d.close();});
+    d.addEventListener('click',function(e){ if(e.target===d) d.close(); });
+  });
+})();
+</script>
 
-<section id="engage" class="alt">
+<section id="engage">
   <div class="wrap wide">
     <div class="center"><span class="eyebrow">{{ $a.engage.heading }}</span><h2 style="margin-top:16px">Three ways in, one set of terms.</h2></div>
     <div class="formats" style="margin-top:36px">
