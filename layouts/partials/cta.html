@@ -5,7 +5,7 @@
       <span class="eyebrow cta-eyebrow">{{ $c.eyebrow }}</span>
       <h2 style="margin-top:14px">{{ $c.heading }}</h2>
       <p>{{ $c.text }}</p>
-      <div class="ctas"><a class="btn primary" href="mailto:{{ .Site.Params.email }}">{{ $c.primary_label }}</a>{{ with .Site.Params.booking }}<a class="btn ghost" href="{{ . }}">Book a call</a>{{ end }}{{ with $c.secondary_url }}<a class="btn ghost" href="{{ . | relURL }}">{{ $c.secondary_label }}</a>{{ end }}</div>
+      <div class="ctas"><a class="btn primary" href="{{ "/contact/" | relURL }}">{{ $c.primary_label }}</a>{{ with .Site.Params.booking }}<a class="btn ghost" href="{{ . }}">Book a call</a>{{ end }}{{ with $c.secondary_url }}<a class="btn ghost" href="{{ . | relURL }}">{{ $c.secondary_label }}</a>{{ end }}</div>
       <p class="cta-foot">{{ .Site.Params.email }}</p>
     </div>
   </div>
