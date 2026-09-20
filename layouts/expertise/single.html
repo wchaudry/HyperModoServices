@@ -6,9 +6,9 @@
       {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
     </div>
     <nav class="xnav" aria-label="Categories">{{ range hugo.Data.expertise }}<a href="#{{ .key }}">{{ .category }}</a>{{ end }}</nav>
-    {{ range hugo.Data.expertise }}
+    {{ range $i, $c := hugo.Data.expertise }}
     <section class="xcat" id="{{ .key }}">
-      <div class="xband">
+      <div class="xband{{ if modBool $i 2 }} flip{{ end }}{{ if .dark }} dark{{ end }}">
         <div class="xband-copy">
           <h2>{{ .category }}</h2><p>{{ .line }}</p>
           {{ with .stats }}<div class="xstats">{{ range . }}<div><b>{{ .v }}</b><span>{{ .l }}</span></div>{{ end }}</div>{{ end }}
