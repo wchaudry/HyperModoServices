@@ -8,7 +8,7 @@ One case study in full — Zones — and every other engagement in brief, newest
 ## Consulting engagements
 
 ### Zones LLC — 2022 to present {#zones}
-Wrote the digital-platform strategy, sold it to the executive team, and delivered it as Program Owner: $4M over 36 months; six products in production; seventy engineers recruited and trained; BizTalk EDI, an Oracle identity system and twenty years of ERP rules retired. Case studies: [the platform](/work/enterprise-data-platform/), [the organization](/work/building-the-organization/), [production data forensics](/work/production-data-forensics/). Two earlier engagements with the same client (2018–19, 2021): a cloud application marketplace for its services teams, then the business model and platform work with the Chief Digital Officer that became the program.
+Framed the transformation with the executive team, opened a center in Islamabad in July 2022, built the talent engine, and delivered four systems into use — with the core data and merchandising platform going live in 2027 and the team delivering global e-commerce on its own after that. [The case study](/work/zones/). Two earlier engagements with the same client (2018–19, 2021): a cloud application marketplace for its services teams, then the business model and platform work with the Chief Digital Officer that became the program.
 
 ### Wasmer — Head of Product Management, 2020–2022 {#wasmer}
 WebAssembly runtime and edge-cloud platform. Wrote the enterprise platform and go-to-market plan the company is now executing, ran the early enterprise customer engagements, and set up the open-source sponsorship program so the runtime work could pay for itself.
@@ -28,7 +28,7 @@ Data-management strategy and roadmap for the next-generation email marketing pla
 ## Companies I helped build
 
 ### Nalej — Co-founder, Chief Product & Operations Officer, 2017–2020
-Edge computing: deploying and managing applications across distributed sites. Raised $2.5M from Boldstart, Sinewave, DCVC and TVC. $3M in services revenue with Toshiba Memory America. A working version for Airbus in Madrid in ninety days. A $15M, five-year contract with DARPA and AFRL, with the CMMC and ATO certification it required. Team of eighteen in three countries. Still operating, now focused on US government work. [Case study](/work/edge-computing-platform/).
+Edge computing: deploying and managing applications across distributed sites. Raised $2.5M from Boldstart, Sinewave, DCVC and TVC. $3M in services revenue with Toshiba Memory America. A working version for Airbus in Madrid in ninety days. A $15M, five-year contract with DARPA and AFRL, with the CMMC and ATO certification it required. Team of eighteen in three countries. Still operating, now focused on US government work.
 
 ### Rackspace — 2013–2017
 Three roles, promoted twice. Senior Product Manager, Corporate Strategy: ran build-buy-partner on core data technology and helped the company avoid a flawed $100M acquisition; the alternative returned $2M. Director & Chief Technologist, Partner Alliances: $1M of recurring revenue from a six-month media pilot, joint offerings for customers including Warner Music Group. Director, Technical Strategy: the data-services partner program inside corporate strategy.

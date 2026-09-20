@@ -61,7 +61,7 @@ The specialization. Master data, ingestion, integration and the infrastructure u
 - Infrastructure as code on Azure: hub-and-spoke network, AKS, managed PostgreSQL, WAF, secrets rotation, monitoring and alerting
 - Production data forensics when a pipeline reports success and quietly drops rows
 
-**Where I've done it:** the six-product platform above, replacing BizTalk EDI, an Oracle identity system and twenty years of ERP-embedded rules. Distributed SQL at NuoDB; high-speed ETL at Expressor; terabyte-scale marketing databases for Pfizer, Capital One and Bank of America at Epsilon, including the system that won an $83M contract; data-management strategy for Epsilon's next-generation email platform in ninety days. [Production data forensics](/work/production-data-forensics/).
+**Where I've done it:** at Zones — identity and SSO across every application, daily vendor-feed catalog processing, and the core data and merchandising platform now in final testing. Distributed SQL at NuoDB; high-speed ETL at Expressor; terabyte-scale marketing databases for Pfizer, Capital One and Bank of America at Epsilon, including the system that won an $83M contract; data-management strategy for Epsilon's next-generation email platform in ninety days.
 
 
 ### Product marketing
@@ -132,7 +132,7 @@ From the business case to go-live, with one owner the whole way.
 - Go-live: production-readiness assessment, test plan sized in hours, cutover, support model, handover
 - Available as full program ownership or as fractional head of platform / CTO with a handover plan from day one
 
-**Where I've done it:** wrote the digital-platform strategy for Zones LLC, a $3B IT solutions provider, sold it, and delivered it as Program Owner — $4M over 36 months, six products in production, seventy engineers recruited and trained, fifty-plus graduates kept on, three legacy systems retired. Nalej — co-founder and CPOO: $2.5M raised, $15M DARPA/AFRL contract, CMMC and ATO certification, an Airbus MVP in ninety days, eighteen people in three countries. Case studies: [the platform](/work/enterprise-data-platform/), [the organization](/work/building-the-organization/), [Nalej](/work/edge-computing-platform/).
+**Where I've done it:** Zones — framed the transformation with the executive team, stood up the Islamabad center, built the team to 70+, and delivered four systems into use with the core platform live in 2027. Nalej — co-founder and CPOO: $2.5M raised, a $15M DARPA/AFRL contract, an Airbus MVP in ninety days. [The Zones case study](/work/zones/).
 
 ### Technical training programs
 
