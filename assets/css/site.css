@@ -449,6 +449,8 @@
   .fig .tiles .wait{fill:none;stroke:var(--violet);stroke-opacity:.45;stroke-width:1.25}
   .fig .tiles .prog{fill:var(--violet)}
   .fig .k{font-family:"Plus Jakarta Sans",sans-serif;font-weight:700;font-size:13px;fill:var(--ink)}
+  .fig .big{font-family:"Plus Jakarta Sans",sans-serif;font-weight:600;font-size:30px;letter-spacing:-.02em;fill:var(--ink)}
+  .fig .m.faint{fill:var(--faint)}
   .fig .k.w{fill:var(--violet)}
   .fig .axis{stroke:var(--rule-strong);stroke-width:1}
   .fig .bar{fill:var(--mint);opacity:.85}
