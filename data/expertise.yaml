@@ -1,6 +1,6 @@
 - category: Transformation strategy
   key: transformation
-  line: "The frame everything else hangs on: where the business is, where it wants to go, and what has to change to get there."
+  line: "The frame everything else hangs on: where the business is, where it wants to go, what has to change — and how the change is owned, governed and delivered."
   items:
     - title: Business case and competitive analysis
       blurb: The barriers to scale, who is winning and on what, and the transformation stated in the business's own terms — for the people who own the outcome.
@@ -14,9 +14,17 @@
       blurb: One owner from the business case to go-live — architecture, delivery organization, vendor management, executive reporting.
       deliver: [Program charter and governance, Executive reporting that names root causes, Vendor and partner management, A handover plan from day one]
       proof: "Zones: Program Owner, 2022 to today. Nalej: co-founder and CPOO — $2.5M raised, a $15M DARPA/AFRL contract, an Airbus MVP in ninety days."
+    - title: Operating model and governance
+      blurb: The rules of the road for a center and a program — decision rights, cadences, reporting, and what "done" means.
+      deliver: [Decision rights and escalation paths, "Cadences — triage, reviews, leadership checkpoints", A written definition of done, KPI and status reporting the business trusts]
+      proof: "Zones: twice-daily triage with named owners, weekly leadership checkpoints, a handover scope defined with no Severity 1 or 2 open. Bugcrowd: an Enterprise Data Engineering group recommended, staffed and run in-house."
+    - title: Quarterly delivery and go-live
+      blurb: The training program and the delivery program as the same program — finished work in the business's hands every quarter, and a go-live that's evidenced, not hoped for.
+      deliver: [A quarterly delivery cadence, Production-readiness assessment, Test plan sized in hours, "Cutover, support model, runbooks"]
+      proof: "Zones: four systems delivered into daily use across 2023–2025; the core platform in final testing for 2027."
 - category: People strategy
   key: people
-  line: "The capability the company doesn't have and can't hire at home — built, trained, and kept."
+  line: "The capability the company doesn't have and can't hire at home — built as its own venture, staffed, led, and handed over."
   items:
     - title: The venture and the center
       blurb: A new center in a low-cost geography as the company's own — the location case, the entity, the office, the leadership, the operating model.
@@ -26,37 +34,13 @@
       blurb: Top universities as a funnel and farm system; senior hires to seed and mentor; assessments we write.
       deliver: [University partnerships and campus recruiting, Assessments and interview process, Senior seed hires, A retention model]
       proof: "Zones: campus recruiting at top universities, assessments written in-house, senior mentors seeded into every cohort."
-    - title: Technical training programs
-      blurb: People trained by delivering real work across disciplines, on a rotation, with a mentor. Not a bootcamp.
-      deliver: [A curriculum per discipline built from your stack and backlog, A 12-month rotation on real deliverables, A management track and a technical-expert track, Success measured by what was delivered and who stayed]
-      proof: "The Zones Digital Leadership Program — 12 months for fresh graduates across DevOps, UI, backend, frontend, product and security. At university: graduate instructor at Boston University's Metropolitan College; adjunct professor at Mercer County Community College."
     - title: Leadership and handover
       blurb: Fractional head of platform or CTO where the company has the need and not the headcount — with a named successor for every role we hold.
       deliver: [Architecture and delivery ownership, Hiring and assessment for leadership roles, Board and executive reporting, A handover plan and named successors]
       proof: "Zones: handover being planned; in 2027 the team delivers global e-commerce on its own. Rackspace: Chief Technologist. Nalej: CPOO."
-- category: Process strategy
-  key: process
-  line: "How work gets defined, delivered, sold and run — so value lands every quarter, not at go-live."
-  items:
-    - title: Product management
-      blurb: The work between "we should do this" and "it's in use."
-      deliver: [North-star use cases with acceptance criteria, Requirements ahead of development and the test plan derived from them, Roadmaps and phase gates, Program reporting with numbers]
-      proof: "The enterprise plan Wasmer is executing. Memento's fraud platform expanded from internal fraud to check fraud, card bust-out and AML (acquired by FIS). Zones' north-star use cases and a 1,700-case test plan."
-    - title: Quarterly delivery and go-live
-      blurb: The training program and the delivery program as the same program — finished work in the business's hands every quarter, and a go-live that's evidenced, not hoped for.
-      deliver: [A quarterly delivery cadence, Production-readiness assessment, Test plan sized in hours, "Cutover, support model, runbooks"]
-      proof: "Zones: four systems delivered into daily use across 2023–2025; the core platform in final testing for 2027."
-    - title: Product marketing and go-to-market
-      blurb: Positioning, launch and the content that sells a technical product to technical buyers.
-      deliver: ["Positioning and messaging, with the competitive analysis behind it", "Launch — site, papers, demos, campaigns", "Sales enablement and analyst positioning", Due-diligence material for an acquisition]
-      proof: "NuoDB onto the Gartner Magic Quadrant. Expressor to 30,000 downloads a month and its acquisition by Qlik. Wasmer's go-to-market and sponsorship model. BizAnalytica's services go-to-market."
-    - title: Operating model and governance
-      blurb: The rules of the road for a center and a program — decision rights, cadences, reporting, and what "done" means.
-      deliver: [Decision rights and escalation paths, "Cadences — triage, reviews, leadership checkpoints", A written definition of done, KPI and status reporting the business trusts]
-      proof: "Zones: twice-daily triage with named owners, weekly leadership checkpoints, a handover scope defined with no Severity 1 or 2 open. Bugcrowd: an Enterprise Data Engineering group recommended, staffed and run in-house."
-- category: Technology strategy
-  key: technology
-  line: "The specialization: enterprise data systems — and the platforms, design systems, infrastructure and agentic engineering around them."
+- category: Technical strategy
+  key: technical
+  line: "The specialization is enterprise data systems; the strategy is the architecture, platform and infrastructure that let a business own its own technology."
   items:
     - title: Enterprise data systems
       spec: true
@@ -67,10 +51,26 @@
       blurb: The cloud underneath, as code, with the operational readiness to run it.
       deliver: ["Infrastructure as code on Azure — network, AKS, managed PostgreSQL", "Security — WAF, private subnets, secrets rotation", "Monitoring, alerting, backups, DR planning", "Support model — L1/L2/L3, runbooks, cross-training"]
       proof: "Zones: a hub-and-spoke Azure estate, 99% Terraform-managed, with WAF on production, monitoring to Teams, and a readiness assessment that told the truth about what was and wasn't validated."
+- category: Specialized capabilities
+  key: capabilities
+  line: "The practice areas we bring to a step when it needs them — each a discipline in its own right, each ending in a deliverable."
+  items:
+    - title: Product management
+      blurb: The work between "we should do this" and "it's in use."
+      deliver: [North-star use cases with acceptance criteria, Requirements ahead of development and the test plan derived from them, Roadmaps and phase gates, Program reporting with numbers]
+      proof: "The enterprise plan Wasmer is executing. Memento's fraud platform expanded from internal fraud to check fraud, card bust-out and AML (acquired by FIS). Zones' north-star use cases and a 1,700-case test plan."
+    - title: Product marketing and go-to-market
+      blurb: Positioning, launch and the content that sells a technical product to technical buyers.
+      deliver: ["Positioning and messaging, with the competitive analysis behind it", "Launch — site, papers, demos, campaigns", "Sales enablement and analyst positioning", Due-diligence material for an acquisition]
+      proof: "NuoDB onto the Gartner Magic Quadrant. Expressor to 30,000 downloads a month and its acquisition by Qlik. Wasmer's go-to-market and sponsorship model. BizAnalytica's services go-to-market."
     - title: UX and design systems
       blurb: Screens validated before they're built, and the tokens and components that make them real — published as packages your engineers install.
       deliver: [Journey maps and Figma flows tested against real process, "Design tokens — color, type, spacing, light and dark", A component library as versioned npm packages with docs, "Mobile where it's needed — Flutter"]
       proof: "Zones' platform mockups and the PIM experience its users work in. The Xymbia design system: 73 releases, 26 component families, a 67-page docs site. A Flutter app with 83 screens."
+    - title: Technical training programs
+      blurb: People trained by delivering real work across disciplines, on a rotation, with a mentor. Not a bootcamp.
+      deliver: [A curriculum per discipline built from your stack and backlog, A 12-month rotation on real deliverables, A management track and a technical-expert track, Success measured by what was delivered and who stayed]
+      proof: "The Zones Digital Leadership Program — 12 months for fresh graduates across DevOps, UI, backend, frontend, product and security. At university: graduate instructor at Boston University's Metropolitan College; adjunct professor at Mercer County Community College."
     - title: AI-based agentic development
       blurb: Most of the code on a live production system written by AI agents, under an operating model that makes it safe — installed in your repositories.
       deliver: ["The framework — directives, session protocols, a persistent knowledge base", Review gates as code, Your engineers trained to direct and review agent-written code, The work itself — agents doing production engineering under our review]
