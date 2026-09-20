@@ -2,8 +2,8 @@
   key: transformation
   image: sketch-whiteboard.jpg
   alt: "Sketching a plan on a whiteboard"
-  stats: [{v: "March 2022", l: "Zones program approved"}, {v: "2 × 90 days", l: "Bugcrowd, strategy to plan"}]
-  line: "The frame everything else hangs on: where the business is, where it wants to go, what has to change — and how the change is owned, governed and delivered."
+  stats: [{v: "$1.5M / yr", l: "the Zones program, owned since 2022"}, {v: "Every quarter", l: "finished work in the business's hands"}]
+  line: "Transformation fails when it's framed by IT or by a vendor. We frame it with the people who own the outcome — the barriers to scale, the competition, the change in the business's own terms — then own the program from the business case to go-live, governed so value lands every quarter rather than at the end."
   items:
     - title: Business case and competitive analysis
       blurb: The barriers to scale, who is winning and on what, and the transformation in the business's own terms — built with the people who own the outcome.
@@ -29,8 +29,8 @@
   key: people
   image: islamabad-mosque.jpg
   alt: "Islamabad"
-  stats: [{v: "Jul 2022", l: "Islamabad center kicked off"}, {v: "70+", l: "people, trained in-house"}, {v: "12 months", l: "the graduate program"}]
-  line: "The capability the company doesn't have and can't hire at home — built as its own venture, staffed, led, and handed over."
+  stats: [{v: "Jul 2022", l: "Islamabad center kicked off"}, {v: "70+", l: "people, recruited and trained in-house"}, {v: "12 months", l: "the graduate program"}]
+  line: "Transformation is capacity the company doesn't have. We build it as the company's own: a center in a low-cost geography, a pipeline from top universities, senior mentors, a 12-month program for every graduate — and a handover planned from the first day, so the capability stays when we leave."
   items:
     - title: The venture and the center
       blurb: A new center in a low-cost geography as the company's own — the location case, the entity, the office, the leadership, the operating model.
@@ -49,8 +49,8 @@
   image: warehouse-tablet.jpg
   dark: true
   alt: "A worker with a tablet on a distribution floor"
-  stats: [{v: "4", l: "systems in daily use"}, {v: "2027", l: "core platform live"}]
-  line: "Not a list of technologies. A set of positions on how a business comes to own its technology instead of renting it from its systems of record — the specialization is enterprise data systems, and this is how we approach them."
+  stats: [{v: "4", l: "systems in daily use at Zones"}, {v: "2027", l: "core platform live, delivered by the team"}]
+  line: "A business shouldn't rent its own knowledge from its systems of record. Our positions: decouple from the ERP, data before experiences, a platform rather than a project, integrate early, make everything reproducible — and engineering throughput that doesn't depend on who is in the room."
   items:
     - title: Decouple the business from its systems of record
       spec: true
@@ -81,7 +81,7 @@
   key: capabilities
   image: engineers-pair.jpg
   alt: "Two engineers working side by side"
-  line: "The practice areas we bring to a step when it needs them — each a discipline in its own right, each ending in a deliverable."
+  line: "The disciplines we bring to a step when it needs them — product, marketing, design, training. Each is a practice in its own right, and each ends in a deliverable your people own."
   items:
     - title: Product management
       blurb: The work between "we should do this" and "it's in use."
