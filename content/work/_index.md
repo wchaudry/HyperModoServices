@@ -20,7 +20,7 @@ Data-monetisation strategy for Crowd Control, Bugcrowd's security platform: the 
 Go-to-market strategy for big-data professional services: competitive research, website, sales enablement and customer presentation content.
 
 ### Gravitational, now Teleport — 2016–2017 {#teleport}
-Channel sales model for an early Kubernetes application platform. Closed two direct customers and generated partner and reseller leads while doing it.
+Acted as a channel for an early Kubernetes application platform while the product was new — brought in some of its first customers and generated partner and reseller leads.
 
 ### Epsilon — 2012
 Data-management strategy and roadmap for the next-generation email marketing platform — ingestion, management, analytics, reporting and workflow components — delivered in ninety days.
