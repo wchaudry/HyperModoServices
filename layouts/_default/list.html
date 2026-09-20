@@ -2,7 +2,7 @@
 <section class="list">
   <div class="wrap">
     <div class="head"><h1>{{ .Title }}</h1>{{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}</div>
-    {{ with .Content }}<div class="body prose">{{ . }}</div>{{ end }}
+    {{ if ne .Section "work" }}{{ with .Content }}<div class="body prose">{{ . }}</div>{{ end }}{{ end }}
     {{ $pages := .RegularPages }}
     {{ if eq .Section "work" }}{{ $pages = .RegularPages.ByWeight }}{{ end }}
     {{ if $pages }}
@@ -16,6 +16,7 @@
     {{ else }}
     <div class="empty">{{ .Params.empty | default "Nothing here yet." }}</div>
     {{ end }}
+    {{ if eq .Section "work" }}{{ with .Content }}<div class="after prose">{{ . }}</div>{{ end }}{{ end }}
   </div>
 </section>
 {{ partial "cta.html" . }}
