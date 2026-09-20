@@ -1,5 +1,5 @@
 logos:
-  - { name: Zones, file: "" }
+  - { name: Zones, file: logos/zones.png, h: 22 }
   - { name: Wasmer, file: logos/wasmer.png, h: 36 }
   - { name: Bugcrowd, file: logos/bugcrowd.svg, h: 26 }
   - { name: Teleport, file: "" }
