@@ -1,15 +1,24 @@
 client: Zones LLC
 period: 2022 – 2027
+cols: [delivered, trained]
 lines:
-  - when: "2022-03"
-    text: "Transformation framed with the executive team · <em class=\"ok\">program approved</em>"
-  - when: "2022-07"
-    text: "<em class=\"ppl\">Center opened in Islamabad</em> · first cohort hired and in rotation"
-  - when: "2023–25"
-    text: "In use: competitive pricing · identity and SSO · catalog processing · order approvals"
+  - when: "2022"
+    a: "program approved"
+    b: "first cohort starts the 12-month program"
+  - when: "2023"
+    a: "competitive pricing in use"
+    b: "second cohort starts; the first moves into delivery"
+  - when: "2024"
+    a: "single sign-on · catalog processing"
+    b: "the team passes 40"
+  - when: "2025"
+    a: "order approvals in use"
+    b: "70+ people, senior mentors in every cohort"
   - when: "2026"
-    text: "Core data and merchandising platform in final testing · <em class=\"ppl\">70+ people</em>"
+    a: "core platform in final testing"
+    b: "the team runs delivery"
   - when: "2027"
-    text: "Platform live · <em class=\"ok\">the team delivers global e-commerce on its own</em>"
-foot_left: one program, one owner, five years
-foot_right: delivered, and being handed over
+    a: "platform live"
+    b: "the team delivers global e-commerce alone"
+foot_left: delivery and training, one workstream
+foot_right: handover being planned
