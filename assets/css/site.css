@@ -97,7 +97,7 @@
   .ledger .tabs .on{background:var(--ledger-tab);color:var(--ledger-ink)}
   .ledger .tabs .lbl{margin-right:8px;padding:0}
   .ledger ol{list-style:none;margin:0;padding:.9rem 1.1rem;font-family:"JetBrains Mono",monospace;font-size:.8rem;line-height:1.7}
-  .ledger li{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:5px 0;border-bottom:1px dashed var(--ledger-rule)}
+  .ledger li{display:grid;grid-template-columns:4.6rem 1fr;gap:.75rem;padding:5px 0;border-bottom:1px dashed var(--ledger-rule)}
   .ledger li:last-child{border-bottom:none}
   .ledger .t{color:var(--ledger-muted)}
   .ledger .ok{color:#7ee2b8}
@@ -234,6 +234,22 @@
   .facts dd{margin:0;font-size:.97rem;line-height:1.5}
   @media (max-width:560px){.facts div{grid-template-columns:1fr;gap:4px}}
   .featured-object{min-width:0}
+
+  /* why it works: three photo cards */
+  .whycards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:44px}
+  @media (max-width:980px){.whycards{grid-template-columns:1fr}}
+  .whycard{background:var(--card);border:1px solid var(--rule);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+  .whycard .photo{border-radius:0;aspect-ratio:16/9}
+  .whycard .usual,.whycard .ours{display:flex;gap:12px;align-items:flex-start;padding:1.25rem 1.4rem}
+  .whycard .usual{border-bottom:1px dashed var(--rule)}
+  .whycard .ours{background:color-mix(in srgb,var(--mint-soft) 55%,var(--card));flex:1}
+  .whycard p{margin:0;font-size:.97rem;line-height:1.55;color:var(--muted)}
+  .whycard .ours p{color:var(--ink)}
+  .whycard p b{font-weight:600;color:var(--ink)}
+  .whycard .usual p b{color:var(--muted)}
+  .whycard .mark{flex:none;width:22px;height:22px;border-radius:999px;display:grid;place-items:center;font-size:12px;font-weight:700;margin-top:2px}
+  .whycard .usual .mark{background:var(--rule);color:var(--faint)}
+  .whycard .ours .mark{background:var(--mint);color:#fff}
 
   /* quotes */
   .quotes{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:40px}

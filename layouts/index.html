@@ -32,10 +32,10 @@
   <div class="wrap">
     {{ $w := hugo.Data.why }}
     <div class="center"><span class="eyebrow">{{ $w.eyebrow }}</span><h2 style="margin-top:16px">{{ $w.heading }}</h2>{{ with $w.sub }}<p class="sub">{{ . }}</p>{{ end }}</div>
-    <div class="compare">
-      <div class="compare-head"><span class="usual">{{ $w.left }}</span><span class="ours">{{ $w.right }}</span></div>
+    <div class="whycards">
       {{ range $w.points }}
-      <div class="compare-row">
+      <div class="whycard">
+        {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "top") }}
         <div class="usual"><span class="mark" aria-hidden="true">✕</span><p>{{ .fail | safeHTML }}</p></div>
         <div class="ours"><span class="mark" aria-hidden="true">✓</span><p>{{ .answer | safeHTML }}</p></div>
       </div>
