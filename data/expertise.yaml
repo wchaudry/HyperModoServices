@@ -80,8 +80,9 @@
       proof: "Zones: a live production platform where most new code is agent-written under the framework, and the team that runs it was trained on it in place."
 - category: Specialized capabilities
   key: capabilities
-  image: gauge.jpg
-  alt: "A precision measuring gauge, close up"
+  image: movement3.jpg
+  dark: true
+  alt: "A mechanical watch movement, close up"
   line: "The disciplines we bring to a step when it needs them — AI enablement, product, marketing, design, training. Each is a practice in its own right, and each ends in a deliverable your people own."
   items:
     - title: AI enablement for the whole team

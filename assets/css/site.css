@@ -500,7 +500,8 @@
   .xhead{grid-template-columns:1fr 1.25fr 1fr}
   .xrow{display:grid;grid-template-columns:1fr 1.25fr 1fr;gap:2rem;padding:1.5rem 0;border-bottom:1px solid var(--rule);align-items:start}
   .xrow:last-child{border-bottom:none}
-  .xrow.spec{background:linear-gradient(90deg,var(--violet-soft),transparent 55%);margin:0 -1rem;padding:1.5rem 1rem;border-radius:12px;border-bottom:1px solid var(--rule)}
+  .xrow.spec{border-left:3px solid var(--violet);padding-left:1.25rem}
+  .xrow.spec .tag{color:var(--violet)}
   .xr-title .tag{display:block;margin-bottom:6px}
   .xr-title h3{font-size:1.15rem;margin:0 0 6px;line-height:1.3}
   .xr-title p{margin:0;font-size:.95rem;color:var(--muted);line-height:1.5}
