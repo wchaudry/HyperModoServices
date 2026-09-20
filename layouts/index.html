@@ -60,9 +60,11 @@
         <h2 style="margin-top:16px">{{ $f.heading }}</h2>
         <p class="lead">{{ $f.lead }}</p>
         <dl class="facts">{{ range $f.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
+      </div>
+      <div class="featured-object">
+        {{ partial "ledger.html" . }}
         <a class="btn primary" href="{{ $f.link | relURL }}">{{ $f.link_label }}</a>
       </div>
-      <div class="featured-object">{{ partial "ledger.html" . }}</div>
     </div>
   </div>
 </section>
