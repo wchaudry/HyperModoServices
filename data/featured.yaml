@@ -1,7 +1,7 @@
 eyebrow: Featured client
 client: Zones LLC
 heading: "A $3B company, and the transformation engine we built inside it."
-lead: "Zones is a $3B IT solutions provider. Its product data was split across three departments, twenty years of business rules lived inside the ERP, and it could not sell hardware, services and subscriptions as one offer. Here is the model, as it ran."
+lead: "Zones is a $3B IT solutions provider that set out to triple its business in five years. Twenty years of legacy processes and systems stood in the way, and had to be transformed to support that pace of growth."
 facts:
   - { k: "Framed with", v: "the CDO and executive team — strategy, competitive analysis, business case" }
   - { k: "Venture", v: "a new center in Islamabad, opened July 2022, staffed and run as Zones' own" }
