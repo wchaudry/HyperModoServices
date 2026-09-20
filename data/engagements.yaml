@@ -1,13 +1,13 @@
 heading: Large-scale transformation, or one focused engagement.
-sub: "Zones is the whole engine. These are pieces of it, done on their own — product and go-to-market for one company, data strategy for another."
+sub: "Zones is the whole engine. These are pieces of it, done on their own — for a company making a market, and for one monetizing what it already had."
 items:
   - client: Wasmer
     period: 2020 – 2022
-    title: The enterprise offer a runtime company took to market
-    text: We framed the enterprise product and its go-to-market for a WebAssembly platform, landed its first enterprise customers, and set up the sponsorship model that funds the open-source core.
+    title: A runtime developers loved, and a market that didn't exist yet
+    text: Wasmer had to make the enterprise market for WebAssembly, not just enter it. We defined the enterprise offer and its go-to-market, landed the first enterprise customers, and set up the sponsorship model that funds the open-source core.
     anchor: wasmer
   - client: Bugcrowd
     period: two 90-day engagements, 2019 – 2020
-    title: A data strategy for a company that was two businesses at once
-    text: The diagnosis leadership acted on, a data services roadmap, and a crowd management system designed from first principles — built entirely by Bugcrowd's own engineers.
+    title: A two-sided business sitting on data it wasn't using
+    text: Bugcrowd serves companies on one side and security researchers on the other, and held years of data from both. We built the strategy to monetize it without tipping that balance — the diagnosis leadership acted on, a data services roadmap, and a crowd management system its own engineers built.
     anchor: bugcrowd
