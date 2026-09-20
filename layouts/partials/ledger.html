@@ -1,6 +1,6 @@
 {{ $l := hugo.Data.ledger }}
 <div class="ledger" role="figure" aria-label="Program ledger: {{ $l.client }}">
-  <div class="tabs"><span class="lbl">{{ $l.client }} · program ledger</span>{{ range $i, $t := $l.tabs }}<span{{ if eq $i 0 }} class="on"{{ end }}>{{ $t }}</span>{{ end }}</div>
+  <div class="tabs"><span class="lbl">{{ $l.client }}</span><span class="on">{{ $l.period }}</span></div>
   <ol>
     {{ range $l.lines }}<li><span class="t">{{ .when }}</span><span>{{ .text | safeHTML }}</span></li>{{ end }}
   </ol>

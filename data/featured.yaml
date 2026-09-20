@@ -6,8 +6,8 @@ facts:
   - { k: "Framed with", v: "the CDO and executive team — strategy, competitive analysis, business case" }
   - { k: "Venture", v: "a new digital center in Pakistan, staffed and run as Zones' own" }
   - { k: "Talent engine", v: "campus recruiting at top universities, an internship, a nine-month rotation, senior seed hires" }
-  - { k: "Cadence", v: "finished work in use every quarter; six platform products by year four" }
-  - { k: "Systems", v: "master data, ingestion, rules, merchandising, identity, documentation — three legacy systems retired" }
-  - { k: "Team", v: "seventy people, recruited and trained; fifty-plus graduates kept on" }
+  - { k: "Cadence", v: "finished work in use every quarter, from the first year" }
+  - { k: "Systems", v: "one governed platform for product, service and subscription data; legacy systems retired" }
+  - { k: "Team", v: "70+ people today, recruited and trained in-house, running it" }
 link: /work/enterprise-data-platform/
 link_label: Read the case study
