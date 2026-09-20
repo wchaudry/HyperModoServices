@@ -3,25 +3,25 @@
   line: "The frame everything else hangs on: where the business is, where it wants to go, what has to change — and how the change is owned, governed and delivered."
   items:
     - title: Business case and competitive analysis
-      blurb: The barriers to scale, who is winning and on what, and the transformation stated in the business's own terms — for the people who own the outcome.
+      blurb: The barriers to scale, who is winning and on what, and the transformation in the business's own terms — built with the people who own the outcome.
       deliver: [Market sizing and competitive analysis, Business model and five-year objectives, "Vision, mission and SWOT the board can repeat", The executive presentation]
-      proof: "Zones: framed with the CDO and approved by the executive team, March 2022. Bugcrowd: the two-businesses diagnosis leadership acted on."
+      proof: "Zones: framed with the CDO, approved by the executive team in March 2022, and the yardstick for every quarter since. Bugcrowd: the two-businesses diagnosis its leadership acted on."
     - title: Phased roadmap and first use case
       blurb: A transformation that proves itself early — a bounded first use case, and phases that each land value before the next begins.
       deliver: [A phased roadmap with what each phase proves, A bounded first use case, Dependencies and decision points named]
-      proof: "Zones: a three-phase roadmap from single source of truth to experience management to automation. Bugcrowd: three quarters, sequenced, from infrastructure to a data-services MVP."
+      proof: "Zones: three phases — a single source of truth, then experience management, then automation — with Phase 1 delivering four systems into use before the core platform. Bugcrowd: three quarters, sequenced from infrastructure to a data-services MVP."
     - title: Program ownership
       blurb: One owner from the business case to go-live — architecture, delivery organization, vendor management, executive reporting.
       deliver: [Program charter and governance, Executive reporting that names root causes, Vendor and partner management, A handover plan from day one]
-      proof: "Zones: Program Owner, 2022 to today. Nalej: co-founder and CPOO — $2.5M raised, a $15M DARPA/AFRL contract, an Airbus MVP in ninety days."
+      proof: "Zones: Program Owner since 2022 — a $3B company, a center of 70+ people stood up and staffed, four systems in daily use, the core platform live in 2027, and a handover being planned."
     - title: Operating model and governance
       blurb: The rules of the road for a center and a program — decision rights, cadences, reporting, and what "done" means.
       deliver: [Decision rights and escalation paths, "Cadences — triage, reviews, leadership checkpoints", A written definition of done, KPI and status reporting the business trusts]
-      proof: "Zones: twice-daily triage with named owners, weekly leadership checkpoints, a handover scope defined with no Severity 1 or 2 open. Bugcrowd: an Enterprise Data Engineering group recommended, staffed and run in-house."
+      proof: "Zones: twice-daily triage with named owners, weekly leadership checkpoints, and a handover scope defined as no Severity 1 or 2 open. Bugcrowd: an Enterprise Data Engineering group recommended, then staffed and run in-house."
     - title: Quarterly delivery and go-live
-      blurb: The training program and the delivery program as the same program — finished work in the business's hands every quarter, and a go-live that's evidenced, not hoped for.
-      deliver: [A quarterly delivery cadence, Production-readiness assessment, Test plan sized in hours, "Cutover, support model, runbooks"]
-      proof: "Zones: four systems delivered into daily use across 2023–2025; the core platform in final testing for 2027."
+      blurb: Finished work in the business's hands every quarter, and a go-live that is evidenced, not hoped for.
+      deliver: [A quarterly delivery cadence, Production-readiness assessment, A test plan sized in hours, "Cutover, support model, runbooks"]
+      proof: "Zones: four systems delivered into daily use across 2023–2025; a 1,700-case test plan and a readiness assessment for the core platform going live in 2027."
 - category: People strategy
   key: people
   line: "The capability the company doesn't have and can't hire at home — built as its own venture, staffed, led, and handed over."
@@ -29,15 +29,15 @@
     - title: The venture and the center
       blurb: A new center in a low-cost geography as the company's own — the location case, the entity, the office, the leadership, the operating model.
       deliver: [The location case, Entity and office set-up, Leadership hires and the operating model, A center that reports to you]
-      proof: "Zones: the Islamabad center, kicked off July 2022, Zones' own — 70+ people today."
+      proof: "Zones: the Islamabad center, kicked off in July 2022 as Zones' own — 70+ people today, recruited and trained in-house."
     - title: The talent engine
-      blurb: Top universities as a funnel and farm system; senior hires to seed and mentor; assessments we write.
+      blurb: Top universities as a funnel and farm system, senior hires to seed and mentor, assessments we write and grade.
       deliver: [University partnerships and campus recruiting, Assessments and interview process, Senior seed hires, A retention model]
-      proof: "Zones: campus recruiting at top universities, assessments written in-house, senior mentors seeded into every cohort."
+      proof: "Zones: campus recruiting at top universities, assessments written in-house, senior mentors seeded into every cohort — the pipeline that grew the center from a first cohort to 70+."
     - title: Leadership and handover
       blurb: Fractional head of platform or CTO where the company has the need and not the headcount — with a named successor for every role we hold.
       deliver: [Architecture and delivery ownership, Hiring and assessment for leadership roles, Board and executive reporting, A handover plan and named successors]
-      proof: "Zones: handover being planned; in 2027 the team delivers global e-commerce on its own. Rackspace: Chief Technologist. Nalej: CPOO."
+      proof: "Zones: handover being planned now; in 2027 the Islamabad team delivers global e-commerce without us."
 - category: Technical strategy
   key: technical
   line: "The specialization is enterprise data systems; the strategy is the architecture, platform and infrastructure that let a business own its own technology."
@@ -45,12 +45,12 @@
     - title: Enterprise data systems
       spec: true
       blurb: Master data, ingestion, integration — taken to production, then handed over.
-      deliver: ["A master-data model with lineage — transaction, staging, master", "Ingestion from anything — EDI, distributor and CNET catalogs, SFTP/HTTP/API feeds, spreadsheets", "A rules engine the business configures — validation, correction, precedence, pricing", "Integration to D365 F&O and CE, e-commerce, CRM — with change data capture", Production data forensics when a pipeline reports success and drops rows]
-      proof: "Zones: identity and SSO across every application, daily vendor-feed catalog processing, the core data and merchandising platform in final testing. Earlier: distributed SQL at NuoDB, ETL at Expressor, terabyte-scale marketing databases for Pfizer, Capital One and Bank of America."
+      deliver: ["A master-data model with lineage — transaction, staging, master", "Ingestion from anything — EDI, distributor catalogs, SFTP/HTTP/API feeds, spreadsheets", "A rules engine the business configures — validation, correction, precedence, pricing", "Integration to D365 F&O and CE, e-commerce, CRM — with change data capture", Production data forensics when a pipeline reports success and drops rows]
+      proof: "Zones: one login across every application, daily vendor-feed catalog processing, global order approvals, and the core data and merchandising platform in final testing. Earlier: distributed SQL at NuoDB, ETL at Expressor, terabyte-scale marketing databases at Epsilon."
     - title: Infrastructure and platform
       blurb: The cloud underneath, as code, with the operational readiness to run it.
       deliver: ["Infrastructure as code on Azure — network, AKS, managed PostgreSQL", "Security — WAF, private subnets, secrets rotation", "Monitoring, alerting, backups, DR planning", "Support model — L1/L2/L3, runbooks, cross-training"]
-      proof: "Zones: a hub-and-spoke Azure estate, 99% Terraform-managed, with WAF on production, monitoring to Teams, and a readiness assessment that told the truth about what was and wasn't validated."
+      proof: "Zones: a hub-and-spoke Azure estate, 99% Terraform-managed, WAF on production, alerts to Teams — and a readiness assessment that said plainly what was and wasn't yet validated."
 - category: Specialized capabilities
   key: capabilities
   line: "The practice areas we bring to a step when it needs them — each a discipline in its own right, each ending in a deliverable."
@@ -58,20 +58,20 @@
     - title: Product management
       blurb: The work between "we should do this" and "it's in use."
       deliver: [North-star use cases with acceptance criteria, Requirements ahead of development and the test plan derived from them, Roadmaps and phase gates, Program reporting with numbers]
-      proof: "The enterprise plan Wasmer is executing. Memento's fraud platform expanded from internal fraud to check fraud, card bust-out and AML (acquired by FIS). Zones' north-star use cases and a 1,700-case test plan."
+      proof: "Wasmer: the enterprise plan the company is executing. Zones: the north-star use cases, requirements and a 1,700-case test plan for the core platform. Memento: a fraud platform expanded from internal fraud to check fraud, card bust-out and AML, later acquired by FIS."
     - title: Product marketing and go-to-market
       blurb: Positioning, launch and the content that sells a technical product to technical buyers.
       deliver: ["Positioning and messaging, with the competitive analysis behind it", "Launch — site, papers, demos, campaigns", "Sales enablement and analyst positioning", Due-diligence material for an acquisition]
-      proof: "NuoDB onto the Gartner Magic Quadrant. Expressor to 30,000 downloads a month and its acquisition by Qlik. Wasmer's go-to-market and sponsorship model. BizAnalytica's services go-to-market."
+      proof: "NuoDB onto the Gartner Magic Quadrant. Expressor to 30,000 downloads a month, and the diligence behind its acquisition by Qlik. Wasmer's go-to-market and open-source sponsorship model. BizAnalytica's services go-to-market."
     - title: UX and design systems
       blurb: Screens validated before they're built, and the tokens and components that make them real — published as packages your engineers install.
       deliver: [Journey maps and Figma flows tested against real process, "Design tokens — color, type, spacing, light and dark", A component library as versioned npm packages with docs, "Mobile where it's needed — Flutter"]
-      proof: "Zones' platform mockups and the PIM experience its users work in. The Xymbia design system: 73 releases, 26 component families, a 67-page docs site. A Flutter app with 83 screens."
+      proof: "Zones: the platform mockups that turned the strategy into an approved build, and the PIM experience its users work in. Xymbia's design system: 73 releases, 26 component families, a 67-page docs site. A Flutter app with 83 screens."
     - title: Technical training programs
       blurb: People trained by delivering real work across disciplines, on a rotation, with a mentor. Not a bootcamp.
       deliver: [A curriculum per discipline built from your stack and backlog, A 12-month rotation on real deliverables, A management track and a technical-expert track, Success measured by what was delivered and who stayed]
-      proof: "The Zones Digital Leadership Program — 12 months for fresh graduates across DevOps, UI, backend, frontend, product and security. At university: graduate instructor at Boston University's Metropolitan College; adjunct professor at Mercer County Community College."
+      proof: "The Zones Digital Leadership Program — 12 months for fresh graduates across DevOps, UI, backend, frontend, product and security, on production systems. At university: graduate instructor in systems design at Boston University's Metropolitan College; adjunct professor of web development at Mercer County Community College."
     - title: AI-based agentic development
       blurb: Most of the code on a live production system written by AI agents, under an operating model that makes it safe — installed in your repositories.
-      deliver: ["The framework — directives, session protocols, a persistent knowledge base", Review gates as code, Your engineers trained to direct and review agent-written code, The work itself — agents doing production engineering under our review]
+      deliver: ["The framework — directives, session protocols, a persistent knowledge base", Review gates as code, Your engineers trained to direct and review agent-written code, "The work itself — agents doing production engineering under our review"]
       proof: "A live production data platform: 59 engineering projects, 3,300+ recorded findings and decisions, every change reviewed to a written standard before commit. The same model runs Xymbia's own platform."
