@@ -530,6 +530,16 @@
   .about-photo-empty em{font-family:"JetBrains Mono",monospace;font-size:.72rem;color:var(--night-muted);font-style:normal;margin-top:4px}
   .about-bio h2{font-size:clamp(28px,2.4vw,40px);margin-bottom:12px}
   .about-bio p{font-size:1.02rem;line-height:1.65;color:var(--ink);margin:0 0 14px;max-width:48em}
+  .team{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem;margin-top:40px}
+  @media (max-width:980px){.team{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:560px){.team{grid-template-columns:1fr}}
+  .member{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:1.25rem;display:flex;flex-direction:column}
+  .member-photo{aspect-ratio:1;border-radius:12px;overflow:hidden;background:linear-gradient(160deg,#2a1a4a,var(--night));display:flex;align-items:flex-end;padding:.9rem;margin-bottom:1rem}
+  .member-photo img{width:100%;height:100%;object-fit:cover;display:block;margin:-.9rem}
+  .member-photo span{font-family:"JetBrains Mono",monospace;font-size:.72rem;color:var(--night-muted)}
+  .member h3{font-size:1.1rem;margin:0 0 2px}
+  .member-role{font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);margin-bottom:8px}
+  .member p{margin:0;font-size:.92rem;line-height:1.5;color:var(--muted)}
   .terms{list-style:none;margin:28px auto 0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;font-family:"JetBrains Mono",monospace;font-size:.8rem;color:var(--muted)}
   .terms li::before{content:"·";color:var(--mint);margin-right:8px}
 

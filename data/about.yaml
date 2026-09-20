@@ -4,7 +4,7 @@ firm:
     - "HyperModo helps companies build their own transformation engine: the continuous improvement of people, process and technology, at scale, so a business serves its customers, enters new markets and out-innovates its competitors."
     - "We do it as a venture the company owns — a center, its own people, finished work in use every quarter — and we plan the handover from the first day. When the engagement ends, the capability stays. That is the difference from a consultancy, and it is the whole point."
   facts:
-    - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc." }
+    - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc. — a team of four" }
     - { k: "Based", v: "New York / Philadelphia; work delivered in Islamabad since 2022" }
     - { k: "Specialization", v: "Enterprise data systems, and the people and process around them" }
     - { k: "Working now", v: "Zones LLC, program owner since 2022" }
@@ -20,6 +20,14 @@ principal:
     - { k: "Education", v: "MS, Computer Information Systems, Boston University · BBA, Finance, Temple University" }
     - { k: "Taught", v: "Systems design, Boston University Metropolitan College · Web development, Mercer County Community College" }
     - { k: "Contact", v: "wiqar@hypermodo.com · linkedin.com/in/wiqar" }
+team:
+  heading: "The team"
+  line: "Small by design. The organization we build is yours; the people who build it with you are these."
+  people:
+    - { name: "Wiqar Chaudry", role: "Principal", line: "Transformation strategy, program ownership, the venture and the talent engine.", photo: "" }
+    - { name: "Atif Majid", role: "CTO / Architect", line: "Technical strategy and architecture — the platform, the data, the seams to the systems of record.", photo: "" }
+    - { name: "Greg Cromwell", role: "Principal Product Manager", line: "Use cases, requirements, roadmaps, and the reporting that tells the truth about delivery.", photo: "" }
+    - { name: "Aysha Williams", role: "UX Designer", line: "Journey maps, flows and screens validated before they're built.", photo: "" }
 engage:
   heading: "How to engage"
   formats:

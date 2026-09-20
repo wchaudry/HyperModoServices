@@ -13,7 +13,7 @@
   </div>
 </section>
 
-<section class="alt" id="principal">
+<section id="principal">
   <div class="wrap wide">
     <div class="about-person">
       <div class="about-photo">{{ with $a.principal.photo }}<img src="{{ . | relURL }}" alt="{{ $a.principal.name }}">{{ else }}<div class="about-photo-empty"><span>{{ $a.principal.name }}</span><em>photograph to come</em></div>{{ end }}</div>
@@ -27,7 +27,23 @@
   </div>
 </section>
 
-<section id="engage">
+<section id="team">
+  <div class="wrap wide">
+    <div class="center"><span class="eyebrow">{{ $a.team.heading }}</span><h2 style="margin-top:16px">{{ $a.team.line }}</h2></div>
+    <div class="team">
+      {{ range $a.team.people }}
+      <div class="member">
+        <div class="member-photo">{{ with .photo }}<img src="{{ . | relURL }}" alt="{{ $.Params.name }}">{{ else }}<span>{{ .name }}</span>{{ end }}</div>
+        <h3>{{ .name }}</h3>
+        <div class="member-role">{{ .role }}</div>
+        <p>{{ .line }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section id="engage" class="alt">
   <div class="wrap wide">
     <div class="center"><span class="eyebrow">{{ $a.engage.heading }}</span><h2 style="margin-top:16px">Three ways in, one set of terms.</h2></div>
     <div class="formats" style="margin-top:36px">
