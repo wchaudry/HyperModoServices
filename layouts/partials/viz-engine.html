@@ -1,0 +1,25 @@
+<figure class="viz" aria-label="The transformation engine: people, process and technology improved in a loop, with finished work every quarter, continuing after the handover.">
+  <div class="viz-head"><span class="lbl">the engine</span><span class="legend"><i class="us"></i>with us<i class="you"></i>on your own</span></div>
+  <svg viewBox="0 0 640 360" role="img">
+    <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#7ee2b8"/></marker></defs>
+    <g class="ring">
+      <circle cx="320" cy="180" r="118" fill="none" stroke="currentColor" stroke-opacity=".14" stroke-width="2"/>
+      <path class="loop us" d="M320 62 A118 118 0 1 1 218 239" fill="none" stroke="#a68cff" stroke-width="4" stroke-linecap="round"/>
+      <path class="loop you" d="M218 239 A118 118 0 0 1 320 62" fill="none" stroke="#7ee2b8" stroke-width="4" stroke-linecap="round" marker-end="url(#arr)"/>
+    </g>
+    <g class="node"><circle cx="320" cy="62" r="30" fill="var(--curve-bg)" stroke="#a68cff" stroke-width="2"/><text x="320" y="66" class="nlab" text-anchor="middle">people</text></g>
+    <g class="node"><circle cx="422" cy="239" r="30" fill="var(--curve-bg)" stroke="#a68cff" stroke-width="2"/><text x="422" y="243" class="nlab" text-anchor="middle">process</text></g>
+    <g class="node"><circle cx="218" cy="239" r="30" fill="var(--curve-bg)" stroke="#7ee2b8" stroke-width="2"/><text x="218" y="243" class="nlab" text-anchor="middle">technology</text></g>
+    <g class="ticks">
+      {{ range $i, $q := (slice "Q1" "Q2" "Q3" "Q4" "Q5" "Q6" "Q7" "Q8") }}
+      {{ $a := mul $i 45 }}
+      <g transform="rotate({{ $a }} 320 180)"><line x1="320" y1="40" x2="320" y2="48" stroke="currentColor" stroke-opacity=".5" stroke-width="2"/></g>
+      {{ end }}
+    </g>
+    <text x="320" y="186" class="center" text-anchor="middle">finished work</text>
+    <text x="320" y="204" class="center faint" text-anchor="middle">every quarter</text>
+    <text x="40" y="330" class="note">the loop keeps turning after the handover</text>
+    <text x="600" y="330" class="note faint" text-anchor="end">your engine, not our contract</text>
+  </svg>
+  <figcaption class="viz-foot"><span>frame · venture · talent · ship · build · adjust</span><b>a capability, not a project</b></figcaption>
+</figure>
