@@ -451,9 +451,9 @@
 
   /* photographs: tinted into the palette */
   .photo{position:relative;margin:0;border-radius:14px;overflow:hidden;background:var(--night)}
-  .photo img{display:block;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.08) brightness(.95)}
-  .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,var(--violet) 0%,#3b2a8c 60%,var(--mint) 140%);mix-blend-mode:color;opacity:.9;pointer-events:none}
-  .photo::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 60%,rgba(15,5,24,.35));pointer-events:none}
+  .photo img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.82) contrast(1.04) brightness(.98)}
+  .photo::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(109,75,234,.22) 0%,rgba(109,75,234,.06) 45%,rgba(126,226,184,.10) 100%);pointer-events:none}
+  .photo::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,transparent 65%,rgba(15,5,24,.42));pointer-events:none}
   .photo figcaption{position:absolute;left:16px;bottom:12px;z-index:2;font-family:"JetBrains Mono",monospace;font-size:11px;color:rgba(244,240,250,.85);letter-spacing:.04em}
   .photo.band{aspect-ratio:16/6;margin:0 0 40px}
   .photo.hero{aspect-ratio:4/3}
