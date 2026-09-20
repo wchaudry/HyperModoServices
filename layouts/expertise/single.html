@@ -7,6 +7,7 @@
     </div>
     <nav class="xnav" aria-label="Categories">{{ range hugo.Data.expertise }}<a href="#{{ .key }}">{{ .category }}</a>{{ end }}</nav>
     {{ range $i, $c := hugo.Data.expertise }}
+    {{ $catkey := $c.key }}
     <section class="xcat" id="{{ .key }}">
       <div class="xband{{ if modBool $i 2 }} flip{{ end }}{{ if .dark }} dark{{ end }}">
         <div class="xband-copy">
@@ -19,7 +20,7 @@
       <div class="stepgrid-head xhead"><span>Area</span><span>We deliver</span><span>Where it's been done</span></div>
       {{ range .items }}
       <div class="xrow{{ if .spec }} spec{{ end }}">
-        <div class="xr-title">{{ if .spec }}<span class="tag">{{ if eq $c.key "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}<h3>{{ .title }}</h3><p>{{ .blurb }}</p></div>
+        <div class="xr-title">{{ if .spec }}<span class="tag">{{ if eq $catkey "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}<h3>{{ .title }}</h3><p>{{ .blurb }}</p></div>
         <div class="xr-deliver"><ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul></div>
         <div class="xr-proof"><p>{{ .proof }}</p></div>
       </div>
