@@ -7,14 +7,6 @@
   pageRef = "work"
   weight = 20
 [[main]]
-  name = "Approach"
-  pageRef = "approach"
-  weight = 30
-[[main]]
-  name = "Writing"
-  pageRef = "writing"
-  weight = 40
-[[main]]
   name = "About"
   pageRef = "about"
   weight = 50

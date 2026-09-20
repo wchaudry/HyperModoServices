@@ -162,6 +162,12 @@ Most of the code on a live production system written by AI agents, under an oper
 
 **Where I've done it:** a live production data platform where the agents' work is tracked across 59 engineering projects with more than 3,300 recorded findings and decisions — root-cause investigations, performance work, schema changes, retention policy — all reviewed to a written standard before commit. The same model runs Xymbia's own platform: nine backend services, a design system, a web shell and a mobile app. The framework is a toolkit; installing it takes a day.
 
-## How to engage
+## How an engagement runs {#how-an-engagement-runs}
 
-Corp-to-corp through my company, Xymbia Inc. Full programs, fractional roles, or a single deliverable. Two to six weeks to start. Email [wiqar@hypermodo.com](mailto:wiqar@hypermodo.com).
+1. **A first conversation** — what you are trying to reach in the market, what stands in the way, and whether I am the right person. Thirty minutes.
+2. **A scoped proposal** — the deliverables, who on your side owns each afterwards, the timeline, the price. Fixed fee or time and materials, corp-to-corp through Xymbia Inc.
+3. **The work** — weekly written status that names root causes and slips as they happen, not after.
+4. **Handover** — planned from day one. The engagement ends when your team is running it.
+
+Two to six weeks to start. Full programs, fractional roles, or a single deliverable.
+
