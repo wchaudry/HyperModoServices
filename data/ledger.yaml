@@ -2,22 +2,20 @@ client: Zones LLC
 period: 2022 – 2027
 cols: [delivered, trained]
 lines:
-  - when: "2022"
-    a: "program approved"
+  - when: Start
+    year: "2022"
+    a: "the center opens in Islamabad"
     b: "first cohort starts the 12-month program"
-  - when: "2023"
-    a: "competitive pricing in use"
-    b: "second cohort starts; the first moves into delivery"
-  - when: "2024"
-    a: "single sign-on · catalog processing"
-    b: "the team passes 40"
-  - when: "2025"
-    a: "order approvals in use"
-    b: "70+ people, senior mentors in every cohort"
-  - when: "2026"
+  - when: Build
+    year: "2023 – 25"
+    a: "competitive pricing, single sign-on, catalog processing and order approvals reach the business"
+    b: "three cohorts through the program; one year skipped when the plan changed"
+  - when: Now
+    year: "2026"
     a: "core platform in final testing"
-    b: "the team runs delivery"
-  - when: "2027"
+    b: "70+ people; the team runs delivery"
+  - when: Next
+    year: "2027"
     a: "platform live"
     b: "the team delivers global e-commerce alone"
 foot_left: delivery and training, one workstream
