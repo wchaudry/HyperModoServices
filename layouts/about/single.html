@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ $a := hugo.Data.about }}
+<section class="page wwd">
+  <div class="wrap wide">
+    <div class="about-firm">
+      <div>
+        <span class="eyebrow">About</span>
+        <h1 style="margin-top:16px">{{ $a.firm.heading }}</h1>
+        {{ range $a.firm.paras }}<p class="lead" style="margin-top:16px">{{ . }}</p>{{ end }}
+      </div>
+      <dl class="facts about-facts">{{ range $a.firm.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="principal">
+  <div class="wrap wide">
+    <div class="about-person">
+      <div class="about-photo">{{ with $a.principal.photo }}<img src="{{ . | relURL }}" alt="{{ $a.principal.name }}">{{ else }}<div class="about-photo-empty"><span>{{ $a.principal.name }}</span><em>photograph to come</em></div>{{ end }}</div>
+      <div class="about-bio">
+        <span class="eyebrow">{{ $a.principal.role }}</span>
+        <h2 style="margin-top:14px">{{ $a.principal.name }}</h2>
+        {{ range $a.principal.paras }}<p>{{ . }}</p>{{ end }}
+        <dl class="facts about-facts">{{ range $a.principal.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="engage">
+  <div class="wrap wide">
+    <div class="center"><span class="eyebrow">{{ $a.engage.heading }}</span><h2 style="margin-top:16px">Three ways in, one set of terms.</h2></div>
+    <div class="formats" style="margin-top:36px">
+      {{ range $a.engage.formats }}<div class="format"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
+    </div>
+    <ul class="terms">{{ range $a.engage.terms }}<li>{{ . }}</li>{{ end }}</ul>
+  </div>
+</section>
+{{ partial "cta.html" . }}
+{{ end }}

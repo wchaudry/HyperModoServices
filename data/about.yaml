@@ -1,0 +1,33 @@
+firm:
+  heading: "A firm that works itself out of a job."
+  paras:
+    - "HyperModo helps companies build their own transformation engine: the continuous improvement of people, process and technology, at scale, so a business serves its customers, enters new markets and out-innovates its competitors."
+    - "We do it as a venture the company owns — a center, its own people, finished work in use every quarter — and we plan the handover from the first day. When the engagement ends, the capability stays. That is the difference from a consultancy, and it is the whole point."
+  facts:
+    - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc." }
+    - { k: "Based", v: "New York / Philadelphia; the Zones center in Islamabad" }
+    - { k: "Specialization", v: "Enterprise data systems, and the people and process around them" }
+    - { k: "Working now", v: "Zones LLC, program owner since 2022" }
+principal:
+  name: Wiqar Chaudry
+  role: Principal
+  photo: ""
+  paras:
+    - "Wiqar has built software platforms and the teams that run them for twenty years, always close to data — databases, pipelines, integrations — and always with the business on one side of the table and engineering on the other."
+    - "Since 2022 he has owned the Zones transformation: the strategy framed with the executive team, the center stood up in Islamabad, a team of 70+ recruited and trained in-house, four systems in daily use and the core platform going live in 2027. Before that: head of product at Wasmer; data and crowd strategy for Bugcrowd; and product, marketing and architecture roles at Rackspace, NuoDB, Expressor, Memento and Epsilon, where the systems he designed won contracts, downloads and acquisitions."
+    - "He is still in the code every day. For the past year most of it has been written by AI agents under a framework he designed — the operating model HyperModo now installs for clients."
+  facts:
+    - { k: "Education", v: "MS, Computer Information Systems, Boston University · BBA, Finance, Temple University" }
+    - { k: "Taught", v: "Systems design, Boston University Metropolitan College · Web development, Mercer County Community College" }
+    - { k: "Contact", v: "wiqar@hypermodo.com · linkedin.com/in/wiqar" }
+engage:
+  heading: "How to engage"
+  formats:
+    - { title: "The full program", text: "Business case to go-live with one owner — the six steps as they ran at Zones. Multi-year; priced as an annual program." }
+    - { title: "A single step", text: "The business case alone, the talent engine alone, or a 90-day strategy your team then executes — as at Bugcrowd. Fixed fee." }
+    - { title: "Fractional leadership", text: "Head of platform or CTO, with a handover plan and a named successor from day one. Time and materials." }
+  terms:
+    - "Corp-to-corp through Xymbia Inc."
+    - "Two to six weeks from a proposal to a start"
+    - "Weekly written status from the first week"
+    - "A handover plan in every proposal"

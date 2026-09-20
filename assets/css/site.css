@@ -510,6 +510,25 @@
   .xr-proof p{margin:0;font-size:.92rem;line-height:1.55;color:var(--muted);border-left:2px solid var(--mint);padding-left:14px}
   @media (max-width:980px){.xhead{display:none}.xrow{grid-template-columns:1fr;gap:.9rem}.xr-deliver::before{content:"We deliver";}.xr-proof::before{content:"Where it's been done";}.xr-deliver::before,.xr-proof::before{display:block;font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}}
 
+  /* about */
+  .about-firm{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(40px,5vw,96px);align-items:start}
+  @media (max-width:980px){.about-firm{grid-template-columns:1fr}}
+  .about-firm h1{font-size:clamp(34px,3.6vw,56px);text-wrap:balance}
+  .about-firm .lead{font-size:1.1rem;color:var(--muted);line-height:1.6;max-width:44em}
+  .about-facts{margin:8px 0 0}
+  .about-facts div{grid-template-columns:8.5rem 1fr}
+  .about-person{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:clamp(32px,4vw,72px);align-items:start}
+  @media (max-width:980px){.about-person{grid-template-columns:1fr}}
+  .about-photo{aspect-ratio:4/5;border-radius:16px;overflow:hidden;background:var(--night);box-shadow:0 30px 80px -30px rgba(15,5,24,.6)}
+  .about-photo img{width:100%;height:100%;object-fit:cover;display:block}
+  .about-photo-empty{height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:1.5rem;color:var(--night-ink);background:linear-gradient(160deg,#2a1a4a,var(--night))}
+  .about-photo-empty span{font-family:"Plus Jakarta Sans",sans-serif;font-weight:600;font-size:1.3rem}
+  .about-photo-empty em{font-family:"JetBrains Mono",monospace;font-size:.72rem;color:var(--night-muted);font-style:normal;margin-top:4px}
+  .about-bio h2{font-size:clamp(28px,2.4vw,40px);margin-bottom:12px}
+  .about-bio p{font-size:1.02rem;line-height:1.65;color:var(--ink);margin:0 0 14px;max-width:48em}
+  .terms{list-style:none;margin:28px auto 0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;font-family:"JetBrains Mono",monospace;font-size:.8rem;color:var(--muted)}
+  .terms li::before{content:"·";color:var(--mint);margin-right:8px}
+
   /* stats shortcode */
   .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
   @media (max-width:640px){.stats{grid-template-columns:1fr}}
