@@ -7,5 +7,5 @@ Stand-ins until real photographs of the team and the center exist.
 - stickies.jpg — https://unsplash.com/photos/v89zhr0iBFY — home Why card 2
 - engineers-pair.jpg — https://unsplash.com/photos/VBCHfGtH79s — home Why card 3
 - islamabad-mosque.jpg — https://unsplash.com/photos/1x3qakkpzZU — Zones, the venture
-- team-design.jpg — https://unsplash.com/photos/NK2PfIZOQkA — Zones, shipping
+- warehouse-tablet.jpg — https://unsplash.com/photos/DvUy7qVOJRE — Zones, what's in daily use
 - whiteboard.jpg — https://unsplash.com/photos/wD1LRb9OeEo — Bugcrowd, the diagnosis

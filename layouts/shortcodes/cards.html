@@ -1,1 +1,1 @@
-<div class="cgrid cols-{{ .Get "cols" | default 2 }}">{{ .Inner }}</div>
+{{ if .Get "photo" }}<div class="cgrid withphoto cols-{{ .Get "cols" | default 2 }}">{{ .Inner }}<figure class="photo tall"><img src="{{ printf "photos/%s" (.Get "photo") | relURL }}" alt="{{ .Get "alt" }}" loading="lazy">{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure></div>{{ else }}<div class="cgrid cols-{{ .Get "cols" | default 2 }}">{{ .Inner }}</div>{{ end }}

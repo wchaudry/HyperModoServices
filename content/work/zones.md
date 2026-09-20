@@ -63,9 +63,7 @@ Global e-commerce, built by the Islamabad team without us. Our handover is being
 
 ## What's in daily use
 
-{{< photo src="team-design.jpg" alt="A team at work" class="right" caption="finished work, every quarter" >}}
-
-{{< cards cols="2" >}}
+{{< cards cols="2" photo="warehouse-tablet.jpg" alt="A worker with a tablet on a distribution floor" caption="the business these systems serve" >}}
 {{< card tag="pricing" title="Competitive price analysis" >}}Pricing coverage across the catalog instead of a small subset of SKUs.{{< /card >}}
 {{< card tag="identity" title="One login for customers and partners" >}}SSO and OIDC across every Zones application.{{< /card >}}
 {{< card tag="catalog" title="Vendor feed processing" >}}Daily vendor feeds taken in, validated and processed automatically.{{< /card >}}
