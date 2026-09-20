@@ -1,10 +1,12 @@
 eyebrow: Why it works
-heading: "Built for the ways transformation usually fails."
-sub: "Most programs don't fail on technology. They fail on people, timing and ownership. The model is designed around all three."
+heading: "Three ways transformation fails. Three reasons this one doesn't."
+sub: ""
+left: The usual program
+right: This model
 points:
-  - fail: The program stalls for lack of people
-    answer: So the people come first. A center, a pipeline, senior mentors, a rotation that turns graduates into engineers who ship. Capacity is the first deliverable, not the thing you hope arrives later.
-  - fail: Value arrives at go-live — if it arrives
-    answer: So value lands every quarter, from the first. The training program is the delivery program; production-ready work is how the team learns and how the business sees progress.
-  - fail: The consultants leave, and so does the expertise
-    answer: So the venture is yours from day one — your entity, your people, your systems — with a handover planned from the start. When we step back, nothing stops.
+  - fail: "<b>Hiring lags, the plan slips, and the slip becomes the program.</b> Eighteen months in, the org chart is still the risk register."
+    answer: "<b>The people are the first deliverable.</b> A center, a pipeline from top universities, senior mentors, and a rotation that turns graduates into engineers who ship — before the big build starts."
+  - fail: "<b>Everything lands at go-live — if go-live lands.</b> Two years, one cutover, and nothing a customer can touch until then."
+    answer: "<b>Something ships every quarter, from the first.</b> The training program is the delivery program: production-ready work is how the team learns and how leadership sees progress."
+  - fail: "<b>The consultants leave with the expertise.</b> What remains is a system nobody inside understands and a contract to renew."
+    answer: "<b>It's your venture from day one.</b> Your entity, your people, your systems, with the handover planned at the start. When we step back, nothing stops."

@@ -31,9 +31,15 @@
 <section class="alt" id="approach">
   <div class="wrap">
     {{ $w := hugo.Data.why }}
-    <div class="center"><span class="eyebrow">{{ $w.eyebrow }}</span><h2 style="margin-top:16px">{{ $w.heading }}</h2><p class="sub">{{ $w.sub }}</p></div>
-    <div class="three">
-      {{ range $w.points }}<div><span class="k">when</span><h3>{{ .fail }}</h3><p>{{ .answer }}</p></div>{{ end }}
+    <div class="center"><span class="eyebrow">{{ $w.eyebrow }}</span><h2 style="margin-top:16px">{{ $w.heading }}</h2>{{ with $w.sub }}<p class="sub">{{ . }}</p>{{ end }}</div>
+    <div class="compare">
+      <div class="compare-head"><span class="usual">{{ $w.left }}</span><span class="ours">{{ $w.right }}</span></div>
+      {{ range $w.points }}
+      <div class="compare-row">
+        <div class="usual"><span class="mark" aria-hidden="true">✕</span><p>{{ .fail | safeHTML }}</p></div>
+        <div class="ours"><span class="mark" aria-hidden="true">✓</span><p>{{ .answer | safeHTML }}</p></div>
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>
