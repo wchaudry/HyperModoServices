@@ -39,12 +39,12 @@
       {{ with $w.sub }}<p class="sechead-sub">{{ . }}</p>{{ end }}
     </div>
     <div class="whyrows">
-      <div class="whyhead"><span></span><span class="usual">The usual program</span><span class="ours">This model</span></div>
+      <div class="whyhead"><span></span><span class="usual">{{ $w.left }}</span><span class="ours">{{ $w.right }}</span></div>
       {{ range $w.points }}
       <div class="whyrow">
-        {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "thumb") }}
-        <div class="usual"><span class="mark" aria-hidden="true">✕</span><p>{{ .fail | safeHTML }}</p></div>
-        <div class="ours"><span class="mark" aria-hidden="true">✓</span><p>{{ .answer | safeHTML }}</p></div>
+        <div class="whylabel">{{ .label }}</div>
+        <div class="usual"><p>{{ .fail | safeHTML }}</p></div>
+        <div class="ours"><p>{{ .answer | safeHTML }}</p></div>
       </div>
       {{ end }}
     </div>
