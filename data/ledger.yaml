@@ -10,6 +10,6 @@ lines:
   - when: "2024–25"
     text: "The platform in production across the business · the team running it"
   - when: "2026"
-    text: "<em class=\"ppl\">70+ people</em> · <em class=\"ok\">the transformation continues without us</em>"
+    text: "<em class=\"ppl\">70+ people</em> · the transformation is ongoing · <em class=\"ok\">our handover is being planned</em>"
 foot_left: one program, one owner, four years
-foot_right: delivered, then handed over
+foot_right: delivered, and being handed over
