@@ -8,26 +8,50 @@ firm:
     - { k: "Based", v: "New York / Philadelphia; work delivered in Islamabad since 2022" }
     - { k: "Specialization", v: "Enterprise data systems, and the people and process around them" }
     - { k: "Working now", v: "Zones LLC, program owner since 2022" }
-principal:
-  name: Wiqar Chaudry
-  role: Principal
-  photo: ""
-  paras:
-    - "Wiqar builds organizations that can transform themselves — and he has done it as a founder, as an operator, and as the owner of a client's program. The pattern is the same each time: frame the change with the people who own the outcome, stand up the capacity to deliver it as their own, hire and train the people, and deliver something real every quarter until the organization can carry on without him."
-    - "As co-founder and Chief Product and Operations Officer of Nalej, an edge-computing company, he raised $2.5M, built and ran teams in Madrid and the United States, delivered a working system for Airbus in ninety days, and closed a five-year DARPA / AFRL contract with the certification it required. At Zones, a $3B IT solutions provider, he framed the transformation with the executive team, stood up a center in Islamabad as the company's own venture, built a university pipeline and a graduate program that grew the team to 70+, and has run the program since 2022 — with the handover now being planned. Before either: head of product at Wasmer, and product, marketing and architecture roles at Rackspace, NuoDB, Expressor, Memento and Epsilon, where the systems he designed won an $83M contract, took a product to 30,000 downloads a month, and put a company on the Gartner Magic Quadrant."
-    - "He still builds. For the past year most of the code on a live production platform has been written by AI agents under a framework he designed — the operating model HyperModo now installs for clients so the pace of engineering doesn't depend on who is in the room."
-  facts:
-    - { k: "Education", v: "MS, Computer Information Systems, Boston University · BBA, Finance, Temple University" }
-    - { k: "Taught", v: "Systems design, Boston University Metropolitan College · Web development, Mercer County Community College" }
-    - { k: "Contact", v: "wiqar@hypermodo.com · linkedin.com/in/wiqar" }
 team:
   heading: "The team"
   line: "Small by design. The organization we build is yours; the people who build it with you are these."
   people:
-    - { name: "Wiqar Chaudry", role: "Principal", line: "Transformation strategy, program ownership, the venture and the talent engine.", photo: "" }
-    - { name: "Atif Majid", role: "CTO / Architect", line: "Technical strategy and architecture — the platform, the data, the seams to the systems of record.", photo: "" }
-    - { name: "Greg Cromwell", role: "Principal Product Manager", line: "Use cases, requirements, roadmaps, and the reporting that tells the truth about delivery.", photo: "" }
-    - { name: "Aysha Williams", role: "UX Designer", line: "Journey maps, flows and screens validated before they're built.", photo: "" }
+    - slug: wiqar-chaudry
+      name: "Wiqar Chaudry"
+      role: "Principal"
+      line: "Transformation strategy, program ownership, the venture and the talent engine."
+      photo: ""
+      linkedin: "https://linkedin.com/in/wiqar"
+      bio:
+        - "Wiqar builds organizations that can transform themselves — and he has done it as a founder, as an operator, and as the owner of a client's program. The pattern is the same each time: frame the change with the people who own the outcome, stand up the capacity to deliver it as their own, hire and train the people, and deliver something real every quarter until the organization can carry on without him."
+        - "As co-founder and Chief Product and Operations Officer of Nalej, an edge-computing company, he raised $2.5M, built and ran teams in Madrid and the United States, delivered a working system for Airbus in ninety days, and closed a five-year DARPA / AFRL contract with the certification it required. At Zones, a $3B IT solutions provider, he framed the transformation with the executive team, stood up a center in Islamabad as the company's own venture, built a university pipeline and a graduate program that grew the team to 70+, and has run the program since 2022 — with the handover now being planned. Before either: head of product at Wasmer, and product, marketing and architecture roles at Rackspace, NuoDB, Expressor, Memento and Epsilon, where the systems he designed won an $83M contract, took a product to 30,000 downloads a month, and put a company on the Gartner Magic Quadrant."
+        - "He still builds. For the past year most of the code on a live production platform has been written by AI agents under a framework he designed — the operating model HyperModo now installs for clients so the pace of engineering doesn't depend on who is in the room."
+      facts:
+        - { k: "Education", v: "MS, Computer Information Systems, Boston University · BBA, Finance, Temple University" }
+        - { k: "Taught", v: "Systems design, Boston University Metropolitan College · Web development, Mercer County Community College" }
+    - slug: atif-majid
+      name: "Atif Majid"
+      role: "CTO / Architect"
+      line: "Technical strategy and architecture — the platform, the data, the seams to the systems of record."
+      photo: ""
+      linkedin: ""
+      bio:
+        - "Bio to come."
+      facts: []
+    - slug: greg-cromwell
+      name: "Greg Cromwell"
+      role: "Principal Product Manager"
+      line: "Use cases, requirements, roadmaps, and the reporting that tells the truth about delivery."
+      photo: ""
+      linkedin: ""
+      bio:
+        - "Bio to come."
+      facts: []
+    - slug: aysha-williams
+      name: "Aysha Williams"
+      role: "UX Designer"
+      line: "Journey maps, flows and screens validated before they're built."
+      photo: ""
+      linkedin: ""
+      bio:
+        - "Bio to come."
+      facts: []
 engage:
   heading: "How to engage"
   formats:
