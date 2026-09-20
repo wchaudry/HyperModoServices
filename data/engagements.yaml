@@ -1,0 +1,17 @@
+heading: More engagements
+items:
+  - client: Wasmer
+    period: 2020–2022
+    title: The enterprise plan a runtime company is still executing
+    text: Head of product for a WebAssembly platform. Framed the enterprise offer and its go-to-market, ran the first enterprise customers, and built the sponsorship model that funds the open-source core.
+    anchor: wasmer
+  - client: Bugcrowd
+    period: 2019–2020
+    title: A data business inside a security platform
+    text: Strategy for monetizing Crowd Control's data — the roadmap, the implementation plan, and the prototype wireframes engineering built from.
+    anchor: bugcrowd
+  - client: Teleport (then Gravitational)
+    period: 2016–2017
+    title: A channel model for an early Kubernetes platform
+    text: Built the channel sales model, closed two direct customers proving it, and generated the partner and reseller pipeline that followed.
+    anchor: teleport

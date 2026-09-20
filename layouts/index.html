@@ -62,9 +62,12 @@
 
 <section id="work" style="padding-top:0">
   <div class="wrap">
-    <div class="center"><span class="eyebrow">Work</span><h2 style="margin-top:16px">Selected engagements</h2></div>
+    {{ $e := hugo.Data.engagements }}
+    <div class="center"><span class="eyebrow">Work</span><h2 style="margin-top:16px">{{ $e.heading }}</h2></div>
     <div class="cases">
-      {{ range first 3 (where (where .Site.RegularPages "Section" "work") "Params.featured" true) }}{{ partial "card.html" . }}{{ end }}
+      {{ range $e.items }}
+      <a class="acard" href="{{ "/work/" | relURL }}#{{ .anchor }}"><div class="top"><span>{{ .client }} · {{ .period }}</span></div><div class="body"><h3>{{ .title }}</h3><p>{{ .text }}</p></div></a>
+      {{ end }}
     </div>
   </div>
 </section>
