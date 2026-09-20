@@ -7,14 +7,14 @@ firm:
     - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc." }
     - { k: "Based", v: "New York / Philadelphia; the Zones center in Islamabad" }
     - { k: "Specialization", v: "Enterprise data systems, and the people and process around them" }
-    - { k: "Working now", v: "Zones LLC, program owner since 2022" }
+    - { k: "Working now", v: "Zones LLC, program owner since 2022 — handover being planned" }
 principal:
   name: Wiqar Chaudry
   role: Principal
   photo: ""
   paras:
-    - "Wiqar builds transformation engines inside companies. For the past four years that has meant one thing done end to end at Zones, a $3B IT solutions provider: framing the transformation with its executive team; standing up a center in Islamabad as the company's own venture — the entity, the office, the leadership; building a pipeline from top universities, a 12-month program for every graduate and a team that grew to 70+; and running the program so finished work reached the business every quarter while the core platform was built underneath. The handover is being planned now, and in 2027 the team he built delivers the next system without him."
-    - "That work sits on twenty years of translating between a business and its engineers — product, marketing, architecture and data roles at Wasmer, Bugcrowd, Rackspace, NuoDB, Expressor, Memento and Epsilon, always with the business's goal on one side of the table and the people who had to build it on the other. Enterprise data is the constant: the systems he designed won an $83M contract, took a product to 30,000 downloads a month, and put a company on the Gartner Magic Quadrant."
+    - "Wiqar builds organizations that can transform themselves — and he has done it as a founder, as an operator, and as the owner of a client's program. The pattern is the same each time: frame the change with the people who own the outcome, stand up the capacity to deliver it as their own, hire and train the people, and deliver something real every quarter until the organization can carry on without him."
+    - "As co-founder and Chief Product and Operations Officer of Nalej, an edge-computing company, he raised $2.5M, built and ran teams in Madrid and the United States, delivered a working system for Airbus in ninety days, and closed a five-year DARPA / AFRL contract with the certification it required. At Zones, a $3B IT solutions provider, he framed the transformation with the executive team, stood up a center in Islamabad as the company's own venture, built a university pipeline and a graduate program that grew the team to 70+, and has run the program since 2022 — with the handover now being planned. Before either: head of product at Wasmer, and product, marketing and architecture roles at Rackspace, NuoDB, Expressor, Memento and Epsilon, where the systems he designed won an $83M contract, took a product to 30,000 downloads a month, and put a company on the Gartner Magic Quadrant."
     - "He still builds. For the past year most of the code on a live production platform has been written by AI agents under a framework he designed — the operating model HyperModo now installs for clients so the pace of engineering doesn't depend on who is in the room."
   facts:
     - { k: "Education", v: "MS, Computer Information Systems, Boston University · BBA, Finance, Temple University" }
