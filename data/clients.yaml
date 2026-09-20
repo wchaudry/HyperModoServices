@@ -3,7 +3,7 @@ logos:
   - { name: Wasmer, file: logos/wasmer.png, h: 36 }
   - { name: Bugcrowd, file: logos/bugcrowd.svg, h: 26 }
   - { name: Teleport, file: logos/teleport.svg, h: 24 }
-  - { name: "DARPA · AFRL", file: logos/afrl.svg, h: 40, with_name: true }
+  - { name: DARPA, file: logos/darpa.png, h: 18 }
   - { name: Airbus, file: logos/airbus.svg, h: 22 }
   - { name: Toshiba, file: logos/toshiba.svg, h: 19 }
   - { name: BizAnalytica, file: "" }
