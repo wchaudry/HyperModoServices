@@ -7,7 +7,7 @@
       {{ with .Params.lead }}<p class="lead reveal">{{ . | markdownify }}</p>{{ end }}
       <div class="ctas reveal">{{ range .Params.buttons }}<a class="btn {{ .style | default "primary" }}" href="{{ .url }}">{{ .label }}</a>{{ end }}</div>
     </div>
-    <div class="hero-object reveal">{{ partial "ledger.html" . }}</div>
+    <div class="hero-object reveal">{{ partial "hero-visual.html" . }}</div>
   </div>
 </section>
 
