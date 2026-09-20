@@ -30,11 +30,11 @@
 
 <section class="alt" id="approach">
   <div class="wrap">
-    <div class="center"><span class="eyebrow">How it works</span><h2 style="margin-top:16px">Why this isn't a consultancy in the usual sense</h2></div>
+    {{ $w := hugo.Data.why }}
+    <div class="center"><span class="eyebrow">{{ $w.eyebrow }}</span><h2 style="margin-top:16px">{{ $w.heading }}</h2><p class="sub">{{ $w.sub }}</p></div>
     <div class="three">
-      {{ range hugo.Data.approach }}<div><span class="k">{{ .key }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
+      {{ range $w.points }}<div><span class="k">when</span><h3>{{ .fail }}</h3><p>{{ .answer }}</p></div>{{ end }}
     </div>
-    <div class="center" style="margin-top:44px">{{ partial "strip.html" (merge hugo.Data.stack (dict "stack" true)) }}</div>
   </div>
 </section>
 
