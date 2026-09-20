@@ -46,9 +46,9 @@
       proof: "Zones: handover being planned now; in 2027 the Islamabad team delivers global e-commerce without us."
 - category: Technical strategy
   key: technical
-  image: warehouse-tablet.jpg
+  image: circuit-blue.jpg
   dark: true
-  alt: "A worker with a tablet on a distribution floor"
+  alt: "A dark blue circuit board, close up"
   stats: [{v: "4", l: "systems in daily use at Zones"}, {v: "2027", l: "core platform live, delivered by the team"}]
   line: "A business shouldn't rent its own knowledge from its systems of record. Our positions: decouple from the ERP, data before experiences, a platform rather than a project, integrate early, make everything reproducible — and engineering throughput that doesn't depend on who is in the room."
   items:

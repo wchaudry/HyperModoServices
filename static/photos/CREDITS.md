@@ -10,3 +10,4 @@ Stand-ins until real photographs of the team and the center exist.
 - warehouse-tablet.jpg — https://unsplash.com/photos/DvUy7qVOJRE — Zones, what's in daily use
 - whiteboard.jpg — https://unsplash.com/photos/wD1LRb9OeEo — Bugcrowd, the diagnosis
 - sketch-whiteboard.jpg — https://unsplash.com/photos/26MJGnCM0Wc — Expertise, transformation strategy band
+- circuit-blue.jpg — Vishnu Mohanan — https://unsplash.com/photos/pfR18JNEMv8 — Expertise, technical strategy band
