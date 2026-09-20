@@ -13,3 +13,4 @@ Stand-ins until real photographs of the team and the center exist.
 - interchange.jpg — joseph clapp — https://unsplash.com/photos/ieUq8n71iOQ — Expertise, transformation strategy band
 - seats.jpg — https://unsplash.com/photos/5nGCyV51P60 — Expertise, people strategy band
 - movement3.jpg — https://unsplash.com/photos/a-vYdevMehQ — Expertise, capabilities band
+- about-cover.jpg — https://unsplash.com/photos/b2L3f7ednYE — About, cover
