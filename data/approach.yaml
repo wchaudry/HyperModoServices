@@ -1,9 +1,0 @@
-- key: your people own it
-  title: We build your team, not our dependency
-  text: "Consulting ends one of two ways: you depend on the firm forever, or they leave with the expertise. Every engagement here pairs a deliverable with the people on your side who own it afterwards — at Zones, a seventy-person internal organization built through a graduate program."
-- key: a deliverable at every step
-  title: Spec first, then the thing itself
-  text: Business case, mockups, architecture, test plan sized in hours, readiness assessment, cutover. Each is a document or a system you keep — never a recommendation and a handshake.
-- key: agents under a framework
-  title: Most of the code is agent-written, all of it reviewed
-  text: A written definition of a defect, a review loop that runs until a round raises nothing, persistent memory across sessions. Installed in your repos; your engineers trained on it.
