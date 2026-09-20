@@ -1,0 +1,74 @@
+- title: Enterprise data systems
+  spec: true
+  blurb: The specialization. Master data, ingestion, integration and the infrastructure under them — taken to production, then handed over.
+  deliver:
+    - A master-data model with lineage — transaction, staging, master
+    - Ingestion from anything — EDI, distributor and CNET catalogs, SFTP/HTTP/API feeds, spreadsheets
+    - A rules engine the business configures — validation, correction, precedence, pricing and margin
+    - Integration to what consumes the data — D365 F&O and CE, e-commerce, CRM — with change data capture
+    - Infrastructure as code on Azure — network, AKS, managed PostgreSQL, WAF, secrets, monitoring
+    - Production data forensics when a pipeline reports success and quietly drops rows
+  proof: "Zones: identity and SSO across every application, daily vendor-feed catalog processing, and the core data and merchandising platform in final testing. Earlier: distributed SQL at NuoDB, high-speed ETL at Expressor, terabyte-scale marketing databases for Pfizer, Capital One and Bank of America — including the system that won an $83M contract."
+- title: Product marketing
+  blurb: Positioning, launch and the content that sells a technical product to technical buyers.
+  deliver:
+    - Positioning and messaging, with the competitive analysis behind it
+    - The launch — website, technical papers, demos, webinars, campaigns
+    - Sales enablement — presentations, battle cards, the hard answers
+    - Analyst and community positioning — developer programs, sponsorship models
+    - Due-diligence material when the product is being acquired
+  proof: "NuoDB onto the Gartner Magic Quadrant — launch, site, papers, demos, developer community. Expressor repositioned for business analysts to 30,000 downloads a month, and the diligence behind its acquisition by Qlik. Wasmer's go-to-market and open-source sponsorship model. BizAnalytica's services go-to-market."
+- title: Product management
+  blurb: The work between "we should do this" and "it's in use."
+  deliver:
+    - North-star use cases with personas, real cases and acceptance criteria
+    - Requirements written ahead of development, with the test plan derived from them
+    - A phased roadmap — what each phase proves, what it depends on
+    - Customer interviews, user stories, prototypes and mockups
+    - Program reporting that names root causes, with numbers
+  proof: "The enterprise plan Wasmer is executing. Memento's fraud platform, expanded from internal fraud to check fraud, card bust-out and AML (acquired by FIS). Bugcrowd's data-monetization roadmap and prototypes. Zones' north-star use cases, requirements and a 1,700-case test plan."
+- title: UX design
+  blurb: User flows and screens validated before they're built.
+  deliver:
+    - Stakeholder journey maps — customer, vendor, workforce, internal
+    - User flows and Figma mockups, tested against real process
+    - Persona-specific experiences where the personas genuinely differ
+    - Mobile where it's needed — we ship Flutter
+    - Handover to engineering with the tokens and components that make the screens real
+  proof: "The platform mockups and user flows that turned Zones' strategy into an approved build, and the PIM experience its business users work in. A Flutter application with 83 screens. Bugcrowd's prototype wireframes."
+- title: Design systems
+  blurb: Design tokens and components published as versioned packages your engineers install.
+  deliver:
+    - Tokens — color, type, spacing, radius, light and dark — as the single source of truth
+    - A component library as versioned npm packages, with documentation and demos
+    - A cascading color system, so a team can't hard-code a wrong color
+    - The rule that new UI is composed from the system, and the review that enforces it
+    - Applications built on it as proof — a CMS, an editor, a web shell
+  proof: "The Xymbia web design system: @xymbia/design and @xymbia/components, 73 releases, 26 component families, a 67-page docs site, a CMS and editor built on top. Consumed by the Xymbia website and platform shell."
+- title: Product delivery
+  blurb: From the business case to go-live, with one owner the whole way.
+  deliver:
+    - The business case an executive team approves — market, competition, model, vision, roadmap, presentation
+    - Program ownership — architecture, delivery organization, vendor management, executive reporting
+    - The engineering organization to deliver it, and the retention work to keep it
+    - Go-live — readiness assessment, test plan sized in hours, cutover, support model, handover
+    - Full ownership, or fractional head of platform / CTO with a handover plan from day one
+  proof: "Zones — framed with the executive team, the Islamabad center stood up, the team built to 70+, four systems in use, the core platform live in 2027. Nalej — $2.5M raised, a $15M DARPA/AFRL contract, an Airbus MVP in ninety days."
+- title: Technical training programs
+  blurb: People trained by delivering real work, across disciplines. Not a bootcamp.
+  deliver:
+    - A curriculum per discipline, built from your stack and your backlog
+    - A rotation — real deliverables, a named mentor in each discipline
+    - Assessments we write and grade
+    - A management track and a technical-expert track
+    - Success measured by what was delivered and who stayed
+  proof: "The Zones Digital Leadership Program — a 12-month program for fresh graduates, starting after graduation, rotating through DevOps, UI, backend, frontend, product and security on production systems. At university: graduate instructor in systems design at Boston University's Metropolitan College; adjunct professor of web development at Mercer County Community College."
+- title: AI-based agentic development
+  blurb: Most of the code on a live production system written by AI agents, under an operating model that makes it safe — installed in your repositories.
+  deliver:
+    - The framework — written directives, session protocols, a persistent knowledge base
+    - Review gates as code — hooks that enforce the rules rather than ask
+    - Work tracked in one place and synced to your issue tracker
+    - Your engineers trained to direct and review agent-written code
+    - The work itself — agents doing production engineering under our review
+  proof: "A live production data platform where the agents' work is tracked across 59 engineering projects with more than 3,300 recorded findings and decisions, all reviewed to a written standard before commit. The same model runs Xymbia's own platform. The framework is a toolkit; installing it takes a day."
