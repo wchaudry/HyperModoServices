@@ -21,10 +21,9 @@
     <div class="center"><span class="eyebrow">What we do</span><h2 style="margin-top:16px">{{ $j.heading }}</h2><p class="sub">{{ $j.sub }}</p></div>
     <div class="steps">
       {{ range $j.steps }}
-      <a class="step" href="{{ "/services/" | relURL }}#{{ .anchor }}"><span class="n">{{ .n }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></a>
+      <div class="step"><span class="n">{{ .n }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></div>
       {{ end }}
     </div>
-    <p class="center muted" style="margin-top:28px;font-size:15px">Eight practice areas make this possible — <a href="{{ "/services/" | relURL }}#capabilities" style="color:var(--violet)">the capabilities we bring</a>.</p>
   </div>
 </section>
 
