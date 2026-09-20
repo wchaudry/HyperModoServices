@@ -5,7 +5,7 @@ lead: "Zones is a $3B IT solutions provider. Its product data was split across t
 facts:
   - { k: "Framed with", v: "the CDO and executive team — strategy, competitive analysis, business case" }
   - { k: "Venture", v: "a new digital center in Pakistan, staffed and run as Zones' own" }
-  - { k: "Talent engine", v: "campus recruiting at top universities, an internship, a nine-month rotation, senior seed hires" }
+  - { k: "Talent engine", v: "campus recruiting at top universities, a 12-month fresh-graduate program, senior seed hires" }
   - { k: "Cadence", v: "finished work in use every quarter, from the first year" }
   - { k: "Systems", v: "one governed platform for product, service and subscription data, owned by the business" }
   - { k: "Team", v: "70+ people today, recruited and trained in-house, running it" }

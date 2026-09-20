@@ -146,7 +146,7 @@ Engineers trained by delivering production software, across disciplines. Not a b
 - A management track and a technical-expert track for the people who come out the other end
 - Success measured by what shipped and who stayed
 
-**Where I've done it:** the Zones Digital Leadership Program — a nine-month rotation for new graduates through DevOps, UI, backend, frontend, product management, and cybersecurity and networking, on production and greenfield systems; the strongest were promoted into the team that built the platform. The internship program feeding it. At university: graduate instructor in Systems Design and Implementation Strategies at Boston University's Metropolitan College, and adjunct professor of web design and development at Mercer County Community College — I wrote and delivered both courses.
+**Where I've done it:** the Zones Digital Leadership Program — a 12-month program for fresh graduates, starting after graduation, rotating through DevOps, UI, backend, frontend, product management, and cybersecurity and networking, on production and greenfield systems; the strongest were promoted into the team that built the platform. At university: graduate instructor in Systems Design and Implementation Strategies at Boston University's Metropolitan College, and adjunct professor of web design and development at Mercer County Community College — I wrote and delivered both courses.
 
 ### AI-based agentic development
 

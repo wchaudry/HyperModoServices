@@ -15,7 +15,7 @@ tags: ["organization", "talent", "leadership"]
 {{< stats >}}
 {{< stat value="70" label="Peak team" >}}Across two countries, product, engineering, UX and DevOps.{{< /stat >}}
 {{< stat value="50+" label="Graduates kept on" >}}Converted to permanent staff after the program.{{< /stat >}}
-{{< stat value="4" label="Career tracks" >}}Internship, graduate rotation, management, technical expert.{{< /stat >}}
+{{< stat value="12" label="Month fresh-graduate program" >}}Starts after graduation; rotation across disciplines, on real deliverables.{{< /stat >}}
 {{< /stats >}}
 
 ## The situation
@@ -24,7 +24,7 @@ The program needed skills the client did not have — data modelling, pipeline e
 
 ## What I did
 
-Designed a four-track career program: an eight-week internship for final-year students; a nine-month graduate rotation through DevOps, backend, frontend, product and security; a management track with executive mentorship; and an expert track to architect, principal and fellow. Ran campus recruiting personally at three universities and wrote the coding assessments myself.
+Designed the career program: a 12-month fresh-graduate program that starts after graduation and rotates new hires through DevOps, backend, frontend, product and security on real deliverables; a management track with executive mentorship; and an expert track to architect, principal and fellow. Ran campus recruiting personally at three universities and wrote the coding assessments myself.
 
 ## What happened
 
