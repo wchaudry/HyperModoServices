@@ -11,10 +11,9 @@ logo_h: 26
 featured: true
 weight: 2
 metrics:
-  - { value: "2", label: "businesses in one platform — security remediation, and a talent agency for researchers" }
-  - { value: "2–4 wks", label: "to answer a data question before; 30 requests queued, 3 in progress" }
-  - { value: "2 × 90", label: "days: one engagement for the data strategy, one for crowd management" }
-  - { value: "100%", label: "of both strategies implemented by Bugcrowd's own team, without us" }
+  - { value: "90 days", label: "per engagement — from first conversation to a plan the company could execute" }
+  - { value: "2", label: "strategies delivered: the data services framework, and crowd management" }
+  - { value: "100%", label: "implemented by Bugcrowd's own team — no follow-on engagement, no dependency" }
 glance:
   - { k: "Client", v: "Bugcrowd — crowdsourced security platform" }
   - { k: "Engagement", v: "Two 90-day engagements, 2019–2020: data strategy, then crowd management" }
