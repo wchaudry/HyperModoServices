@@ -10,6 +10,6 @@ Stand-ins until real photographs of the team and the center exist.
 - warehouse-tablet.jpg — https://unsplash.com/photos/DvUy7qVOJRE — Zones, what's in daily use
 - whiteboard.jpg — https://unsplash.com/photos/wD1LRb9OeEo — Bugcrowd, the diagnosis
 - circuit-blue.jpg — Vishnu Mohanan — https://unsplash.com/photos/pfR18JNEMv8 — Expertise, technical strategy band
-- chess.jpg — Brecht Corbeel — https://unsplash.com/photos/BMxEljLBliM — Expertise, transformation strategy band
-- library2.jpg — https://unsplash.com/photos/7J4uy6BOU5Q — Expertise, people strategy band
 - gauge.jpg — https://unsplash.com/photos/mnBdAFwhxDs — Expertise, capabilities band
+- interchange.jpg — joseph clapp — https://unsplash.com/photos/ieUq8n71iOQ — Expertise, transformation strategy band
+- seats.jpg — https://unsplash.com/photos/5nGCyV51P60 — Expertise, people strategy band
