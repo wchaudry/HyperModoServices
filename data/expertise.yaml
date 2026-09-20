@@ -46,10 +46,9 @@
       proof: "Zones: handover being planned now; in 2027 the Islamabad team delivers global e-commerce without us."
 - category: Technical strategy
   key: technical
-  artifact: photos/artifacts/zones-platform-map.png
+  image: warehouse-tablet.jpg
   dark: true
-  alt: "The Zones platform component map: Commerce, Content, Data and Access Studio, their capabilities, ecosystem and revenue streams"
-  caption: "Zones platform map, 2026"
+  alt: "A worker with a tablet on a distribution floor"
   stats: [{v: "4", l: "systems in daily use"}, {v: "2027", l: "core platform live"}]
   line: "Not a list of technologies. A set of positions on how a business comes to own its technology instead of renting it from its systems of record — the specialization is enterprise data systems, and this is how we approach them."
   items:

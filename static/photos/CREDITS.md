@@ -10,5 +10,3 @@ Stand-ins until real photographs of the team and the center exist.
 - warehouse-tablet.jpg — https://unsplash.com/photos/DvUy7qVOJRE — Zones, what's in daily use
 - whiteboard.jpg — https://unsplash.com/photos/wD1LRb9OeEo — Bugcrowd, the diagnosis
 - sketch-whiteboard.jpg — https://unsplash.com/photos/26MJGnCM0Wc — Expertise, transformation strategy band
-- artifacts/zones-platform-map.png — from the March 2026 executive deck (Zones material)
-- artifacts/zones-architecture.png — from the December 2025 readiness assessment (Zones material), unused for now
