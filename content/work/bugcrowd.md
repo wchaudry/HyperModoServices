@@ -8,7 +8,19 @@ period: "2019 – 2020"
 eyebrow: "Case study"
 featured: true
 weight: 2
-showTableOfContents: true
+metrics:
+  - { value: "2", label: "businesses in one platform — security remediation, and a talent agency for researchers" }
+  - { value: "2–4 wks", label: "to answer a data question before; 30 requests queued, 3 in progress" }
+  - { value: "3", label: "quarters from framework to a data-services MVP, on the roadmap delivered" }
+  - { value: "100%", label: "of both strategies implemented by Bugcrowd's own team, without us" }
+glance:
+  - { k: "Client", v: "Bugcrowd — crowdsourced security platform" }
+  - { k: "Engagement", v: "2019 – 2020" }
+  - { k: "Our role", v: "Data strategy, crowd management strategy, prototypes, organizational design" }
+  - { k: "Delivered", v: "Data services framework and roadmap; crowd lifecycle, payout and incentive models; dashboards and wireframes; an Enterprise Data Engineering group" }
+  - { k: "Implemented by", v: "Bugcrowd's internal team, in full" }
+steps: ["Framed with leadership", "What the business needs, specified", "Handed over — implemented in-house"]
+outcome: "Bugcrowd implemented both strategies — the data services framework and the crowd management system — entirely with its own people. No dependency on us, no second engagement to finish the first. That is the model working at its smallest: frame it, specify it, hand it over, and the capability stays."
 ---
 
 Bugcrowd runs a platform where companies pay to have security researchers find their vulnerabilities. In 2019 it was growing on two sides at once — customers buying programs, and a crowd of researchers doing the work — and its systems treated both as one thing. Data definitions were inconsistent. Insight stopped at a renewal report and a time-to-triage number. Data and application logic were tightly coupled, so every new question was an engineering request: thirty in the queue, three in progress, two to four weeks each, most of them for a simple aggregation or a profile lookup. And there was no structured way to recruit, pay or keep the researchers the whole business depended on.
@@ -31,4 +43,4 @@ From there the transformation could be stated in the company's own terms: manage
 
 ## What it asked of the model {#model}
 
-This was the front of the model without the venture: frame it with leadership, specify what the business needs, and hand engineering a plan and prototypes it could act on. The wireframes went into the build. The strategy gave a company that had been answering data questions one ticket at a time a way to answer them structurally — and named the organization that would own it.
+This was the front of the model without the venture: frame it with leadership, specify what the business needs, and hand the company a plan and prototypes it can act on. Bugcrowd then did exactly that — it implemented the data strategy and the crowd management system in full with its own internal resources. A company that had been answering data questions one ticket at a time now answers them structurally, with an organization of its own to keep doing so.

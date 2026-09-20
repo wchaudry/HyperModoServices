@@ -8,7 +8,19 @@ period: "2022 – today"
 eyebrow: "Case study"
 featured: true
 weight: 1
-showTableOfContents: true
+metrics:
+  - { value: "$3B", label: "IT solutions provider, the client" }
+  - { value: "70+", label: "people in the Islamabad center today, recruited and trained in-house" }
+  - { value: "4", label: "systems in daily use: pricing, identity, catalog processing, order approvals" }
+  - { value: "2027", label: "core platform live; the team delivers global e-commerce on its own" }
+glance:
+  - { k: "Client", v: "Zones LLC — IT solutions provider, $3B revenue" }
+  - { k: "Engagement", v: "March 2022 – today" }
+  - { k: "Our role", v: "Program owner: strategy, the venture, the team, delivery" }
+  - { k: "The venture", v: "A new center in Islamabad, opened July 2022, Zones' own" }
+  - { k: "Where it stands", v: "Core platform in final testing; handover being planned" }
+steps: ["Framed with the executive team", "Venture stood up", "Talent engine built", "Shipping every quarter", "Core platform in testing", "Adjusting with leadership"]
+outcome: "A $3B company now has a transformation engine of its own: a center in Islamabad, 70+ people it recruited and trained, four systems in daily use and the core platform going live in 2027. The next system — global e-commerce — the team delivers without us."
 ---
 
 Zones is a $3B IT solutions provider. In 2022 it could not sell what its customers wanted to buy — hardware, services and subscriptions as one offer — because the data underneath wouldn't allow it. Product information was split across three departments. Twenty years of business rules lived inside the ERP, known to a handful of people. Merchandising was manual, competitive pricing reached a small fraction of the catalog, and every change to a product was an IT request. Competitors were transforming faster, and distributors were starting to sell around them.
