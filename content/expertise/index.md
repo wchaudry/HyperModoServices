@@ -38,7 +38,7 @@ Positioning, launch and the content that sells a technical product to technical 
 
 ## Product management
 
-The work between "we should build this" and "it shipped."
+The work between "we should do this" and "it's in use."
 
 **What you get**
 
@@ -102,7 +102,7 @@ Engineers trained by delivering production software, across disciplines. Not a b
 - A rotation design: trainees move through disciplines on a schedule, on real deliverables, with a named mentor in each
 - Assessments I write and grade, so you know who is ready for what
 - A management track and a technical-expert track for the people who come out the other end
-- Success measured by what shipped and who stayed
+- Success measured by what was delivered and who stayed
 
 **Where I've done it:** the Zones Digital Leadership Program — a 12-month program for fresh graduates, starting after graduation, rotating through DevOps, UI, backend, frontend, product management, and cybersecurity and networking, on production and greenfield systems; the strongest were promoted into the team that built the platform. At university: graduate instructor in Systems Design and Implementation Strategies at Boston University's Metropolitan College, and adjunct professor of web design and development at Mercer County Community College — I wrote and delivered both courses.
 

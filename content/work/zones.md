@@ -50,7 +50,7 @@ Zones' own — entity, office, leadership, staffing plan. Cost and risk down; a 
 {{< photo src="graduates.jpg" alt="Graduates at the end of a ceremony" class="right" caption="a 12-month program, from graduation" >}}
 Top universities as funnel and farm system. Campus recruiting and assessments, run by us. Senior hires to seed and mentor. A 12-month fresh-graduate program on real deliverables — the training program *is* the delivery program.
 {{< /tl >}}
-{{< tl when="2023–2025" title="Shipping every quarter" >}}
+{{< tl when="2023–2025" title="Delivering every quarter" >}}
 Year one split between the business and the technical foundation; something in the business's hands every quarter. Four systems now in daily use — below.
 {{< /tl >}}
 {{< tl when="2026" title="The core platform, in final testing" >}}
