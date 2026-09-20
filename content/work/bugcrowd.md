@@ -1,21 +1,21 @@
 ---
 title: "Bugcrowd: a data strategy for a company that was two businesses at once"
-summary: "A crowdsourced-security platform that was also a talent agency — and had built its data and its crowd operations for neither. The strategy, the roadmap, the organization, and the prototypes engineering built from."
+summary: "A crowdsourced-security platform that was also a talent agency — and had built its data and its crowd operations for neither. Two 90-day engagements: the data strategy, then crowd management. Both implemented in full by Bugcrowd's own team."
 date: 2019-06-01
 lastmod: 2026-09-20
 client: "Bugcrowd"
-period: "2019 – 2020"
+period: "two 90-day engagements, 2019–2020"
 eyebrow: "Case study"
 featured: true
 weight: 2
 metrics:
   - { value: "2", label: "businesses in one platform — security remediation, and a talent agency for researchers" }
   - { value: "2–4 wks", label: "to answer a data question before; 30 requests queued, 3 in progress" }
-  - { value: "3", label: "quarters from framework to a data-services MVP, on the roadmap delivered" }
+  - { value: "2 × 90", label: "days: one engagement for the data strategy, one for crowd management" }
   - { value: "100%", label: "of both strategies implemented by Bugcrowd's own team, without us" }
 glance:
   - { k: "Client", v: "Bugcrowd — crowdsourced security platform" }
-  - { k: "Engagement", v: "2019 – 2020" }
+  - { k: "Engagement", v: "Two 90-day engagements, 2019–2020: data strategy, then crowd management" }
   - { k: "Our role", v: "Data strategy, crowd management strategy, prototypes, organizational design" }
   - { k: "Delivered", v: "Data services framework and roadmap; crowd lifecycle, payout and incentive models; dashboards and wireframes; an Enterprise Data Engineering group" }
   - { k: "Implemented by", v: "Bugcrowd's internal team, in full" }
