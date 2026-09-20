@@ -52,15 +52,14 @@
 </section>
 
 <section id="proof">
-  <div class="wrap wide">
+  <div class="wrap">
     {{ $f := hugo.Data.featured }}
+    <div class="sechead">
+      <div><span class="eyebrow">{{ $f.eyebrow }} · {{ $f.client }}</span><h2>{{ $f.heading }}</h2></div>
+      <p class="sechead-sub">{{ $f.lead }}</p>
+    </div>
     <div class="featured">
-      <div class="featured-copy">
-        <span class="eyebrow">{{ $f.eyebrow }} · {{ $f.client }}</span>
-        <h2 style="margin-top:16px">{{ $f.heading }}</h2>
-        <p class="lead">{{ $f.lead }}</p>
-        <dl class="facts">{{ range $f.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
-      </div>
+      <dl class="facts">{{ range $f.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
       <div class="featured-object">
         {{ partial "ledger.html" . }}
         <a class="btn primary" href="{{ $f.link | relURL }}">{{ $f.link_label }}</a>
