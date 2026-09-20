@@ -7,6 +7,10 @@
   pageRef = "work"
   weight = 20
 [[main]]
+  name = "Expertise"
+  pageRef = "expertise"
+  weight = 30
+[[main]]
   name = "About"
   pageRef = "about"
   weight = 50
