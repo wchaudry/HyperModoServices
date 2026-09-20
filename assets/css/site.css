@@ -8,6 +8,7 @@
     --shadow:0 1px 2px rgba(15,5,24,.06), 0 12px 40px -20px rgba(35,16,68,.35);
     --wash-a:#efeaff; --wash-b:#7b5cf0; --streak:rgba(255,255,255,.55);
     --ledger-bg:var(--night); --ledger-ink:var(--night-ink); --ledger-muted:var(--night-muted); --ledger-rule:var(--night-rule); --ledger-tab:#2a1a3f;
+    --brand-tile:#6d4bea; --brand-bolt:#ffffff;
     color-scheme:light;
   }
   @media (prefers-color-scheme: dark){
@@ -20,6 +21,7 @@
       --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 40px -20px rgba(0,0,0,.9);
       --wash-a:#0f0518; --wash-b:#4a2fc9; --streak:rgba(166,140,255,.18);
       --ledger-bg:#1c0f2c; --ledger-ink:#f4f0fa; --ledger-muted:rgba(244,240,250,.62); --ledger-rule:rgba(244,240,250,.12); --ledger-tab:#2f1d4a;
+      --brand-tile:#a68cff; --brand-bolt:#0f0518;
       color-scheme:dark;
     }
   }
@@ -32,6 +34,7 @@
     --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 40px -20px rgba(0,0,0,.9);
     --wash-a:#0f0518; --wash-b:#4a2fc9; --streak:rgba(166,140,255,.18);
     --ledger-bg:#1c0f2c; --ledger-ink:#f4f0fa; --ledger-muted:rgba(244,240,250,.62); --ledger-rule:rgba(244,240,250,.12); --ledger-tab:#2f1d4a;
+    --brand-tile:#a68cff; --brand-bolt:#0f0518;
     color-scheme:dark;
   }
 
@@ -59,8 +62,7 @@
   header{position:sticky;top:0;z-index:10;backdrop-filter:saturate(1.4) blur(10px);background:color-mix(in srgb, var(--paper) 80%, transparent);border-bottom:1px solid var(--rule)}
   .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
   .brand{font-family:"Plus Jakarta Sans",sans-serif;font-weight:700;font-size:20px;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
-  .brand i{width:22px;height:22px;border-radius:6px;background:linear-gradient(135deg,var(--violet),#3b2a8c);display:inline-block;position:relative}
-  .brand i::after{content:"";position:absolute;inset:6px 5px 6px 11px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:skewX(-14deg);opacity:.9}
+  .fbrand{display:inline-flex;align-items:center;gap:8px}
   .links{display:flex;gap:26px;font-size:15px;font-weight:600;color:var(--muted)}
   .links a:hover{color:var(--ink)}
   .navr{display:flex;align-items:center;gap:12px}

@@ -1,6 +1,6 @@
 <header>
   <div class="wrap nav">
-    <a class="brand" href="{{ "/" | relURL }}"><i aria-hidden="true"></i>{{ .Site.Title }}</a>
+    <a class="brand" href="{{ "/" | relURL }}">{{ partial "mark.html" (dict "size" 28) }}{{ .Site.Title }}</a>
     <nav class="links" aria-label="Main">
       {{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
     </nav>

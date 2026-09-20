@@ -1,6 +1,6 @@
 <footer>
   <div class="wrap frow">
-    <span><b style="color:var(--ink)">{{ .Site.Title }}</b> · {{ .Site.Params.entity }} · {{ .Site.Params.location }}</span>
+    <span class="fbrand">{{ partial "mark.html" (dict "size" 18) }}<b style="color:var(--ink)">{{ .Site.Title }}</b> · {{ .Site.Params.entity }} · {{ .Site.Params.location }}</span>
     <span>{{ range $i, $m := .Site.Menus.main }}{{ if $i }} · {{ end }}<a href="{{ $m.URL }}">{{ $m.Name }}</a>{{ end }} · <a href="{{ .Site.Params.linkedin }}">LinkedIn</a></span>
     <span>© {{ now.Year }} {{ .Site.Title }}</span>
   </div>
