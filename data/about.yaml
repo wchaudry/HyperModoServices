@@ -10,7 +10,7 @@ firm:
     - { k: "Working now", v: "Zones LLC, program owner since 2022" }
 team:
   heading: "The team"
-  line: "Small by design. The organization we build is yours; the people who build it with you are these."
+  line: "Four people, deliberately. We don't bring a bench — we build yours."
   people:
     - slug: wiqar-chaudry
       name: "Wiqar Chaudry"
