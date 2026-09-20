@@ -1,0 +1,1 @@
+<div class="beside"><div class="beside-main">{{ .Inner }}</div><figure class="photo tall"><img src="{{ printf "photos/%s" (.Get "photo") | relURL }}" alt="{{ .Get "alt" }}" loading="lazy">{{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}</figure></div>

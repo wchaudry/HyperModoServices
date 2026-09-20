@@ -26,8 +26,7 @@ outcome: "Bugcrowd implemented both strategies — the data services framework a
 
 ## The diagnosis leadership acted on
 
-{{< photo src="whiteboard.jpg" alt="A working session at a whiteboard" class="right" caption="two 90-day engagements" >}}
-
+{{< beside photo="whiteboard.jpg" alt="A working session at a whiteboard" caption="two 90-day engagements" >}}
 {{< pull >}}Bugcrowd is two businesses: a cybersecurity company that helps customers remediate threats, and a talent agency for the people who do it. Its systems treated them as one.{{< /pull >}}
 
 {{< versus left="Customer lifecycle" right="Crowd lifecycle" >}}
@@ -35,6 +34,7 @@ outcome: "Bugcrowd implemented both strategies — the data services framework a
 {{< vs l="**Wallet share** — pay for a subscription" r="**Wallet share** — get paid for security work" >}}
 {{< vs l="**Experience share** — tell other customers" r="**Experience share** — tell other researchers" >}}
 {{< /versus >}}
+{{< /beside >}}
 
 Identical workflows across the two produce very different outcomes, and the imbalance between them was capping how far either could scale. The transformation, in Bugcrowd's own terms: manage the two separately until they can converge, build the data foundation both need, and become the *gateway* — the best talent for every program, the best return on time for every researcher.
 
