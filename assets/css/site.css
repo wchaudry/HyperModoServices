@@ -260,6 +260,26 @@
   .whycard .usual .mark{background:var(--rule);color:var(--faint)}
   .whycard .ours .mark{background:var(--mint);color:#fff}
 
+  /* why it works: rows, left to right */
+  .whyrows{margin-top:44px;border:1px solid var(--rule);border-radius:16px;overflow:hidden;background:var(--card)}
+  .whyhead{display:grid;grid-template-columns:11rem 1fr 1fr;border-bottom:1px solid var(--rule);font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
+  .whyhead span{padding:14px 1.4rem}
+  .whyhead .usual{color:var(--faint)}
+  .whyhead .ours{color:var(--mint);background:var(--mint-soft);border-left:1px solid var(--rule)}
+  .whyrow{display:grid;grid-template-columns:11rem 1fr 1fr;border-top:1px solid var(--rule);align-items:stretch}
+  .whyrow:first-of-type{border-top:none}
+  .whyrow .photo.thumb{border-radius:0;aspect-ratio:auto;min-height:9rem;margin:0}
+  .whyrow .usual,.whyrow .ours{display:flex;gap:12px;align-items:flex-start;padding:1.4rem}
+  .whyrow .ours{border-left:1px solid var(--rule);background:color-mix(in srgb,var(--mint-soft) 55%,var(--card))}
+  .whyrow p{margin:0;font-size:.97rem;line-height:1.55;color:var(--muted)}
+  .whyrow .ours p{color:var(--ink)}
+  .whyrow p b{font-weight:600;color:var(--ink)}
+  .whyrow .usual p b{color:var(--muted)}
+  .whyrow .mark{flex:none;width:22px;height:22px;border-radius:999px;display:grid;place-items:center;font-size:12px;font-weight:700;margin-top:2px}
+  .whyrow .usual .mark{background:var(--rule);color:var(--faint)}
+  .whyrow .ours .mark{background:var(--mint);color:#fff}
+  @media (max-width:820px){.whyhead{display:none}.whyrow{grid-template-columns:1fr}.whyrow .photo.thumb{aspect-ratio:16/7}.whyrow .ours{border-left:none;border-top:1px dashed var(--rule)}}
+
   /* quotes */
   .quotes{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:40px}
   @media (max-width:820px){.quotes{grid-template-columns:1fr}}

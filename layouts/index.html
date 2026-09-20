@@ -35,10 +35,11 @@
   <div class="wrap">
     {{ $w := hugo.Data.why }}
     <div class="center"><span class="eyebrow">{{ $w.eyebrow }}</span><h2 style="margin-top:16px">{{ $w.heading }}</h2>{{ with $w.sub }}<p class="sub">{{ . }}</p>{{ end }}</div>
-    <div class="whycards">
+    <div class="whyrows">
+      <div class="whyhead"><span></span><span class="usual">The usual program</span><span class="ours">This model</span></div>
       {{ range $w.points }}
-      <div class="whycard">
-        {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "top") }}
+      <div class="whyrow">
+        {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "thumb") }}
         <div class="usual"><span class="mark" aria-hidden="true">✕</span><p>{{ .fail | safeHTML }}</p></div>
         <div class="ours"><span class="mark" aria-hidden="true">✓</span><p>{{ .answer | safeHTML }}</p></div>
       </div>
