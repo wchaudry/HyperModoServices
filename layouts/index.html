@@ -34,7 +34,10 @@
 <section class="alt" id="approach">
   <div class="wrap">
     {{ $w := hugo.Data.why }}
-    <div class="center"><span class="eyebrow">{{ $w.eyebrow }}</span><h2 style="margin-top:16px">{{ $w.heading }}</h2>{{ with $w.sub }}<p class="sub">{{ . }}</p>{{ end }}</div>
+    <div class="sechead">
+      <div><span class="eyebrow">{{ $w.eyebrow }}</span><h2>{{ $w.heading }}</h2></div>
+      {{ with $w.sub }}<p class="sechead-sub">{{ . }}</p>{{ end }}
+    </div>
     <div class="whyrows">
       <div class="whyhead"><span></span><span class="usual">The usual program</span><span class="ours">This model</span></div>
       {{ range $w.points }}

@@ -261,15 +261,15 @@
   .whycard .ours .mark{background:var(--mint);color:#fff}
 
   /* why it works: rows, left to right */
-  .whyrows{margin-top:44px;border:1px solid var(--rule);border-radius:16px;overflow:hidden;background:var(--card)}
-  .whyhead{display:grid;grid-template-columns:11rem 1fr 1fr;border-bottom:1px solid var(--rule);font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
+  .whyrows{margin-top:0;border:1px solid var(--rule);border-radius:16px;overflow:hidden;background:var(--card)}
+  .whyhead{display:grid;grid-template-columns:7rem 1fr 1fr;border-bottom:1px solid var(--rule);font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
   .whyhead span{padding:14px 1.4rem}
   .whyhead .usual{color:var(--faint)}
   .whyhead .ours{color:var(--mint);background:var(--mint-soft);border-left:1px solid var(--rule)}
-  .whyrow{display:grid;grid-template-columns:11rem 1fr 1fr;border-top:1px solid var(--rule);align-items:stretch}
+  .whyrow{display:grid;grid-template-columns:7rem 1fr 1fr;border-top:1px solid var(--rule);align-items:stretch}
   .whyrow:first-of-type{border-top:none}
-  .whyrow .photo.thumb{border-radius:0;aspect-ratio:auto;min-height:9rem;margin:0}
-  .whyrow .usual,.whyrow .ours{display:flex;gap:12px;align-items:flex-start;padding:1.4rem}
+  .whyrow .photo.thumb{border-radius:0;aspect-ratio:auto;min-height:0;margin:0}
+  .whyrow .usual,.whyrow .ours{display:flex;gap:12px;align-items:center;padding:1.25rem 1.4rem}
   .whyrow .ours{border-left:1px solid var(--rule);background:color-mix(in srgb,var(--mint-soft) 55%,var(--card))}
   .whyrow p{margin:0;font-size:.97rem;line-height:1.55;color:var(--muted)}
   .whyrow .ours p{color:var(--ink)}
