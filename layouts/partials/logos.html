@@ -1,4 +1,3 @@
-<p class="muted" style="font-size:14px">{{ .label }}</p>
 <div class="logos">
   {{ range .logos }}
     {{ if .file }}<span class="logo">{{ if .with_name }}<img src="{{ .file | relURL }}" alt="" style="height:{{ .h }}px" loading="lazy"><span class="wordmark">{{ .name }}</span>{{ else }}<img src="{{ .file | relURL }}" alt="{{ .name }}" style="height:{{ .h | default 26 }}px" loading="lazy">{{ end }}</span>{{ else }}<span class="wordmark">{{ .name }}</span>{{ end }}

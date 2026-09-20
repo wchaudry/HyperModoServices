@@ -120,13 +120,13 @@
   @media (prefers-reduced-motion: reduce){.curve .line,.curve .area,.curve .cross{animation:none;stroke-dashoffset:0;opacity:1}}
 
   section{padding:96px 0}
-  .after-hero{padding-top:64px}
+  .after-hero{padding:56px 0 40px}
   .center{text-align:center}
   .center h2{max-width:22em;margin-left:auto;margin-right:auto;text-wrap:balance}
   .sub{font-size:18px;color:var(--muted);max-width:640px;margin:14px auto 0}
 
   /* client logos */
-  .logos{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:22px clamp(24px,2.6vw,44px);margin-top:26px}
+  .logos{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:22px clamp(24px,2.6vw,44px);margin-top:0}
   .logos .logo{display:inline-flex;align-items:center;gap:10px}
   .logos img{width:auto;max-width:140px;object-fit:contain;filter:grayscale(1) brightness(.35) contrast(1.1);opacity:.62;transition:opacity .15s ease, filter .15s ease}
   .logos img:hover{filter:none;opacity:1}

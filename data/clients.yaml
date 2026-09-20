@@ -1,4 +1,3 @@
-label: Clients
 logos:
   - { name: Zones, file: "" }
   - { name: Wasmer, file: logos/wasmer.png, h: 36 }
