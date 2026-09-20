@@ -14,13 +14,13 @@ steps:
     text: "We map how work gets done today and measure it: who decides, who waits, where it stalls. Then we fix what's slow, cut what's pointless, and address the rest through training and deliveries."
     anchor: talent
   - n: "04"
-    title: Deliver every quarter
-    text: "The training program and the delivery program are the same program. Every quarter, finished work lands in the business's hands — while the larger changes take shape underneath."
-    anchor: ship
-  - n: "05"
     title: Build what the business needs
     text: "Processes, products, platforms — whatever the transformation calls for, designed, built and put into use. Where it's software, most of the code is written by AI agents under a framework your people learn to run, so the pace stays when we go."
     anchor: systems
+  - n: "05"
+    title: Deliver every quarter
+    text: "The training program and the delivery program are the same program. Every quarter, finished work lands in the business's hands — while the larger changes take shape underneath."
+    anchor: ship
   - n: "06"
     title: Adjust continuously, with leadership
     text: "Markets move; so does the plan. We work with senior leadership throughout and measure by what changed — better process, better talent, better technology — and by what your customers get that they didn't before."
