@@ -268,10 +268,10 @@
   .whyhead .ours{color:var(--mint);background:var(--mint-soft);border-left:1px solid var(--rule)}
   .whyrow{display:grid;grid-template-columns:10rem 1fr 1fr;border-top:1px solid var(--rule);align-items:stretch}
   .whylabel{padding:1.4rem;display:flex;flex-direction:column;gap:10px;font-family:"JetBrains Mono",monospace;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--violet)}
-  .whylabel .photo.sq{width:100%;aspect-ratio:1;border-radius:10px;margin:0}
+  .whylabel .photo.sq{width:6rem;aspect-ratio:1;border-radius:10px;margin:0}
   .whyrow:first-of-type{border-top:none}
   .whyrow .photo.thumb{border-radius:0;aspect-ratio:auto;min-height:0;margin:0}
-  .whyrow .usual,.whyrow .ours{display:flex;align-items:flex-start;padding:1.4rem}
+  .whyrow .usual,.whyrow .ours{display:flex;align-items:center;padding:1.4rem}
   .whyrow .ours{border-left:1px solid var(--rule);background:color-mix(in srgb,var(--mint-soft) 55%,var(--card))}
   .whyrow p{margin:0;font-size:.97rem;line-height:1.55;color:var(--muted)}
   .whyrow .ours p{color:var(--ink)}
