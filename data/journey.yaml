@@ -1,0 +1,27 @@
+heading: "We help companies build their own transformation engine."
+sub: "An intrapreneurial venture inside your company: a new center, your own people, production-ready work every quarter — and a business that can keep transforming after we leave."
+steps:
+  - n: "01"
+    title: Frame it with your executive team
+    text: "The barriers to scale, the competitive analysis, and the transformation stated in your business's own terms — where it is and where it wants to go. That is the business case the program starts from."
+    anchor: frame
+  - n: "02"
+    title: Stand up the venture
+    text: "A new center in a low-cost geography — the entity, the office, the staffing. Cost and risk come down, and the company owns a real venture, not a vendor contract."
+    anchor: venture
+  - n: "03"
+    title: Build the talent engine
+    text: "A recruiting pipeline. Top universities as a funnel and farm system. Senior talent found to seed the team and mentor it. A year-long rotational program for every new hire."
+    anchor: talent
+  - n: "04"
+    title: Ship every quarter
+    text: "Production-ready deliverables from a multidisciplinary training program. Business value lands incrementally from the first quarter and builds to the final systems."
+    anchor: ship
+  - n: "05"
+    title: Build the systems
+    text: "Enterprise data platforms, products, design systems, integrations — with most of the code agent-written under a framework your engineers learn to run."
+    anchor: systems
+  - n: "06"
+    title: Adjust continuously, with leadership
+    text: "Measured by better process, better talent and better technology — and by what the business can now deliver to its customers. Partnership with senior leadership the whole way."
+    anchor: adjust

@@ -17,12 +17,14 @@
 
 <section id="services" style="padding-top:20px">
   <div class="wrap">
-    <div class="center"><span class="eyebrow">Services</span><h2 style="margin-top:16px">Everything ends in a deliverable — and in your people owning it.</h2><p class="sub">Enterprise data systems are the specialization. The other seven exist to get them live and to leave them in your hands.</p></div>
-    <div class="grid">
-      {{ range hugo.Data.services }}
-      <a class="card{{ if .spec }} spec{{ end }}" href="{{ "/services/" | relURL }}#{{ .anchor }}">{{ with .tag }}<span class="tag">{{ . }}</span>{{ end }}<h3>{{ .title }}</h3><p>{{ .blurb }}</p><span class="go">What you get →</span></a>
+    {{ $j := hugo.Data.journey }}
+    <div class="center"><span class="eyebrow">What we do</span><h2 style="margin-top:16px">{{ $j.heading }}</h2><p class="sub">{{ $j.sub }}</p></div>
+    <div class="steps">
+      {{ range $j.steps }}
+      <a class="step" href="{{ "/services/" | relURL }}#{{ .anchor }}"><span class="n">{{ .n }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></a>
       {{ end }}
     </div>
+    <p class="center muted" style="margin-top:28px;font-size:15px">Eight practice areas make this possible — <a href="{{ "/services/" | relURL }}#capabilities" style="color:var(--violet)">the capabilities we bring</a>.</p>
   </div>
 </section>
 

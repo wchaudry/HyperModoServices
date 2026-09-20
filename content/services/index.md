@@ -1,14 +1,54 @@
 ---
-title: "Services"
-description: "Enterprise data systems are the specialization; seven more practice areas exist to deliver them and to leave your own people running them."
+title: "What we do"
+description: "An intrapreneurial venture inside your company: a new center, your own people, production-ready work every quarter. Six steps, and the eight capabilities that make them possible."
 showTableOfContents: true
 ---
 
-The goal of every engagement is broader market penetration for the client — new segments, new channels, products and services sold as one offer. The means is an enterprise data system in production, and an internal workforce that runs it. That second half is what makes this different from a consultancy: if your own people are not upskilled by the time I leave, you either depend on the consultants forever or the expertise walks out with them. So every practice area below has two deliverables — the thing itself, and the people on your side who own it afterwards.
+We help companies build their own transformation engine. Not a project we run and leave; a venture the company owns — a new center, its own people, production-ready work every quarter — that keeps transforming the business after we're gone.
 
-Enterprise data systems are the specialization. Everything else here exists to deliver them and to leave them in your hands: the marketing that sells the product, the product management that scopes it, the design that makes it usable, the program that ships it, the training that staffs it, the agents that build it.
+Here is how an engagement runs, in the order it happens, followed by the eight practice areas we bring to it.
 
-## Enterprise data systems
+## Frame it with your executive team {#frame}
+
+We start with the people who own the outcome. Together we find the barriers to scale, run the competitive analysis, and state the transformation in the business's own terms: where it is, where it wants to go, and what has to change in people, process and technology to get there. That becomes the business case the program starts from — and the yardstick every later quarter is measured against.
+
+**You get:** the market and competitive analysis, the business model, the transformation framed for your board, and the program charter.
+
+## Stand up the venture {#venture}
+
+Transformation at scale needs capacity the company doesn't have and can't hire at home. So we stand one up: a new center in a low-cost geography, with the entity, the office, the leadership and the staffing plan. Cost and risk come down. And it is the company's — a real intrapreneurial venture it owns, not a vendor contract it renews.
+
+**You get:** the location case, the entity and office, the operating model, the leadership hires, and a center that reports to you.
+
+## Build the talent engine {#talent}
+
+A center is only as good as its pipeline. We build one: relationships with top universities as a funnel and farm system; campus recruiting and the coding assessments; senior talent found and hired to seed the team and mentor it; and a year-long rotational program that turns every new hire into an engineer who has shipped across disciplines.
+
+**You get:** the recruiting pipeline, the university partnerships, the assessments, the seed hires, the rotational program, and a retention model that keeps them.
+
+## Ship every quarter {#ship}
+
+The training program and the delivery program are the same program. Every quarter, multidisciplinary teams ship production-ready deliverables — real business value, landing incrementally, while the larger systems are built underneath. Nobody waits two years for a go-live to find out whether it worked.
+
+**You get:** a quarterly delivery cadence, production-ready increments, and a program that pays for itself as it goes.
+
+## Build the systems {#systems}
+
+The platforms themselves: enterprise data systems, products, design systems, integrations — designed, built and taken to production. Most of the code is written by AI agents under a framework your engineers learn to run, so the throughput outlasts the engagement.
+
+**You get:** the systems in production, the architecture and the documentation, and the agentic operating model installed in your repositories.
+
+## Adjust continuously, with leadership {#adjust}
+
+Transformation is continuous, so the program is. We work with senior leadership throughout — what's working, what isn't, what changed in the market — and adjust. Progress is measured by better process, better talent and better technology, and by what the business can now deliver to its customers that it couldn't before.
+
+**You get:** leadership reporting that names root causes, the adjustments made in partnership, and a handover plan from day one so the engine keeps running without us.
+
+## The capabilities we bring {#capabilities}
+
+Eight practice areas make the six steps possible. Each ends in a deliverable — and in your people owning it afterwards.
+
+### Enterprise data systems
 
 The specialization. Master data, ingestion, integration and the infrastructure under them, taken to production.
 
@@ -24,7 +64,7 @@ The specialization. Master data, ingestion, integration and the infrastructure u
 **Where I've done it:** the six-product platform above, replacing BizTalk EDI, an Oracle identity system and twenty years of ERP-embedded rules. Distributed SQL at NuoDB; high-speed ETL at Expressor; terabyte-scale marketing databases for Pfizer, Capital One and Bank of America at Epsilon, including the system that won an $83M contract; data-management strategy for Epsilon's next-generation email platform in ninety days. [Production data forensics](/work/production-data-forensics/).
 
 
-## Product marketing
+### Product marketing
 
 Positioning, launch and the content that sells a technical product to technical buyers.
 
@@ -38,7 +78,7 @@ Positioning, launch and the content that sells a technical product to technical 
 
 **Where I've done it:** NuoDB — ran the launch, wrote the site, papers and sales content, built and recorded the demos, created the developer community, and got the product onto the Gartner Magic Quadrant for Operational DBMS. Expressor — repositioned a data-integration tool for business analysts, wrote every piece of technical content, took it to 30,000 downloads a month, and wrote the due-diligence material behind the Qlik acquisition. Wasmer — go-to-market, positioning and the open-source sponsorship program. BizAnalytica — go-to-market for big-data services: competitive research, website, sales enablement, customer presentations.
 
-## Product management
+### Product management
 
 The work between "we should build this" and "it shipped."
 
@@ -52,7 +92,7 @@ The work between "we should build this" and "it shipped."
 
 **Where I've done it:** the enterprise platform and go-to-market plan Wasmer is now executing. Memento — bank fraud detection expanded from internal fraud to check fraud, card bust-out, anti-money-laundering and regulatory reporting (acquired by FIS). Bugcrowd — data-monetisation strategy, roadmap and prototype wireframes for the Crowd Control platform. The Zones program — north-star use cases, requirements and a 1,700-case test plan for an enterprise PIM.
 
-## UX design
+### UX design
 
 User flows and screens that were validated before they were built.
 
@@ -66,7 +106,7 @@ User flows and screens that were validated before they were built.
 
 **Where I've done it:** the platform mockups and user flows that turned a strategy into an approved $4M build, and the PIM experience its business users work in today. A Flutter application with 83 screens across a planner and a professional workspace. Bugcrowd's prototype wireframes.
 
-## Design systems
+### Design systems
 
 Design tokens and components published as versioned packages your engineers install.
 
@@ -80,7 +120,7 @@ Design tokens and components published as versioned packages your engineers inst
 
 **Where I've done it:** the Xymbia web design system — `@xymbia/design` and `@xymbia/components`, 73 published releases, 26 component families (buttons, forms, data tables, calendars, charts, navigation, overlays, and more), a 67-page docs site, and a CMS and editor built on top. Consumed by the Xymbia website and platform shell.
 
-## Product delivery
+### Product delivery
 
 From the business case to go-live, with one owner the whole way.
 
@@ -94,7 +134,7 @@ From the business case to go-live, with one owner the whole way.
 
 **Where I've done it:** wrote the digital-platform strategy for Zones LLC, a $3B IT solutions provider, sold it, and delivered it as Program Owner — $4M over 36 months, six products in production, seventy engineers recruited and trained, fifty-plus graduates kept on, three legacy systems retired. Nalej — co-founder and CPOO: $2.5M raised, $15M DARPA/AFRL contract, CMMC and ATO certification, an Airbus MVP in ninety days, eighteen people in three countries. Case studies: [the platform](/work/enterprise-data-platform/), [the organization](/work/building-the-organization/), [Nalej](/work/edge-computing-platform/).
 
-## Technical training programs
+### Technical training programs
 
 Engineers trained by delivering production software, across disciplines. Not a bootcamp.
 
@@ -108,7 +148,7 @@ Engineers trained by delivering production software, across disciplines. Not a b
 
 **Where I've done it:** the Zones Digital Leadership Program — a nine-month rotation for new graduates through DevOps, UI, backend, frontend, product management, and cybersecurity and networking, on production and greenfield systems; the strongest were promoted into the team that built the platform. The internship program feeding it. At university: graduate instructor in Systems Design and Implementation Strategies at Boston University's Metropolitan College, and adjunct professor of web design and development at Mercer County Community College — I wrote and delivered both courses.
 
-## AI-based agentic development
+### AI-based agentic development
 
 Most of the code on a live production system written by AI agents, under an operating model that makes it safe — installed in your repositories.
 
