@@ -60,13 +60,15 @@
 
   /* nav */
   header{position:sticky;top:0;z-index:10;backdrop-filter:saturate(1.4) blur(10px);background:color-mix(in srgb, var(--paper) 80%, transparent);border-bottom:1px solid var(--rule)}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
-  .brand{font-family:"Plus Jakarta Sans",sans-serif;font-weight:700;font-size:1.25rem;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:4.25rem}
+  .nav .btn{font-size:.9rem;padding:.6rem 1.1rem}
+  .brand{font-family:"Plus Jakarta Sans",sans-serif;font-weight:700;font-size:1.25rem;letter-spacing:-.02em;display:flex;align-items:center;gap:.6rem}
+  .brand .mark{width:1.75rem;height:1.75rem}
   .fbrand{display:inline-flex;align-items:center;gap:8px}
   .links{display:flex;gap:1.6rem;font-size:.94rem;font-weight:600;color:var(--muted)}
   .links a:hover{color:var(--ink)}
-  .navr{display:flex;align-items:center;gap:12px}
-  .toggle{width:36px;height:36px;border-radius:999px;border:1px solid var(--rule-strong);background:transparent;color:var(--ink);cursor:pointer;display:grid;place-items:center;font-size:15px}
+  .navr{display:flex;align-items:center;gap:.75rem}
+  .toggle{width:2.4rem;height:2.4rem;border-radius:999px;border:1px solid var(--rule-strong);background:transparent;color:var(--ink);cursor:pointer;display:grid;place-items:center;font-size:.95rem}
   @media (max-width:820px){.links{display:none}}
 
   /* hero */
