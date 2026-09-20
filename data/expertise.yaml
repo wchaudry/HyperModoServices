@@ -75,15 +75,20 @@
       deliver: ["Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, A production-readiness assessment with named gaps and owners, "A support model — tiers, runbooks, cross-training"]
       proof: "Zones: a hub-and-spoke Azure estate, 99% Terraform-managed, WAF on production, alerts to Teams — and a December 2025 readiness assessment that separated what was built from what was proven."
     - title: Throughput that outlasts the team
-      blurb: Most of the code written by AI agents under a written operating model — so the pace of engineering doesn't depend on who is in the room, and the client's own people can run it.
+      blurb: Most of the code written by AI agents under a written operating model — so the pace of engineering doesn't depend on who is in the room. The model is taught to the whole team, not kept by us: see AI enablement under specialized capabilities.
       deliver: [The agentic framework installed in the client's repositories, Review gates as code, Engineers trained to direct and review agent-written code]
-      proof: "Zones: on the live production platform, 59 engineering projects and 3,300+ recorded findings and decisions, every change reviewed to a written standard before commit."
+      proof: "Zones: a live production platform where most new code is agent-written under the framework, and the team that runs it was trained on it in place."
 - category: Specialized capabilities
   key: capabilities
   image: gauge.jpg
   alt: "A precision measuring gauge, close up"
-  line: "The disciplines we bring to a step when it needs them — product, marketing, design, training. Each is a practice in its own right, and each ends in a deliverable your people own."
+  line: "The disciplines we bring to a step when it needs them — AI enablement, product, marketing, design, training. Each is a practice in its own right, and each ends in a deliverable your people own."
   items:
+    - title: AI enablement for the whole team
+      spec: true
+      blurb: Not "AI solves your problems" — your people, enabled with AI, solving them faster and to a higher standard than they could before. The framework and the daily workflow, taught to every engineer, product manager and designer, so it becomes how the organization works rather than a tool a few people try.
+      deliver: ["The operating model — directives, session protocols, a persistent knowledge base — installed in your repositories", "A daily workflow for engineers, product and design, with the review gates that make it safe", "Hands-on training by delivering real work with it, not a course", "Quality measured at the gate — every change reviewed to a written standard before it ships"]
+      proof: "Zones: the entire team — 70+ engineers, product and design — brought onto the framework and using AI as part of their daily work, delivering higher-quality features faster on a live production platform: 59 engineering projects, 3,300+ recorded findings and decisions, every change reviewed to a written standard."
     - title: Product management
       blurb: The work between "we should do this" and "it's in use."
       deliver: [North-star use cases with acceptance criteria, Requirements ahead of development and the test plan derived from them, Roadmaps and phase gates, Program reporting with numbers]
