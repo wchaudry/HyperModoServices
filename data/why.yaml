@@ -5,8 +5,8 @@ left: The usual program
 right: This model
 points:
   - fail: "<b>Hiring lags, the plan slips, and the slip becomes the program.</b> Eighteen months in, the org chart is still the risk register."
-    answer: "<b>The people are the first deliverable.</b> A center, a pipeline from top universities, senior mentors, and a rotation that turns graduates into engineers who ship — before the big build starts."
+    answer: "<b>The people are the first deliverable.</b> A center, a pipeline from top universities, senior mentors, and a rotation that turns graduates into people who deliver — before the big build starts."
   - fail: "<b>Everything lands at go-live — if go-live lands.</b> Two years, one cutover, and nothing a customer can touch until then."
-    answer: "<b>Something ships every quarter, from the first.</b> The training program is the delivery program: production-ready work is how the team learns and how leadership sees progress."
-  - fail: "<b>The consultants leave with the expertise.</b> What remains is a system nobody inside understands and a contract to renew."
+    answer: "<b>Something ships every quarter, from the first.</b> The training program is the delivery program: finished work, in use, is how the team learns and how leadership sees progress."
+  - fail: "<b>The consultants leave with the expertise.</b> What remains is a capability nobody inside owns and a contract to renew."
     answer: "<b>It's your venture from day one.</b> Your entity, your people, your systems, with the handover planned at the start. When we step back, nothing stops."

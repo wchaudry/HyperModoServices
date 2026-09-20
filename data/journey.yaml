@@ -1,5 +1,5 @@
 heading: "We help companies build their own transformation engine."
-sub: "Not a project we run and leave. A venture your company owns — a new center, your own people, production-ready work every quarter — that keeps transforming the business long after we're gone."
+sub: "Not a project we run and leave. A venture your company owns — a new center, your own people, finished work in use every quarter — that keeps transforming the business long after we're gone."
 steps:
   - n: "01"
     title: Frame it with your executives
@@ -11,15 +11,15 @@ steps:
     anchor: venture
   - n: "03"
     title: Build the talent engine
-    text: "Top universities as the funnel and the farm system. Campus recruiting with assessments we write. Senior hires to seed the team and mentor it. A year-long rotation, so every new hire ships across disciplines before they specialize."
+    text: "Top universities as the funnel and the farm system. Campus recruiting with assessments we write. Senior hires to seed the team and mentor it. A year-long rotation, so every new hire delivers across disciplines before they specialize."
     anchor: talent
   - n: "04"
     title: Ship every quarter
-    text: "The training program and the delivery program are the same program. Every quarter, production-ready work lands and the business gets value it can use — while the larger systems take shape underneath."
+    text: "The training program and the delivery program are the same program. Every quarter, finished work lands in the business's hands — while the larger changes take shape underneath."
     anchor: ship
   - n: "05"
-    title: Build the systems
-    text: "Data platforms, products, design systems, integrations — designed, built and taken live. Most of the code is written by AI agents under a framework your engineers learn to run, so the pace outlasts us."
+    title: Build what the business needs
+    text: "Processes, products, platforms — whatever the transformation calls for, designed, built and put into use. Where it's software, most of the code is written by AI agents under a framework your people learn to run, so the pace outlasts us."
     anchor: systems
   - n: "06"
     title: Adjust continuously, with leadership

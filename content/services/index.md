@@ -4,7 +4,7 @@ description: "An intrapreneurial venture inside your company: a new center, your
 showTableOfContents: true
 ---
 
-We help companies build their own transformation engine. Not a project we run and leave; a venture the company owns — a new center, its own people, production-ready work every quarter — that keeps transforming the business after we're gone.
+We help companies build their own transformation engine. Not a project we run and leave; a venture the company owns — a new center, its own people, finished work in use every quarter — that keeps transforming the business after we're gone.
 
 Here is how an engagement runs, in the order it happens, followed by the eight practice areas we bring to it.
 
@@ -22,21 +22,21 @@ Transformation at scale needs capacity the company doesn't have and can't hire a
 
 ## Build the talent engine {#talent}
 
-A center is only as good as its pipeline. We build one: relationships with top universities as a funnel and farm system; campus recruiting and the coding assessments; senior talent found and hired to seed the team and mentor it; and a year-long rotational program that turns every new hire into an engineer who has shipped across disciplines.
+A center is only as good as its pipeline. We build one: relationships with top universities as a funnel and farm system; campus recruiting and the coding assessments; senior talent found and hired to seed the team and mentor it; and a year-long rotational program that turns every new hire into someone who has delivered across disciplines.
 
 **You get:** the recruiting pipeline, the university partnerships, the assessments, the seed hires, the rotational program, and a retention model that keeps them.
 
 ## Ship every quarter {#ship}
 
-The training program and the delivery program are the same program. Every quarter, multidisciplinary teams ship production-ready deliverables — real business value, landing incrementally, while the larger systems are built underneath. Nobody waits two years for a go-live to find out whether it worked.
+The training program and the delivery program are the same program. Every quarter, multidisciplinary teams deliver finished work the business can use — real value, landing incrementally, while the larger changes are built underneath. Nobody waits two years for a go-live to find out whether it worked.
 
-**You get:** a quarterly delivery cadence, production-ready increments, and a program that pays for itself as it goes.
+**You get:** a quarterly delivery cadence, finished increments in use, and a program that shows its value as it goes.
 
-## Build the systems {#systems}
+## Build what the business needs {#systems}
 
-The platforms themselves: enterprise data systems, products, design systems, integrations — designed, built and taken to production. Most of the code is written by AI agents under a framework your engineers learn to run, so the throughput outlasts the engagement.
+Whatever the transformation calls for — new processes, products, platforms, integrations — designed, built and put into use. Where it's software, most of the code is written by AI agents under a framework your people learn to run, so the throughput outlasts the engagement.
 
-**You get:** the systems in production, the architecture and the documentation, and the agentic operating model installed in your repositories.
+**You get:** the processes and systems in use, the designs and the documentation, and — for software — the agentic operating model installed in your repositories.
 
 ## Adjust continuously, with leadership {#adjust}
 
