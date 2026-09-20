@@ -1,2 +1,10 @@
-label: Worked with
-names: [Zones, Wasmer, Bugcrowd, Teleport, Nalej, "DARPA · AFRL", Airbus, Toshiba, Bank of America, Pfizer]
+label: Clients
+logos:
+  - { name: Zones, file: "" }
+  - { name: Wasmer, file: logos/wasmer.png, h: 36 }
+  - { name: Bugcrowd, file: logos/bugcrowd.svg, h: 26 }
+  - { name: Teleport, file: "" }
+  - { name: "DARPA · AFRL", file: logos/afrl.svg, h: 40, with_name: true }
+  - { name: Airbus, file: logos/airbus.svg, h: 22 }
+  - { name: Toshiba, file: logos/toshiba.svg, h: 19 }
+  - { name: BizAnalytica, file: "" }

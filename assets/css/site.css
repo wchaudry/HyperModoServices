@@ -125,6 +125,15 @@
   .center h2{max-width:22em;margin-left:auto;margin-right:auto;text-wrap:balance}
   .sub{font-size:18px;color:var(--muted);max-width:640px;margin:14px auto 0}
 
+  /* client logos */
+  .logos{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:22px clamp(24px,2.6vw,44px);margin-top:26px}
+  .logos .logo{display:inline-flex;align-items:center;gap:10px}
+  .logos img{width:auto;max-width:140px;object-fit:contain;filter:grayscale(1) brightness(.35) contrast(1.1);opacity:.62;transition:opacity .15s ease, filter .15s ease}
+  .logos img:hover{filter:none;opacity:1}
+  .logos .wordmark{font-family:"Plus Jakarta Sans",sans-serif;font-weight:700;font-size:19px;letter-spacing:-.01em;color:var(--faint)}
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .logos img{filter:grayscale(1) brightness(2.2) contrast(.9);opacity:.7} }
+  :root[data-theme="dark"] .logos img{filter:grayscale(1) brightness(2.2) contrast(.9);opacity:.7}
+
   /* strips */
   .strip{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 38px;align-items:center;margin-top:26px}
   .strip span{font-family:"Plus Jakarta Sans",sans-serif;font-weight:700;font-size:17px;letter-spacing:-.01em;color:var(--faint)}
