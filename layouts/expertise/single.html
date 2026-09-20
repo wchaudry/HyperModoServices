@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section class="page wwd">
+  <div class="wrap wide">
+    <div class="head" style="text-align:left;max-width:52rem;margin:0 0 40px">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    <div class="xgrid">
+      {{ range hugo.Data.expertise }}
+      <section class="xpanel{{ if .spec }} spec{{ end }}">
+        {{ if .spec }}<span class="tag">The specialization</span>{{ end }}
+        <h2>{{ .title }}</h2>
+        <p class="xblurb">{{ .blurb }}</p>
+        <div class="xk">We deliver</div>
+        <ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul>
+        <div class="xk mint">Where it's been done</div>
+        <p class="xproof">{{ .proof }}</p>
+      </section>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "cta.html" . }}
+{{ end }}
