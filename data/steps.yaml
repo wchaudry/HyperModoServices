@@ -9,11 +9,12 @@
   asks: Executive time, access to the numbers, and a decision at the end.
 - n: "02"
   title: Identify the people
-  happens: We identify who plays an active role in the transformation — the sponsors, the owners of each outcome, and the people who will run what gets built. If they're already in your company, good. If you need capacity, we add it locally, or build a team in a low-cost geography that's yours.
+  happens: We identify who plays an active role in the transformation — the sponsors, the owners of each outcome, and the people who will run what gets built. If they're already in your company, good. If you need capacity, we add it locally or build a team in a low-cost geography that's yours. Which one is a decision, not a default — it depends on the work, the timeline, and what you want to own.
   get:
     - The stakeholder map — who decides, who owns, who runs
+    - The capacity decision — local, abroad, or both — with the case for it
     - A staffing plan, and the hires to fill it
-    - Where capacity is built abroad — the location case, the entity, its leadership, and a center that reports to you
+    - Where a center is built abroad — the entity, its leadership, and a center that reports to you
     - A recruiting pipeline, with assessments we write and grade
   asks: Hiring authority, and a sponsor who can open an entity if one is needed.
 - n: "03"
