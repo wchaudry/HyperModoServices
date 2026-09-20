@@ -26,6 +26,8 @@ outcome: "Bugcrowd implemented both strategies — the data services framework a
 
 ## The diagnosis leadership acted on
 
+{{< fig-two >}}
+
 {{< pull >}}Bugcrowd is two businesses: a cybersecurity company that helps customers remediate threats, and a talent agency for the people who do it. Its systems treated them as one.{{< /pull >}}
 
 {{< versus left="Customer lifecycle" right="Crowd lifecycle" >}}
