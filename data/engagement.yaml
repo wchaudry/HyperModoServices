@@ -6,7 +6,7 @@ runs:
     text: Where your business wants to go, what stands in the way, and whether we're the right people. Thirty minutes with whoever owns the outcome.
   - when: "Week 1–2"
     title: A scoped proposal
-    text: The deliverables, who on your side owns each afterwards, the timeline, the price. Fixed fee or time and materials.
+    text: The deliverables, who on your side owns each afterwards, the timeline, and the price.
   - when: "Then"
     title: The work begins
     text: Two to six weeks from the proposal to a start. Weekly written status from the first week — root causes and slips as they happen, not after.
