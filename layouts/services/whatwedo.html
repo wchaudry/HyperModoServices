@@ -26,13 +26,13 @@
             <span class="bar"><i style="width:{{ .share }}%"></i></span>
             <span class="ends"><span>us</span><span>your people</span></span>
           </div>
+          <h3>It asks of you</h3>
+          <p class="asks">{{ .asks }}</p>
         </div>
         <aside class="side">
           {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "step") }}
           <h3>You walk away with</h3>
           <ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul>
-          <h3>It asks of you</h3>
-          <p>{{ .asks }}</p>
         </aside>
       </li>
       {{ end }}
