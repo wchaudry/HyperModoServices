@@ -28,10 +28,10 @@ situation:
   left: "What the operational strategy had to provide"
   right: "What twenty years of systems allowed"
   rows:
-    - { l: "Absorb an acquisition without inheriting a second way of running the business.", r: "Three departments, three versions of a product; no single record an acquired business could be folded into." }
     - { l: "Sell the whole company as one — hardware, services and subscriptions, to every customer, in every market.", r: "Each line of business with its own catalog, pricing and order process." }
     - { l: "Change the business without an IT project.", r: "Every change an IT request; twenty years of rules inside the ERP, known to a few." }
     - { l: "Grow revenue faster than headcount.", r: "Pricing on a fraction of SKUs by hand, vendor feeds by hand, approvals by hand — every unit of growth needing another person." }
+    - { l: "Absorb an acquisition without inheriting a second way of running the business.", r: "Three departments, three versions of a product; no single record an acquired business could be folded into." }
 stages_eyebrow: "The six steps at Zones"
 stages_heading: "How the process ran."
 stages_sub: "Step by step, in the order it happened — and what Zones has from each."
