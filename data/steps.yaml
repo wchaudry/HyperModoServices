@@ -1,6 +1,9 @@
 - n: "01"
   title: Define the business outcome
-  happens: Working sessions with the executives who own the outcome. We name what's blocking growth, who you're losing to, and what has to change in people, process and technology. It ends in a written outcome the business owns, and the measure for everything that follows.
+  share: 85
+  photo: exec-meeting.jpg
+  alt: An executive team in a working session
+  how: A handful of working sessions with the executives who own the outcome, weeks apart, not months. Between sessions we do the analysis — the market, who's winning and on what, where your numbers say growth stalls. In the room we write the outcome down in your terms and agree how it will be measured. The last session is a decision, made on a business case and a bounded first use case.
   get:
     - Market and competitive analysis
     - The business outcome, in writing, with its measure
@@ -9,7 +12,10 @@
   asks: Executive time, access to the numbers, and a decision at the end.
 - n: "02"
   title: Identify the people
-  happens: We identify who plays an active role in the transformation — the sponsors, the owners of each outcome, and the people who will run what gets built. If they're already in your company, good. If you need capacity, we add it locally or build a team in a low-cost geography that's yours. Which one is a decision, not a default — it depends on the work, the timeline, and what you want to own.
+  share: 70
+  photo: graduates.jpg
+  alt: New graduates on their first day
+  how: We map who has to be in the transformation — the sponsors, the owner of each outcome, the people who will run what gets built — and then look at capacity honestly. Where the people exist, we get them the time. Where they don't, we hire locally or build a team in a low-cost geography that's yours. That is a decision, not a default, made on the work, the timeline, and what you want to own. Either way we run the recruiting — the pipeline, the assessments we write and grade, the senior hires who seed and mentor the team.
   get:
     - The stakeholder map — who decides, who owns, who runs
     - The capacity decision — local, abroad, or both — with the case for it
@@ -19,7 +25,10 @@
   asks: Hiring authority, and a sponsor who can open an entity if one is needed.
 - n: "03"
   title: Measure and fix the process
-  happens: We map how work gets done today and measure it — who decides, who waits, where it stalls. Then we fix what's slow, cut what's pointless, and address the rest through training and deliveries.
+  share: 60
+  photo: stickies.jpg
+  alt: A process mapped out on a wall
+  how: We sit with the people doing the work and map it as it actually runs — who decides, who waits, where it stalls — and put numbers on it. The fixes start at once. What's slow gets unblocked and what's pointless gets cut. What remains becomes the training curriculum, taught on real deliveries rather than in a classroom, and the baseline we set here is the one the transformation is measured against.
   get:
     - The process map, with its measures
     - The fixes, made
@@ -28,7 +37,10 @@
   asks: Access to the people doing the work, and permission to change how it's done.
 - n: "04"
   title: Build what the business needs
-  happens: Processes, products, platforms — whatever the outcome calls for. We determine the right solution for the job, build only what delivers a competitive advantage, and prioritize pace of delivery through our use of AI. Where it's software, most of the code is written by AI agents under a framework your people learn to run.
+  share: 50
+  photo: engineers-pair.jpg
+  alt: Two engineers working through a problem together
+  how: For each outcome we pick the solution that fits — a process, a product, a platform, bought or built — and build only where building is the competitive advantage. Where it's software, your people and ours work in one repository under an AI delivery framework. Agents write most of the code; people write the specification, review the result, and own it. The framework is installed in your repositories and stays there.
   get:
     - The systems and processes, in use
     - Designs and documentation your team owns
@@ -37,7 +49,10 @@
   asks: Decisions on scope, and a named owner for each system afterwards.
 - n: "05"
   title: Deliver every quarter
-  happens: Training and delivery unify into a single workstream that produces business value. Every quarter, finished work lands in the business's hands while the larger changes take shape underneath — built by the people being trained.
+  share: 35
+  photo: warehouse-tablet.jpg
+  alt: Finished work in use on the floor
+  how: Training and delivery are one workstream. Every quarter has a finished increment the business will use, built by the people being trained, with senior mentors in the work beside them. Leadership sees progress in what's running, not in a status deck, and the larger platform takes shape underneath the increments.
   get:
     - A quarterly delivery cadence
     - Finished increments, in use
@@ -45,7 +60,10 @@
   asks: Business owners who will use what's delivered and say what's wrong with it.
 - n: "06"
   title: Adjust continuously
-  happens: We work with senior leadership throughout, measure what changed — the impact and the progress toward the business outcome — and make adjustments to stay on track. The handover is planned from day one, so the engine keeps running without us.
+  share: 20
+  photo: office-desks.jpg
+  alt: The team's office, running without us
+  how: We hold a standing seat with senior leadership and report on what changed — the impact, the progress toward the outcome, and the root cause when something slipped. The plan moves when the market does. From the first day there is a handover plan and a named successor for every role we hold, so the engine runs without us, and the loop goes round again with your people leading it.
   get:
     - Leadership reporting with root causes, not mood
     - The plan, revised as the market moves

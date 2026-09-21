@@ -5,18 +5,38 @@
       <div class="head" style="text-align:left;max-width:52rem;margin:0">
         <h1>{{ .Title }}</h1>
         {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+        <div class="legend"><span class="us">us</span><span class="you">your people</span></div>
       </div>
-      {{ partial "photo.html" (dict "src" "exec-meeting.jpg" "alt" "An executive team in a working session" "class" "feature" "caption" "01 · define the business outcome") }}
+      {{ partial "cycle.html" . }}
     </div>
-    <div class="stepgrid-head"><span>Step</span><span>What happens</span><span>You get</span><span>What it asks of you</span></div>
-    {{ range hugo.Data.steps }}
-    <div class="steprow" id="{{ .n }}">
-      <div class="sr-title"><h2><span class="n">{{ .n }}</span>{{ .title }}</h2></div>
-      <div class="sr-happens"><p>{{ .happens }}</p></div>
-      <div class="sr-get"><ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul></div>
-      <div class="sr-asks"><p>{{ .asks }}</p></div>
-    </div>
-    {{ end }}
+  </div>
+</section>
+
+<section class="spine-wrap" style="padding-top:0">
+  <div class="wrap wide">
+    <ol class="spine">
+      {{ range hugo.Data.steps }}
+      <li class="step" id="{{ .n }}">
+        <div class="rail"><span class="node">{{ .n }}</span></div>
+        <div class="body">
+          <h2>{{ .title }}</h2>
+          <p class="how">{{ .how }}</p>
+          <div class="share" role="img" aria-label="Who does the work at this step: {{ .share }} percent us, {{ sub 100 .share }} percent your people">
+            <span class="cap">Who does the work</span>
+            <span class="bar"><i style="width:{{ .share }}%"></i></span>
+            <span class="ends"><span>us</span><span>your people</span></span>
+          </div>
+        </div>
+        <aside class="side">
+          {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "step") }}
+          <h3>You walk away with</h3>
+          <ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul>
+          <h3>It asks of you</h3>
+          <p>{{ .asks }}</p>
+        </aside>
+      </li>
+      {{ end }}
+    </ol>
   </div>
 </section>
 

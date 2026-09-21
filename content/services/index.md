@@ -1,6 +1,6 @@
 ---
 title: "What we do"
-description: "Six steps, what happens in each, what you get, what it asks of you — and how an engagement runs."
+description: "How the six steps run — as a loop, with more of the work in your people's hands each time round."
 layout: whatwedo
-lead: "Six steps, from a business outcome your executives own to a team of yours running what we built together. For each: what happens, what you walk away with, and what it asks of you."
+lead: "The six steps run as a loop, not a line. Each time round, more of the work is in your people's hands; by the last turn, they lead it. This is how each step runs — who's in the room, on what cadence, and what you walk away with."
 ---
