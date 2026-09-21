@@ -8,8 +8,8 @@ items:
     ai: AI agents pull the data from your systems, measure the work against the baseline, and surface the root cause when something slips — so your people spend their time deciding, not compiling.
   - title: Training
     kicker: Sized to the engagement.
-    text: "Building a new team is an 18-month program: six months to build the recruiting and training models, then 12 months rotating every hire through the disciplines on live deliverables. For people already in place, it is a curriculum designed from the gaps we measured. Inside a 90-day engagement, it is the working sessions that let your own engineers build the rest."
-    ai: Every role trains with AI agents in the work — product, design and business owners as well as engineers — so people learn by delivering, not by attending.
+    text: "In a 90-day engagement, it is working sessions that leave your people able to build the rest. For a team already in place, it is a curriculum built from the gaps we measured. For a new team, it is an 18-month program: six months to build the recruiting and training models, then a 12-month rotation through the disciplines on live deliverables."
+    ai: AI agents are in every course and every delivery, so people learn the framework by using it — in every department and function the transformation touches, not just engineering.
   - title: Delivery
     kicker: One workstream with training, on a quarterly cadence.
     text: Every quarter ships a finished increment into the business's hands, built by the people being trained, demoed to the people who will use it, while the larger platform takes shape underneath.
