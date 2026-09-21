@@ -11,15 +11,77 @@
       <div class="metrics">{{ range . }}<div><b>{{ .value }}</b><span>{{ .label }}</span></div>{{ end }}</div>
       {{ end }}
     </div>
+    {{ with .Params.glance }}
+    <div class="wrap wide"><dl class="glance-strip">{{ range . }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl></div>
+    {{ end }}
   </header>
-  <div class="wrap wide case-body">
-    <aside class="glance">
-      <div class="k">At a glance</div>
-      <dl>{{ range .Params.glance }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
-      {{ with .Params.steps }}<div class="k" style="margin-top:22px">The six steps, as they ran</div><ol class="steplist">{{ range . }}<li>{{ . }}</li>{{ end }}</ol>{{ end }}
-    </aside>
-    <div class="prose">{{ .Content }}</div>
-  </div>
+
+  {{ if .Params.stages }}
+  {{ with .Params.situation }}
+  <section>
+    <div class="wrap wide">
+      <div class="sechead plain">
+        <div><span class="eyebrow">{{ .eyebrow }}</span><h2>{{ .heading }}</h2></div>
+        <p class="sechead-sub">{{ .sub }}</p>
+      </div>
+      <div class="versus"><div class="versus-head"><span>{{ .left }}</span><span>{{ .right }}</span></div>{{ range .rows }}<div class="versus-row"><div>{{ .l }}</div><div>{{ .r }}</div></div>{{ end }}</div>
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="alt">
+    <div class="wrap wide">
+      <div class="sechead plain">
+        <div><span class="eyebrow">{{ .Params.stages_eyebrow }}</span><h2>{{ .Params.stages_heading }}</h2></div>
+        <p class="sechead-sub">{{ .Params.stages_sub }}</p>
+      </div>
+      <ol class="spine">
+        {{ range .Params.stages }}
+        <li class="stage" id="{{ .n }}">
+          <div class="rail"><span class="node n{{ .n }}">{{ .n }}</span></div>
+          <h2>{{ .title }}</h2>
+          <div class="stage-copy">
+            {{ with .when }}<p class="when">{{ . }}</p>{{ end }}
+            <p class="how">{{ .how }}</p>
+          </div>
+          <div class="stage-list">
+            <h3>What we did</h3>
+            <ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul>
+            <p class="line leave"><b>{{ $.Params.client }} has</b>{{ .has }}</p>
+          </div>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+  </section>
+
+  {{ with .Params.inuse }}
+  <section>
+    <div class="wrap wide">
+      <div class="sechead plain">
+        <div><span class="eyebrow">{{ .eyebrow }}</span><h2>{{ .heading }}</h2></div>
+        <p class="sechead-sub">{{ .sub }}</p>
+      </div>
+      <div class="streams four">{{ range .items }}<div class="stream"><span class="tag">{{ .tag }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}</div>
+    </div>
+  </section>
+  {{ end }}
+
+  {{ with .Params.record }}
+  <section class="alt">
+    <div class="wrap wide">
+      <div class="sechead plain">
+        <div><span class="eyebrow">{{ .eyebrow }}</span><h2>{{ .heading }}</h2></div>
+        <p class="sechead-sub">{{ .sub }}</p>
+      </div>
+      {{ partial "ledger.html" $ }}
+    </div>
+  </section>
+  {{ end }}
+  {{ else }}
+  <div class="wrap wide case-body"><div class="prose">{{ .Content }}</div></div>
+  {{ end }}
+
   {{ with .Params.outcome }}
   <section class="wrap wide"><div class="outcome"><span class="eyebrow">Outcome</span><p>{{ . }}</p></div></section>
   {{ end }}
