@@ -73,7 +73,7 @@ stages:
     when: "2019 – 2020"
     photo: whiteboard.jpg
     alt: A working session at a whiteboard
-    how: "We specified two strategies to the point where Bugcrowd's engineers could build them. The first was a data services framework: an information architecture with a real entity model and master data, ingestion and export in place of ad hoc extracts, and programmatic access so that new products and self-service reporting stop being tickets. The second was crowd management from first principles. Recruit, onboard, produce, nurture. Payout models beyond fixed rates, and incentives that turn researchers into evangelists."
+    how: "We specified two strategies in enough detail for Bugcrowd's engineers to build them. The first was a data services framework. It gave the company one entity model and one set of master data, replaced ad hoc extracts with proper ingestion and export, and opened the data to programs so that new products and self-service reports stopped being tickets. The second was a crowd management strategy, built from first principles. It treated the crowd as talent with a lifecycle — recruit, onboard, produce, nurture — and added payout models beyond fixed rates and incentives that turn researchers into advocates."
     we:
       - "The data services framework and its three-quarter roadmap: infrastructure and a single source of truth first, a machine-learning-ready data services MVP after"
       - "Feature specifications: a security knowledge base with a recommendation engine, Crowd Match with its mockups and information architecture, and auto-remediation with a build-or-buy decision first"
