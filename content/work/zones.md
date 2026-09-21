@@ -91,13 +91,13 @@ stages:
     photo: warehouse-tablet.jpg
     alt: A worker with a tablet on a distribution floor
     when: "Every quarter since 2022"
-    how: From the first year, every quarter delivered something the business could use — a pricing tool, a login — while the data foundation went in underneath. Training and delivery were one workstream from the start; the cohorts built the increments, with senior mentors in the work beside them.
+    how: "From the first year, every quarter put something in the business's hands — competitive pricing in 2023, then the login, the catalog feeds, the approvals — while the core platform went in underneath. Training and delivery were one workstream from the start: the cohorts built the increments, with senior mentors in the work beside them."
     we:
       - Quarterly planning around one finished increment
       - The 12-month program, rotating every cohort through the disciplines on live deliverables
       - Senior mentors on every team, reviewing every delivery
       - Demos to the business owners, and what they said taken into the next quarter
-    has: A finished increment every quarter since 2022, and people trained on the work that shipped.
+    has: A finished increment every quarter since 2022, built by people who learned on the work that shipped.
   - n: "06"
     title: Adjust continuously
     photo: zones-adjust.jpg
