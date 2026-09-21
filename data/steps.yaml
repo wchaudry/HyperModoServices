@@ -1,7 +1,7 @@
 - n: "01"
   title: Define the business outcome
-  photo: exec-meeting.jpg
-  alt: An executive team in a working session
+  photo: outcome-session.jpg
+  alt: A strategy session, one person presenting to the executive team
   ai: "AI agents run the market and competitive analysis on your data before the first session, so the room starts from evidence."
   how: A handful of working sessions with the executives who own the outcome, weeks apart, not months. Between sessions we do the analysis. In the room we write the outcome down in your terms and agree how it will be measured. The last session is a decision, made on a business case and a bounded first use case.
   we:
@@ -14,8 +14,8 @@
   asks: Executive time, access to the numbers, and a decision at the end.
 - n: "02"
   title: Identify the people
-  photo: graduates.jpg
-  alt: New graduates on their first day
+  photo: interview.jpg
+  alt: An interview across a small table
   ai: "AI agents help write, run and grade the assessments, so every applicant is seen — not a sample."
   how: We map who has to be in the transformation and look at capacity honestly. Where the people exist, we get them the time. Where they don't, we hire locally or build a team in a low-cost geography that's yours. That is a decision, not a default, made on the work, the timeline, and what you want to own.
   we:
@@ -28,8 +28,8 @@
   asks: Hiring authority, and a sponsor who can open an entity if one is needed.
 - n: "03"
   title: Measure and fix the process
-  photo: stickies.jpg
-  alt: A process mapped out on a wall
+  photo: process-wall.jpg
+  alt: Process flows pinned to a wall, one hand moving a card
   ai: "AI agents measure the process from your systems, so the baseline is what actually happens, not an estimate."
   how: We sit with the people doing the work and map it as it actually runs, then put numbers on it. The fixes start at once. What's slow gets unblocked and what's pointless gets cut. What remains becomes the training curriculum, taught on real deliveries rather than in a classroom.
   we:
@@ -41,8 +41,8 @@
   asks: Access to the people doing the work, and permission to change how it's done.
 - n: "04"
   title: Build what the business needs
-  photo: engineers-pair.jpg
-  alt: Two engineers working through a problem together
+  photo: team-build.jpg
+  alt: A team building together at laptops in an open office
   ai: "AI agents accelerate specification, build, test and documentation under the framework, so pace does not depend on headcount."
   how: For each outcome we pick the solution that fits — a process, a product, a platform, bought or built — and build only where building is the competitive advantage. Where it's software, your people and ours work in one repository under an AI delivery framework that we install and your people learn to run.
   we:
@@ -55,8 +55,8 @@
   asks: Decisions on scope, and a named owner for each system afterwards.
 - n: "05"
   title: Deliver every quarter
-  photo: warehouse-tablet.jpg
-  alt: Finished work in use on the floor
+  photo: demo-room.jpg
+  alt: A team watching a demo on the room's screen
   ai: "AI agents are in every delivery, so the people being trained ship finished work from their first quarter."
   how: Training and delivery are one workstream. Every quarter has a finished increment the business will use, built by the people being trained, with senior mentors in the work beside them. Leadership sees progress in what's running, not in a status deck.
   we:
@@ -68,8 +68,8 @@
   asks: Business owners who will use what's delivered and say what's wrong with it.
 - n: "06"
   title: Adjust continuously
-  photo: office-desks.jpg
-  alt: The team's office, running without us
+  photo: leadership-review.jpg
+  alt: A leadership review around a conference table
   ai: "AI agents compile the reporting from live data, so leadership reads root causes, not summaries."
   how: We hold a standing seat with senior leadership and report on what changed. The plan is adjusted to keep the strategy aligned to the outcome. From the first day there is a handover plan and a named successor for every role we hold, so the engine runs without us — and the loop goes round again.
   we:
