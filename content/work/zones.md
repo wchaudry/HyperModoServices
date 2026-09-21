@@ -41,7 +41,7 @@ stages:
     photo: zones-outcome.jpg
     alt: The executive team in a working session
     when: "January – March 2022"
-    how: "Over three months we worked with the Chief Digital Innovation Officer and the executive team on three questions: where growth had to come from, who was winning and on what, and what the company had to be able to do that it couldn't. The answer to the last one was four things — sell as one, change without an IT project, grow faster than headcount, absorb what it bought. Those four became the written outcome, approved in March 2022, and every quarter since has reported against them."
+    how: "We spent time with the Chief Digital Innovation Officer and the executive team to answer three questions. Where would growth come from? Who was winning, and how? What did the company need to do that it couldn't yet? The answer to the last question was four things: sell as one, change without an IT project, grow faster than headcount, absorb what it bought. Those four became the written outcome, approved in March 2022, and every quarter since has reported against them."
     we:
       - Market and competitive analysis
       - The business model and the five-year objectives
