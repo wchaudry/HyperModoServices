@@ -10,19 +10,6 @@
   </div>
 </section>
 
-<section class="streams-wrap">
-  <div class="wrap wide">
-    {{ $s := hugo.Data.streams }}
-    <div class="sechead">
-      <div><span class="eyebrow">{{ $s.eyebrow }}</span><h2>{{ $s.heading }}</h2></div>
-      <p class="sechead-sub">{{ $s.sub }}</p>
-    </div>
-    <div class="streams">
-      {{ range $s.items }}<div class="stream"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
-    </div>
-  </div>
-</section>
-
 <section class="spine-wrap alt">
   <div class="wrap wide">
     <ol class="spine">
@@ -45,6 +32,19 @@
       </li>
       {{ end }}
     </ol>
+  </div>
+</section>
+
+<section class="streams-wrap">
+  <div class="wrap wide">
+    {{ $s := hugo.Data.streams }}
+    <div class="sechead">
+      <div><span class="eyebrow">{{ $s.eyebrow }}</span><h2>{{ $s.heading }}</h2></div>
+      <p class="sechead-sub">{{ $s.sub }}</p>
+    </div>
+    <div class="streams">
+      {{ range $s.items }}<div class="stream"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
+    </div>
   </div>
 </section>
 
