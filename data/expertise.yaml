@@ -58,7 +58,7 @@
     - key: decouple
       title: Decouple the business from its systems of record
       spec: true
-      blurb: The ERP, the CRM and the billing system are where transactions happen. They shouldn't be where the business keeps what it knows. We move that knowledge into a platform the business owns and governs. The systems of record keep working — they read from the platform instead of holding the truth themselves. And the old systems are retired only once the new one has proven it can carry the load.
+      blurb: The ERP, CRM, and billing system are where transactions happen. They shouldn't be where the business keeps what it knows. We move that knowledge into a platform the business owns and governs. The systems of record keep working — they read from the platform instead of holding the truth themselves. And the old systems are retired only once the new one has proven it can carry the load.
       deliver: [The target architecture and the seams between the platform and each system of record, Two-way synchronization so existing investment keeps working, A migration path with legacy retired on evidence, Business rules recovered from the systems of record and made configurable by the business]
     - key: data-first
       title: Data first, experiences on top
