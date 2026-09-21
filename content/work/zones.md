@@ -68,13 +68,12 @@ stages:
     photo: zones-process.jpg
     alt: A process drawn out on a whiteboard
     when: "From 2022"
-    how: Twenty years of business rules lived inside the ERP, known to a few, and every product change was an IT request. We mapped how product data, pricing and orders actually moved through the company, put numbers on it, and set the baseline the transformation has been measured against.
+    how: "We sat with the people who handle product data, pricing and orders and mapped the work as it actually ran: who decided, who waited, where it stalled. We put numbers on it and set the baseline every quarter has been measured against. The gaps we found became the training curriculum."
     we:
       - Process maps for product data, pricing, the catalog and order approvals
       - The baseline, and the measures leadership sees every quarter
-      - The rules, written down and moved out of the ERP
       - A training curriculum built from the gaps, each course tied to a delivery
-    has: The rules in the hands of the people who own the products, and a curriculum taught on real deliveries.
+    has: A measured baseline, the work mapped as it really runs, and a curriculum taught on real deliveries.
   - n: "04"
     title: Build what the business needs
     photo: zones-build.jpg
