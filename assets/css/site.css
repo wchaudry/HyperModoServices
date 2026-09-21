@@ -375,7 +375,7 @@
   .case-body .prose h2:first-child{margin-top:0}
   .outcome{background:var(--card);color:var(--ink);border:1px solid var(--rule);border-left:4px solid var(--violet);border-radius:20px;padding:40px clamp(24px,4vw,56px);margin:0 0 0;position:relative;overflow:hidden}
   .outcome .eyebrow{position:relative}
-  .outcome p{position:relative;font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(20px,1.6vw,26px);font-weight:500;line-height:1.35;letter-spacing:-.01em;max-width:34em;margin:16px 0 0}
+  .outcome p{position:relative;font-family:"Plus Jakarta Sans",sans-serif;font-size:clamp(20px,1.6vw,26px);font-weight:500;line-height:1.35;letter-spacing:-.01em;max-width:none;margin:16px 0 0}
 
   /* case-study building blocks */
   .tl{position:relative;margin:8px 0 28px;padding-left:0}
