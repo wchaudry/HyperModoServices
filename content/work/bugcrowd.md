@@ -40,20 +40,20 @@ stages:
     when: "Engagement one, 2019"
     photo: bugcrowd-outcome.jpg
     alt: A strategy session with leadership
-    how: "With leadership, we wrote the outcome in Bugcrowd's own terms: manage the two businesses separately until they can converge, build the data foundation both need, and become the gateway — the best talent for every program, the best return on time for every researcher."
+    how: "Bugcrowd's leadership knew the platform served two very different populations. What it needed was the outcome stated in its own terms, and we wrote it with them. Run the customer business and the crowd business separately until they can converge. Build the data foundation both depend on. Become the gateway: the best talent for every program, and the best return on a researcher's time."
     we:
-      - The diagnosis — two lifecycles on one platform, and the imbalance between them
-      - The customer and crowd lifecycles mapped side by side — mindshare, wallet share, experience share
-      - The outcome, in writing, and the case for putting data on the product board's agenda
+      - "The diagnosis: two lifecycles on one platform, and the imbalance between them"
+      - The customer and crowd lifecycles, mapped side by side
+      - The outcome in writing, and the case for putting data on the product board's agenda
     has: A diagnosis leadership acted on, and an outcome in its own words.
   - n: "02"
     title: Identify the people
     when: "Engagement one, 2019"
     photo: bugcrowd-people.jpg
     alt: A team in discussion
-    how: "The data work needed owners Bugcrowd didn't have. We designed the group — an Enterprise Data Engineering team of a lead, an architect and three engineers, the conduit between operations and the platform — and put the ask to leadership plainly: staff it, and decide whether to accelerate."
+    how: "The data work needed owners, and Bugcrowd didn't have them yet. We designed the group it needed. An Enterprise Data Engineering team of five — a lead, an architect and three engineers — would sit between operations and the platform and own the data for both. We put the ask to leadership plainly. Staff it, and decide whether to accelerate."
     we:
-      - The design of the Enterprise Data Engineering group and its roles
+      - The design of the Enterprise Data Engineering group and each of its roles
       - The ask to leadership, with what it would cost and what it would unlock
     has: A named group with a mandate, staffed from its own people.
   - n: "03"
@@ -61,22 +61,22 @@ stages:
     when: "Engagement one, 2019"
     photo: bugcrowd-measure.jpg
     alt: Monitoring screens in an operations room
-    how: "We measured where the data stood. Thirty requests were waiting and three in progress, at two to four weeks each; most were a simple aggregation or a profile lookup. Reporting was a renewal report and time-to-triage, with definitions that changed from team to team. Every new question meant touching the platform."
+    how: "We measured where the data stood. Thirty requests were waiting and three were in progress, each taking two to four weeks, and most were a simple aggregation or a profile lookup. Reporting amounted to a renewal report and a time-to-triage figure, with definitions that changed from team to team. Every new question meant touching the platform."
     we:
-      - The request queue measured — volume, wait, and what was actually being asked for
-      - The reporting inventory, and where definitions disagreed
+      - "The request queue, measured: volume, wait, and what was actually being asked for"
+      - The reporting inventory, and where the definitions disagreed
       - The coupling between data and application logic, mapped
-      - The first fixes named — a normalized transactional model, a Postgres decision, an ETL spike, an operational data store
+      - "The first four fixes, named: a normalized transactional model, a Postgres decision, an ETL spike, an operational data store"
     has: A baseline, and the first four fixes to make.
   - n: "04"
     title: Build what the business needs
     when: "Both engagements, 2019 – 2020"
     photo: whiteboard.jpg
     alt: A working session at a whiteboard
-    how: "Two strategies, specified to the point Bugcrowd's engineers could build them. A data services framework — an information architecture with a real entity model and master data, ingestion and export instead of ad hoc extracts, and programmatic access so new products and self-service reporting stop being tickets. Then crowd management from first principles — recruit, onboard, produce, nurture — with payout models beyond fixed rates and incentives that turn researchers into evangelists."
+    how: "We specified two strategies to the point where Bugcrowd's engineers could build them. The first was a data services framework: an information architecture with a real entity model and master data, ingestion and export in place of ad hoc extracts, and programmatic access so that new products and self-service reporting stop being tickets. The second was crowd management from first principles. Recruit, onboard, produce, nurture. Payout models beyond fixed rates, and incentives that turn researchers into evangelists."
     we:
-      - The data services framework and its three-quarter roadmap — infrastructure and a single source of truth first, a machine-learning-ready data services MVP after
-      - Feature specifications — a security knowledge base with a recommendation engine, Crowd Match with its mockups and information architecture, and auto-remediation with a build-or-buy decision first
+      - "The data services framework and its three-quarter roadmap: infrastructure and a single source of truth first, a machine-learning-ready data services MVP after"
+      - "Feature specifications: a security knowledge base with a recommendation engine, Crowd Match with its mockups and information architecture, and auto-remediation with a build-or-buy decision first"
       - The crowd lifecycle, payout and incentive models, with requirements by stage across people, process and product
       - The dashboards, drawn
     has: Both strategies, built in full by its own engineers, with no follow-on engagement.
