@@ -102,14 +102,14 @@ stages:
     title: Adjust continuously
     photo: zones-adjust.jpg
     alt: A leadership discussion over a laptop
-    when: "Throughout, and now"
-    how: Nothing about this ran on rails. The organisation changed and the plan changed with it — one cohort year was skipped when the strategy shifted — in partnership with senior leadership, measured against the outcome. The handover is being planned now.
+    when: "2022 – today"
+    how: Nothing about this ran on rails. The organisation changed, the strategy shifted, and the plan moved with them — one cohort year was skipped, and the handover is being planned now. Every adjustment was made with senior leadership and measured against the outcome the executive team approved in 2022.
     we:
       - Leadership reporting on impact, progress toward the outcome, and root causes
       - The plan, revised with leadership as the strategy evolved
       - A handover plan, with a named successor for every role we hold
       - Roles handed over as the team is ready
-    has: In 2027 the team delivers global e-commerce without us.
+    has: A team that delivers global e-commerce on its own in 2027 — and a plan that has survived four years of change.
 inuse:
   eyebrow: "In daily use"
   heading: "Four systems the business runs on today."
