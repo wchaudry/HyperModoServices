@@ -24,14 +24,14 @@ glance:
 situation:
   eyebrow: "The situation, 2022"
   heading: "What Zones wanted, and what stood in the way."
-  sub: "Tripling the business takes a growth-and-acquisitions model and an operational strategy, and only Zones can own either. The venture took on the operational strategy."
-  left: "What Zones wanted to sell"
-  right: "What its data allowed"
+  sub: "Tripling the business takes a growth-and-acquisitions model and an operational strategy, and only Zones can own either. The venture took on the operational strategy — and the pace to outrun competitors and the distributors selling around them."
+  left: "What the operational strategy had to provide"
+  right: "What twenty years of systems allowed"
   rows:
-    - { l: "Hardware, services and subscriptions as one offer.", r: "Three departments, three versions of a product. No single record to build an offer on." }
-    - { l: "Pricing that competes across the whole catalog.", r: "Competitive pricing on a small fraction of SKUs, by hand." }
-    - { l: "Product changes made by the people who own the products.", r: "Every change an IT request; twenty years of rules inside the ERP, known to a few." }
-    - { l: "To move faster than competitors and distributors.", r: "Competitors transforming faster; distributors starting to sell around them." }
+    - { l: "Absorb an acquisition without inheriting a second way of running the business.", r: "Three departments, three versions of a product; no single record an acquired business could be folded into." }
+    - { l: "Sell the whole company as one — hardware, services and subscriptions, to every customer, in every market.", r: "Each line of business with its own catalog, pricing and order process." }
+    - { l: "Change the business without an IT project.", r: "Every change an IT request; twenty years of rules inside the ERP, known to a few." }
+    - { l: "Grow revenue faster than headcount.", r: "Pricing on a fraction of SKUs by hand, vendor feeds by hand, approvals by hand — every unit of growth needing another person." }
 stages_eyebrow: "The six steps at Zones"
 stages_heading: "How the process ran."
 stages_sub: "Step by step, in the order it happened — and what Zones has from each."
