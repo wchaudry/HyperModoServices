@@ -9,7 +9,7 @@ runs:
     text: Scoped up front. We do the analysis with your executives and come back with the business outcome, the case for it, and a proposal — the deliverables, who on your side owns each afterwards, the timeline, and the price.
   - when: "Then"
     title: The work begins
-    text: Two to six weeks from the proposal to a start. Weekly written status from the first week — root causes and slips as they happen, not after.
+    text: The work starts as soon as the proposal is signed and the people are in place. Weekly written status from the first week — root causes and slips as they happen, not after.
   - when: "From day one"
     title: The handover
     text: Planned at the start, not the end. The engagement ends when your team is running it.
