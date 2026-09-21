@@ -52,33 +52,33 @@
   key: technical
   image: circuit-blue.jpg
   alt: "A dark blue circuit board, close up"
-  line: "A business should not rent its own knowledge from its systems of record. Our positions: decouple from the ERP, data before experiences, a platform rather than a project, integrate early, make everything reproducible — and a pace of delivery that does not depend on who is in the room."
+  line: "A business shouldn't rent its own knowledge from its systems of record. We hold six positions on how to build, and they show up in every platform we deliver: decouple from the ERP, put data before experiences, build a platform rather than a project, integrate early, make everything reproducible, and keep a pace of delivery that doesn't depend on who is in the room."
   seen: { label: "Seen in full: the Zones and Bugcrowd case studies", url: "/work/" }
   items:
     - key: decouple
       title: Decouple the business from its systems of record
       spec: true
-      blurb: The ERP is where transactions live, not where the business's knowledge should. Product, service and subscription data moves into a governed platform the business owns; the ERP becomes a consumer of it, kept in sync, and legacy is retired only once the platform has proven it can carry the load.
+      blurb: The ERP is where transactions live. It shouldn't be where the business keeps its knowledge. We move product, service and subscription data into a governed platform the business owns, keep the ERP in sync as a consumer of it, and retire legacy only once the platform has proven it can carry the load.
       deliver: [The target architecture and the seams between platform and ERP, Two-way synchronization so existing investment keeps working, A migration path with legacy retired on evidence, Business rules recovered from the ERP and made configurable by the business]
     - key: data-first
       title: Data first, experiences on top
-      blurb: One governed source of truth before any experience is built on it, with lineage to the source and rules for validation, correction and precedence that the business configures itself.
+      blurb: One governed source of truth comes before any experience is built on it. Every record carries its lineage to the source, and the rules for validation, correction and precedence are configured by the business, not by engineers.
       deliver: ["A master-data model with lineage — transaction, staging, master", A rules engine the business owns, Ingestion from every feed the business depends on, "A phased sequence — foundation, then experience, then automation"]
     - key: platform
       title: A platform, not a project
-      blurb: Every component built as a product that could stand alone — extensible by design and tenant-ready by default, so the platform can take a second business without a rebuild.
+      blurb: Every component is built as a product that could stand alone. It is extensible by design and tenant-ready by default, so the platform can take on a second business, or an acquired one, without a rebuild.
       deliver: [A plugin framework for connectors and transforms, An identity layer other applications register against, Multi-tenant deployment from day one, "Components with a commercial path — SaaS, integration services, data-as-a-service"]
     - key: integrate
       title: Integrate early, find the unknowns
-      blurb: The value of a platform is only realized when it is connected, so integration starts before the platform is finished — small sprints against real systems to surface the unknowns while they are cheap.
+      blurb: A platform is only worth something once it is connected, so we start integrating before it is finished. Small sprints against real systems surface the unknowns while they are still cheap to fix.
       deliver: [Integration sprints against live systems from the first quarter, A test plan derived from the integration surface, Recurring data refreshes so comparison testing is honest, Fast fixes for the gaps integration exposes]
     - key: reproducible
       title: Everything reproducible, everything observable
-      blurb: Infrastructure as code so the estate can be rebuilt, monitoring so it can be trusted, and a readiness assessment that says plainly what has and has not been validated.
+      blurb: Infrastructure as code, so the estate can be rebuilt from scratch. Monitoring, so it can be trusted. And a readiness assessment that says plainly what has been validated and what hasn't.
       deliver: ["Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, A production-readiness assessment with named gaps and owners, "A support model — tiers, runbooks, cross-training"]
     - key: throughput
       title: A pace that does not depend on headcount
-      blurb: Your people and ours use AI throughout the build, under a framework that says what it may do and who reviews it. The framework is installed in your repositories and taught to the whole team, so the pace of delivery survives the people who set it.
+      blurb: Your people and ours use AI throughout the build, under a framework that says what it may do and who reviews it. We install the framework in your repositories and teach it to the whole team, so the pace of delivery survives the people who set it.
       deliver: [The AI delivery framework installed in the client's repositories, Review gates as code, Engineers trained to direct and review AI-assisted work]
 - category: Specialized capabilities
   key: capabilities
