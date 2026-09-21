@@ -32,12 +32,14 @@
         <div class="stage-copy">
           <h2>{{ .title }}</h2>
           <p class="how">{{ .how }}</p>
-          <p class="line"><b>You leave with</b>{{ .leave }}</p>
-          <p class="line"><b>It asks of you</b>{{ .asks }}</p>
         </div>
         <div class="stage-list">
           <h3>What we do</h3>
           <ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+        <div class="stage-foot">
+          <p class="line"><b>You leave with</b>{{ .leave }}</p>
+          <p class="line"><b>It asks of you</b>{{ .asks }}</p>
         </div>
       </li>
       {{ end }}
