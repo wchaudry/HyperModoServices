@@ -1,6 +1,6 @@
 ---
 title: "Bugcrowd: a data strategy for a company that was two businesses at once"
-summary: "A crowdsourced-security platform that was also a talent agency — and had built its data and its crowd operations for neither. Two 90-day engagements: the data strategy, then crowd management. Both implemented in full by Bugcrowd's own team."
+summary: "A two-sided business — companies on one side, security researchers on the other — sitting on years of data it wasn't using. Two 90-day engagements: the data strategy, then crowd management. Both built in full by Bugcrowd's own engineers."
 date: 2019-06-01
 lastmod: 2026-09-20
 client: "Bugcrowd"

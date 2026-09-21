@@ -1,27 +1,18 @@
-- client: Wasmer
-  logo: logos/wasmer.png
-  h: 30
-  period: 2020–2022
-  role: Head of Product Management
-  text: Framed the enterprise offer and its go-to-market for a WebAssembly platform, ran the first enterprise customer engagements, and set up the sponsorship model that funds the open-source runtime. The company is executing that plan today.
-- client: Zones, before the program
-  logo: logos/zones.png
-  h: 18
-  period: 2018–2019, 2021
-  role: Digital innovation
-  text: Two engagements that preceded the transformation — a cloud application marketplace for its services teams, then the business-model and platform work with the Chief Digital Officer that became the program.
-  link: /work/zones/
-- client: BizAnalytica
-  period: 2018–2019
-  role: Go-to-market
-  text: Go-to-market strategy for big-data professional services — competitive research, positioning, website, sales enablement and customer presentations.
-- client: Teleport (then Gravitational)
-  logo: logos/teleport.svg
-  h: 22
-  period: 2016–2017
-  role: Business development
-  text: Acted as a channel for an early Kubernetes platform while the product was new — brought in some of its first customers and the partner and reseller leads that followed.
-- client: Epsilon
-  period: 2012
-  role: Data strategy
-  text: Data-management strategy and roadmap for the next-generation email marketing platform — ingestion, management, analytics, reporting and workflow — delivered in ninety days.
+heading: Focused engagements
+items:
+  - client: Wasmer
+    logo: logos/wasmer.png
+    h: 30
+    period: 2020 – 2022
+    text: Wasmer had a runtime developers loved and a market that didn't exist yet. We defined the enterprise offer and its go-to-market, landed the first enterprise customers, and set up the sponsorship model that funds the open-source core.
+  - client: BizAnalytica
+    period: 2018 – 2019
+    text: A big-data professional services firm that needed to be found and understood by the buyers it wanted. We wrote the competitive research and the positioning, and built the website, the sales enablement and the customer presentations from them.
+  - client: Teleport (then Gravitational)
+    logo: logos/teleport.svg
+    h: 22
+    period: 2016 – 2017
+    text: An early Kubernetes platform with a product ahead of its market. We acted as its channel while it was new, bringing in some of its first customers and the partner and reseller leads that followed.
+  - client: Epsilon
+    period: 2012
+    text: An email marketing platform being rebuilt for the next generation, without a data strategy to build it on. In ninety days we delivered the data-management strategy and roadmap — ingestion, management, analytics, reporting and workflow.

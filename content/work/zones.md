@@ -1,6 +1,6 @@
 ---
 title: "Zones: a transformation engine, built inside a $3B company"
-summary: "How a $3B IT solutions provider went from product data it couldn't govern to a center of its own that governs it — Islamabad, 70+ people, four systems in use, the core platform going live in 2027 — and what it took."
+summary: "A $3B IT solutions provider set out to triple its business in five years, with twenty years of legacy processes and systems in the way. Four years on: a center of its own in Islamabad, 70+ people, four systems in daily use, and the core platform going live in 2027."
 date: 2022-03-01
 lastmod: 2026-09-20
 client: "Zones LLC"

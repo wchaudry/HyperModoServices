@@ -1,4 +1,5 @@
 ---
 title: "Work"
-description: "Two case studies in full, and the rest of the engagements in brief."
+heading: "Company-wide transformation, and focused engagements."
+description: "Two of them written up in full. The rest, a paragraph each."
 ---

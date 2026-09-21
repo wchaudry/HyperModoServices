@@ -1,7 +1,14 @@
 {{ define "main" }}
 <section class="list">
   <div class="wrap">
+    {{ if eq .Section "work" }}
+    <div class="sechead plain">
+      <div><span class="eyebrow">{{ .Title }}</span><h1>{{ .Params.heading }}</h1></div>
+      <p class="sechead-sub">{{ .Description }}</p>
+    </div>
+    {{ else }}
     <div class="head"><h1>{{ .Title }}</h1>{{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}</div>
+    {{ end }}
     {{ if ne .Section "work" }}{{ with .Content }}<div class="intro prose">{{ . }}</div>{{ end }}{{ end }}
     {{ $pages := .RegularPages }}
     {{ if eq .Section "work" }}{{ $pages = .RegularPages.ByWeight }}{{ end }}
@@ -17,15 +24,16 @@
     <div class="empty">{{ .Params.empty | default "Nothing here yet." }}</div>
     {{ end }}
     {{ if eq .Section "work" }}
+    {{ $o := hugo.Data.otherwork }}
     <div class="after">
-      <h2>Other engagements</h2>
+      <h2>{{ $o.heading }}</h2>
       <div class="englist">
-        {{ range hugo.Data.otherwork }}
+        {{ range $o.items }}
         <div class="eng">
-          <div class="eng-logo">{{ if .logo }}<img src="{{ .logo | relURL }}" alt="{{ .client }}" style="height:{{ .h | default 24 }}px">{{ range .extra }}<img src="{{ . | relURL }}" alt="" style="height:18px">{{ end }}{{ else }}<span class="wordmark">{{ .client }}</span>{{ end }}</div>
+          <div class="eng-logo">{{ if .logo }}<img src="{{ .logo | relURL }}" alt="{{ .client }}" style="height:{{ .h | default 24 }}px">{{ else }}<span class="wordmark">{{ .client }}</span>{{ end }}</div>
           <div class="eng-body">
-            <div class="eng-meta"><b>{{ .client }}</b> · {{ .period }} · <em>{{ .role }}</em></div>
-            <p>{{ .text }}{{ with .link }} <a href="{{ . | relURL }}">The case study →</a>{{ end }}</p>
+            <div class="eng-meta"><b>{{ .client }}</b> · {{ .period }}</div>
+            <p>{{ .text }}</p>
           </div>
         </div>
         {{ end }}
