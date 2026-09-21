@@ -563,14 +563,13 @@
   .xintro p{margin:0;font-size:1.1rem;line-height:1.6;color:var(--ink)}
   @media (max-width:980px){.xintro{grid-template-columns:1fr}}
   .xcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem}
-  @media (max-width:980px){.xcards{grid-template-columns:1fr}}
-  .xcard{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:clamp(24px,1.8vw,32px);display:grid;grid-template-rows:auto auto 1fr;scroll-margin-top:90px}
+  @media (max-width:980px){.xcards{grid-template-columns:1fr}.xcard{grid-template-rows:auto;grid-row:auto}}
+  .xcard{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:clamp(24px,1.8vw,32px);display:grid;grid-template-rows:subgrid;grid-row:span 3;scroll-margin-top:90px}
   .xcard.spec{border-top:3px solid var(--violet)}
   .xcard .tag{display:block;margin-bottom:10px;color:var(--violet)}
   .xcard h3{font-size:1.25rem;margin:0 0 10px;line-height:1.25}
   .xcard>p{margin:0 0 22px;font-size:1rem;color:var(--muted);line-height:1.55}
-  .xbody{padding-top:20px;border-top:1px solid var(--rule);align-self:end}
-  .xbody h4{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--violet);font-weight:500;margin:0 0 10px}
+  .xbody{padding-top:20px;border-top:1px solid var(--rule)}
   .xbody ul{margin:0;padding-left:1.1rem;font-size:.95rem;line-height:1.5}
   .xbody li{margin:5px 0}
   .xbody li::marker{color:var(--violet)}

@@ -20,7 +20,7 @@
           {{ if .spec }}<span class="tag">{{ if eq $c.key "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}
           <h3>{{ .title }}</h3>
           <p>{{ .blurb }}</p>
-          <div class="xbody"><h4>We deliver</h4><ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul></div>
+          <div class="xbody"><ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul></div>
         </div>
         {{ end }}
       </div>
