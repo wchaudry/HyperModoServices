@@ -1,12 +1,12 @@
 heading: "From a first conversation to a handover that's planned on day one."
-sub: "A conversation, a paid assessment that ends in a scoped proposal, then the work. Small team, no bench, no free discovery."
+sub: "A conversation, an assessment that ends in a scoped proposal, then the work. Small team, no bench."
 runs:
   - when: "Day 1"
     title: A first conversation
     text: Where your business wants to go, what stands in the way, and whether we're the right people. Thirty minutes with whoever owns the outcome.
   - when: "Then"
-    title: A paid assessment
-    text: Scoped and priced up front. We do the analysis with your executives and come back with the business outcome, the case for it, and a proposal — the deliverables, who on your side owns each afterwards, the timeline, and the price.
+    title: An assessment
+    text: Scoped up front. We do the analysis with your executives and come back with the business outcome, the case for it, and a proposal — the deliverables, who on your side owns each afterwards, the timeline, and the price.
   - when: "Then"
     title: The work begins
     text: Two to six weeks from the proposal to a start. Weekly written status from the first week — root causes and slips as they happen, not after.
