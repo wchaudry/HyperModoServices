@@ -29,17 +29,15 @@
       {{ range hugo.Data.steps }}
       <li class="stage" id="{{ .n }}">
         <div class="rail"><span class="node">{{ .n }}</span></div>
-        <div class="stage-wide">
-          <div class="stage-head">
-            {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "sq") }}
-            <h2>{{ .title }}</h2>
-          </div>
+        <div class="stage-copy">
+          <h2>{{ .title }}</h2>
           <p class="how">{{ .how }}</p>
-          <div class="tri">
-            <div><h3>What we do</h3><ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul></div>
-            <div><h3>You walk away with</h3><ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul></div>
-            <div><h3>It asks of you</h3><p class="asks">{{ .asks }}</p></div>
-          </div>
+          <p class="line"><b>You leave with</b>{{ .leave }}</p>
+          <p class="line"><b>It asks of you</b>{{ .asks }}</p>
+        </div>
+        <div class="stage-list">
+          <h3>What we do</h3>
+          <ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul>
         </div>
       </li>
       {{ end }}

@@ -1,7 +1,5 @@
 - n: "01"
   title: Define the business outcome
-  photo: exec-meeting.jpg
-  alt: An executive team in a working session
   how: A handful of working sessions with the executives who own the outcome, weeks apart, not months. Between sessions we do the analysis. In the room we write the outcome down in your terms and agree how it will be measured. The last session is a decision, made on a business case and a bounded first use case.
   we:
     - Interview the executives and the people closest to the customer
@@ -9,52 +7,31 @@
     - Model the outcome — the objectives, the five-year shape, the measure
     - Write the phased roadmap and pick the first use case
     - Write the business case and present it to the board or the executive team
-  get:
-    - Market and competitive analysis
-    - The business outcome, in writing, with its measure
-    - A phased roadmap with a bounded first use case
-    - The business case and the executive presentation
+  leave: The analysis, the business outcome in writing with its measure, a phased roadmap, and the business case.
   asks: Executive time, access to the numbers, and a decision at the end.
 - n: "02"
   title: Identify the people
-  photo: graduates.jpg
-  alt: New graduates on their first day
   how: We map who has to be in the transformation and look at capacity honestly. Where the people exist, we get them the time. Where they don't, we hire locally or build a team in a low-cost geography that's yours. That is a decision, not a default, made on the work, the timeline, and what you want to own.
   we:
     - Map the sponsors, the owner of each outcome, and the people who will run what gets built
     - Assess capacity and make the case — local, abroad, or both
     - Where a center is built abroad, set up the entity, the office and the operating model, and hire its leadership
-    - Where a team is being built, spend the first six months building the recruiting and training models before the first cohort starts
-    - Partner with universities, run campus recruiting, and write and grade the assessments
+    - Where a team is being built, spend the first six months on the recruiting and training models, then partner with universities, run campus recruiting, and write and grade the assessments
     - Hire the senior people who seed and mentor the team
-  get:
-    - The stakeholder map — who decides, who owns, who runs
-    - The capacity decision, with the case for it
-    - A staffing plan, and the hires to fill it
-    - A center that reports to you, where one is built
-    - A recruiting pipeline that keeps running after we leave
+  leave: A stakeholder map, the capacity decision with its case, a staffing plan and the hires to fill it, and — where one is built — a center that reports to you with a recruiting pipeline that keeps running.
   asks: Hiring authority, and a sponsor who can open an entity if one is needed.
 - n: "03"
   title: Measure and fix the process
-  photo: stickies.jpg
-  alt: A process mapped out on a wall
   how: We sit with the people doing the work and map it as it actually runs, then put numbers on it. The fixes start at once. What's slow gets unblocked and what's pointless gets cut. What remains becomes the training curriculum, taught on real deliveries rather than in a classroom.
   we:
     - Map every process the outcome touches — who decides, who waits, where it stalls
     - Measure it, and set the baseline the transformation is judged against
     - Make the fixes that need no software — decisions, hand-offs, approvals
-    - Design the training curriculum from the gaps we measured
-    - Tie each course to a delivery, so learning produces something the business uses
-  get:
-    - The process map, with its measures
-    - The fixes, made
-    - A training curriculum tied to the deliveries
-    - The baseline the transformation is measured against
+    - Design the training curriculum from the gaps we measured, each course tied to a delivery
+  leave: The process map with its measures, the baseline, the fixes made, and a training curriculum tied to the deliveries.
   asks: Access to the people doing the work, and permission to change how it's done.
 - n: "04"
   title: Build what the business needs
-  photo: engineers-pair.jpg
-  alt: Two engineers working through a problem together
   how: For each outcome we pick the solution that fits — a process, a product, a platform, bought or built — and build only where building is the competitive advantage. Where it's software, your people and ours work in one repository under an AI delivery framework that we install and your people learn to run.
   we:
     - Choose the solution — buy, build, or change the process — for each outcome
@@ -62,41 +39,25 @@
     - Install the AI delivery framework in your repositories, so agents accelerate every delivery and your people direct, review and own the result
     - Build alongside your people, in the same codebase, from the first sprint
     - Document what was built so your team owns it, not us
-  get:
-    - The systems and processes, in use
-    - Designs, specifications and documentation your team owns
-    - The AI delivery framework, installed in your repositories
-    - Your team, working in it
+  leave: The systems and processes in use, the designs and documentation your team owns, the framework in your repositories, and your team working in it.
   asks: Decisions on scope, and a named owner for each system afterwards.
 - n: "05"
   title: Deliver every quarter
-  photo: warehouse-tablet.jpg
-  alt: Finished work in use on the floor
   how: Training and delivery are one workstream. Every quarter has a finished increment the business will use, built by the people being trained, with senior mentors in the work beside them. Leadership sees progress in what's running, not in a status deck.
   we:
     - Plan each quarter around one finished increment the business will use
-    - Run the training the engagement calls for — a rotational program for new hires, a curriculum for the people in place, or the working sessions that leave your engineers able to build the rest
+    - Run the training the engagement calls for — a rotational program for new hires, a curriculum for the people in place, or the working sessions that leave your people able to build the rest
     - Mentor in the work — senior people on every team, reviewing every delivery
     - Demo to the business owners and take what's wrong with it back into the next quarter
-    - Keep the larger platform taking shape underneath the increments
-  get:
-    - A quarterly delivery cadence
-    - Finished increments, in use
-    - People trained on real deliveries, not exercises
-    - Progress leadership can see without a status deck
+  leave: A quarterly cadence, finished increments in use, people trained on real deliveries, and progress leadership can see without a status deck.
   asks: Business owners who will use what's delivered and say what's wrong with it.
 - n: "06"
   title: Adjust continuously
-  photo: office-desks.jpg
-  alt: The team's office, running without us
-  how: We hold a standing seat with senior leadership and report on what changed. The plan moves when the market does. From the first day there is a handover plan and a named successor for every role we hold, so the engine runs without us — and the loop goes round again.
+  how: We hold a standing seat with senior leadership and report on what changed. The plan is adjusted to keep the strategy aligned to the outcome. From the first day there is a handover plan and a named successor for every role we hold, so the engine runs without us — and the loop goes round again.
   we:
     - Report to leadership on impact, progress toward the outcome, and the root cause when something slipped
     - Revise the plan with leadership as the strategy and the outcome demand
     - Maintain the handover plan, and name a successor for every role we hold
     - Hand over role by role as your people are ready — and stay until they are
-  get:
-    - Leadership reporting with root causes, not mood
-    - The plan, adjusted as the strategy evolves
-    - A handover plan, and a named successor for every role we hold
+  leave: Leadership reporting with root causes, the plan kept aligned to the strategy, and a handover plan with a named successor for every role we hold.
   asks: A standing seat at the leadership table, and honesty in both directions.
