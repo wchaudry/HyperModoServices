@@ -17,8 +17,7 @@
       <div class="xcards">
         {{ range .items }}
         <div class="xcard{{ if .spec }} spec{{ end }}" id="{{ .key }}">
-          {{ if .spec }}<span class="tag">{{ if eq $c.key "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}
-          <h3>{{ .title }}</h3>
+          <div class="xhead">{{ if .spec }}<span class="tag">{{ if eq $c.key "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}<h3>{{ .title }}</h3></div>
           <p>{{ .blurb }}</p>
           <div class="xbody"><ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul></div>
         </div>

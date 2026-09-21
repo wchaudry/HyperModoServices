@@ -567,6 +567,7 @@
   .xcard{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:clamp(24px,1.8vw,32px);display:grid;grid-template-rows:subgrid;grid-row:span 3;scroll-margin-top:90px}
   .xcard.spec{border-top:3px solid var(--violet)}
   .xcard .tag{display:block;margin-bottom:10px;color:var(--violet)}
+  .xcard .xhead{display:block}
   .xcard h3{font-size:1.25rem;margin:0 0 10px;line-height:1.25}
   .xcard>p{margin:0 0 22px;font-size:1rem;color:var(--muted);line-height:1.55}
   .xbody{padding-top:20px;border-top:1px solid var(--rule)}
