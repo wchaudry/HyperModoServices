@@ -14,12 +14,14 @@
         {{ partial "photo.html" (dict "src" .image "alt" .alt "class" "xphoto") }}
         <div><h2>{{ .category }}</h2><p>{{ .line }}</p></div>
       </div>
-      <div class="xlist">
+      <div class="xcards">
         {{ range .items }}
-        <details class="xitem{{ if .spec }} spec{{ end }}" id="{{ .key }}">
-          <summary><span class="xt">{{ if .spec }}<span class="tag">{{ if eq $c.key "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}<h3>{{ .title }}</h3><p>{{ .blurb }}</p></span><span class="xchev" aria-hidden="true"></span></summary>
+        <div class="xcard{{ if .spec }} spec{{ end }}" id="{{ .key }}">
+          {{ if .spec }}<span class="tag">{{ if eq $c.key "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}
+          <h3>{{ .title }}</h3>
+          <p>{{ .blurb }}</p>
           <div class="xbody"><h4>We deliver</h4><ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul></div>
-        </details>
+        </div>
         {{ end }}
       </div>
       {{ with .seen }}<p class="xseen"><a href="{{ .url | relURL }}">{{ .label }} →</a></p>{{ end }}
@@ -42,7 +44,7 @@
       var panel=document.getElementById(h);
       if(panel&&panel.classList.contains('xpanel')){show(h,false);return;}
       var item=panel&&panel.closest&&panel.closest('.xpanel');
-      if(item){show(item.id,false);panel.open=true;panel.scrollIntoView({block:'start'});}
+      if(item){show(item.id,false);panel.scrollIntoView({block:'start'});}
     }
     window.addEventListener('hashchange',fromHash); fromHash();
   })();
