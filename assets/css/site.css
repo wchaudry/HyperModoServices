@@ -471,6 +471,7 @@
   .node.n06{background:var(--mint);border-color:var(--mint);color:#fff}
   .stage-copy,.stage-list{min-width:0}
   .stage-list{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:24px 28px 26px;align-self:start}
+  .stage-copy{align-self:stretch}
   .stage h2{grid-column:2/-1;font-size:clamp(26px,2.2vw,38px);line-height:1.12;margin:.35rem 0 20px;letter-spacing:-.015em}
   .stage .rail{grid-row:1/3}
   .stage .how{margin:0;font-size:1.1rem;line-height:1.62;color:var(--ink)}
@@ -482,8 +483,11 @@
   .stage .we{margin:0;padding-left:1.1rem;font-size:1rem;line-height:1.55}
   .stage .we li{margin:7px 0}
   .stage .we li::marker{color:var(--violet)}
-  .stage .we li.ai{list-style:none;position:relative;margin-left:-1.1rem;padding-left:1.1rem;color:var(--ink);font-weight:500}
-  .stage .we li.ai::before{content:"";position:absolute;left:-.45rem;top:.05em;width:1.25rem;height:1.25rem;background:var(--violet);-webkit-mask:url("/brand/bolt.svg") center/contain no-repeat;mask:url("/brand/bolt.svg") center/contain no-repeat}
+  .stage-list .ai{position:relative;margin:22px 0 0;padding:20px 0 0 36px;border-top:1px solid var(--rule);color:var(--ink);font-weight:500;font-size:1rem;line-height:1.55}
+  .stage-list .ai::before{content:"";position:absolute;left:0;top:20px;width:28px;height:28px;background:var(--violet);-webkit-mask:url("/brand/bolt.svg") center/contain no-repeat;mask:url("/brand/bolt.svg") center/contain no-repeat}
+  .stage-copy{display:flex;flex-direction:column}
+  .stage-copy .photo.fill{flex:1;min-height:11rem;margin:28px 0 0;border-radius:14px;overflow:hidden}
+  .stage-copy .photo.fill img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}
   @media (max-width:980px){.stage{grid-template-columns:3.2rem minmax(0,1fr)}.stage-list{grid-column:2}}
   .runs{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
   @media (max-width:980px){.runs{grid-template-columns:repeat(2,1fr)}}

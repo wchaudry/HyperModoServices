@@ -33,10 +33,12 @@
         <div class="stage-copy">
           <p class="how">{{ .how }}</p>
           <p class="line asks"><b>It asks of you</b>{{ .asks }}</p>
+          {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "fill") }}
         </div>
         <div class="stage-list">
           <h3>What we do</h3>
-          <ul class="we">{{ range .we }}{{ if reflect.IsMap . }}<li class="ai">{{ .text }}</li>{{ else }}<li>{{ . }}</li>{{ end }}{{ end }}</ul>
+          <ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul>
+          <p class="ai">{{ .ai }}</p>
           <p class="line leave"><b>You leave with</b>{{ .leave }}</p>
         </div>
       </li>
