@@ -79,7 +79,7 @@ stages:
     photo: zones-build.jpg
     alt: An engineer building at a workstation
     when: "2022 – 2027"
-    how: For each outcome we picked the solution and built only where building was the advantage — competitive pricing, single sign-on, catalog processing, order approvals, and underneath them the core data management and merchandising platform that puts one governed source of product, service and subscription data in the business's hands.
+    how: "For each of the four capabilities we picked the solution, and built only where building was the advantage. Competitive pricing across the catalog came first, then single sign-on, catalog processing and global order approvals — each one in the business's hands within a quarter of finishing. Underneath them went the core platform: one governed source of product, service and subscription data, with the business rules out of the ERP and owned by the people who own the products."
     we:
       - The architecture and the specifications
       - The AI delivery framework, installed in Zones' repositories
