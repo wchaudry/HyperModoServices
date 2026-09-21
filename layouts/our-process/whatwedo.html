@@ -25,6 +25,10 @@
 
 <section class="spine-wrap alt">
   <div class="wrap wide">
+    <div class="sechead">
+      <div><span class="eyebrow">The six steps</span><h2>How each step runs.</h2></div>
+      <p class="sechead-sub">Who's in the room, what we do, what you leave with, and what it asks of you.</p>
+    </div>
     <ol class="spine">
       {{ range hugo.Data.steps }}
       <li class="stage" id="{{ .n }}">
@@ -47,7 +51,7 @@
   </div>
 </section>
 
-<section class="alt" id="how-an-engagement-runs">
+<section id="how-an-engagement-runs">
   <div class="wrap wide">
     {{ $e := hugo.Data.engagement }}
     <div class="sechead">
