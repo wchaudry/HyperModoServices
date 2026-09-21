@@ -54,12 +54,13 @@ stages:
     photo: islamabad-mosque.jpg
     alt: Islamabad, the Faisal Mosque under the Margalla Hills
     when: "From July 2022"
-    how: The people the operational strategy needed weren't in the company, and couldn't be hired at home in the numbers required. So Zones built them, as a venture of its own — a center in Islamabad, opened July 2022, Zones' own entity. The capacity decision was made on the work, the timeline, and what Zones wanted to own.
+    how: The people the operational strategy needed weren't in the company, and couldn't be hired at home in the numbers required. So Zones built them. It opened a center in Islamabad in July 2022, as its own entity, and the venture has reported to Zones from the first day. The decision to build abroad was made on the work, the timeline, and what Zones wanted to own.
     we:
       - The stakeholder map, with the Chief Digital Innovation Officer and the executive team
       - The location case, the entity, the office and the operating model
       - The center's leadership, hired
-      - Six months building the recruiting and training models, then university partnerships, campus recruiting, and assessments we wrote and people graded
+      - Six months building the recruiting and training models
+      - University partnerships, campus recruiting, and assessments we wrote and people graded
       - The senior hires who seed and mentor every cohort
     has: A venture that reports to Zones — a center in Islamabad, 70+ people, and a recruiting pipeline that keeps running.
   - n: "03"
