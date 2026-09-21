@@ -32,12 +32,12 @@
         <h2>{{ .title }}</h2>
         <div class="stage-copy">
           <p class="how">{{ .how }}</p>
-          <p class="line"><b>You leave with</b>{{ .leave }}</p>
-          <p class="line"><b>It asks of you</b>{{ .asks }}</p>
+          <p class="line asks"><b>It asks of you</b>{{ .asks }}</p>
         </div>
         <div class="stage-list">
           <h3>What we do</h3>
           <ul class="we">{{ range .we }}{{ if reflect.IsMap . }}<li class="ai">{{ .text }}</li>{{ else }}<li>{{ . }}</li>{{ end }}{{ end }}</ul>
+          <p class="line leave"><b>You leave with</b>{{ .leave }}</p>
         </div>
       </li>
       {{ end }}
