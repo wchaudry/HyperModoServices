@@ -421,7 +421,10 @@
   .stepgrid-head{display:grid;grid-template-columns:1.1fr 1.3fr 1fr .9fr;gap:2rem;padding:0 0 12px;border-bottom:2px solid var(--ink);font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
   @media (max-width:980px){.stepgrid-head{display:none}}
   /* how we work: the cycle, the spine, the ownership bar */
-  .cycle{width:min(100%,36rem);height:auto;justify-self:center;overflow:visible}
+  .cycle{width:min(100%,36rem);height:auto;justify-self:center;overflow:visible;display:block;margin:0 auto}
+  .hero-process{padding-bottom:110px}
+  .hero-process .cycle .disc{fill:var(--paper);fill-opacity:.55}
+  .spine-wrap{padding-top:clamp(72px,6vw,110px)}
   .cycle .disc{fill:var(--violet-soft)}
   .cycle .arc{fill:none;stroke-width:10;stroke-linecap:round}
   .cycle .a1{stroke:var(--violet)}

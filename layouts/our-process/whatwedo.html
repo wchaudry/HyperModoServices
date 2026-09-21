@@ -1,18 +1,17 @@
 {{ define "main" }}
-<section class="page wwd">
-  <div class="wrap wide">
-    <div class="wwd-grid">
-      <div class="head" style="text-align:left;max-width:52rem;margin:0">
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
-        <div class="legend"><span class="us">us</span><span class="you">your people</span></div>
-      </div>
-      {{ partial "cycle.html" . }}
+<section class="hero hero-process">
+  <div class="wrap wide hero-grid">
+    <div class="hero-copy">
+      <div class="reveal"><span class="eyebrow">Six steps, run as a loop</span></div>
+      <h1 class="reveal">{{ .Title }}</h1>
+      {{ with .Params.lead }}<p class="lead reveal">{{ . }}</p>{{ end }}
+      <div class="legend reveal"><span class="us">us</span><span class="you">your people</span></div>
     </div>
+    <div class="hero-object reveal">{{ partial "cycle.html" . }}</div>
   </div>
 </section>
 
-<section class="spine-wrap" style="padding-top:0">
+<section class="spine-wrap">
   <div class="wrap wide">
     <ol class="spine">
       {{ range hugo.Data.steps }}

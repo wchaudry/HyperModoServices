@@ -1,6 +1,6 @@
 [[main]]
-  name = "What we do"
-  pageRef = "services"
+  name = "Our process"
+  pageRef = "our-process"
   weight = 10
 [[main]]
   name = "Work"
