@@ -26,46 +26,21 @@
 <section class="spine-wrap alt">
   <div class="wrap wide">
     <ol class="spine">
-      {{ $one := index hugo.Data.steps 0 }}
-      <li class="stage stage-a" id="01a">
-        <div class="rail"><span class="node">A</span></div>
-        <div class="stage-wide">
-          <h2>{{ $one.title }}</h2>
-          {{ partial "photo.html" (dict "src" $one.photo "alt" $one.alt "class" "strip") }}
-          <div class="tri">
-            <div><h3>How it runs</h3><p class="how">{{ $one.how }}</p><h3>It asks of you</h3><p class="asks">{{ $one.asks }}</p></div>
-            <div><h3>What we do</h3><ul class="we">{{ range $one.we }}<li>{{ . }}</li>{{ end }}</ul></div>
-            <div><h3>You walk away with</h3><ul>{{ range $one.get }}<li>{{ . }}</li>{{ end }}</ul></div>
-          </div>
-        </div>
-      </li>
-      <li class="stage stage-b" id="01b">
-        <div class="rail"><span class="node">B</span></div>
-        <div class="stage-wide">
-          <h2>{{ $one.title }}</h2>
-          {{ partial "photo.html" (dict "src" $one.photo "alt" $one.alt "class" "strip") }}
-          <div class="duo">
-            <div><h3>How it runs</h3><p class="how">{{ $one.how }}</p><h3>It asks of you</h3><p class="asks">{{ $one.asks }}</p></div>
-            <div><h3>What we do, and what you keep</h3><ul class="we">{{ range $one.keep }}<li>{{ . }}</li>{{ end }}</ul></div>
-          </div>
-        </div>
-      </li>
       {{ range hugo.Data.steps }}
       <li class="stage" id="{{ .n }}">
         <div class="rail"><span class="node">{{ .n }}</span></div>
-        <div class="body">
-          <h2>{{ .title }}</h2>
+        <div class="stage-wide">
+          <div class="stage-head">
+            {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "sq") }}
+            <h2>{{ .title }}</h2>
+          </div>
           <p class="how">{{ .how }}</p>
-          <h3>What we do</h3>
-          <ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul>
+          <div class="tri">
+            <div><h3>What we do</h3><ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul></div>
+            <div><h3>You walk away with</h3><ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul></div>
+            <div><h3>It asks of you</h3><p class="asks">{{ .asks }}</p></div>
+          </div>
         </div>
-        <aside class="side">
-          {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "stage") }}
-          <h3>You walk away with</h3>
-          <ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul>
-          <h3>It asks of you</h3>
-          <p class="asks">{{ .asks }}</p>
-        </aside>
       </li>
       {{ end }}
     </ol>
