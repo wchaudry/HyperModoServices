@@ -2,72 +2,83 @@
 title: "Bugcrowd: a data strategy for a company that was two businesses at once"
 summary: "A two-sided business — companies on one side, security researchers on the other — sitting on years of data it wasn't using. Two 90-day engagements: the data strategy, then crowd management. Both built in full by Bugcrowd's own engineers."
 date: 2019-06-01
-lastmod: 2026-09-20
+lastmod: 2026-09-21
 client: "Bugcrowd"
-period: "two 90-day engagements, 2019–2020"
+period: "two 90-day engagements, 2019 – 2020"
 eyebrow: "Case study"
 logo: "logos/bugcrowd.svg"
 logo_h: 26
 featured: true
 weight: 2
 metrics:
-  - { value: "90 days", label: "per engagement — from first conversation to a plan the company could execute" }
-  - { value: "2", label: "strategies delivered: the data services framework, and crowd management" }
-  - { value: "100%", label: "implemented by Bugcrowd's own team — no follow-on engagement, no dependency" }
+  - { value: "90 days", label: "per engagement, from first conversation to a plan the company could execute" }
+  - { value: "2", label: "strategies: data services, and crowd management" }
+  - { value: "100%", label: "built by Bugcrowd's own engineers, with no follow-on engagement" }
 glance:
-  - { k: "Client", v: "Bugcrowd — crowdsourced security platform" }
-  - { k: "Engagement", v: "Two 90-day engagements, 2019–2020: data strategy, then crowd management" }
-  - { k: "Our role", v: "Data strategy, crowd management strategy, prototypes, organizational design" }
-  - { k: "Delivered", v: "Data services framework and roadmap; crowd lifecycle, payout and incentive models; dashboards and wireframes; an Enterprise Data Engineering group" }
-  - { k: "Implemented by", v: "Bugcrowd's internal team, in full" }
-steps: ["Framed with leadership", "What the business needs, specified", "Handed over — implemented in-house"]
-outcome: "Bugcrowd implemented both strategies — the data services framework and the crowd management system — entirely with its own people. No dependency on us, no second engagement to finish the first. That is the model working at its smallest: frame it, specify it, hand it over, and the capability stays."
+  - { k: "Client", v: "Bugcrowd, a crowdsourced security platform" }
+  - { k: "Engagement", v: "Two 90-day engagements, 2019 – 2020" }
+  - { k: "Our role", v: "Data strategy and crowd management strategy, with leadership" }
+  - { k: "Delivered", v: "Two strategies, a three-quarter roadmap, and the design of the data group" }
+  - { k: "Built by", v: "Bugcrowd's own engineers, in full" }
+situation:
+  eyebrow: "The situation, 2019"
+  heading: "What Bugcrowd needed, and what stood in the way."
+  sub: "Bugcrowd is two businesses — a cybersecurity company that helps customers remediate threats, and a talent agency for the people who do it. Its systems treated them as one."
+  left: "What the business had to be able to do"
+  right: "What was in the way"
+  rows:
+    - { l: "Serve two businesses — customers and researchers — from one platform.", r: "Identical workflows for both, very different outcomes, and the imbalance between them capping how far either could scale." }
+    - { l: "Answer a business question without filing a ticket.", r: "Thirty requests waiting and three in progress, two to four weeks each — most of them a simple aggregation or a profile lookup." }
+    - { l: "Match the right researcher to the right program.", r: "No profile data to match on. Data tied to application logic, so every new question meant touching the platform." }
+    - { l: "Report consistently across the company.", r: "A renewal report and time-to-triage. Definitions that changed from one team to the next." }
+stages_eyebrow: "Four of the six steps"
+stages_heading: "How the process ran, in ninety days at a time."
+stages_sub: "Two engagements covered steps one to four and handed over. Delivery and adjustment were Bugcrowd's own — it built both strategies with its internal team."
+stages:
+  - n: "01"
+    title: Define the business outcome
+    when: "Engagement one, 2019"
+    photo: bugcrowd-outcome.jpg
+    alt: A strategy session with leadership
+    how: "With leadership, we wrote the outcome in Bugcrowd's own terms: manage the two businesses separately until they can converge, build the data foundation both need, and become the gateway — the best talent for every program, the best return on time for every researcher."
+    we:
+      - The diagnosis — two lifecycles on one platform, and the imbalance between them
+      - The customer and crowd lifecycles mapped side by side — mindshare, wallet share, experience share
+      - The outcome, in writing, and the case for putting data on the product board's agenda
+    has: A diagnosis leadership acted on, and an outcome in its own words.
+  - n: "02"
+    title: Identify the people
+    when: "Engagement one, 2019"
+    photo: bugcrowd-people.jpg
+    alt: A team in discussion
+    how: "The data work needed owners Bugcrowd didn't have. We designed the group — an Enterprise Data Engineering team of a lead, an architect and three engineers, the conduit between operations and the platform — and put the ask to leadership plainly: staff it, and decide whether to accelerate."
+    we:
+      - The design of the Enterprise Data Engineering group and its roles
+      - The ask to leadership, with what it would cost and what it would unlock
+    has: A named group with a mandate, staffed from its own people.
+  - n: "03"
+    title: Measure and fix the process
+    when: "Engagement one, 2019"
+    photo: bugcrowd-measure.jpg
+    alt: Monitoring screens in an operations room
+    how: "We measured where the data stood. Thirty requests were waiting and three in progress, at two to four weeks each; most were a simple aggregation or a profile lookup. Reporting was a renewal report and time-to-triage, with definitions that changed from team to team. Every new question meant touching the platform."
+    we:
+      - The request queue measured — volume, wait, and what was actually being asked for
+      - The reporting inventory, and where definitions disagreed
+      - The coupling between data and application logic, mapped
+      - The first fixes named — a normalized transactional model, a Postgres decision, an ETL spike, an operational data store
+    has: A baseline, and the first four fixes to make.
+  - n: "04"
+    title: Build what the business needs
+    when: "Both engagements, 2019 – 2020"
+    photo: whiteboard.jpg
+    alt: A working session at a whiteboard
+    how: "Two strategies, specified to the point Bugcrowd's engineers could build them. A data services framework — an information architecture with a real entity model and master data, ingestion and export instead of ad hoc extracts, and programmatic access so new products and self-service reporting stop being tickets. Then crowd management from first principles — recruit, onboard, produce, nurture — with payout models beyond fixed rates and incentives that turn researchers into evangelists."
+    we:
+      - The data services framework and its three-quarter roadmap — infrastructure and a single source of truth first, a machine-learning-ready data services MVP after
+      - Feature specifications — a security knowledge base with a recommendation engine, Crowd Match with its mockups and information architecture, and auto-remediation with a build-or-buy decision first
+      - The crowd lifecycle, payout and incentive models, with requirements by stage across people, process and product
+      - The dashboards, drawn
+    has: Both strategies, built in full by its own engineers, with no follow-on engagement.
+outcome: "Bugcrowd built both strategies — the data services framework and the crowd management system — entirely with its own people. No dependency on us and no second engagement to finish the first. That is the process at its smallest: define it, specify it, hand it over, and the capability stays."
 ---
-
-## The diagnosis leadership acted on
-
-{{< beside photo="whiteboard.jpg" alt="A working session at a whiteboard" caption="two 90-day engagements" >}}
-{{< pull >}}Bugcrowd is two businesses: a cybersecurity company that helps customers remediate threats, and a talent agency for the people who do it. Its systems treated them as one.{{< /pull >}}
-
-{{< versus left="Customer lifecycle" right="Crowd lifecycle" >}}
-{{< vs l="**Mindshare** — try the platform" r="**Mindshare** — join the platform" >}}
-{{< vs l="**Wallet share** — pay for a subscription" r="**Wallet share** — get paid for security work" >}}
-{{< vs l="**Experience share** — tell other customers" r="**Experience share** — tell other researchers" >}}
-{{< /versus >}}
-{{< /beside >}}
-
-Identical workflows across the two produce very different outcomes, and the imbalance between them was capping how far either could scale. The transformation, in Bugcrowd's own terms: manage the two separately until they can converge, build the data foundation both need, and become the *gateway* — the best talent for every program, the best return on time for every researcher.
-
-## Where the data stood
-
-{{< fig-queue >}}
-
-{{< cards cols="3" >}}
-{{< card tag="queue" title="30 requests waiting, 3 in progress" >}}Two to four weeks each. Most were a simple aggregation or a profile lookup.{{< /card >}}
-{{< card tag="insight" title="A renewal report and time-to-triage" >}}That was the reporting. Definitions inconsistent from one team to the next.{{< /card >}}
-{{< card tag="coupling" title="Data tied to application logic" >}}Every new question meant touching the platform. No data-driven workflow to speak of.{{< /card >}}
-{{< /cards >}}
-
-## What we delivered
-
-{{< timeline >}}
-{{< tl when="Strategy" title="An open-access data services framework" >}}
-An information architecture with a real entity model and master data; ingestion and export instead of ad hoc extracts; programmatic access so new products and self-service reporting stop being tickets. First moves named: a normalized transactional model, a Postgres decision, an ETL spike, an operational data store.
-{{< /tl >}}
-{{< tl when="Roadmap" title="Three quarters, sequenced" >}}
-Infrastructure and a single source of truth first; a machine-learning-ready data services MVP after. Each feature with a goal, a target use case and a five-step path.
-{{< /tl >}}
-{{< tl when="Features" title="What the data unlocks" >}}
-A security knowledge base with a recommendation engine. **Crowd Match** — profile-based matching of vulnerabilities to researchers and teams, with the mockups and information architecture. Auto-remediation, with the honest note that it needed a build-or-buy decision first.
-{{< /tl >}}
-{{< tl when="Crowd" title="Crowd management, from first principles" >}}
-The crowd is talent that completes units of security work and wants work matched to its skills — and to be valued. A lifecycle: recruit, onboard, produce, nurture. Payout models beyond fixed rates. Incentives that turn researchers into evangelists. Requirements by stage across people, process and product. We drew the dashboards.
-{{< /tl >}}
-{{< tl when="Organization" title="An Enterprise Data Engineering group" >}}
-A lead, an architect, three engineers — the conduit between operations and the platform. The ask to leadership stated plainly: staff it, put data on the product board's agenda, decide whether to accelerate.
-{{< /tl >}}
-{{< /timeline >}}
-
-## What Bugcrowd did with it
-
-Implemented both — the data services framework and the crowd management system — in full, with its own internal team, and no follow-on engagement to finish the first.

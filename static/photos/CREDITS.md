@@ -23,3 +23,6 @@ Stand-ins until real photographs of the team and the center exist.
 - zones-process.jpg — https://unsplash.com/photos/tYVkjjMYFBo — Zones, step 03
 - zones-build.jpg — https://unsplash.com/photos/G1N9kDHqBrQ — Zones, step 04
 - zones-adjust.jpg — https://unsplash.com/photos/5QgIuuBxKwM — Zones, step 06
+- bugcrowd-outcome.jpg — https://unsplash.com/photos/FBnElwHyMkM — Bugcrowd, step 01
+- bugcrowd-people.jpg — https://unsplash.com/photos/Cnsh9WwhVCw — Bugcrowd, step 02
+- bugcrowd-measure.jpg — https://unsplash.com/photos/qwtCeJ5cLYs — Bugcrowd, step 03
