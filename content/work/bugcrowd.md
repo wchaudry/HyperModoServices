@@ -51,11 +51,11 @@ stages:
     when: "Engagement one, 2019"
     photo: bugcrowd-people.jpg
     alt: A team in discussion
-    how: "The data work needed owners, and Bugcrowd didn't have them yet. We designed the group it needed. An Enterprise Data Engineering team of five — a lead, an architect and three engineers — would sit between operations and the platform and own the data for both. We put the ask to leadership plainly. Staff it, and decide whether to accelerate."
+    how: "The people were already in the company. Bugcrowd's engineering team could carry the whole of the work, so the question was ownership, not capacity. We mapped who would own the data for each side of the business and recommended a standing data group — a lead, an architect and three engineers — as the conduit between operations and the platform, for leadership to staff from its own people when it chose to."
     we:
-      - The design of the Enterprise Data Engineering group and each of its roles
-      - The ask to leadership, with what it would cost and what it would unlock
-    has: A named group with a mandate, staffed from its own people.
+      - The map of who owns the data for the customer side and the crowd side
+      - A recommended data group, with each role defined, for leadership to staff in its own time
+    has: Its own engineering team, which went on to build both strategies in full.
   - n: "03"
     title: Measure and fix the process
     when: "Engagement one, 2019"
