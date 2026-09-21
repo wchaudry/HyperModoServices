@@ -51,7 +51,7 @@ stages:
     when: "2019"
     photo: bugcrowd-people.jpg
     alt: A team in discussion
-    how: "The people were already in the company. Bugcrowd's engineering team could carry the whole of the work, so the question was ownership, not capacity. We mapped who would own the data for each side of the business and recommended a standing data group — a lead, an architect and three engineers — as the conduit between operations and the platform, for leadership to staff from its own people when it chose to."
+    how: "The people were already in the company. Bugcrowd's engineering team could do all of the work, so the question was ownership, not capacity. We mapped who should own the data on the customer side and who on the crowd side. We also recommended a standing data group of five, for leadership to staff from its own people whenever it chose."
     we:
       - The map of who owns the data for the customer side and the crowd side
       - A recommended data group, with each role defined, for leadership to staff in its own time
