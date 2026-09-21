@@ -28,14 +28,14 @@
     <ol class="spine">
       {{ range hugo.Data.steps }}
       <li class="stage" id="{{ .n }}">
-        <div class="rail"><span class="node">{{ .n }}</span></div>
+        <div class="rail"><span class="node n{{ .n }}">{{ .n }}</span></div>
         <h2>{{ .title }}</h2>
         <div class="stage-copy">
           <p class="how">{{ .how }}</p>
         </div>
         <div class="stage-list">
           <h3>What we do</h3>
-          <ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul>
+          <ul class="we">{{ range .we }}{{ if reflect.IsMap . }}<li class="ai">{{ .text }}</li>{{ else }}<li>{{ . }}</li>{{ end }}{{ end }}</ul>
         </div>
         <div class="stage-foot">
           <p class="line"><b>You leave with</b>{{ .leave }}</p>

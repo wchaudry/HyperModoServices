@@ -3,7 +3,7 @@
   how: A handful of working sessions with the executives who own the outcome, weeks apart, not months. Between sessions we do the analysis. In the room we write the outcome down in your terms and agree how it will be measured. The last session is a decision, made on a business case and a bounded first use case.
   we:
     - Interview the executives and the people closest to the customer
-    - Analyse the market, the competitors, and where your numbers say growth stalls
+    - { ai: true, text: Analyse the market, the competitors, and where your numbers say growth stalls }
     - Model the outcome — the objectives, the five-year shape, the measure
     - Write the phased roadmap and pick the first use case
     - Write the business case and present it to the board or the executive team
@@ -25,7 +25,7 @@
   how: We sit with the people doing the work and map it as it actually runs, then put numbers on it. The fixes start at once. What's slow gets unblocked and what's pointless gets cut. What remains becomes the training curriculum, taught on real deliveries rather than in a classroom.
   we:
     - Map every process the outcome touches — who decides, who waits, where it stalls
-    - Measure it, and set the baseline the transformation is judged against
+    - { ai: true, text: Measure it, and set the baseline the transformation is judged against }
     - Make the fixes that need no software — decisions, hand-offs, approvals
     - Design the training curriculum from the gaps we measured, each course tied to a delivery
   leave: The process map with its measures, the baseline, the fixes made, and a training curriculum tied to the deliveries.
@@ -36,7 +36,7 @@
   we:
     - Choose the solution — buy, build, or change the process — for each outcome
     - Design the architecture and write the specifications
-    - Install the AI delivery framework in your repositories, so agents accelerate every delivery and your people direct, review and own the result
+    - { ai: true, text: "Install the AI delivery framework in your repositories, so agents accelerate every delivery and your people direct, review and own the result" }
     - Build alongside your people, in the same codebase, from the first sprint
     - Document what was built so your team owns it, not us
   leave: The systems and processes in use, the designs and documentation your team owns, the framework in your repositories, and your team working in it.
@@ -45,7 +45,7 @@
   title: Deliver every quarter
   how: Training and delivery are one workstream. Every quarter has a finished increment the business will use, built by the people being trained, with senior mentors in the work beside them. Leadership sees progress in what's running, not in a status deck.
   we:
-    - Plan each quarter around one finished increment the business will use
+    - { ai: true, text: Plan each quarter around one finished increment the business will use }
     - Run the training the engagement calls for — a rotational program for new hires, a curriculum for the people in place, or the working sessions that leave your people able to build the rest
     - Mentor in the work — senior people on every team, reviewing every delivery
     - Demo to the business owners and take what's wrong with it back into the next quarter
@@ -55,7 +55,7 @@
   title: Adjust continuously
   how: We hold a standing seat with senior leadership and report on what changed. The plan is adjusted to keep the strategy aligned to the outcome. From the first day there is a handover plan and a named successor for every role we hold, so the engine runs without us — and the loop goes round again.
   we:
-    - Report to leadership on impact, progress toward the outcome, and the root cause when something slipped
+    - { ai: true, text: "Report to leadership on impact, progress toward the outcome, and the root cause when something slipped" }
     - Revise the plan with leadership as the strategy and the outcome demand
     - Maintain the handover plan, and name a successor for every role we hold
     - Hand over role by role as your people are ready — and stay until they are
