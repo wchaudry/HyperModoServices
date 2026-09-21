@@ -2,11 +2,12 @@ eyebrow: The foundation
 heading: The foundation the loop runs on.
 sub: "AI in your team's hands. We weave it into how your people learn, train and deliver, so your business drives the change instead of absorbing it."
 items:
-  - title: Learning and training
-    text: "Sized to the engagement. Building a new team is an 18-month program: six months to build the recruiting and training models, then 12 months rotating every hire through the disciplines on live deliverables. For people already in place, it is a curriculum designed from the gaps we measured. In a 90-day engagement, it is the specifications and working sessions that let your own engineers build the rest. Training is never a separate track — it always ends in something the business uses."
+  - title: Learning
+    text: How the company finds out what's true. We map the processes as they actually run and put numbers on them, set the baseline the transformation is judged against, and report to leadership on impact, progress and root causes. The plan is revised with you when the market moves.
+    ai: AI agents do the analysis and the measurement, on your data, in days rather than quarters — so the organisation learns faster than it can be told.
+  - title: Training
+    text: "Sized to the engagement. Building a new team is an 18-month program: six months to build the recruiting and training models, then 12 months rotating every hire through the disciplines on live deliverables. For people already in place, it is a curriculum designed from the gaps we measured. Inside a 90-day engagement, it is the working sessions that let your own engineers build the rest."
+    ai: Every role trains with AI agents in the work — product, design and business owners as well as engineers — so people learn by delivering, not by attending.
   - title: Delivery
-    text: One workstream with training, on a quarterly cadence. Every quarter ships a finished increment into the business's hands, demoed to the people who will use it, while the larger platform takes shape underneath.
-  - title: AI enablement
-    text: An AI delivery framework installed in your repositories, where agents write most of the code and people write the specification, review the result, and own it. Every role learns to work in it — product, design and business owners, not only engineers.
-  - title: Measurement and leadership reporting
-    text: A baseline set in step three and a standing seat with senior leadership from then on. We report impact, progress toward the outcome, and root causes, and we revise the plan with you when the market moves.
+    text: One workstream with training, on a quarterly cadence. Every quarter ships a finished increment into the business's hands, built by the people being trained, demoed to the people who will use it, while the larger platform takes shape underneath.
+    ai: AI agents accelerate every delivery — specification, build, test and documentation — so the same team ships more each quarter, and your people direct, review and own the result.

@@ -59,7 +59,7 @@
   we:
     - Choose the solution — buy, build, or change the process — for each outcome
     - Design the architecture and write the specifications
-    - Install the AI delivery framework in your repositories — agents write most of the code, people specify, review and own it
+    - Install the AI delivery framework in your repositories, so agents accelerate every delivery and your people direct, review and own the result
     - Build alongside your people, in the same codebase, from the first sprint
     - Document what was built so your team owns it, not us
   get:

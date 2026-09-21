@@ -424,12 +424,15 @@
   /* how we work: the cycle, the spine, the ownership bar */
   .cycle{width:min(100%,44rem);height:auto;display:block;margin:0 auto}
   .hero-process .cycle .disc{fill:var(--paper);fill-opacity:.55}
-  .streams{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
-  .stream{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:clamp(22px,1.6vw,30px)}
-  .stream h3{font-size:1.15rem;margin:0 0 10px}
-  .stream p{margin:0;font-size:.95rem;line-height:1.55;color:var(--muted)}
-  @media (max-width:980px){.streams{grid-template-columns:repeat(2,1fr)}}
-  @media (max-width:560px){.streams{grid-template-columns:1fr}}
+  .streams{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+  .stream{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:clamp(24px,1.8vw,34px);display:flex;flex-direction:column}
+  .stream h3{font-size:1.35rem;margin:0 0 12px}
+  .stream p{margin:0;font-size:1rem;line-height:1.58;color:var(--muted)}
+  .ai{position:relative;padding:18px 0 0 30px;margin-top:auto !important;color:var(--ink) !important;font-weight:500}
+  .ai::before{content:"";position:absolute;left:0;top:19px;width:22px;height:22px;background:var(--violet);-webkit-mask:url("/brand/bolt.svg") center/contain no-repeat;mask:url("/brand/bolt.svg") center/contain no-repeat}
+  .stream .ai{border-top:1px solid var(--rule);margin-top:22px !important;padding-top:20px}
+  .stream .ai::before{top:21px}
+  @media (max-width:980px){.streams{grid-template-columns:1fr}}
   .cycle .disc{fill:var(--violet-soft)}
   .cycle .arc{fill:none;stroke-width:10;stroke-linecap:round}
   .cycle .a1{stroke:var(--violet)}
