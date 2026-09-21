@@ -13,7 +13,7 @@
 <section class="streams-wrap">
   <div class="wrap wide">
     {{ $s := hugo.Data.streams }}
-    <div class="sechead">
+    <div class="sechead plain">
       <div><span class="eyebrow">{{ $s.eyebrow }}</span><h2>{{ $s.heading }}</h2></div>
       <p class="sechead-sub">{{ $s.sub }}</p>
     </div>
@@ -25,7 +25,7 @@
 
 <section class="spine-wrap alt">
   <div class="wrap wide">
-    <div class="sechead">
+    <div class="sechead plain">
       <div><span class="eyebrow">The six steps</span><h2>How each step runs.</h2></div>
       <p class="sechead-sub">Who's in the room, what we do, what you leave with, and what it asks of you.</p>
     </div>
@@ -54,14 +54,14 @@
 <section id="how-an-engagement-runs">
   <div class="wrap wide">
     {{ $e := hugo.Data.engagement }}
-    <div class="sechead">
+    <div class="sechead plain">
       <div><span class="eyebrow">How an engagement runs</span><h2>{{ $e.heading }}</h2></div>
       <p class="sechead-sub">{{ $e.sub }}</p>
     </div>
     <div class="runs">
       {{ range $e.runs }}<div class="run"><span class="when">{{ .when }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
     </div>
-    <div class="sechead" style="margin-top:96px">
+    <div class="sechead plain" style="margin-top:96px">
       <div><span class="eyebrow">Ways to engage</span><h2>{{ $e.formats_heading }}</h2></div>
       <p class="sechead-sub">{{ $e.formats_sub }}</p>
     </div>
