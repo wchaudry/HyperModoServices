@@ -11,10 +11,10 @@ logo_h: 22
 featured: true
 weight: 1
 metrics:
-  - { value: "$3B", label: "IT solutions provider, the client" }
-  - { value: "70+", label: "people in the Islamabad center today, recruited and trained in-house" }
-  - { value: "4", label: "systems in daily use: pricing, identity, catalog processing, order approvals" }
-  - { value: "2027", label: "core platform live; the team delivers global e-commerce on its own" }
+  - { value: "$3B", label: "the client's revenue" }
+  - { value: "70+", label: "people in Islamabad, recruited and trained in-house" }
+  - { value: "4", label: "systems in daily use" }
+  - { value: "2027", label: "core platform live; the team delivers global e-commerce alone" }
 glance:
   - { k: "Client", v: "Zones LLC — IT solutions provider, $3B revenue" }
   - { k: "Engagement", v: "March 2022 – today" }
