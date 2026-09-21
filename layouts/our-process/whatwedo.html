@@ -18,7 +18,7 @@
       <p class="sechead-sub">{{ $s.sub }}</p>
     </div>
     <div class="streams">
-      {{ range $s.items }}<div class="stream"><h3>{{ .title }}</h3><p><strong class="kicker">{{ .kicker }}</strong> {{ .text }}</p><p class="ai">{{ .ai }}</p></div>{{ end }}
+      {{ range $s.items }}<div class="stream"><div class="stream-head"><h3>{{ .title }}</h3><p class="kicker">{{ .kicker }}</p></div><p>{{ .text }}</p><p class="ai">{{ .ai }}</p></div>{{ end }}
     </div>
   </div>
 </section>
