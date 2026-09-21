@@ -16,7 +16,7 @@
     <aside class="glance">
       <div class="k">At a glance</div>
       <dl>{{ range .Params.glance }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
-      {{ with .Params.steps }}<div class="k" style="margin-top:22px">Steps of the model</div><ol class="steplist">{{ range . }}<li>{{ . }}</li>{{ end }}</ol>{{ end }}
+      {{ with .Params.steps }}<div class="k" style="margin-top:22px">The six steps, as they ran</div><ol class="steplist">{{ range . }}<li>{{ . }}</li>{{ end }}</ol>{{ end }}
     </aside>
     <div class="prose">{{ .Content }}</div>
   </div>

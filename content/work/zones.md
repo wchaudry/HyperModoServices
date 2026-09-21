@@ -16,12 +16,12 @@ metrics:
   - { value: "4", label: "systems in daily use" }
   - { value: "2027", label: "core platform live; the team delivers global e-commerce alone" }
 glance:
-  - { k: "Client", v: "Zones LLC — IT solutions provider, $3B revenue" }
-  - { k: "Engagement", v: "March 2022 – today" }
-  - { k: "Our role", v: "Program owner since 2022: strategy, the venture, the team, delivery — across five legal entities" }
-  - { k: "The venture", v: "A new center in Islamabad, opened July 2022, Zones' own" }
+  - { k: "Client", v: "Zones LLC, a $3B IT solutions provider" }
+  - { k: "Engagement", v: "March 2022 – today, with two earlier engagements in 2018–19 and 2021" }
+  - { k: "Our role", v: "Program owner: the outcome, the people, the process, the build, delivery and the adjustments — with the CDO and the executive team" }
+  - { k: "The center", v: "Islamabad, opened July 2022, Zones' own" }
   - { k: "Where it stands", v: "Core platform in final testing; handover being planned" }
-steps: ["Framed with the executive team", "Venture stood up", "Talent engine built", "Delivering every quarter", "Core platform in testing", "Adjusting with leadership"]
+steps: ["Define the business outcome", "Identify the people", "Measure and fix the process", "Build what the business needs", "Deliver every quarter", "Adjust continuously"]
 outcome: "A $3B company now has a transformation engine of its own: a center in Islamabad, 70+ people it recruited and trained, four systems in daily use and the core platform going live in 2027. The next system — global e-commerce — the team delivers without us."
 ---
 
