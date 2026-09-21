@@ -52,39 +52,39 @@
   key: technical
   image: circuit-blue.jpg
   alt: "A dark blue circuit board, close up"
-  line: "A business shouldn't rent its own knowledge from its systems of record. We hold six positions on how to build, and they show up in every platform we deliver: decouple from the systems of record, put data before experiences, build a platform rather than a project, integrate early, make everything reproducible, and keep a pace of delivery that doesn't depend on who is in the room."
+  line: "Every transformation runs on systems. Ours start from one principle — the business owns its knowledge, not its software — and everything else follows from it. Our specialization is enterprise data, because that is where a company's knowledge lives and every other system depends on it."
   seen: { label: "Seen in full: the Zones and Bugcrowd case studies", url: "/work/" }
   items:
-    - key: decouple
-      title: Decouple the business from its systems of record
+    - key: own
+      title: Own your knowledge
       spec: true
-      blurb: The ERP, CRM, and billing system are where transactions happen. They shouldn't be where the business keeps what it knows. We move that knowledge into a platform the business owns and governs. The systems of record keep working — they read from the platform instead of holding the truth themselves. And the old systems are retired only once the new one has proven it can carry the load.
-      deliver: [The target architecture and the seams between the platform and each system of record, Two-way synchronization so existing investment keeps working, A migration path with legacy retired on evidence, Business rules recovered from the systems of record and made configurable by the business]
-    - key: data-first
-      title: Data first, experiences on top
-      blurb: We build one governed source of truth before we build anything on top of it. Every record can be traced back to where it came from. The business sets the rules for what counts as valid, how errors get corrected, and which source wins when two disagree. Engineers don't have to be involved.
-      deliver: ["A master-data model with lineage — transaction, staging, master", A rules engine the business owns, Ingestion from every feed the business depends on, "A phased sequence — foundation, then experience, then automation"]
-    - key: platform
-      title: A platform, not a project
-      blurb: We build every part of the platform as a product that could stand on its own. It can be extended without being rewritten, and it can serve a second business from day one. When the company acquires someone, the platform takes them on without a rebuild.
-      deliver: [A plugin framework for connectors and transforms, An identity layer other applications register against, Multi-tenant deployment from day one, "Components with a commercial path — SaaS, integration services, data-as-a-service"]
-    - key: integrate
-      title: Integrate early, find the unknowns
-      blurb: A platform is only worth something once it's connected to the systems the business already runs. So we start connecting it before it's finished. Short sprints against the real systems find the surprises while they're still cheap to fix.
-      deliver: [Integration sprints against live systems from the first quarter, A test plan derived from the integration surface, Recurring data refreshes so comparison testing is honest, Fast fixes for the gaps integration exposes]
-    - key: reproducible
-      title: Everything reproducible, everything observable
-      blurb: We define the infrastructure in code, so the whole environment can be rebuilt from scratch. We put monitoring on it, so it can be trusted. And before anything goes live, we write a readiness assessment that says plainly what has been tested and what hasn't.
-      deliver: ["Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, A production-readiness assessment with named gaps and owners, "A support model — tiers, runbooks, cross-training"]
-    - key: throughput
-      title: A pace that does not depend on headcount
-      blurb: The team uses AI throughout the build, under a framework that says what AI may do and who reviews the result. We install that framework in the company's own repositories and teach it to everyone, so the pace of delivery doesn't fall when the people who set it move on.
-      deliver: [The AI delivery framework installed in the client's repositories, Review gates as code, Engineers trained to direct and review AI-assisted work]
+      blurb: A company's knowledge — what it sells, at what price, to whom, under which rules — shouldn't live inside a vendor's software where only a few people can reach it. We move it into a platform the business owns and governs. The ERP, CRM, and billing system keep working, but they stop being the only place the truth lives.
+      deliver: [Product changes made by the people who own the products, Business rules the business can read and change itself, Systems of record that keep running while the platform takes over, Legacy retired on evidence, not on a date]
+    - key: foundation
+      title: Build the foundation first
+      blurb: Every new experience — a storefront, a portal, an AI feature — is only as good as the data underneath it. So we build one governed source of truth before we build anything on top, and we sequence the work so the business sees value every quarter while the foundation goes in.
+      deliver: [One source of truth for the data the business runs on, Value delivered every quarter while the foundation is built, "A sequence the executive team can see — foundation, then experience, then automation"]
+    - key: platforms
+      title: Build platforms, not projects
+      blurb: A project ends. A platform takes the next system, the next market, and the next acquisition without starting over. We build every part so it can stand on its own and serve a second business from day one, because growth by acquisition is only as fast as the systems that absorb it.
+      deliver: [A platform that absorbs an acquired business without a rebuild, Components that can be sold or reused — as a service or as a product, The next system built on the last one, not beside it]
+    - key: connect
+      title: Connect early
+      blurb: The expensive surprises in any build are in the connections to the systems the business already runs. We connect early and often, in short sprints against the real systems, so the surprises show up while they are still cheap and the go-live date holds.
+      deliver: [Integration proven from the first quarter, A test plan built from the real connections, A go-live date that survives contact with the existing systems]
+    - key: trust
+      title: Make it something the business can trust
+      blurb: Before anything goes live, the business should know exactly what has been tested and what hasn't, and the team should be able to rebuild the whole environment from scratch. We build it that way, and we write it down.
+      deliver: [A readiness assessment that says plainly what has been proven, An environment that can be rebuilt from code, "Monitoring the team already watches, and a support model it can run"]
+    - key: pace
+      title: Keep the pace
+      blurb: The pace of delivery shouldn't depend on who happens to be in the room. The team uses AI throughout the build under a framework that says what AI may do and who reviews the result, and we teach that framework to everyone so the pace holds after we leave.
+      deliver: [A delivery pace that does not depend on headcount, "A framework that says what AI may do, and who reviews it", A team that keeps the pace after the handover]
 - category: Specialized capabilities
   key: capabilities
   image: movement3.jpg
   alt: "A mechanical watch movement, close up"
-  line: "The disciplines we bring to a step when it needs them — AI enablement, product, marketing, design. Each is a practice in its own right, and each ends in a deliverable your people own."
+  line: "The disciplines we bring to a step when it needs them — AI enablement, data and platform engineering, product, marketing, design. Each is a practice in its own right, and each ends in a deliverable your people own."
   seen: { label: "Seen in full: the Wasmer and Bugcrowd engagements", url: "/work/" }
   items:
     - key: ai
@@ -92,6 +92,14 @@
       spec: true
       blurb: Not "AI solves your problems" — your people, working with AI, solving them faster and to a higher standard than before. The framework and the daily workflow are taught to every function the transformation touches, so it becomes how the organization works rather than a tool a few people try.
       deliver: ["The operating model — directives, session protocols, a shared knowledge base — installed in your repositories", "A daily workflow for engineers, product and design, with the review gates that make it safe", "Hands-on training by delivering real work with it, not a course", "Quality measured at the gate — every change reviewed to a written standard before it ships"]
+    - key: data-platforms
+      title: Enterprise data platforms
+      blurb: The engineering behind owning your knowledge. A master-data model with lineage, a rules engine the business configures, ingestion from every feed the business depends on, and two-way synchronization with the systems of record so existing investment keeps working.
+      deliver: ["A master-data model with lineage — transaction, staging, master", A rules engine the business owns, Ingestion from every feed the business depends on, Two-way synchronization with the ERP and other systems of record, A migration path with legacy retired on evidence]
+    - key: platform-engineering
+      title: Platform and cloud engineering
+      blurb: The engineering behind platforms that last. A plugin framework for connectors, an identity layer every application registers against, multi-tenant deployment from day one, infrastructure as code, and monitoring the team already watches.
+      deliver: [A plugin framework for connectors and transforms, An identity layer other applications register against, Multi-tenant deployment from day one, "Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, "A support model — tiers, runbooks, cross-training"]
     - key: product
       title: Product management
       blurb: The work between "we should do this" and "it is in use."
