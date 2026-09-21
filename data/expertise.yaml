@@ -15,7 +15,7 @@
       deliver: [A phased roadmap with what each phase proves, A bounded first use case, Dependencies and decision points named]
     - key: program-ownership
       title: Program ownership
-      blurb: One owner from the business case to go-live — architecture, the delivery organisation, vendors, and reporting to the executive team.
+      blurb: One owner from the business case to go-live. We run the architecture, the delivery team, the vendors and the reporting to the executive team, so no one else has to hold the pieces together.
       deliver: [Program charter and governance, Executive reporting that names root causes, Vendor and partner management, A handover plan from day one]
     - key: operating-model
       title: Operating model and governance
@@ -59,7 +59,7 @@
       title: Decouple the business from its systems of record
       spec: true
       blurb: The ERP is where transactions live, not where the business's knowledge should. Product, service and subscription data moves into a governed platform the business owns; the ERP becomes a consumer of it, kept in sync, and legacy is retired only once the platform has proven it can carry the load.
-      deliver: [The target architecture and the seams between platform and ERP, Two-way synchronisation so existing investment keeps working, A migration path with legacy retired on evidence, Business rules recovered from the ERP and made configurable by the business]
+      deliver: [The target architecture and the seams between platform and ERP, Two-way synchronization so existing investment keeps working, A migration path with legacy retired on evidence, Business rules recovered from the ERP and made configurable by the business]
     - key: data-first
       title: Data first, experiences on top
       blurb: One governed source of truth before any experience is built on it, with lineage to the source and rules for validation, correction and precedence that the business configures itself.
@@ -70,7 +70,7 @@
       deliver: [A plugin framework for connectors and transforms, An identity layer other applications register against, Multi-tenant deployment from day one, "Components with a commercial path — SaaS, integration services, data-as-a-service"]
     - key: integrate
       title: Integrate early, find the unknowns
-      blurb: The value of a platform is only realised when it is connected, so integration starts before the platform is finished — small sprints against real systems to surface the unknowns while they are cheap.
+      blurb: The value of a platform is only realized when it is connected, so integration starts before the platform is finished — small sprints against real systems to surface the unknowns while they are cheap.
       deliver: [Integration sprints against live systems from the first quarter, A test plan derived from the integration surface, Recurring data refreshes so comparison testing is honest, Fast fixes for the gaps integration exposes]
     - key: reproducible
       title: Everything reproducible, everything observable
@@ -90,7 +90,7 @@
     - key: ai
       title: AI enablement for the whole team
       spec: true
-      blurb: Not "AI solves your problems" — your people, working with AI, solving them faster and to a higher standard than before. The framework and the daily workflow are taught to every function the transformation touches, so it becomes how the organisation works rather than a tool a few people try.
+      blurb: Not "AI solves your problems" — your people, working with AI, solving them faster and to a higher standard than before. The framework and the daily workflow are taught to every function the transformation touches, so it becomes how the organization works rather than a tool a few people try.
       deliver: ["The operating model — directives, session protocols, a shared knowledge base — installed in your repositories", "A daily workflow for engineers, product and design, with the review gates that make it safe", "Hands-on training by delivering real work with it, not a course", "Quality measured at the gate — every change reviewed to a written standard before it ships"]
     - key: product
       title: Product management
@@ -103,4 +103,4 @@
     - key: design
       title: UX and design systems
       blurb: Screens validated before they are built, and the tokens and components that make them real — published as packages your engineers install.
-      deliver: [Journey maps and Figma flows tested against real process, "Design tokens — colour, type, spacing, light and dark", A component library as versioned packages with documentation, "Mobile where it is needed"]
+      deliver: [Journey maps and Figma flows tested against real process, "Design tokens — color, type, spacing, light and dark", A component library as versioned packages with documentation, "Mobile where it is needed"]

@@ -103,7 +103,7 @@ stages:
     photo: zones-adjust.jpg
     alt: A leadership discussion over a laptop
     when: "2022 – today"
-    how: Nothing about this ran on rails. The organisation changed, the strategy shifted, and the plan moved with them — one cohort year was skipped, and the handover is being planned now. Every adjustment was made with senior leadership and measured against the outcome the executive team approved in 2022.
+    how: Nothing about this ran on rails. The organization changed, the strategy shifted, and the plan moved with them — one cohort year was skipped, and the handover is being planned now. Every adjustment was made with senior leadership and measured against the outcome the executive team approved in 2022.
     we:
       - Leadership reporting on impact, progress toward the outcome, and root causes
       - The plan, revised with leadership as the strategy evolved
