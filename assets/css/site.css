@@ -96,15 +96,15 @@
 
   /* ledger — the signature */
   .ledger{max-width:none;margin:0;background:var(--ledger-bg);color:var(--ledger-ink);border-radius:14px;box-shadow:var(--ledger-shadow), 0 0 0 1px var(--ledger-rule);text-align:left;overflow:hidden;position:relative;z-index:1}
-  .ledger ol{list-style:none;margin:0;padding:.6rem 1.4rem 1rem;font-family:"JetBrains Mono",monospace;font-size:.9rem;line-height:1.65}
+  .ledger ol{list-style:none;margin:0;padding:.6rem 1.4rem 1rem;font-size:1rem;line-height:1.55}
   .lhead{display:grid;grid-template-columns:5.2rem 1fr 1fr;gap:1rem;padding:20px 1.4rem 0;font-family:"JetBrains Mono",monospace;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ledger-muted)}
   .ledger li{display:grid;grid-template-columns:5.2rem 1fr 1fr;gap:1rem;padding:14px 0;border-bottom:1px dashed var(--ledger-rule)}
   .ledger li:last-child{border-bottom:none}
-  .ledger .t{color:var(--ledger-ink)}
-  .ledger .t small{display:block;font-size:.85em;color:var(--ledger-muted)}
+  .ledger .t{color:var(--ledger-ink);font-family:"Plus Jakarta Sans",sans-serif;font-weight:600}
+  .ledger .t small{display:block;font-family:"JetBrains Mono",monospace;font-weight:400;font-size:.75rem;color:var(--ledger-muted);margin-top:2px}
     .ledger .a{color:var(--ledger-a)}
   .ledger .b{color:var(--ledger-b)}
-  .ledger .foot{display:flex;justify-content:space-between;align-items:center;padding:16px 1.4rem;border-top:1px solid var(--ledger-rule);font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ledger-muted)}
+  .ledger .foot{display:flex;justify-content:space-between;align-items:center;padding:16px 1.4rem;border-top:1px solid var(--ledger-rule);font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ledger-muted)}
   .ledger .foot b{color:var(--ledger-ink);font-weight:500}
   @media (max-width:600px){.ledger li{grid-template-columns:1fr;gap:2px}}
 
