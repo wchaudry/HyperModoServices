@@ -29,24 +29,24 @@
   key: people
   image: seats.jpg
   alt: "Rows of blue seats in a lecture hall"
-  line: "Transformation is capacity the company does not have yet. Where the people exist, we get them the time. Where they do not, we build them as the company's own — locally or in a low-cost geography — with a handover planned from the first day."
+  line: "Transformation needs people the company doesn't have yet. Where they exist, we get them the time. Where they don't, we build them as the company's own, locally or in a low-cost geography, and we plan the handover from the first day."
   seen: { label: "Seen in full: the Zones case study", url: "/work/zones/" }
   items:
     - key: venture
       title: The venture and the center
-      blurb: A new center in a low-cost geography as the company's own — the location case, the entity, the office, the leadership and the operating model. A decision, not a default.
+      blurb: A new center in a low-cost geography, owned by the company. We make the case for where, set up the entity and the office, hire the leadership, and write the operating model. Building abroad is a decision, not a default.
       deliver: [The capacity decision and the location case, Entity and office set-up, Leadership hires and the operating model, A center that reports to you]
     - key: talent
       title: The talent engine
-      blurb: Top universities as the funnel, senior hires to seed and mentor, and assessments we write and people grade.
+      blurb: Top universities are the funnel. Senior hires seed and mentor every cohort. We write the assessments, and people grade them.
       deliver: [University partnerships and campus recruiting, Assessments and the interview process, Senior seed hires, A retention model]
     - key: training
       title: Technical training programs
-      blurb: People trained by delivering real work across disciplines, on a rotation, with a mentor. Sized to the engagement, from working sessions in a 90-day engagement to an 18-month program for a new team.
-      deliver: [A curriculum per discipline built from your stack and backlog, A 12-month rotation on real deliverables, A management track and a technical-expert track, Success measured by what was delivered and who stayed]
+      blurb: People learn by delivering real work, across disciplines, on a rotation, with a mentor beside them. The program is sized to the engagement, from working sessions inside a 90-day engagement to an 18-month program for a new team.
+      deliver: [A curriculum per discipline built from your stack and backlog, A 12-month rotation on real deliverables, Senior mentors in every team, Success measured by what was delivered and who stayed]
     - key: leadership
       title: Leadership and handover
-      blurb: A fractional head of platform or CTO where the company has the need and not the headcount — with a named successor for every role we hold.
+      blurb: A head of platform or CTO on loan, for a company that has the need and not the headcount. Every role we hold has a named successor from the first day.
       deliver: [Architecture and delivery ownership, Hiring and assessment for leadership roles, Board and executive reporting, A handover plan and named successors]
 - category: Technical strategy
   key: technical
