@@ -14,11 +14,11 @@ runs:
     title: The handover
     text: Planned at the start, not the end. The engagement ends when your team is running it.
 formats_heading: "Three ways to engage."
-formats_sub: "The whole engine, one step of it, or a leader on loan until you've hired your own."
+formats_sub: "One step of the engine, a leader on loan until you've hired your own, or the whole engine."
 formats:
-  - title: The full program
-    text: Business outcome to handover — all six steps, with one owner, over years.
   - title: A single step
     text: The business outcome alone. The people alone. A 90-day strategy your team then executes.
   - title: Fractional leadership
     text: Head of platform or CTO for a company that has the need and not the headcount, with a handover plan and a named successor from day one.
+  - title: The full program
+    text: Business outcome to handover — all six steps, with one owner, over years.
