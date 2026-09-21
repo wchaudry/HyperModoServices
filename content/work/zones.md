@@ -24,7 +24,7 @@ glance:
 situation:
   eyebrow: "The situation, 2022"
   heading: "What Zones wanted, and what stood in the way."
-  sub: "Triple the business in five years — which takes acquisitions as well as growth, and an operating foundation that can absorb them. Twenty years of processes and systems said otherwise."
+  sub: "Tripling the business takes a growth-and-acquisitions model and an operational strategy, and only Zones can own either. The venture took on the operational strategy."
   left: "What Zones wanted to sell"
   right: "What its data allowed"
   rows:
