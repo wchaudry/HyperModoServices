@@ -38,6 +38,8 @@ stages_sub: "Step by step, in the order it happened — and what Zones has from 
 stages:
   - n: "01"
     title: Define the business outcome
+    photo: zones-outcome.jpg
+    alt: The executive team in a working session
     when: "January – March 2022"
     how: With the CDO and the executive team, over three months. The barriers to scale, who was winning and on what, and the transformation in Zones' own terms. Approved in March 2022 as the business case every quarter since has been measured against.
     we:
@@ -49,6 +51,8 @@ stages:
     has: A written outcome — triple the business in five years — and the measure for everything since.
   - n: "02"
     title: Identify the people
+    photo: islamabad-mosque.jpg
+    alt: Islamabad, the Faisal Mosque under the Margalla Hills
     when: "From July 2022"
     how: The people the transformation needed weren't in the company, and couldn't be hired at home in the numbers required. So Zones built them. A center in Islamabad, opened July 2022, as Zones' own entity — the capacity decision made on the work, the timeline, and what Zones wanted to own.
     we:
@@ -60,6 +64,8 @@ stages:
     has: A center that reports to Zones, 70+ people, and a recruiting pipeline that keeps running.
   - n: "03"
     title: Measure and fix the process
+    photo: zones-process.jpg
+    alt: A process drawn out on a whiteboard
     when: "From 2022"
     how: Twenty years of business rules lived inside the ERP, known to a few, and every product change was an IT request. We mapped how product data, pricing and orders actually moved through the company, put numbers on it, and set the baseline the transformation has been measured against.
     we:
@@ -70,6 +76,8 @@ stages:
     has: The rules in the hands of the people who own the products, and a curriculum taught on real deliveries.
   - n: "04"
     title: Build what the business needs
+    photo: zones-build.jpg
+    alt: An engineer building at a workstation
     when: "2022 – 2027"
     how: For each outcome we picked the solution and built only where building was the advantage — competitive pricing, single sign-on, catalog processing, order approvals, and underneath them the core data management and merchandising platform that puts one governed source of product, service and subscription data in the business's hands.
     we:
@@ -80,6 +88,8 @@ stages:
     has: Four systems in daily use, and the core platform in final testing.
   - n: "05"
     title: Deliver every quarter
+    photo: warehouse-tablet.jpg
+    alt: A worker with a tablet on a distribution floor
     when: "Every quarter since 2022"
     how: From the first year, every quarter delivered something the business could use — a pricing tool, a login — while the data foundation went in underneath. Training and delivery were one workstream from the start; the cohorts built the increments, with senior mentors in the work beside them.
     we:
@@ -90,6 +100,8 @@ stages:
     has: A finished increment every quarter since 2022, and people trained on the work that shipped.
   - n: "06"
     title: Adjust continuously
+    photo: zones-adjust.jpg
+    alt: A leadership discussion over a laptop
     when: "Throughout, and now"
     how: Nothing about this ran on rails. The organisation changed and the plan changed with it — one cohort year was skipped when the strategy shifted — in partnership with senior leadership, measured against the outcome. The handover is being planned now.
     we:

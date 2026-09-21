@@ -19,3 +19,7 @@ Stand-ins until real photographs of the team and the center exist.
 - team-build.jpg — https://unsplash.com/photos/rtD_lcsN6_U — Our process, step 04
 - demo-room.jpg — https://unsplash.com/photos/9majps0fBCM — Our process, step 05
 - leadership-review.jpg — https://unsplash.com/photos/3tCLyPBSQ5k — Our process, step 06
+- zones-outcome.jpg — https://unsplash.com/photos/ZT5v0puBjZI — Zones, step 01
+- zones-process.jpg — https://unsplash.com/photos/tYVkjjMYFBo — Zones, step 03
+- zones-build.jpg — https://unsplash.com/photos/G1N9kDHqBrQ — Zones, step 04
+- zones-adjust.jpg — https://unsplash.com/photos/5QgIuuBxKwM — Zones, step 06

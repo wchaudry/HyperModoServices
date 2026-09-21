@@ -43,6 +43,7 @@
           <div class="stage-copy">
             {{ with .when }}<p class="when">{{ . }}</p>{{ end }}
             <p class="how">{{ .how }}</p>
+            {{ with .photo }}{{ partial "photo.html" (dict "src" . "alt" $.Params.client "class" "fill") }}{{ end }}
           </div>
           <div class="stage-list">
             <h3>What we did</h3>
@@ -83,7 +84,7 @@
   {{ end }}
 
   {{ with .Params.outcome }}
-  <section class="wrap wide"><div class="outcome"><span class="eyebrow">Outcome</span><p>{{ . }}</p></div></section>
+  <section class="wrap wide outcome-wrap"><div class="outcome"><span class="eyebrow">Outcome</span><p>{{ . }}</p></div></section>
   {{ end }}
 </article>
 {{ partial "cta.html" . }}
