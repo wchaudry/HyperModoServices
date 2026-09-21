@@ -41,7 +41,7 @@ stages:
     photo: zones-outcome.jpg
     alt: The executive team in a working session
     when: "January – March 2022"
-    how: With the CDO and the executive team, over three months. Tripling in five years can't come from growth alone; it takes acquisitions, and acquisitions need an operating foundation that can absorb them — one offer, one catalog, one way to price and take orders. That is the outcome we wrote down and Zones approved in March 2022: the operational foundation for scale, measured every quarter since.
+    how: "With the CDO and the executive team, over three months. Tripling in five years can't come from growth alone; it takes acquisitions, and acquisitions need an operating foundation that can absorb them — one offer, one catalog, one way to price and take orders. That is the outcome we wrote down and Zones approved in March 2022: the operational foundation for scale, measured every quarter since."
     we:
       - Market and competitive analysis
       - The business model and the five-year objectives
