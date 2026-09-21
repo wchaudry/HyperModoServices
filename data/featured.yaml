@@ -8,6 +8,6 @@ facts:
   - { k: "Process", v: "Twenty years of business rules moved out of the ERP and into the hands of the business, with a 12-month program to train the people who run them." }
   - { k: "Build", v: "Competitive pricing, single sign-on, catalog processing and order approvals in daily use; the core platform goes live in early 2027." }
   - { k: "Delivery", v: "Something has reached the business every quarter since the first year." }
-  - { k: "Adjust", v: "The plan has moved with the market and with leadership; the handover is being planned, and the team delivers global e-commerce on its own in 2027." }
+  - { k: "Adjust", v: "The plan has been adjusted with leadership as the strategy evolved; the handover is being planned, and the team delivers global e-commerce on its own in 2027." }
 link: /work/zones/
 link_label: Read the case study
