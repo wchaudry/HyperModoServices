@@ -18,7 +18,7 @@ metrics:
 glance:
   - { k: "Client", v: "Zones LLC, a $3B IT solutions provider" }
   - { k: "Engagement", v: "March 2022 – today; two earlier engagements in 2018–19 and 2021" }
-  - { k: "Our role", v: "Program owner, with the CDO and the executive team" }
+  - { k: "Our role", v: "Program owner, with the Chief Digital Innovation Officer and the executive team" }
   - { k: "The venture", v: "A center in Islamabad, opened July 2022, Zones' own" }
   - { k: "Where it stands", v: "Core platform in final testing; handover being planned" }
 situation:
@@ -41,7 +41,7 @@ stages:
     photo: zones-outcome.jpg
     alt: The executive team in a working session
     when: "January – March 2022"
-    how: "With the CDO and the executive team, over three months. Tripling in five years can't come from growth alone; it takes acquisitions, and acquisitions need an operating foundation that can absorb them — one offer, one catalog, one way to price and take orders. That is the outcome we wrote down and Zones approved in March 2022: the operational foundation for scale, measured every quarter since."
+    how: "With the Chief Digital Innovation Officer and the executive team, over three months. Where growth had to come from, who was winning and on what, and what the company had to be able to do that it couldn't — sell as one, change without an IT project, grow faster than headcount, absorb what it bought. Those four became the written outcome, approved in March 2022, and the measure every quarter since has reported against."
     we:
       - Market and competitive analysis
       - The business model and the five-year objectives
@@ -56,7 +56,7 @@ stages:
     when: "From July 2022"
     how: The people the operational strategy needed weren't in the company, and couldn't be hired at home in the numbers required. So Zones built them, as a venture of its own — a center in Islamabad, opened July 2022, Zones' own entity. The capacity decision was made on the work, the timeline, and what Zones wanted to own.
     we:
-      - The stakeholder map, with the CDO and the executive team
+      - The stakeholder map, with the Chief Digital Innovation Officer and the executive team
       - The location case, the entity, the office and the operating model
       - The center's leadership, hired
       - Six months building the recruiting and training models, then university partnerships, campus recruiting, and assessments we wrote and people graded
