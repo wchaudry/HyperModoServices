@@ -37,7 +37,7 @@ stages_sub: "Two engagements covered steps one to four and handed over. Delivery
 stages:
   - n: "01"
     title: Define the business outcome
-    when: "Engagement one, 2019"
+    when: "2019"
     photo: bugcrowd-outcome.jpg
     alt: A strategy session with leadership
     how: "Bugcrowd's leadership knew the platform served two very different populations. What it needed was the outcome stated in its own terms, and we wrote it with them. Run the customer business and the crowd business separately until they can converge. Build the data foundation both depend on. Become the gateway: the best talent for every program, and the best return on a researcher's time."
@@ -48,7 +48,7 @@ stages:
     has: A diagnosis leadership acted on, and an outcome in its own words.
   - n: "02"
     title: Identify the people
-    when: "Engagement one, 2019"
+    when: "2019"
     photo: bugcrowd-people.jpg
     alt: A team in discussion
     how: "The people were already in the company. Bugcrowd's engineering team could carry the whole of the work, so the question was ownership, not capacity. We mapped who would own the data for each side of the business and recommended a standing data group — a lead, an architect and three engineers — as the conduit between operations and the platform, for leadership to staff from its own people when it chose to."
@@ -58,7 +58,7 @@ stages:
     has: Its own engineering team, which went on to build both strategies in full.
   - n: "03"
     title: Measure and fix the process
-    when: "Engagement one, 2019"
+    when: "2019"
     photo: bugcrowd-measure.jpg
     alt: Monitoring screens in an operations room
     how: "We measured where the data stood. Thirty requests were waiting and three were in progress, each taking two to four weeks, and most were a simple aggregation or a profile lookup. Reporting amounted to a renewal report and a time-to-triage figure, with definitions that changed from team to team. Every new question meant touching the platform."
@@ -70,7 +70,7 @@ stages:
     has: A baseline, and the first four fixes to make.
   - n: "04"
     title: Build what the business needs
-    when: "Both engagements, 2019 – 2020"
+    when: "2019 – 2020"
     photo: whiteboard.jpg
     alt: A working session at a whiteboard
     how: "We specified two strategies to the point where Bugcrowd's engineers could build them. The first was a data services framework: an information architecture with a real entity model and master data, ingestion and export in place of ad hoc extracts, and programmatic access so that new products and self-service reporting stop being tickets. The second was crowd management from first principles. Recruit, onboard, produce, nurture. Payout models beyond fixed rates, and incentives that turn researchers into evangelists."
