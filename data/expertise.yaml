@@ -62,23 +62,23 @@
       deliver: [The target architecture and the seams between the platform and each system of record, Two-way synchronization so existing investment keeps working, A migration path with legacy retired on evidence, Business rules recovered from the systems of record and made configurable by the business]
     - key: data-first
       title: Data first, experiences on top
-      blurb: One governed source of truth comes before any experience is built on it. Every record carries its lineage to the source, and the rules for validation, correction and precedence are configured by the business, not by engineers.
+      blurb: We build one governed source of truth before we build anything on top of it. Every record can be traced back to where it came from. The business sets the rules for what counts as valid, how errors get corrected, and which source wins when two disagree. Engineers don't have to be involved.
       deliver: ["A master-data model with lineage — transaction, staging, master", A rules engine the business owns, Ingestion from every feed the business depends on, "A phased sequence — foundation, then experience, then automation"]
     - key: platform
       title: A platform, not a project
-      blurb: Every component is built as a product that could stand alone. It is extensible by design and tenant-ready by default, so the platform can take on a second business, or an acquired one, without a rebuild.
+      blurb: We build every part of the platform as a product that could stand on its own. It can be extended without being rewritten, and it can serve a second business from day one. When the company acquires someone, the platform takes them on without a rebuild.
       deliver: [A plugin framework for connectors and transforms, An identity layer other applications register against, Multi-tenant deployment from day one, "Components with a commercial path — SaaS, integration services, data-as-a-service"]
     - key: integrate
       title: Integrate early, find the unknowns
-      blurb: A platform is only worth something once it is connected, so we start integrating before it is finished. Small sprints against real systems surface the unknowns while they are still cheap to fix.
+      blurb: A platform is only worth something once it's connected to the systems the business already runs. So we start connecting it before it's finished. Short sprints against the real systems find the surprises while they're still cheap to fix.
       deliver: [Integration sprints against live systems from the first quarter, A test plan derived from the integration surface, Recurring data refreshes so comparison testing is honest, Fast fixes for the gaps integration exposes]
     - key: reproducible
       title: Everything reproducible, everything observable
-      blurb: Infrastructure as code, so the estate can be rebuilt from scratch. Monitoring, so it can be trusted. And a readiness assessment that says plainly what has been validated and what hasn't.
+      blurb: We define the infrastructure in code, so the whole environment can be rebuilt from scratch. We put monitoring on it, so it can be trusted. And before anything goes live, we write a readiness assessment that says plainly what has been tested and what hasn't.
       deliver: ["Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, A production-readiness assessment with named gaps and owners, "A support model — tiers, runbooks, cross-training"]
     - key: throughput
       title: A pace that does not depend on headcount
-      blurb: Your people and ours use AI throughout the build, under a framework that says what it may do and who reviews it. We install the framework in your repositories and teach it to the whole team, so the pace of delivery survives the people who set it.
+      blurb: The team uses AI throughout the build, under a framework that says what AI may do and who reviews the result. We install that framework in the company's own repositories and teach it to everyone, so the pace of delivery doesn't fall when the people who set it move on.
       deliver: [The AI delivery framework installed in the client's repositories, Review gates as code, Engineers trained to direct and review AI-assisted work]
 - category: Specialized capabilities
   key: capabilities
