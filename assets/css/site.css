@@ -80,7 +80,7 @@
   /* hero */
   .hero{position:relative;overflow:visible;clip-path:inset(0 0 -400px 0);padding:88px 0 150px;isolation:isolate}
   .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(180deg,var(--wash-a) 0%,var(--wash-a) 58%,var(--wash-b) 100%)}
-  .hero::after{content:"";position:absolute;z-index:-1;left:0;right:0;top:-85%;height:120%;background:linear-gradient(100deg,transparent 45%,var(--streak) 50%,transparent 55%) center/120% 100% no-repeat;pointer-events:none}
+  .hero::after{content:"";position:absolute;z-index:-1;inset:0;background:linear-gradient(112deg,transparent 38%,var(--streak) 50%,transparent 62%) center/130% 100% no-repeat;pointer-events:none}
   .hero-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(40px,4vw,72px);align-items:center}
   @media (max-width:980px){.hero-grid{grid-template-columns:1fr;gap:36px}}
   .hero-copy{text-align:left;max-width:min(820px,100%)}
