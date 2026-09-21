@@ -1,6 +1,6 @@
 ---
 title: "Zones: a transformation engine, built inside a $3B company"
-summary: "A $3B IT solutions provider set out to triple its business in five years, with twenty years of legacy processes and systems in the way. Four years on: a center of its own in Islamabad, 70+ people, four systems in daily use, and the core platform going live in 2027."
+summary: "A $3B IT solutions provider set out to triple its business in five years. Growth alone can't do that; it takes acquisitions, and an operating foundation able to absorb them — which twenty years of processes and systems couldn't provide. Four years on: a center of its own in Islamabad, 70+ people, four systems in daily use, and the core platform going live in 2027."
 date: 2022-03-01
 lastmod: 2026-09-21
 client: "Zones LLC"
@@ -24,7 +24,7 @@ glance:
 situation:
   eyebrow: "The situation, 2022"
   heading: "What Zones wanted, and what stood in the way."
-  sub: "Triple the business in five years. Twenty years of processes and systems said otherwise."
+  sub: "Triple the business in five years — which takes acquisitions as well as growth, and an operating foundation that can absorb them. Twenty years of processes and systems said otherwise."
   left: "What Zones wanted to sell"
   right: "What its data allowed"
   rows:
@@ -41,14 +41,14 @@ stages:
     photo: zones-outcome.jpg
     alt: The executive team in a working session
     when: "January – March 2022"
-    how: With the CDO and the executive team, over three months. The barriers to scale, who was winning and on what, and the transformation in Zones' own terms. Approved in March 2022 as the business case every quarter since has been measured against.
+    how: With the CDO and the executive team, over three months. Tripling in five years can't come from growth alone; it takes acquisitions, and acquisitions need an operating foundation that can absorb them — one offer, one catalog, one way to price and take orders. That is the outcome we wrote down and Zones approved in March 2022: the operational foundation for scale, measured every quarter since.
     we:
       - Market and competitive analysis
       - The business model and the five-year objectives
       - The transformation, framed for the executive team
-      - A phased roadmap with a bounded first use case
+      - A phased roadmap that put revenue levers first and the platform underneath
       - The business case and the executive presentation
-    has: A written outcome — triple the business in five years — and the measure for everything since.
+    has: A written outcome the business owns — the operational foundation for scale — and the measure every quarter since has reported against.
   - n: "02"
     title: Identify the people
     photo: islamabad-mosque.jpg
@@ -123,5 +123,5 @@ record:
   eyebrow: "The record"
   heading: "Delivered and trained, by phase."
   sub: "One workstream, four years, one year skipped when the plan changed."
-outcome: "A $3B company now has a transformation engine of its own: a center in Islamabad, 70+ people it recruited and trained, four systems in daily use and the core platform going live in 2027. The next system — global e-commerce — the team delivers without us."
+outcome: "A $3B company now has a transformation engine of its own, and the operational foundation to scale on: a center in Islamabad, 70+ people it recruited and trained, four systems in daily use and the core platform going live in 2027. The next system — global e-commerce — the team delivers without us."
 ---
