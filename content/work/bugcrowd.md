@@ -80,5 +80,5 @@ stages:
       - The crowd lifecycle, payout and incentive models, with requirements by stage across people, process and product
       - The dashboards, drawn
     has: Both strategies, built in full by its own engineers, with no follow-on engagement.
-outcome: "Bugcrowd built both strategies — the data services framework and the crowd management system — entirely with its own people. No dependency on us and no second engagement to finish the first. That is the process at its smallest: define it, specify it, hand it over, and the capability stays."
+outcome: "Bugcrowd built both strategies with its own engineers, in full. It never needed us again, and there was no second engagement to finish the first. That is the process at its smallest. We define the outcome, we specify the work, and the client's own team builds it — and the capability stays with them."
 ---
