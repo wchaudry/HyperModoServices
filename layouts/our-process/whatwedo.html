@@ -5,13 +5,25 @@
       <div class="reveal"><span class="eyebrow">Six steps, run as a loop</span></div>
       <h1 class="reveal">{{ .Title }}</h1>
       {{ with .Params.lead }}<p class="lead reveal">{{ . }}</p>{{ end }}
-      <div class="legend reveal"><span class="us">us</span><span class="you">your people</span></div>
     </div>
     <div class="hero-object reveal">{{ partial "cycle.html" . }}</div>
   </div>
 </section>
 
-<section class="spine-wrap">
+<section class="streams-wrap">
+  <div class="wrap wide">
+    {{ $s := hugo.Data.streams }}
+    <div class="sechead">
+      <div><span class="eyebrow">{{ $s.eyebrow }}</span><h2>{{ $s.heading }}</h2></div>
+      <p class="sechead-sub">{{ $s.sub }}</p>
+    </div>
+    <div class="streams">
+      {{ range $s.items }}<div class="stream"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="spine-wrap alt">
   <div class="wrap wide">
     <ol class="spine">
       {{ range hugo.Data.steps }}
@@ -20,18 +32,15 @@
         <div class="body">
           <h2>{{ .title }}</h2>
           <p class="how">{{ .how }}</p>
-          <div class="share" role="img" aria-label="Who does the work at this step: {{ .share }} percent us, {{ sub 100 .share }} percent your people">
-            <span class="cap">Who does the work</span>
-            <span class="bar"><i style="width:{{ .share }}%"></i></span>
-            <span class="ends"><span>us</span><span>your people</span></span>
-          </div>
-          <h3>It asks of you</h3>
-          <p class="asks">{{ .asks }}</p>
+          <h3>What we do</h3>
+          <ul class="we">{{ range .we }}<li>{{ . }}</li>{{ end }}</ul>
         </div>
         <aside class="side">
           {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "stage") }}
           <h3>You walk away with</h3>
           <ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul>
+          <h3>It asks of you</h3>
+          <p class="asks">{{ .asks }}</p>
         </aside>
       </li>
       {{ end }}
