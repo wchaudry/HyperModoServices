@@ -26,7 +26,7 @@ situation:
   heading: "What Zones wanted, and what stood in the way."
   sub: "Tripling the business takes a growth-and-acquisitions model and an operational strategy, and only Zones can own either. The venture took on the operational strategy — and the pace to outrun competitors and the distributors selling around them."
   left: "What the operational strategy had to provide"
-  right: "What twenty years of systems allowed"
+  right: "What was in the way"
   rows:
     - { l: "Sell the whole company as one — hardware, services and subscriptions, to every customer, in every market.", r: "Hardware, services and subscriptions lived in separate departments with separate product records, so no single offer could be built, priced or ordered." }
     - { l: "Change the business without an IT project.", r: "Every change was an IT request. Twenty years of business rules lived inside the ERP, and a handful of people knew them." }
