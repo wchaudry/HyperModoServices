@@ -16,7 +16,7 @@
   <div class="wrap wide">
     <ol class="spine">
       {{ range hugo.Data.steps }}
-      <li class="step" id="{{ .n }}">
+      <li class="stage" id="{{ .n }}">
         <div class="rail"><span class="node">{{ .n }}</span></div>
         <div class="body">
           <h2>{{ .title }}</h2>
@@ -30,7 +30,7 @@
           <p class="asks">{{ .asks }}</p>
         </div>
         <aside class="side">
-          {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "step") }}
+          {{ partial "photo.html" (dict "src" .photo "alt" .alt "class" "stage") }}
           <h3>You walk away with</h3>
           <ul>{{ range .get }}<li>{{ . }}</li>{{ end }}</ul>
         </aside>
