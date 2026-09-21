@@ -1,6 +1,6 @@
 ---
 title: "Expertise"
-description: "Transformation, people and technical strategy, and the specialized capabilities behind them — what each delivers, and where it has been done."
+description: "Transformation, people and technical strategy, and the specialized capabilities behind them — what each delivers."
 layout: expertise
-lead: "Three strategies — transformation, people, technical — and the specialized capabilities we bring to them. Each item ends in a deliverable, and in your people owning it afterwards."
+lead: "Three strategies — transformation, people, technical — and the specialized capabilities we bring to them. Pick an area; every item ends in a deliverable your people own."
 ---

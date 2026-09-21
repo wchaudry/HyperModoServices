@@ -1,33 +1,50 @@
 {{ define "main" }}
-<section class="page wwd">
+<section class="page xpage">
   <div class="wrap wide">
-    <div class="head" style="text-align:left;max-width:52rem;margin:0 0 24px">
+    <div class="head" style="text-align:left;max-width:52rem;margin:0 0 32px">
       <h1>{{ .Title }}</h1>
       {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
     </div>
-    <nav class="xnav" aria-label="Categories">{{ range hugo.Data.expertise }}<a href="#{{ .key }}">{{ .category }}</a>{{ end }}</nav>
+    <div class="xtabs" role="tablist" aria-label="Areas of expertise">
+      {{ range $i, $c := hugo.Data.expertise }}<button class="xtab{{ if eq $i 0 }} on{{ end }}" role="tab" id="tab-{{ .key }}" aria-controls="{{ .key }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}">{{ .category }}</button>{{ end }}
+    </div>
     {{ range $i, $c := hugo.Data.expertise }}
-    {{ $catkey := $c.key }}
-    <section class="xcat" id="{{ .key }}">
-      <div class="xband{{ if modBool $i 2 }} flip{{ end }}{{ if .dark }} dark{{ end }}">
-        <div class="xband-copy">
-          <h2>{{ .category }}</h2><p>{{ .line }}</p>
-          {{ with .stats }}<div class="xstats">{{ range . }}<div><b>{{ .v }}</b><span>{{ .l }}</span></div>{{ end }}</div>{{ end }}
-        </div>
-        {{ if .artifact }}<figure class="artifact"><img src="{{ .artifact | relURL }}" alt="{{ .alt }}" loading="lazy">{{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
-        {{ else if .image }}{{ partial "photo.html" (dict "src" .image "alt" .alt "class" "band-photo") }}{{ end }}
+    <section class="xpanel{{ if eq $i 0 }} on{{ end }}" id="{{ .key }}" role="tabpanel" aria-labelledby="tab-{{ .key }}"{{ if ne $i 0 }} hidden{{ end }}>
+      <div class="xintro">
+        {{ partial "photo.html" (dict "src" .image "alt" .alt "class" "xphoto") }}
+        <div><h2>{{ .category }}</h2><p>{{ .line }}</p></div>
       </div>
-      <div class="stepgrid-head xhead"><span>Area</span><span>We deliver</span><span>Where it's been done</span></div>
-      {{ range .items }}
-      <div class="xrow{{ if .spec }} spec{{ end }}">
-        <div class="xr-title">{{ if .spec }}<span class="tag">{{ if eq $catkey "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}<h3>{{ .title }}</h3><p>{{ .blurb }}</p></div>
-        <div class="xr-deliver"><ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul></div>
-        <div class="xr-proof"><p>{{ .proof }}</p></div>
+      <div class="xlist">
+        {{ range .items }}
+        <details class="xitem{{ if .spec }} spec{{ end }}" id="{{ .key }}">
+          <summary><span class="xt">{{ if .spec }}<span class="tag">{{ if eq $c.key "technical" }}The specialization{{ else }}Marquee{{ end }}</span>{{ end }}<h3>{{ .title }}</h3><p>{{ .blurb }}</p></span><span class="xchev" aria-hidden="true"></span></summary>
+          <div class="xbody"><h4>We deliver</h4><ul>{{ range .deliver }}<li>{{ . }}</li>{{ end }}</ul></div>
+        </details>
+        {{ end }}
       </div>
-      {{ end }}
+      {{ with .seen }}<p class="xseen"><a href="{{ .url | relURL }}">{{ .label }} →</a></p>{{ end }}
     </section>
     {{ end }}
   </div>
 </section>
 {{ partial "cta.html" . }}
+<script>
+  (function(){
+    var tabs=[].slice.call(document.querySelectorAll('.xtab')), panels=[].slice.call(document.querySelectorAll('.xpanel'));
+    function show(key, push){
+      tabs.forEach(function(t){var on=t.getAttribute('aria-controls')===key;t.classList.toggle('on',on);t.setAttribute('aria-selected',on?'true':'false');});
+      panels.forEach(function(p){var on=p.id===key;p.classList.toggle('on',on);p.hidden=!on;});
+      if(push){try{history.replaceState(null,'','#'+key)}catch(e){}}
+    }
+    tabs.forEach(function(t){t.addEventListener('click',function(){show(t.getAttribute('aria-controls'),true)})});
+    function fromHash(){
+      var h=location.hash.slice(1); if(!h) return;
+      var panel=document.getElementById(h);
+      if(panel&&panel.classList.contains('xpanel')){show(h,false);return;}
+      var item=panel&&panel.closest&&panel.closest('.xpanel');
+      if(item){show(item.id,false);panel.open=true;panel.scrollIntoView({block:'start'});}
+    }
+    window.addEventListener('hashchange',fromHash); fromHash();
+  })();
+</script>
 {{ end }}
