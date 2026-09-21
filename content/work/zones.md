@@ -122,6 +122,6 @@ inuse:
 record:
   eyebrow: "The record"
   heading: "Delivered and trained, by phase."
-  sub: "One workstream, four years, one year skipped when the plan changed."
+  sub: "Delivery and training ran as one workstream from 2022. This is what each phase produced."
 outcome: "A $3B company now has a transformation engine of its own, and the operational foundation to scale on: a center in Islamabad, 70+ people it recruited and trained, four systems in daily use and the core platform going live in 2027. The next system — global e-commerce — the team delivers without us."
 ---

@@ -3,19 +3,19 @@ cols: [delivered, trained]
 lines:
   - when: Start
     year: "2022"
-    a: "the center opens in Islamabad"
-    b: "first cohort starts the 12-month program"
+    a: "The center opens in Islamabad."
+    b: "The first cohort begins the 12-month program."
   - when: Build
     year: "2023 – 25"
-    a: "competitive pricing, single sign-on, catalog processing and order approvals reach the business"
-    b: "three cohorts through the program; one year skipped when the plan changed"
+    a: "Competitive pricing, single sign-on, catalog processing and order approvals reach the business."
+    b: "Three cohorts complete the program. One year is skipped when the plan changes."
   - when: Now
     year: "2026"
-    a: "core platform in final testing"
-    b: "70+ people; the team runs delivery"
+    a: "The core platform is in final testing."
+    b: "70+ people. The team runs delivery."
   - when: Next
     year: "2027"
-    a: "platform live"
-    b: "the team delivers global e-commerce alone"
-foot_left: delivery and training, one workstream
-foot_right: handover being planned
+    a: "The platform goes live."
+    b: "The team delivers global e-commerce on its own."
+foot_left: Delivery and training, one workstream
+foot_right: Handover being planned
