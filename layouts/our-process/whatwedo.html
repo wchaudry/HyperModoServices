@@ -29,8 +29,8 @@
       {{ range hugo.Data.steps }}
       <li class="stage" id="{{ .n }}">
         <div class="rail"><span class="node">{{ .n }}</span></div>
+        <h2>{{ .title }}</h2>
         <div class="stage-copy">
-          <h2>{{ .title }}</h2>
           <p class="how">{{ .how }}</p>
         </div>
         <div class="stage-list">
