@@ -90,8 +90,8 @@
     - key: ai
       title: AI enablement for the whole team
       spec: true
-      blurb: AI doesn't solve a company's problems. People do, and with AI in hand they solve them faster and to a higher standard. We teach the framework and the daily workflow to every function the transformation touches, not only engineering, so it becomes how the company works rather than a tool a few people try.
-      deliver: ["The operating model — directives, session protocols, a shared knowledge base — installed in your repositories", "A daily workflow for engineers, product and design, with the review gates that make it safe", "Hands-on training by delivering real work with it, not a course", "Quality measured at the gate — every change reviewed to a written standard before it ships"]
+      blurb: AI doesn't solve a company's problems. People do, and with AI in hand they solve them faster and to a higher standard. We teach a way of working with AI to the whole company, from the person at the front desk to the CEO, so it becomes how the company works rather than a tool a few people try.
+      deliver: ["A way of working with AI for every role, from the front desk to the CEO", "The rules: what AI may do, what stays with people, and who reviews the result", "Training by doing real work with it, not by sitting through a course", "Quality checked to a written standard before anything goes out"]
     - key: data-platforms
       title: Enterprise data platforms
       blurb: This is the engineering behind owning your knowledge. We build the master-data model, with every record traceable to its source. We build the rules engine the business configures itself. We bring in every feed the business depends on, and we keep the ERP and the other systems of record in sync, so nothing the company already paid for stops working.
