@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="page contact">
+  <div class="wrap wide contact-grid">
+    <div class="contact-copy">
+      <span class="eyebrow">Join the team</span>
+      <h1 style="margin-top:16px">Small by design. Open to the right people.</h1>
+      <p class="lead">We add people when the work calls for it. The people who do well here are senior, hands-on, and at home working inside a client's team rather than beside it — and they teach as naturally as they deliver.</p>
+      <dl class="facts about-facts" style="margin-top:28px">
+        <div><dt>What we look for</dt><dd>A record of finishing things, in more than one discipline, and of leaving a team better than you found it.</dd></div>
+        <div><dt>What happens next</dt><dd>We read everything that comes in and reply to everyone, within two weeks.</dd></div>
+        <div><dt>Prefer email</dt><dd><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>, with your résumé attached.</dd></div>
+      </dl>
+    </div>
+    <form class="contact-form" data-form="join" data-endpoint="{{ .Site.Params.forms_endpoint }}" data-email="{{ .Site.Params.email }}">
+      <div class="f2">
+        <label>Your name<input name="name" type="text" required autocomplete="name"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      </div>
+      <label>LinkedIn<input name="linkedin" type="url" placeholder="https://linkedin.com/in/…" autocomplete="url"></label>
+      <label>Tell us about yourself<textarea name="about" rows="4" required placeholder="What you've built, who you've taught, and why this…"></textarea></label>
+      <label>Résumé <span class="hint">PDF, up to 10 MB</span><input name="file" type="file" accept="application/pdf"></label>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
+      <button class="btn primary" type="submit">Send</button>
+      <p class="f-note" id="f-note" hidden></p>
+      <p class="f-ok" id="f-ok" hidden>Sent. We read everything, and we'll reply.</p>
+    </form>
+  </div>
+</section>
+{{ partial "form-script.html" . }}
+{{ end }}

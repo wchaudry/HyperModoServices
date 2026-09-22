@@ -1,5 +1,5 @@
 ---
 title: "Start the conversation"
-description: "One conversation with the people who own the outcome. Tell us where your business wants to go."
+description: "Tell us what's blocking growth, or let us help you find it. A first conversation, an assessment, a scoped proposal — then the work."
 layout: contact
 ---

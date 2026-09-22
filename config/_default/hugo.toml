@@ -15,7 +15,7 @@ relativeURLs = true
   location = "New York / Philadelphia"
   entity = "a practice of Xymbia Inc."
   booking = ""
-  form_endpoint = ""   # e.g. https://formspree.io/f/xxxxxxxx — until set, the form composes an email instead
+  forms_endpoint = ""   # the Apps Script web app URL (tools/forms/README.md) — until set, the forms compose an email instead
 
 [pagination]
   pagerSize = 20

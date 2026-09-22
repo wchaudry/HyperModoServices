@@ -644,6 +644,8 @@
   .contact-form input,.contact-form textarea{font:inherit;font-weight:400;font-size:1rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule-strong);border-radius:10px;padding:.7rem .85rem}
   .contact-form input:focus,.contact-form textarea:focus{outline:2px solid var(--violet);outline-offset:1px;border-color:transparent}
   .contact-form textarea{resize:vertical}
+  .contact-form input[type=file]{padding:10px 0;border:0;background:transparent}
+  .contact-form .hint{font-weight:400;color:var(--muted);margin-left:6px}
   .f2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
   @media (max-width:560px){.f2{grid-template-columns:1fr}}
   .contact-form .btn{align-self:flex-start;margin-top:.25rem}

@@ -3,16 +3,16 @@
   <div class="wrap wide contact-grid">
     <div class="contact-copy">
       <span class="eyebrow">Where to start</span>
-      <h1 style="margin-top:16px">Tell us where your business wants to go.</h1>
-      <p class="lead">A first conversation is thirty minutes with whoever owns the outcome: the barriers to scale, the competition, the transformation in your own terms. If the model fits, that conversation becomes the business case.</p>
+      <h1 style="margin-top:16px">Start the conversation.</h1>
+      <p class="lead">Tell us what's blocking growth — or, if you're not sure yet, we'll work that out with you. Thirty minutes with whoever owns the outcome is enough to know whether we fit.</p>
       <dl class="facts about-facts" style="margin-top:28px">
         <div><dt>What happens next</dt><dd>We reply within two working days to set up the call.</dd></div>
-        <div><dt>Then</dt><dd>A scoped proposal within two weeks — deliverables, who owns each afterwards, timeline, price.</dd></div>
+        <div><dt>Then</dt><dd>An assessment that ends in a scoped proposal — the deliverables, who on your side owns each afterwards, the timeline, and the price.</dd></div>
         <div><dt>Prefer email</dt><dd><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></dd></div>
         {{ with .Site.Params.booking }}<div><dt>Prefer a calendar</dt><dd><a href="{{ . }}">Book a call directly</a></dd></div>{{ end }}
       </dl>
     </div>
-    <form class="contact-form" id="contact" method="POST" action="{{ .Site.Params.form_endpoint }}" data-endpoint="{{ .Site.Params.form_endpoint }}" data-email="{{ .Site.Params.email }}">
+    <form class="contact-form" data-form="contact" data-endpoint="{{ .Site.Params.forms_endpoint }}" data-email="{{ .Site.Params.email }}">
       <div class="f2">
         <label>Your name<input name="name" type="text" required autocomplete="name"></label>
         <label>Work email<input name="email" type="email" required autocomplete="email"></label>
@@ -23,32 +23,12 @@
       </div>
       <label>Where does your business want to go?<textarea name="goal" rows="3" required placeholder="New markets, new offers, a capability you don't have yet…"></textarea></label>
       <label>What stands in the way?<textarea name="barrier" rows="3" placeholder="What you've tried, what stalled, what you can't hire…"></textarea></label>
-      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-      <input type="hidden" name="_subject" value="HyperModo — a first conversation">
+      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
       <button class="btn primary" type="submit">Send</button>
-      <p class="f-note" id="f-note"></p>
+      <p class="f-note" id="f-note" hidden></p>
       <p class="f-ok" id="f-ok" hidden>Sent. We'll be in touch within two working days.</p>
     </form>
   </div>
 </section>
-<script>
-(function(){
-  var f=document.getElementById('contact'); if(!f) return;
-  var ep=f.dataset.endpoint, to=f.dataset.email;
-  f.addEventListener('submit',function(e){
-    var d=new FormData(f);
-    if(!ep){
-      e.preventDefault();
-      var body="Name: "+d.get('name')+"\nCompany: "+d.get('company')+"\nRole: "+(d.get('role')||'')+"\nEmail: "+d.get('email')+"\n\nWhere the business wants to go:\n"+d.get('goal')+"\n\nWhat stands in the way:\n"+(d.get('barrier')||'');
-      location.href="mailto:"+to+"?subject="+encodeURIComponent("HyperModo — a first conversation")+"&body="+encodeURIComponent(body);
-      return;
-    }
-    e.preventDefault();
-    fetch(ep,{method:'POST',body:d,headers:{'Accept':'application/json'}}).then(function(r){
-      if(r.ok){f.reset();document.getElementById('f-note').hidden=true;document.getElementById('f-ok').hidden=false;}
-      else{document.getElementById('f-note').textContent="That didn't send — email "+to+" instead.";}
-    }).catch(function(){document.getElementById('f-note').textContent="That didn't send — email "+to+" instead.";});
-  });
-})();
-</script>
+{{ partial "form-script.html" . }}
 {{ end }}
