@@ -580,10 +580,10 @@
   .xseen a:hover{text-decoration:underline}
 
   /* about */
-  .about-firm{margin-top:48px}
+  .about-firm{margin-top:48px;align-items:start}
   .about-firm h1{font-size:clamp(34px,3.6vw,56px);text-wrap:balance;margin:14px 0 0;text-align:left;max-width:none}
-  .about-paras{max-width:34em}
-  .about-paras p{margin:0 0 16px}
+  .about-paras{max-width:38em;font-family:Manrope,system-ui,sans-serif;font-weight:400;font-size:1.1rem;line-height:1.6;color:var(--ink);padding-top:6px}
+  .about-paras p{margin:0 0 18px}
   .about-paras p:last-child{margin-bottom:0}
   .about-facts{margin:8px 0 0}
   .about-facts div{grid-template-columns:8.5rem 1fr}
