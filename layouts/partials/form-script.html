@@ -30,7 +30,7 @@
       var d=new FormData(f), p={form:kind, elapsed:Math.round((Date.now()-opened)/1000)};
       d.forEach(function(v,k){ if(!(v instanceof File)) p[k]=v; });
       if(!ep){
-        var lines=[]; Object.keys(p).forEach(function(k){ if(k!=='form'&&k!=='website'&&p[k]) lines.push(k+': '+p[k]); });
+        var lines=[]; Object.keys(p).forEach(function(k){ if(k!=='form'&&k!=='_hp'&&k!=='elapsed'&&p[k]) lines.push(k+': '+p[k]); });
         if(kind==='join') lines.push('', 'Please attach your résumé (PDF) to this email.');
         location.href="mailto:"+to+"?subject="+encodeURIComponent(kind==='join'?"HyperModo — joining the team":"HyperModo — a first conversation")+"&body="+encodeURIComponent(lines.join('\n'));
         return;

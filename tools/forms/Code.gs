@@ -16,11 +16,10 @@ const MIN_SCORE = 0.5;
 function doPost(e) {
   try {
     const p = JSON.parse(e.postData.contents || '{}');
-    if (p.website) return json({ ok: true });            // honeypot filled: pretend success, do nothing
     if (p.form !== 'contact' && p.form !== 'join') return json({ ok: false, error: 'unknown form' }, 400);
     if (!p.name || !p.email) return json({ ok: false, error: 'name and email are required' }, 400);
 
-    const refusal = spamCheck(p);
+    const refusal = (p._hp || p.website) ? 'honeypot' : spamCheck(p);
     if (refusal) {                                          // refused quietly; a bot learns nothing
       sheet('refused').appendRow([new Date(), p.form, p.name, p.email, refusal, p.elapsed || '', p.recaptcha ? 'token' : 'no token']);
       return json({ ok: true });
