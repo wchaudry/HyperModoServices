@@ -67,7 +67,7 @@
     - key: platforms
       title: Build platforms, not projects
       blurb: A project ends. A platform takes the next system, the next market, and the next acquisition without starting over. We build every part so it can stand on its own and serve a second business from day one, because growth by acquisition is only as fast as the systems that absorb it.
-      deliver: [A platform that absorbs an acquired business without a rebuild, Components that can be sold or reused — as a service or as a product, The next system built on the last one, not beside it]
+      deliver: [A platform that absorbs an acquired business without a rebuild, Components that can be sold or reused — as a service or as a product, "The next system built on the last one, not beside it"]
     - key: connect
       title: Connect early
       blurb: The expensive surprises in any build are in the connections to the systems the business already runs. We connect early and often, in short sprints against the real systems, so the surprises show up while they are still cheap and the go-live date holds.
