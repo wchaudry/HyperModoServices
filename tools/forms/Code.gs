@@ -111,3 +111,12 @@ function safeName(s) { return String(s).replace(/[\\/:*?"<>|]/g, '-').slice(0, 8
 function json(obj, code) {
   return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);
 }
+
+// Run once from the editor after pasting a version that adds a Google service:
+// it makes Apps Script ask for every permission the script needs.
+function authorize() {
+  UrlFetchApp.fetch('https://www.google.com/recaptcha/api/siteverify', { method: 'post', payload: { secret: 'x', response: 'x' }, muteHttpExceptions: true });
+  DriveApp.getRootFolder();
+  SpreadsheetApp.getActiveSpreadsheet;
+  MailApp.getRemainingDailyQuota();
+}

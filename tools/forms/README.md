@@ -18,6 +18,11 @@ folder. Nothing is written anywhere else.
 
 ## Redeploying after a change to Code.gs
 
+If the change uses a Google service the script did not use before (UrlFetchApp,
+CacheService, …), first select `authorize` in the editor's function dropdown,
+click Run, and approve the new permission. Then:
+
+
 Deploy → Manage deployments → edit the existing deployment → *New version*.
 The URL stays the same.
 
