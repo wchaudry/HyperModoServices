@@ -3,8 +3,8 @@
 // attachment in a Drive folder, and emails the notification address.
 
 const NOTIFY = 'wiqar@hypermodo.com';
-const SHEET_NAME = 'HyperModo site forms';
-const PARENT_FOLDER_NAME = 'HyperModo Applicants';
+const PARENT_FOLDER_NAME = 'HyperModo Site Forms';
+const SHEET_NAME = 'Submissions';
 const FOLDER_NAME = 'Résumés';
 const MAX_FILE_BYTES = 10 * 1024 * 1024;
 const ALLOWED_TYPES = ['application/pdf'];
