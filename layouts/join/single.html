@@ -8,7 +8,6 @@
       <dl class="facts about-facts" style="margin-top:28px">
         <div><dt>What we look for</dt><dd>A record of finishing things, in more than one discipline, and of leaving a team better than you found it.</dd></div>
         <div><dt>What happens next</dt><dd>We read everything that comes in and reply to everyone, within two weeks.</dd></div>
-        <div><dt>Prefer email</dt><dd><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>, with your résumé attached.</dd></div>
       </dl>
     </div>
     <form class="contact-form" data-form="join" data-endpoint="{{ .Site.Params.forms_endpoint }}" data-email="{{ .Site.Params.email }}">
@@ -18,7 +17,7 @@
       </div>
       <label>LinkedIn<input name="linkedin" type="url" placeholder="https://linkedin.com/in/…" autocomplete="url"></label>
       <label>Tell us about yourself<textarea name="about" rows="4" required placeholder="What you've built, who you've taught, and why this…"></textarea></label>
-      <label>Résumé <span class="hint">PDF, up to 10 MB</span><input name="file" type="file" accept="application/pdf"></label>
+      <label class="filefield">Résumé <span class="hint">PDF, up to 10 MB</span><span class="filebox"><span class="filename" data-empty="Choose a PDF…">Choose a PDF…</span><span class="btn ghost small">Browse</span></span><input name="file" type="file" accept="application/pdf"></label>
       <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
       <button class="btn primary" type="submit">Send</button>
       <p class="f-note" id="f-note" hidden></p>
@@ -27,4 +26,5 @@
   </div>
 </section>
 {{ partial "form-script.html" . }}
+<script>(function(){var i=document.querySelector('input[name=file]'),n=document.querySelector('.filename');if(i&&n)i.addEventListener('change',function(){n.textContent=i.files&&i.files[0]?i.files[0].name:n.dataset.empty;});})();</script>
 {{ end }}
