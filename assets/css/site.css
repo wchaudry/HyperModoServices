@@ -619,6 +619,10 @@
   .lightbox-inner h2{font-size:clamp(24px,2.2vw,32px);margin:12px 0 8px;text-wrap:balance}
   .lightbox-lead{margin:0 0 20px;color:var(--muted);line-height:1.55}
   .lightbox .contact-form{box-shadow:none;border:0;padding:0}
+  .lightbox-done{padding:clamp(2rem,4vw,3.5rem);text-align:center}
+  .lightbox-done .check{display:inline-grid;place-items:center;width:3.2rem;height:3.2rem;border-radius:50%;background:var(--mint-soft);color:var(--mint);font-size:1.4rem;font-weight:700}
+  .lightbox-done h2{margin:16px 0 8px;font-size:clamp(24px,2.2vw,32px)}
+  .lightbox-done p{margin:0 0 22px;color:var(--muted)}
   dialog.profile{border:none;border-radius:20px;padding:0;max-width:min(44rem,92vw);width:100%;background:var(--card);color:var(--ink);box-shadow:0 40px 100px -30px rgba(15,5,24,.6)}
   dialog.profile::backdrop{background:rgba(15,5,24,.55);backdrop-filter:blur(4px)}
   .profile-inner{padding:clamp(1.5rem,3vw,2.5rem);position:relative}

@@ -6,6 +6,18 @@
     var fileInput=f.querySelector('input[name=file]'), fileName=f.querySelector('.filename');
     if(fileInput&&fileName) fileInput.addEventListener('change',function(){fileName.textContent=fileInput.files&&fileInput.files[0]?fileInput.files[0].name:fileName.dataset.empty;});
     function fail(msg){note.hidden=false;note.textContent=msg||("That didn't send — email "+to+" instead.");btn.disabled=false;}
+    var dlg=f.closest('dialog.lightbox');
+    function done(){
+      if(!dlg){ok.hidden=false;return;}
+      var inner=dlg.querySelector('.lightbox-inner'), card=document.createElement('div');
+      card.className='lightbox-done';
+      card.innerHTML='<span class="check" aria-hidden="true">✓</span><h2>Sent.</h2><p>'+ok.textContent.replace(/^Sent\.\s*/,'')+'</p><button type="button" class="btn primary">Done</button>';
+      inner.hidden=true; dlg.appendChild(card);
+      var close=function(){dlg.close();};
+      card.querySelector('button').addEventListener('click',close);
+      var t=setTimeout(close,4000);
+      dlg.addEventListener('close',function reset(){clearTimeout(t);card.remove();inner.hidden=false;dlg.removeEventListener('close',reset);});
+    }
     f.addEventListener('submit',function(e){
       e.preventDefault();
       var d=new FormData(f), p={form:kind};
@@ -20,7 +32,7 @@
       var file=d.get('file');
       var send=function(){
         fetch(ep,{method:'POST',body:JSON.stringify(p)}).then(function(r){return r.json()}).then(function(j){
-          if(j&&j.ok){f.reset();if(fileName)fileName.textContent=fileName.dataset.empty;ok.hidden=false;btn.disabled=false;} else fail(j&&j.error?("That didn't send: "+j.error+". Email "+to+" instead."):undefined);
+          if(j&&j.ok){f.reset();if(fileName)fileName.textContent=fileName.dataset.empty;btn.disabled=false;done();} else fail(j&&j.error?("That didn't send: "+j.error+". Email "+to+" instead."):undefined);
         }).catch(function(){fail();});
       };
       if(file&&file.size){
