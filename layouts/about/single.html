@@ -42,6 +42,15 @@
         </dialog>
       </div>
       {{ end }}
+      {{ with $a.team.join }}
+      <a class="member join" href="{{ .url | relURL }}">
+        <div class="member-photo join-tile" aria-hidden="true"><span class="plus">+</span></div>
+        <h3>{{ .title }}</h3>
+        <div class="member-role">{{ .role }}</div>
+        <p>{{ .text }}</p>
+        <span class="member-more">{{ .label }} →</span>
+      </a>
+      {{ end }}
     </div>
   </div>
 </section>
