@@ -623,7 +623,6 @@
   .member h3{font-size:1.1rem;margin:0 0 2px}
   .member-role{font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);margin-bottom:8px}
   .member p{margin:0;font-size:.92rem;line-height:1.5;color:var(--muted)}
-  .terms li::before{content:"·";color:var(--mint);margin-right:8px}
 
   /* contact */
   .contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(40px,5vw,96px);align-items:start}
