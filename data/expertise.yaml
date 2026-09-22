@@ -106,7 +106,7 @@
       deliver: [North-star use cases with acceptance criteria, Requirements ahead of development and the test plan derived from them, Roadmaps and phase gates, Program reporting with numbers]
     - key: marketing
       title: Product marketing and go-to-market
-      blurb: Selling a technical product to technical buyers is its own discipline. We work out the positioning and the messaging, back it with the competitive analysis, and produce the launch — the site, the papers, the demos, the campaigns — and the material a sales team and an analyst need to repeat it.
+      blurb: Selling a technical product to technical buyers is its own discipline. They read the documentation before the brochure, and they can tell when the people who wrote the message don't understand the product. We've taken products we helped build to market, and we write for that reader.
       deliver: ["Positioning and messaging, with the competitive analysis behind it", "Launch — site, papers, demos, campaigns", Sales enablement and analyst positioning, Due-diligence material for an acquisition]
     - key: design
       title: UX and design systems
