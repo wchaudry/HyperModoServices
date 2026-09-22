@@ -73,7 +73,9 @@ function spamCheck(p) {
       method: 'post', payload: { secret: secret, response: p.recaptcha }, muteHttpExceptions: true
     });
     const v = JSON.parse(res.getContentText() || '{}');
-    if (!v.success || v.action !== p.form || Number(v.score) < MIN_SCORE) return 'captcha ' + (v.score === undefined ? 'failed' : v.score);
+    if (!v.success) return 'captcha failed: ' + ((v['error-codes'] || []).join(',') || 'no reason given') + (v.hostname ? ' @' + v.hostname : '');
+    if (v.action !== p.form) return 'captcha action ' + v.action;
+    if (Number(v.score) < MIN_SCORE) return 'captcha score ' + v.score;
   }
   return '';
 }
