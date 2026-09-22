@@ -47,8 +47,6 @@
   a{color:inherit;text-decoration:none}
   :focus-visible{outline:2px solid var(--violet);outline-offset:3px;border-radius:4px}
   main{flex:1;display:flex;flex-direction:column}
-  main>.contact{flex:1;display:flex;align-items:center;padding-top:clamp(48px,8vh,120px);padding-bottom:clamp(64px,10vh,160px)}
-  main>.contact>.wrap{width:100%}
   .wrap{max-width:min(90rem,90vw);margin:0 auto;padding:0 1.5rem}
   .wrap.wide{max-width:min(90rem,90vw)}
   h1,h2,h3{font-family:"Plus Jakarta Sans",Manrope,sans-serif;font-weight:600;letter-spacing:-.02em;line-height:1.1;margin:0}
@@ -634,12 +632,14 @@
   .member p{margin:0;font-size:.92rem;line-height:1.5;color:var(--muted)}
 
   /* contact */
+  .hero-form{padding:72px 0 96px;min-height:0;align-items:start}
+  .hero-form .contact-copy h1{margin-top:18px}
   .contact-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(40px,5vw,96px);align-items:start}
   @media (max-width:980px){.contact-grid{grid-template-columns:1fr}}
   .contact-copy h1{font-size:clamp(34px,3.4vw,54px);text-wrap:balance}
   .contact-copy .lead{font-size:1.1rem;color:var(--muted);line-height:1.6;margin-top:16px;max-width:40em}
   .contact-copy a{color:var(--violet)}
-  .contact-form{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:clamp(1.5rem,2.4vw,2.25rem);display:flex;flex-direction:column;gap:1rem;position:relative}
+  .contact-form{background:var(--card);border:1px solid var(--rule);box-shadow:0 30px 80px -30px rgba(15,5,24,.35);border-radius:16px;padding:clamp(1.5rem,2.4vw,2.25rem);display:flex;flex-direction:column;gap:1rem;position:relative}
   .contact-form label{display:flex;flex-direction:column;gap:6px;font-size:.85rem;font-weight:600;color:var(--ink)}
   .contact-form input,.contact-form textarea{font:inherit;font-weight:400;font-size:1rem;color:var(--ink);background:var(--paper);border:1px solid var(--rule-strong);border-radius:10px;padding:.7rem .85rem}
   .contact-form input:focus,.contact-form textarea:focus{outline:2px solid var(--violet);outline-offset:1px;border-color:transparent}
@@ -652,7 +652,7 @@
   .contact-form .hint{font-weight:400;color:var(--muted);margin-left:6px}
   .f2{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
   @media (max-width:560px){.f2{grid-template-columns:1fr}}
-  .contact-form .btn{align-self:flex-start;margin-top:.25rem}
+  .contact-form .btn[type=submit]{align-self:stretch;margin-top:.5rem;padding:14px 22px;font-size:1rem}
   .f-note,.f-ok{margin:0;font-family:"JetBrains Mono",monospace;font-size:.78rem;color:var(--muted)}
   .f-ok{color:var(--mint)}
 
