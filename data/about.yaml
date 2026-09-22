@@ -26,7 +26,9 @@ team:
       photo: "team/greg-cromwell.jpg"
       linkedin: "https://linkedin.com/in/gcromwell"
       bio:
-        - "Bio to come."
+        - "Greg turns unclear business problems into products people actually use. He has spent more than a decade doing it on B2B and enterprise platforms in EdTech and HR Tech, and the work starts in the same place every time. Find the real use case. Write requirements engineers can build from. Keep the roadmap honest about what is shipping and what is not. Report on delivery in a way that tells leadership the truth, not what they hoped to hear."
+        - "Through HyperModo he works inside the Zones program, where he leads a team of product managers and owns the platform fundamentals — enterprise access control, e-commerce, and the rollout rules that decide who sees what and when. Before that he was Senior Director of Product Management at ExecOnline, where he built the discovery and recommendations layer that made it easier for learners to find and finish programs as enrollment scaled."
+        - "At Zones he designed the delivery framework his product managers work from, along with the libraries of reusable templates that go with it, built with AI, so every piece of work starts from something proven instead of a blank page. He is at his best building something from nothing, where no template exists yet, and he mentors the product managers around him, because the client's team should be able to do the job without him."
       facts: []
     - slug: aysha-williams
       name: "Aysha Williams"
