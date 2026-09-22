@@ -620,8 +620,10 @@
   .profile-inner p{font-size:1rem;line-height:1.65;color:var(--ink);margin:0 0 12px;max-width:44em}
   .profile-inner .facts{margin:18px 0}
   .profile-inner .btn{margin-top:6px}
-  .member-photo{aspect-ratio:1;border-radius:12px;overflow:hidden;background:linear-gradient(160deg,#2a1a4a,var(--night));display:flex;align-items:flex-end;padding:.9rem;margin-bottom:1rem}
-  .member-photo img{width:100%;height:100%;object-fit:cover;display:block;margin:-.9rem}
+  .member-photo{aspect-ratio:1;border-radius:12px;overflow:hidden;background:linear-gradient(160deg,#2a1a4a,var(--night));display:flex;align-items:flex-end;padding:.9rem;margin-bottom:1rem;position:relative}
+  .member-photo:has(img){padding:0}
+  .member-photo img{position:absolute;inset:0}
+  .member-photo img{width:100%;height:100%;object-fit:cover;display:block}
   .member-photo span{font-family:"JetBrains Mono",monospace;font-size:.72rem;color:var(--night-muted)}
   .member h3{font-size:1.1rem;margin:0 0 2px}
   .member-role{font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--violet);margin-bottom:8px}
