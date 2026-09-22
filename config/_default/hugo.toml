@@ -10,6 +10,8 @@ relativeURLs = true
 
 [params]
   description = "HyperModo helps companies reach broader markets by building enterprise data systems — and building the internal workforce that runs them, so the expertise stays when the consultants leave."
+  og_image = "og.png"
+  og_image_alt = "HyperModo — make transformation a culture, not a project."
   email = "wiqar@hypermodo.com"
   linkedin = "https://linkedin.com/in/wiqar"
   location = "New York / Philadelphia"
