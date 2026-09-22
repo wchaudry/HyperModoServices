@@ -9,7 +9,6 @@
         <h1 style="margin-top:16px">{{ $a.firm.heading }}</h1>
         {{ range $a.firm.paras }}<p class="lead" style="margin-top:16px">{{ . }}</p>{{ end }}
       </div>
-      <dl class="facts about-facts">{{ range $a.firm.facts }}<div><dt>{{ .k }}</dt><dd>{{ .v }}</dd></div>{{ end }}</dl>
     </div>
   </div>
 </section>

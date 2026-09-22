@@ -3,11 +3,6 @@ firm:
   paras:
     - "HyperModo helps companies make transformation a culture, not a project. We improve people, process, and technology continuously and at scale, so the business can serve its customers, enter new markets, and outpace its competitors."
     - "From the first day, the client's people and ours work as one team, and AI is part of how that team learns, trains, and delivers. We measure ourselves on what is still running after we leave. The capability stays. The team that runs it stays. That is the whole point."
-  facts:
-    - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc." }
-    - { k: "Based", v: "New York and Philadelphia" }
-    - { k: "Specialization", v: "Enterprise data systems, and the people and process around them" }
-    - { k: "Team", v: "Four people, deliberately" }
 team:
   heading: "The team"
   line: "Four people, deliberately."
