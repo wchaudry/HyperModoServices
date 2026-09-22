@@ -45,6 +45,8 @@
     </div>
   </div>
 </section>
+
+{{ partial "cta.html" . }}
 <script>
 (function(){
   document.querySelectorAll('.member-open').forEach(function(b){b.addEventListener('click',function(){var d=document.getElementById(b.dataset.dialog); if(d&&d.showModal) d.showModal();});});
@@ -54,6 +56,4 @@
   });
 })();
 </script>
-
-{{ partial "cta.html" . }}
 {{ end }}
