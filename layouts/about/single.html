@@ -1,12 +1,13 @@
 {{ define "main" }}
 {{ $a := hugo.Data.about }}
-<section class="page wwd" style="padding-top:40px">
-  <div class="wrap wide">
-    {{ partial "photo.html" (dict "src" "about-cover.jpg" "alt" "A small team at a table against a city window" "class" "cover") }}
-    <div class="sechead plain about-firm">
-      <div><span class="eyebrow">About</span><h1>{{ $a.firm.heading }}</h1></div>
-      <div class="sechead-sub about-paras">{{ range $a.firm.paras }}<p>{{ . }}</p>{{ end }}</div>
+<section class="hero hero-about">
+  <div class="wrap wide hero-grid">
+    <div class="hero-copy">
+      <div class="reveal"><span class="eyebrow">About</span></div>
+      <h1 class="reveal">{{ $a.firm.heading }}</h1>
+      <div class="about-paras reveal">{{ range $a.firm.paras }}<p>{{ . }}</p>{{ end }}</div>
     </div>
+    <div class="hero-object reveal">{{ partial "photo.html" (dict "src" "about-cover.jpg" "alt" "A small team at a table against a city window" "class" "about-cover") }}</div>
   </div>
 </section>
 
