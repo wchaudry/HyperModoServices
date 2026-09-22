@@ -5,7 +5,7 @@ firm:
     - "From the first day, the client's people and ours work as one team, and AI is part of how that team learns, trains, and delivers. We measure ourselves on what is still running after we leave. The capability stays. The team that runs it stays. That is the whole point."
 team:
   heading: "The team"
-  line: "Four people, deliberately."
+  line: "Small by design."
   sub: "We don't bring a bench. We build yours, and we work inside it."
   people:
     - slug: wiqar-chaudry
@@ -18,15 +18,6 @@ team:
         - "Wiqar builds organizations that can transform themselves. He has done it as a founder, as an operator, and as the owner of a client's program, and the pattern is the same each time. Frame the change with the people who own the outcome. Build the capacity to deliver it as their own. Hire and train the people. Deliver something real every quarter until the organization can carry on without him."
         - "Through HyperModo he has owned Zones' transformation program since 2022, from the business case to a center of 70+ people the company recruited and trained as its own. Before that he took Wasmer's enterprise offer to market, and wrote the data and crowd strategies that Bugcrowd's own engineers built in full."
         - "He still builds. He designed the framework that lets a team use AI throughout a delivery, with the rules for what AI may do and who reviews the result, and it is the framework HyperModo now installs for clients."
-      facts: []
-    - slug: atif-majid
-      name: "Atif Majid"
-      role: "CTO / Architect"
-      line: "Technical strategy and architecture — the platform, the data, the seams to the systems of record."
-      photo: ""
-      linkedin: ""
-      bio:
-        - "Bio to come."
       facts: []
     - slug: greg-cromwell
       name: "Greg Cromwell"
@@ -46,3 +37,9 @@ team:
       bio:
         - "Bio to come."
       facts: []
+  join:
+    title: "Join the team"
+    role: "Open to the right people"
+    text: "We add people when the work calls for it — senior, hands-on, and at home working inside a client's team. If that's you, write to us."
+    label: "Write to us"
+    url: "/contact/"
