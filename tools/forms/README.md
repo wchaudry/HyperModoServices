@@ -30,7 +30,8 @@ and PDF only. Until `forms_endpoint` is set, each form composes an email instead
 Every submission passes a honeypot, a minimum time on page, an email
 format check, a link count, a per-address rate limit, and — when the
 `RECAPTCHA_SECRET` script property is set — a reCAPTCHA v3 check with a
-minimum score. Refused submissions get `ok: true` so a bot learns nothing.
+minimum score. Refused submissions get `ok: true` so a bot learns nothing, and
+are logged with the reason on the spreadsheet's `refused` tab.
 
 Set the secret once: Project Settings → Script Properties → add
 `RECAPTCHA_SECRET` with the secret key from the reCAPTCHA admin console.

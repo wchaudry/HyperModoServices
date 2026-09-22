@@ -21,7 +21,10 @@ function doPost(e) {
     if (!p.name || !p.email) return json({ ok: false, error: 'name and email are required' }, 400);
 
     const refusal = spamCheck(p);
-    if (refusal) return json({ ok: true });                // refused quietly; a bot learns nothing
+    if (refusal) {                                          // refused quietly; a bot learns nothing
+      sheet('refused').appendRow([new Date(), p.form, p.name, p.email, refusal, p.elapsed || '', p.recaptcha ? 'token' : 'no token']);
+      return json({ ok: true });
+    }
 
     let fileUrl = '';
     if (p.file && p.file.data) {
@@ -91,7 +94,9 @@ function sheet(form) {
   let sh = ss.getSheetByName(form);
   if (!sh) {
     sh = ss.insertSheet(form);
-    sh.appendRow(['When', 'Form', 'Name', 'Email', 'Company', 'Role', 'LinkedIn', 'Goal', 'Barrier', 'About', 'Résumé']);
+    sh.appendRow(form === 'refused'
+      ? ['When', 'Form', 'Name', 'Email', 'Reason', 'Seconds on page', 'Captcha']
+      : ['When', 'Form', 'Name', 'Email', 'Company', 'Role', 'LinkedIn', 'Goal', 'Barrier', 'About', 'Résumé']);
   }
   return sh;
 }
