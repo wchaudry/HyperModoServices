@@ -59,7 +59,7 @@
       title: Own your knowledge
       spec: true
       blurb: A company's knowledge — what it sells, at what price, to whom, under which rules — shouldn't live inside a vendor's software where only a few people can reach it. We move it into a platform the business owns and governs. The ERP, CRM, and billing system keep working, but they stop being the only place the truth lives.
-      deliver: [Product changes made by the people who own the products, Business rules the business can read and change itself, Systems of record that keep running while the platform takes over, Legacy retired on evidence, not on a date]
+      deliver: [Product changes made by the people who own the products, Business rules the business can read and change itself, Systems of record that keep running while the platform takes over, "Legacy retired on evidence, not on a date"]
     - key: foundation
       title: Build the foundation first
       blurb: Every new experience — a storefront, a portal, an AI feature — is only as good as the data underneath it. So we build one governed source of truth before we build anything on top, and we sequence the work so the business sees value every quarter while the foundation goes in.
