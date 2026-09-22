@@ -2,13 +2,10 @@
 {{ $a := hugo.Data.about }}
 <section class="page wwd" style="padding-top:40px">
   <div class="wrap wide">
-    {{ partial "photo.html" (dict "src" "about-cover.jpg" "alt" "A small team at a table against a city window" "class" "cover" "caption" "small by design") }}
-    <div class="about-firm">
-      <div>
-        <span class="eyebrow">About</span>
-        <h1 style="margin-top:16px">{{ $a.firm.heading }}</h1>
-        {{ range $a.firm.paras }}<p class="lead" style="margin-top:16px">{{ . }}</p>{{ end }}
-      </div>
+    {{ partial "photo.html" (dict "src" "about-cover.jpg" "alt" "A small team at a table against a city window" "class" "cover") }}
+    <div class="sechead plain about-firm">
+      <div><span class="eyebrow">About</span><h1>{{ $a.firm.heading }}</h1></div>
+      <div class="sechead-sub about-paras">{{ range $a.firm.paras }}<p>{{ . }}</p>{{ end }}</div>
     </div>
   </div>
 </section>
