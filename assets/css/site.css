@@ -612,6 +612,13 @@
   .member-li:hover{color:var(--ink);background:var(--violet-soft)}
   .member-li.placeholder{opacity:.45;cursor:default}
   .member-li.placeholder:hover{background:transparent;color:var(--muted)}
+  dialog.lightbox{border:none;border-radius:20px;padding:0;max-width:min(40rem,92vw);width:100%;background:var(--card);color:var(--ink);box-shadow:0 40px 100px -30px rgba(15,5,24,.6)}
+  dialog.lightbox::backdrop{background:rgba(15,5,24,.55);backdrop-filter:blur(4px)}
+  .lightbox-inner{padding:clamp(1.5rem,3vw,2.5rem);position:relative}
+  .lightbox-close{position:absolute;top:1rem;right:1rem;width:2.2rem;height:2.2rem;border-radius:999px;border:1px solid var(--rule-strong);background:var(--card);color:var(--ink);cursor:pointer;font-size:.9rem}
+  .lightbox-inner h2{font-size:clamp(24px,2.2vw,32px);margin:12px 0 8px;text-wrap:balance}
+  .lightbox-lead{margin:0 0 20px;color:var(--muted);line-height:1.55}
+  .lightbox .contact-form{box-shadow:none;border:0;padding:0}
   dialog.profile{border:none;border-radius:20px;padding:0;max-width:min(44rem,92vw);width:100%;background:var(--card);color:var(--ink);box-shadow:0 40px 100px -30px rgba(15,5,24,.6)}
   dialog.profile::backdrop{background:rgba(15,5,24,.55);backdrop-filter:blur(4px)}
   .profile-inner{padding:clamp(1.5rem,3vw,2.5rem);position:relative}

@@ -1,0 +1,18 @@
+<dialog class="lightbox" id="dlg-contact" aria-labelledby="dlg-contact-title">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" type="button" aria-label="Close">✕</button>
+    <span class="eyebrow">Where to start</span>
+    <h2 id="dlg-contact-title">Start the conversation.</h2>
+    <p class="lightbox-lead">Tell us what's blocking growth — or, if you're not sure yet, we'll work that out with you.</p>
+    {{ partial "form-contact.html" . }}
+  </div>
+</dialog>
+<dialog class="lightbox" id="dlg-join" aria-labelledby="dlg-join-title">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" type="button" aria-label="Close">✕</button>
+    <span class="eyebrow">Join the team</span>
+    <h2 id="dlg-join-title">Small by design. Open to the right people.</h2>
+    <p class="lightbox-lead">We add people when the work calls for it — senior, hands-on, and at home working inside a client's team.</p>
+    {{ partial "form-join.html" . }}
+  </div>
+</dialog>

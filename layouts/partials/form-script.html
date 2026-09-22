@@ -1,33 +1,51 @@
 <script>
 (function(){
-  var f=document.querySelector('form[data-form]'); if(!f) return;
-  var ep=f.dataset.endpoint, to=f.dataset.email, kind=f.dataset.form;
-  var note=document.getElementById('f-note'), ok=document.getElementById('f-ok'), btn=f.querySelector('button[type=submit]');
-  function fail(msg){note.hidden=false;note.textContent=msg||("That didn't send — email "+to+" instead.");btn.disabled=false;}
-  f.addEventListener('submit',function(e){
-    e.preventDefault();
-    var d=new FormData(f), p={form:kind};
-    d.forEach(function(v,k){ if(!(v instanceof File)) p[k]=v; });
-    if(!ep){
-      var lines=[]; Object.keys(p).forEach(function(k){ if(k!=='form'&&k!=='website'&&p[k]) lines.push(k+': '+p[k]); });
-      if(kind==='join') lines.push('', 'Please attach your résumé (PDF) to this email.');
-      location.href="mailto:"+to+"?subject="+encodeURIComponent(kind==='join'?"HyperModo — joining the team":"HyperModo — a first conversation")+"&body="+encodeURIComponent(lines.join('\n'));
-      return;
-    }
-    btn.disabled=true; note.hidden=true;
-    var file=d.get('file');
-    var send=function(){
-      fetch(ep,{method:'POST',body:JSON.stringify(p)}).then(function(r){return r.json()}).then(function(j){
-        if(j&&j.ok){f.reset();ok.hidden=false;btn.disabled=false;} else fail(j&&j.error?("That didn't send: "+j.error+". Email "+to+" instead."):undefined);
-      }).catch(function(){fail();});
-    };
-    if(file&&file.size){
-      if(file.size>10*1024*1024){fail("The file is over 10 MB — email it to "+to+" instead.");return;}
-      var rd=new FileReader();
-      rd.onload=function(){p.file={name:file.name,type:file.type,data:String(rd.result).split(',')[1]};send();};
-      rd.onerror=function(){fail();};
-      rd.readAsDataURL(file);
-    } else send();
+  function wire(f){
+    var ep=f.dataset.endpoint, to=f.dataset.email, kind=f.dataset.form;
+    var note=f.querySelector('.f-note'), ok=f.querySelector('.f-ok'), btn=f.querySelector('button[type=submit]');
+    var fileInput=f.querySelector('input[name=file]'), fileName=f.querySelector('.filename');
+    if(fileInput&&fileName) fileInput.addEventListener('change',function(){fileName.textContent=fileInput.files&&fileInput.files[0]?fileInput.files[0].name:fileName.dataset.empty;});
+    function fail(msg){note.hidden=false;note.textContent=msg||("That didn't send — email "+to+" instead.");btn.disabled=false;}
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var d=new FormData(f), p={form:kind};
+      d.forEach(function(v,k){ if(!(v instanceof File)) p[k]=v; });
+      if(!ep){
+        var lines=[]; Object.keys(p).forEach(function(k){ if(k!=='form'&&k!=='website'&&p[k]) lines.push(k+': '+p[k]); });
+        if(kind==='join') lines.push('', 'Please attach your résumé (PDF) to this email.');
+        location.href="mailto:"+to+"?subject="+encodeURIComponent(kind==='join'?"HyperModo — joining the team":"HyperModo — a first conversation")+"&body="+encodeURIComponent(lines.join('\n'));
+        return;
+      }
+      btn.disabled=true; note.hidden=true;
+      var file=d.get('file');
+      var send=function(){
+        fetch(ep,{method:'POST',body:JSON.stringify(p)}).then(function(r){return r.json()}).then(function(j){
+          if(j&&j.ok){f.reset();if(fileName)fileName.textContent=fileName.dataset.empty;ok.hidden=false;btn.disabled=false;} else fail(j&&j.error?("That didn't send: "+j.error+". Email "+to+" instead."):undefined);
+        }).catch(function(){fail();});
+      };
+      if(file&&file.size){
+        if(file.size>10*1024*1024){fail("The file is over 10 MB — email it to "+to+" instead.");return;}
+        var rd=new FileReader();
+        rd.onload=function(){p.file={name:file.name,type:file.type,data:String(rd.result).split(',')[1]};send();};
+        rd.onerror=function(){fail();};
+        rd.readAsDataURL(file);
+      } else send();
+    });
+  }
+  document.querySelectorAll('form[data-form]').forEach(wire);
+
+  // lightboxes: links to /contact/ and /join/ open the dialog instead, unless we are on that page
+  var here=location.pathname.replace(/\/+$/,'');
+  document.querySelectorAll('a[href]').forEach(function(a){
+    var path=(a.getAttribute('href')||'').replace(/[?#].*$/,'').replace(/\/+$/,'');
+    var kind=/\/contact$/.test(path)?'contact':/\/join$/.test(path)?'join':null;
+    if(!kind||here.endsWith('/'+kind)) return;
+    var d=document.getElementById('dlg-'+kind); if(!d||!d.showModal) return;
+    a.addEventListener('click',function(e){e.preventDefault();d.showModal();var first=d.querySelector('input,textarea');if(first)first.focus();});
+  });
+  document.querySelectorAll('dialog.lightbox').forEach(function(d){
+    d.querySelector('.lightbox-close').addEventListener('click',function(){d.close();});
+    d.addEventListener('click',function(e){ if(e.target===d) d.close(); });
   });
 })();
 </script>

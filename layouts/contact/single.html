@@ -11,23 +11,7 @@
         {{ with .Site.Params.booking }}<div><dt>Prefer a calendar</dt><dd><a href="{{ . }}">Book a call directly</a></dd></div>{{ end }}
       </dl>
     </div>
-    <form class="contact-form" data-form="contact" data-endpoint="{{ .Site.Params.forms_endpoint }}" data-email="{{ .Site.Params.email }}">
-      <div class="f2">
-        <label>Your name<input name="name" type="text" required autocomplete="name"></label>
-        <label>Work email<input name="email" type="email" required autocomplete="email"></label>
-      </div>
-      <div class="f2">
-        <label>Company<input name="company" type="text" required autocomplete="organization"></label>
-        <label>Your role<input name="role" type="text" autocomplete="organization-title"></label>
-      </div>
-      <label>Where does your business want to go?<textarea name="goal" rows="3" required placeholder="New markets, new offers, a capability you don't have yet…"></textarea></label>
-      <label>What stands in the way?<textarea name="barrier" rows="3" placeholder="What you've tried, what stalled, what you can't hire…"></textarea></label>
-      <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
-      <button class="btn primary" type="submit">Send</button>
-      <p class="f-note" id="f-note" hidden></p>
-      <p class="f-ok" id="f-ok" hidden>Sent. We'll be in touch within two working days.</p>
-    </form>
+    {{ partial "form-contact.html" . }}
   </div>
 </section>
-{{ partial "form-script.html" . }}
 {{ end }}
