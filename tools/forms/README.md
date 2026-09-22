@@ -12,8 +12,8 @@ in the wiqar@hypermodo.com account. Nothing else receives the submissions.
 4. Authorise when prompted (Drive, Sheets, Mail).
 5. Copy the web app URL and set it in `config/_default/hugo.toml` as `forms_endpoint`.
 
-The first submission creates a spreadsheet named *HyperModo site forms* (one tab
-per form) and a Drive folder named *HyperModo résumés*.
+The first submission creates a Drive folder named *HyperModo Applicants* holding
+the spreadsheet *HyperModo site forms* (one tab per form) and a *Résumés* folder.
 
 ## Redeploying after a change to Code.gs
 

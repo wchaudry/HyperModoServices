@@ -4,7 +4,8 @@
 
 const NOTIFY = 'wiqar@hypermodo.com';
 const SHEET_NAME = 'HyperModo site forms';
-const FOLDER_NAME = 'HyperModo résumés';
+const PARENT_FOLDER_NAME = 'HyperModo Applicants';
+const FOLDER_NAME = 'Résumés';
 const MAX_FILE_BYTES = 10 * 1024 * 1024;
 const ALLOWED_TYPES = ['application/pdf'];
 
@@ -44,8 +45,16 @@ function doPost(e) {
 }
 
 function sheet(form) {
-  const files = DriveApp.getFilesByName(SHEET_NAME);
-  const ss = files.hasNext() ? SpreadsheetApp.open(files.next()) : SpreadsheetApp.create(SHEET_NAME);
+  const parents = DriveApp.getFoldersByName(PARENT_FOLDER_NAME);
+  const parent = parents.hasNext() ? parents.next() : DriveApp.createFolder(PARENT_FOLDER_NAME);
+  const files = parent.getFilesByName(SHEET_NAME);
+  let ss;
+  if (files.hasNext()) {
+    ss = SpreadsheetApp.open(files.next());
+  } else {
+    ss = SpreadsheetApp.create(SHEET_NAME);
+    DriveApp.getFileById(ss.getId()).moveTo(parent);
+  }
   let sh = ss.getSheetByName(form);
   if (!sh) {
     sh = ss.insertSheet(form);
@@ -55,8 +64,10 @@ function sheet(form) {
 }
 
 function folder() {
-  const it = DriveApp.getFoldersByName(FOLDER_NAME);
-  return it.hasNext() ? it.next() : DriveApp.createFolder(FOLDER_NAME);
+  const parents = DriveApp.getFoldersByName(PARENT_FOLDER_NAME);
+  const parent = parents.hasNext() ? parents.next() : DriveApp.createFolder(PARENT_FOLDER_NAME);
+  const it = parent.getFoldersByName(FOLDER_NAME);
+  return it.hasNext() ? it.next() : parent.createFolder(FOLDER_NAME);
 }
 
 function safeName(s) { return String(s).replace(/[\\/:*?"<>|]/g, '-').slice(0, 80); }
