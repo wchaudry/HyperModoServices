@@ -59,7 +59,6 @@ function spamCheck(p) {
   if (Number(p.elapsed) < MIN_SECONDS_ON_PAGE) return 'too fast';
   const text = [p.goal, p.barrier, p.about].join(' ');
   if ((text.match(/https?:\/\//g) || []).length > MAX_LINKS) return 'too many links';
-  if (text.trim().length < 15) return 'too short';
 
   const cache = CacheService.getScriptCache();
   const key = 'n:' + String(p.email).toLowerCase();
