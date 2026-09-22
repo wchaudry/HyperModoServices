@@ -667,6 +667,9 @@
   .contact-form .btn[type=submit]{align-self:stretch;justify-content:center;text-align:center;margin-top:.5rem;padding:14px 22px;font-size:1rem}
   .f-note,.f-ok{margin:0;font-family:"JetBrains Mono",monospace;font-size:.78rem;color:var(--muted)}
   .f-ok{color:var(--mint)}
+  .f-legal{margin:0;font-size:.72rem;color:var(--faint);line-height:1.5}
+  .f-legal a{color:inherit}
+  .grecaptcha-badge{visibility:hidden}
 
   /* stats shortcode */
   .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}

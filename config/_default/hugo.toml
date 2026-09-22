@@ -15,6 +15,7 @@ relativeURLs = true
   location = "New York / Philadelphia"
   entity = "a practice of Xymbia Inc."
   booking = ""
+  recaptcha_site_key = "6Lcoa8gtAAAAAGXj9spv1uHVKXNFQKE9by2LWSut"
   forms_endpoint = "https://script.google.com/macros/s/AKfycbzuWMKyyQDurrMyNwIjRcpirNEvkPn2nod_o6ltFYDquvzYYfoAlW5GbKWE_dE99h_CxQ/exec"   # the Apps Script web app URL (tools/forms/README.md) — until set, the forms compose an email instead
 
 [pagination]

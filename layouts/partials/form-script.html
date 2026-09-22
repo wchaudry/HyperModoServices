@@ -1,5 +1,12 @@
 <script>
 (function(){
+  var opened=Date.now();
+  var siteKey=(document.querySelector('form[data-form]')||{dataset:{}}).dataset.recaptcha;
+  if(siteKey){var rs=document.createElement('script');rs.src='https://www.google.com/recaptcha/api.js?render='+siteKey;rs.async=true;document.head.appendChild(rs);}
+  function token(kind){
+    if(!siteKey||!window.grecaptcha) return Promise.resolve('');
+    return new Promise(function(res){grecaptcha.ready(function(){grecaptcha.execute(siteKey,{action:kind}).then(res,function(){res('');});});});
+  }
   function wire(f){
     var ep=f.dataset.endpoint, to=f.dataset.email, kind=f.dataset.form;
     var note=f.querySelector('.f-note'), ok=f.querySelector('.f-ok'), btn=f.querySelector('button[type=submit]');
@@ -20,7 +27,7 @@
     }
     f.addEventListener('submit',function(e){
       e.preventDefault();
-      var d=new FormData(f), p={form:kind};
+      var d=new FormData(f), p={form:kind, elapsed:Math.round((Date.now()-opened)/1000)};
       d.forEach(function(v,k){ if(!(v instanceof File)) p[k]=v; });
       if(!ep){
         var lines=[]; Object.keys(p).forEach(function(k){ if(k!=='form'&&k!=='website'&&p[k]) lines.push(k+': '+p[k]); });
@@ -31,7 +38,8 @@
       btn.disabled=true; note.hidden=true;
       var file=d.get('file');
       var send=function(){
-        fetch(ep,{method:'POST',body:JSON.stringify(p)}).then(function(r){return r.json()}).then(function(j){
+        token(kind).then(function(t){ p.recaptcha=t;
+        return fetch(ep,{method:'POST',body:JSON.stringify(p)});}).then(function(r){return r.json()}).then(function(j){
           if(j&&j.ok){f.reset();if(fileName)fileName.textContent=fileName.dataset.empty;btn.disabled=false;done();} else fail(j&&j.error?("That didn't send: "+j.error+". Email "+to+" instead."):undefined);
         }).catch(function(){fail();});
       };

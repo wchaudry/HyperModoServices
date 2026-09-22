@@ -8,6 +8,10 @@ const PARENT_FOLDER_NAME = 'HyperModo Applicants';
 const FOLDER_NAME = 'Résumés';
 const MAX_FILE_BYTES = 10 * 1024 * 1024;
 const ALLOWED_TYPES = ['application/pdf'];
+const MIN_SECONDS_ON_PAGE = 3;
+const MAX_LINKS = 2;
+const MAX_PER_HOUR = 3;
+const MIN_SCORE = 0.5;
 
 function doPost(e) {
   try {
@@ -15,6 +19,9 @@ function doPost(e) {
     if (p.website) return json({ ok: true });            // honeypot filled: pretend success, do nothing
     if (p.form !== 'contact' && p.form !== 'join') return json({ ok: false, error: 'unknown form' }, 400);
     if (!p.name || !p.email) return json({ ok: false, error: 'name and email are required' }, 400);
+
+    const refusal = spamCheck(p);
+    if (refusal) return json({ ok: true });                // refused quietly; a bot learns nothing
 
     let fileUrl = '';
     if (p.file && p.file.data) {
@@ -42,6 +49,32 @@ function doPost(e) {
   } catch (err) {
     return json({ ok: false, error: String(err) }, 500);
   }
+}
+
+// Returns a reason when the submission should be dropped, otherwise ''.
+function spamCheck(p) {
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(p.email))) return 'bad email';
+  if (Number(p.elapsed) < MIN_SECONDS_ON_PAGE) return 'too fast';
+  const text = [p.goal, p.barrier, p.about].join(' ');
+  if ((text.match(/https?:\/\//g) || []).length > MAX_LINKS) return 'too many links';
+  if (text.trim().length < 15) return 'too short';
+
+  const cache = CacheService.getScriptCache();
+  const key = 'n:' + String(p.email).toLowerCase();
+  const n = Number(cache.get(key) || 0) + 1;
+  cache.put(key, String(n), 3600);
+  if (n > MAX_PER_HOUR) return 'rate limit';
+
+  const secret = PropertiesService.getScriptProperties().getProperty('RECAPTCHA_SECRET');
+  if (secret) {
+    if (!p.recaptcha) return 'no captcha token';
+    const res = UrlFetchApp.fetch('https://www.google.com/recaptcha/api/siteverify', {
+      method: 'post', payload: { secret: secret, response: p.recaptcha }, muteHttpExceptions: true
+    });
+    const v = JSON.parse(res.getContentText() || '{}');
+    if (!v.success || v.action !== p.form || Number(v.score) < MIN_SCORE) return 'captcha ' + (v.score === undefined ? 'failed' : v.score);
+  }
+  return '';
 }
 
 function sheet(form) {
