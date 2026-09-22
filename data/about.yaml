@@ -1,16 +1,17 @@
 firm:
   heading: "Built to be handed over."
   paras:
-    - "HyperModo helps companies build their own transformation engine: the continuous improvement of people, process and technology, at scale, so a business serves its customers, enters new markets and out-innovates its competitors."
-    - "We do it as a venture the company owns — a center, its own people, finished work in use every quarter — and we plan the handover from the first day. When the engagement ends, the capability stays. That is the difference from a consultancy, and it is the whole point."
+    - "HyperModo helps companies make transformation a culture rather than a project: the continuous improvement of people, process, and technology, at scale, so a business serves its customers, enters new markets, and outpaces its competitors."
+    - "We work as one team with the client's people from the first day, with AI woven into how we learn, train, and deliver. When we leave, the capability and the team that powers it stay behind. That is the difference from a consultancy, and it is the whole point."
   facts:
-    - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc. — a team of four" }
-    - { k: "Based", v: "New York / Philadelphia; work delivered in Islamabad since 2022" }
+    - { k: "Practice", v: "HyperModo, a practice of Xymbia Inc." }
+    - { k: "Based", v: "New York and Philadelphia" }
     - { k: "Specialization", v: "Enterprise data systems, and the people and process around them" }
-    - { k: "Working now", v: "Zones LLC, program owner since 2022" }
+    - { k: "Team", v: "Four people, deliberately" }
 team:
   heading: "The team"
-  line: "Four people, deliberately. We don't bring a bench — we build yours."
+  line: "Four people, deliberately."
+  sub: "We don't bring a bench. We build yours, and we work inside it."
   people:
     - slug: wiqar-chaudry
       name: "Wiqar Chaudry"
@@ -19,12 +20,10 @@ team:
       photo: ""
       linkedin: "https://linkedin.com/in/wiqar"
       bio:
-        - "Wiqar builds organizations that can transform themselves — and he has done it as a founder, as an operator, and as the owner of a client's program. The pattern is the same each time: frame the change with the people who own the outcome, stand up the capacity to deliver it as their own, hire and train the people, and deliver something real every quarter until the organization can carry on without him."
-        - "As co-founder and Chief Product and Operations Officer of Nalej, an edge-computing company, he raised $2.5M, built and ran teams in Madrid and the United States, delivered a working system for Airbus in ninety days, and closed a five-year DARPA / AFRL contract with the certification it required. At Zones, a $3B IT solutions provider, he framed the transformation with the executive team, stood up a center in Islamabad as the company's own venture, built a university pipeline and a graduate program that grew the team to 70+, and has run the program since 2022 — with the handover now being planned. Before either: head of product at Wasmer, and product, marketing and architecture roles at Rackspace, NuoDB, Expressor, Memento and Epsilon, where the systems he designed won an $83M contract, took a product to 30,000 downloads a month, and put a company on the Gartner Magic Quadrant."
-        - "He still builds. For the past year most of the code on a live production platform has been written by AI agents under a framework he designed — the operating model HyperModo now installs for clients so the pace of engineering doesn't depend on who is in the room."
-      facts:
-        - { k: "Education", v: "MS, Computer Information Systems, Boston University · BBA, Finance, Temple University" }
-        - { k: "Taught", v: "Systems design, Boston University Metropolitan College · Web development, Mercer County Community College" }
+        - "Wiqar builds organizations that can transform themselves. He has done it as a founder, as an operator, and as the owner of a client's program, and the pattern is the same each time. Frame the change with the people who own the outcome. Build the capacity to deliver it as their own. Hire and train the people. Deliver something real every quarter until the organization can carry on without him."
+        - "Through HyperModo he has owned Zones' transformation program since 2022, from the business case to a center of 70+ people the company recruited and trained as its own. Before that he took Wasmer's enterprise offer to market, and wrote the data and crowd strategies that Bugcrowd's own engineers built in full."
+        - "He still builds. He designed the framework that lets a team use AI throughout a delivery, with the rules for what AI may do and who reviews the result, and it is the framework HyperModo now installs for clients."
+      facts: []
     - slug: atif-majid
       name: "Atif Majid"
       role: "CTO / Architect"
@@ -52,14 +51,3 @@ team:
       bio:
         - "Bio to come."
       facts: []
-engage:
-  heading: "How to engage"
-  formats:
-    - { title: "The full program", text: "Business case to go-live with one owner — the six steps as they ran at Zones. Multi-year." }
-    - { title: "A single step", text: "The business case alone, the talent engine alone, or a 90-day strategy your team then executes — as at Bugcrowd." }
-    - { title: "Fractional leadership", text: "Head of platform or CTO, with a handover plan and a named successor from day one." }
-  terms:
-    - "Corp-to-corp through Xymbia Inc."
-    - "Two to six weeks from a proposal to a start"
-    - "Weekly written status from the first week"
-    - "A handover plan in every proposal"

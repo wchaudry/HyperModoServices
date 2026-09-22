@@ -16,7 +16,10 @@
 
 <section id="team" class="alt">
   <div class="wrap wide">
-    <div class="center"><span class="eyebrow">{{ $a.team.heading }}</span><h2 style="margin-top:16px">{{ $a.team.line }}</h2></div>
+    <div class="sechead plain">
+      <div><span class="eyebrow">{{ $a.team.heading }}</span><h2>{{ $a.team.line }}</h2></div>
+      <p class="sechead-sub">{{ $a.team.sub }}</p>
+    </div>
     <div class="team">
       {{ range $a.team.people }}
       <div class="member">
@@ -55,14 +58,5 @@
 })();
 </script>
 
-<section id="engage">
-  <div class="wrap wide">
-    <div class="center"><span class="eyebrow">{{ $a.engage.heading }}</span><h2 style="margin-top:16px">Three ways in, one set of terms.</h2></div>
-    <div class="formats" style="margin-top:36px">
-      {{ range $a.engage.formats }}<div class="format"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>{{ end }}
-    </div>
-    <ul class="terms">{{ range $a.engage.terms }}<li>{{ . }}</li>{{ end }}</ul>
-  </div>
-</section>
 {{ partial "cta.html" . }}
 {{ end }}
