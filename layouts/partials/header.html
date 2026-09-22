@@ -7,6 +7,25 @@
     <div class="navr">
       <button class="toggle" id="theme" aria-label="Switch color scheme" title="Light / dark">◐</button>
       <a class="btn primary" href="{{ "/contact/" | relURL }}">Let's talk</a>
+      <button class="burger" id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
     </div>
   </div>
+  <nav class="menu" id="menu" aria-label="Menu">
+    <div class="wrap">
+      {{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+      <a class="btn primary" href="{{ "/contact/" | relURL }}">Let's talk</a>
+    </div>
+  </nav>
 </header>
+<script>
+  (function(){
+    var btn=document.getElementById('menu-toggle'), menu=document.getElementById('menu'), head=document.querySelector('header');
+    function close(){head.classList.remove('menu-open');btn.setAttribute('aria-expanded','false');}
+    btn.addEventListener('click',function(){
+      btn.setAttribute('aria-expanded', head.classList.toggle('menu-open') ? 'true' : 'false');
+    });
+    menu.addEventListener('click',function(e){ if(e.target.closest('a')) close(); });
+    document.addEventListener('click',function(e){ if(!head.contains(e.target)) close(); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  })();
+</script>
