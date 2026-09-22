@@ -90,25 +90,25 @@
     - key: ai
       title: AI enablement for the whole team
       spec: true
-      blurb: Not "AI solves your problems" — your people, working with AI, solving them faster and to a higher standard than before. The framework and the daily workflow are taught to every function the transformation touches, so it becomes how the organization works rather than a tool a few people try.
+      blurb: AI doesn't solve a company's problems. People do, and with AI in hand they solve them faster and to a higher standard. We teach the framework and the daily workflow to every function the transformation touches, not only engineering, so it becomes how the company works rather than a tool a few people try.
       deliver: ["The operating model — directives, session protocols, a shared knowledge base — installed in your repositories", "A daily workflow for engineers, product and design, with the review gates that make it safe", "Hands-on training by delivering real work with it, not a course", "Quality measured at the gate — every change reviewed to a written standard before it ships"]
     - key: data-platforms
       title: Enterprise data platforms
-      blurb: The engineering behind owning your knowledge. A master-data model with lineage, a rules engine the business configures, ingestion from every feed the business depends on, and two-way synchronization with the systems of record so existing investment keeps working.
+      blurb: This is the engineering behind owning your knowledge. We build the master-data model, with every record traceable to its source. We build the rules engine the business configures itself. We bring in every feed the business depends on, and we keep the ERP and the other systems of record in sync, so nothing the company already paid for stops working.
       deliver: ["A master-data model with lineage — transaction, staging, master", A rules engine the business owns, Ingestion from every feed the business depends on, Two-way synchronization with the ERP and other systems of record, A migration path with legacy retired on evidence]
     - key: platform-engineering
       title: Platform and cloud engineering
-      blurb: The engineering behind platforms that last. A plugin framework for connectors, an identity layer every application registers against, multi-tenant deployment from day one, infrastructure as code, and monitoring the team already watches.
+      blurb: This is the engineering behind platforms that last. Connectors plug in rather than getting rebuilt. Every application signs in through one identity layer. The platform can serve a second business from the first day. The whole environment is defined in code, and the monitoring lands in the tools the team already watches.
       deliver: [A plugin framework for connectors and transforms, An identity layer other applications register against, Multi-tenant deployment from day one, "Infrastructure as code — network, compute, data, secrets", Monitoring and alerting into the tools the team already uses, "A support model — tiers, runbooks, cross-training"]
     - key: product
       title: Product management
-      blurb: The work between "we should do this" and "it is in use."
+      blurb: Product management is the work between "we should do this" and "it is in use." We write the use cases and what done means, get the requirements ahead of the developers, sequence the roadmap, and report progress to leadership with numbers rather than adjectives.
       deliver: [North-star use cases with acceptance criteria, Requirements ahead of development and the test plan derived from them, Roadmaps and phase gates, Program reporting with numbers]
     - key: marketing
       title: Product marketing and go-to-market
-      blurb: Positioning, launch and the content that sells a technical product to technical buyers.
+      blurb: Selling a technical product to technical buyers is its own discipline. We work out the positioning and the messaging, back it with the competitive analysis, and produce the launch — the site, the papers, the demos, the campaigns — and the material a sales team and an analyst need to repeat it.
       deliver: ["Positioning and messaging, with the competitive analysis behind it", "Launch — site, papers, demos, campaigns", Sales enablement and analyst positioning, Due-diligence material for an acquisition]
     - key: design
       title: UX and design systems
-      blurb: Screens validated before they are built, and the tokens and components that make them real — published as packages your engineers install.
+      blurb: We test the screens against the real process before anyone builds them. Then we build the design system that makes them real — the colors, type, and spacing as tokens, and the components as versioned packages an engineering team installs and keeps.
       deliver: [Journey maps and Figma flows tested against real process, "Design tokens — color, type, spacing, light and dark", A component library as versioned packages with documentation, "Mobile where it is needed"]
