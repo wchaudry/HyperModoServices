@@ -23,8 +23,8 @@ team:
       name: "Greg Cromwell"
       role: "Principal Product Manager"
       line: "Use cases, requirements, roadmaps, and the reporting that tells the truth about delivery."
-      photo: ""
-      linkedin: ""
+      photo: "team/greg-cromwell.jpg"
+      linkedin: "https://linkedin.com/in/gcromwell"
       bio:
         - "Bio to come."
       facts: []
